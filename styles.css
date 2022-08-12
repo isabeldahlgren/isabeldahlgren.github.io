@@ -14,11 +14,6 @@ h1 {
     text-align: left;
 }
 
-pre {
-    font-size: 100px;
-    padding: 10px;
-}
-
 p {
     padding: 10px;
 }
@@ -39,8 +34,4 @@ p {
   
   .card:hover {
     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .container {
-    padding: 10px 10px;
   }
