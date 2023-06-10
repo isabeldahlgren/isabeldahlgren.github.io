@@ -1,0 +1,53 @@
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+              // customised options
+              // • auto-render specific keys, e.g.:
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false},
+                  {left: '\\(', right: '\\)', display: false},
+                  {left: '\\[', right: '\\]', display: true}
+              ],
+              // • rendering keys, e.g.:
+              throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ with .Site.Params.description -}}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+    {{ with .OutputFormats.Get "rss" -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    {{ $resources := slice -}}
+
+    {{ $resources = $resources | append (resources.Get "css/main.css") -}}
+
+    {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
+
+    {{ $dark := .Site.Params.dark | default "auto" -}}
+    {{ if not (eq $dark "off") -}}
+        {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
+    {{ end -}}
+
+    {{ if .Site.Params.highlight -}}
+        {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
+    {{ end -}}
+
+    {{ $css := $resources | resources.Concat "css/style.css" | minify }}
+    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <title>{{ .Title }}</title>
+</head>
