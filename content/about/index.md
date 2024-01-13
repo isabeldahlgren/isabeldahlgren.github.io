@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 ---
 
-I'm a bachelor's student in mathematics/computer science at KTH in Stockholm, Sweden. In my spare time, I enjoy reading. Here, you'll mostly find blog posts related to my studies. Every now and then, I publish book notes.
+I am a third-year student in Engineering Mathematics at KTH in Stockholm, Sweden. Here you will find blog posts related to my studies: expository writing, thoughts on studying mathematics, etc.

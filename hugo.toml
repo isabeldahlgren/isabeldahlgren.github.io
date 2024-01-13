@@ -1,6 +1,5 @@
-baseURL = "https://example.com"
+baseURL = "https://isabeldahlgren.github.io"
 title = "Isabel Dahlgren"
-about = "Hello"
 theme = "etch"
 languageCode = "en-US"
 enableInlineShortcodes = true
