@@ -2,4 +2,4 @@
 draft: false
 ---
 
-I am a third-year student in Engineering Mathematics at KTH in Stockholm, Sweden. Here you will find blog posts related to my studies: expository writing, thoughts on studying mathematics, etc.
+Student in Engineering Mathematics at KTH. Here you will find expository articles, thoughts on studying, etc. In my spare time, I like reading fiction.
