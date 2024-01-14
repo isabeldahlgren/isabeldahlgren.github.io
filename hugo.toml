@@ -33,3 +33,16 @@ pygmentsUseClasses = true
 [markup.goldmark.renderer]
   # Allows HTML in Markdown
   unsafe = true
+
+[params.giscus]
+  repo = "isabeldahlgren/isabeldahlgren.github.io"
+  repoID = "R_kgDOJtszHA"
+  category = "Articles"
+  categoryID = "DIC_kwDOGzJrfs4CP2TM"
+  mapping = "og:title"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "dark"
+  lang = "en"
+  loading = "lazy"
