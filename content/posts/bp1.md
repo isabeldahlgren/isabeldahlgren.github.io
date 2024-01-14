@@ -14,7 +14,7 @@ After doing this, we should understand what a term means and why it matters. Som
     - **Example** A subgroup $N \subset G$ is normal iff $gNg^{-1} = N$. The reason we care about normal subgroups is that we can form factor groups with them. Otherwise the multiplication of cosets is not well defined. 
 - Is there a handwavy, more intuitive definition?
     - **Example.** If $Y$ is a deformation retraction of $X$, we can continuously "squish $X$ onto $Y$".
-- What is the etmytology of the given word?
+- What is the etymology of the given word?
     - **Example**. We say $G$ is perfect if, for every induced subgraph of $H$, the chromatic number $\chi(H)$ equals the clique number $\omega(H)$. Any graph satisfies $\chi(H) \ge \omega(H)$. Perfect graphs are perfect in the sense that the lower bound is always attained, for any induced subgraph.
 
 ### Motivating proofs
