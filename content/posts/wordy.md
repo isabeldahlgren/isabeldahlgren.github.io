@@ -27,3 +27,5 @@ Ideally, we should be able to reverse engineer the solution.
     - **Example.** To show that the product $fg$ of two primitive polynomials $f$ and $g$ is primitive, apply the projection $\mod p$ for $p$ to the coefficients. This is the crux of the proof, and the rest is routine.
     
 The main point is, of course, to engage with the material. There are plenty of other questions to be asked, but these are some I found particularly useful. When doing this, I like thinking of the would-be 1000-page version of the text.
+
+{{< chat cactus-comments >}}
