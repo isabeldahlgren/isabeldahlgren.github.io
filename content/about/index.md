@@ -2,4 +2,5 @@
 draft: false
 ---
 
-Student in Engineering Mathematics at KTH. Here you will find expository articles, thoughts on studying, etc. In my spare time, I like reading fiction.
+Student at KTH/SU. My interests lie within algebra and combinatorics. 
+

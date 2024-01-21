@@ -1,6 +1,9 @@
 <h3>{{ i18n "posts.title" }}</h3>
 <ul id="posts">
 {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ .Render "li" }}
+    <!-- This allows us to not list certain pages on the landing page. -->
+    {{- if .Params.Index -}}
+        {{ .Render "li" }}
+    {{- end -}}
 {{- end }}
 </ul>

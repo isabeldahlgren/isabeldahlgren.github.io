@@ -27,6 +27,13 @@ pygmentsUseClasses = true
     url = "/about/"
     weight = 20
 
+  [[menu.main]]
+    identifier = "notes"
+    name = "notes"
+    title = "notes"
+    url = "/notes/"
+    weight = 20
+
 [permalinks]
   posts = "/:title/"
 
