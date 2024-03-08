@@ -1,5 +1,5 @@
-baseURL = "https://isabeldahlgren.github.io"
-title = "Isabel Dahlgren"
+baseURL = "https://example.com"
+title = "Website Name"
 theme = "etch"
 languageCode = "en-US"
 enableInlineShortcodes = true
@@ -7,8 +7,8 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "Isabel Dahlgren"
-  copyright = "Copyright © 2023 Isabel Dahlgren"
+  description = "Your site description"
+  copyright = "Copyright © 2021 Your Name"
   dark = "auto"
   highlight = true
 
@@ -31,5 +31,8 @@ pygmentsUseClasses = true
   posts = "/:title/"
 
 [markup.goldmark.renderer]
-  # Allows HTML in Markdown
+  # Allow HTML in Markdown
   unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
