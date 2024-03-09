@@ -2,12 +2,16 @@
 draft: false
 ---
 
-January-March. Photographs from 2021-2024.
+I began taking photographs five years ago. Sometimes I showcase them here. Welcome to look and think with me. 
 
-![img](./imgs/8.jpg) 
-![img](./imgs/9.jpg) 
-![img](./imgs/4.jpg) 
-![img](./imgs/5.jpg) 
-![img](./imgs/6.jpg) 
+### Waiting
+*December, 2022*.
+
+Outside a restaurant in Stockholm.
+
+![img](./imgs/1.jpg) 
+
 ![img](./imgs/3.jpg) 
-![img](./imgs/7.jpg) 
+
+![img](./imgs/2.jpg) 
+
