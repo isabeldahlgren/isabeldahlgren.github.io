@@ -5,7 +5,7 @@ draft: false
 I have a comprehensive set of lecture notes for some courses at KTH. Please let me know if you find any errors.
 
 ### Year 3
-- [dd2352](isabeldahlgren.github.io/dd2352)
+- [dd2352](https://isabeldahlgren.github.io/dd2352)
 
 ### Year 2
 Hand-written notes for most courses, including:
