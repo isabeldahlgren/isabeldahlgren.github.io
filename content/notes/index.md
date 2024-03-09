@@ -8,7 +8,7 @@ I have a comprehensive set of lecture notes for some courses at KTH. Please let 
 - [dd2352](https://isabeldahlgren.github.io/dd2352)
 
 ### Year 2
-Hand-written notes for most courses, including:
+Handwritten notes for most courses, including:
 
 - sf1930
 - sf1681
