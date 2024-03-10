@@ -9,7 +9,6 @@ I have a comprehensive set of lecture notes for some courses at KTH. Please let 
 
 ### Year 2
 Handwritten notes for most courses, including:
-
 - sf1930
 - sf1681
 - sf1677
