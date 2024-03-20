@@ -2,7 +2,7 @@
 draft: false
 ---
 
-I have a comprehensive set of lecture notes for some courses at KTH. Please let me know if you find any errors.
+I have a comprehensive set of lecture notes for some courses at KTH and SU. Please let me know if you find any errors.
 
 ### Year 3
 - [dd2352](https://isabeldahlgren.github.io/dd2352)
