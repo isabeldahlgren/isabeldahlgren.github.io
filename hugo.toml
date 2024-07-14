@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 [params]
   description = "Isabel Dahlgren"
   copyright = "Copyright © 2024 Isabel Dahlgren"
-  dark = "auto"
+  dark = "on"
   highlight = true
 
 [menu]
