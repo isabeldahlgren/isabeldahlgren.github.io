@@ -8,17 +8,24 @@ pygmentsUseClasses = true
 
 [params]
   description = "Isabel Dahlgren"
-  copyright = "Copyright © 2024 Isabel Dahlgren"
+  copyright = "Copyright © 2025 Isabel Dahlgren"
   dark = "on"
   highlight = true
 
 [menu]
 
   [[menu.main]]
-    identifier = "notes"
-    name = "notes"
-    title = "notes"
-    url = "/notes/"
+    identifier = "library"
+    name = "library"
+    title = "library"
+    url = "/library/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "resources"
+    name = "resources"
+    title = "resources"
+    url = "/resources/"
     weight = 10
 
 [permalinks]
