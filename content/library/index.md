@@ -4,6 +4,26 @@ draft: false
 
 ### Library
 
+**February 2025**
+- *Norweigan Wood* by Haruki Murakami: The dialogues are spot on. And the characters are hilarious. But the plot was quite predictable, and I was disgusted by Watanabe's view of Naoko.
+- *Emil und Die Detektive* by Erich Kästner
+
+**January 2025**
+- *Behave* by Robert Sapolsky: Information overload. RS raises many interesting points, though. The chapters on the teenage brain and oxytocin were very insightful. 
+- *If Beale Street Could Talk* by James Baldwin: This seems like the kind of book which must be really hard to write, in the sense that you need to have seen a lot. Beautifully written.
+- *Go Tell it on the Mountain* by James Baldwin: The narrative was quite complex - not your "wind down before bed" kind of book. This book had more depth than *If Beale Street Could Talk*. It also touches on themes like religious fanaticism. 
+- *Going Clear* by Lawrence Wright: An exhaustive history of scientology. On balance, a pretty depressing read.
+
+**December 2024**
+- *How to Change Your Mind* by Michael Pollan: A popular science book on the science of psychadelics. I felt like this book was needlessly long.
+- *Being Mortal* by Atul Gawande: A brilliant book, on a par with *The Emperor of All Maladies*. AG is a phenomenal writer. This book disrupted my sleep schedule for a week.
+- *Youth* by Leo Tolstoy: So Tolstoy was just a normal person, after all.
+- *Expanding Circles* by Peter Singer: Although this book was a bit more technical than, say, *Animal Liberation* or *The Life You Can Save*, it was still pretty accessible. Intriguingly, PS doesn't comment on whether future beings should be included in "the circle of moral consideration". Would be very curious to hear his take on this.
+
+**November 2024**
+- *What We Owe the Future* by William MacAskill: Overall, an interesting read. Sure, we should care about the future. But how much should we discount future generations' wellbeing? Many questions are left hanging. I also thought WMA could have discussed the objections to longtermism in greater detail, rather than relegating them to an appendix.
+- *White Nights* by Fyodor Dostoevsky: This entire story is basically a sketch of two characters. And that's OK. One doesn't need much else.
+
 **October 2024**
 - *Letters to Milena* by Franz Kafka: I picked up this book eager to get to know another side of FK. Not disappointed. But he writes about the same themes over and over again. Not the kind of book you binge read.
 - *Emmys Teorem* av Julia Ravanis: Har inte stött på något liknande tidigare. Essä, populärvetenskap och biografi - allt i ett. Det är trevligt att umgås med JR och Emmy Noether.

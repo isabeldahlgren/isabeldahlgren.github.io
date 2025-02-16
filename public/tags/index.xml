@@ -12,12 +12,27 @@
     
     
     <item>
-      <title>Resources for learning German</title>
-      <link>http://localhost:1313/resources-for-learning-german/</link>
+      <title>German learning resources</title>
+      <link>http://localhost:1313/german-learning-resources/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/resources-for-learning-german/</guid>
-      <description>&lt;p&gt;sdsd&lt;/p&gt;
+      <guid>http://localhost:1313/german-learning-resources/</guid>
+      <description>&lt;p&gt;Here is a quick rundown of some of my favourite German learning resources.&lt;/p&gt;
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;NE:s lilla tyska ordbok&lt;/em&gt;: Because everyone needs a good dictionary.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Den tyska grammatiken&lt;/em&gt;: Very very helpful, in that it contrasts Swedish grammar with German grammar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Unfassbar&lt;/em&gt;: A documantary-style podcast. Very bingeable.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Einschlafen mit Wikipedia&lt;/em&gt;: The low (sleep inducing) speaking pace is perfect for language learners.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Easy German&lt;/em&gt;: Excellent for A1-B1 learners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learngerman.dw.com/de/nicos-weg/c-36519718&#34;&gt;&lt;em&gt;Nicos Weg&lt;/em&gt;&lt;/a&gt;: An engaging, comprehensive German course, all for free.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
