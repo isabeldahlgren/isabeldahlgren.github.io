@@ -7,6 +7,7 @@ draft: false
 **February 2025**
 - *Norweigan Wood* by Haruki Murakami: The dialogues are spot on. And the characters are hilarious. But the plot was quite predictable, and I was disgusted by Watanabe's view of Naoko.
 - *Emil und Die Detektive* by Erich Kästner
+- *Against Empathy* by Paul Bloom: If people had the same definition of empathy, surely there wouldn't be as much disagreement. Ultimately, I think most people would find PB's view on empathy pretty reasonable. However, the solution, replacing empathy with reason, does seem a bit cheap. PB also admits that we should not dispel of empathy altogether, so it's not clear to me what his alternative to an empathy-based morality would be.
 
 **January 2025**
 - *Behave* by Robert Sapolsky: Information overload. RS raises many interesting points, though. The chapters on the teenage brain and oxytocin were very insightful. 
