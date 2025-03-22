@@ -22,7 +22,7 @@ header#banner nav ul li a {
 }
 
 main#content a {
-    color: #00b1ed;
+    color: #6b9fb1;
 }
 
 main#content p {
@@ -42,7 +42,7 @@ main#content ul#posts small {
 }
 
 main#content ul#posts li a:hover {
-    color: #21c7ff;
+    color: #577f8c;
 }
 
 main#content header#post-header div {

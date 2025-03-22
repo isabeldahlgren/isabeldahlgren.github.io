@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h3>{{ .Title }}</h3>
+Tag: {{ lower .Title }}
 <ul id="posts">
 {{- range .Pages }}
     {{ .Render "li" }}

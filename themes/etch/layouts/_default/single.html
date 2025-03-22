@@ -13,5 +13,13 @@
         </div>
     </header>
     {{- .Content -}}
+    {{ with .Params.tags }}
+    <p>Tags:
+        {{ range $index, $tag := . }}
+            {{- if $index }}, {{ end -}}
+            <a href="{{ "tags/" | relURL }}{{ $tag | urlize }}">{{ $tag }}</a>
+        {{- end }}
+    </p>
+    {{ end }}
 </article>
 {{ end }}

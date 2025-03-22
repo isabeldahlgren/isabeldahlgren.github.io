@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematics on Isabel Dahlgren</title>
+    <link>http://localhost:1313/tags/mathematics/</link>
+    <description>Recent content in Mathematics on Isabel Dahlgren</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>On identifying key ingredients</title>
+      <link>http://localhost:1313/on-identifying-key-ingredients/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/on-identifying-key-ingredients/</guid>
+      <description>&lt;p&gt;One of the benefits of attending lectures is that lecturers tend to give some really good unsolicited advice every now and then. Last semester, a professor of ours digressed to talk about the importance of identifying the key ingredients of a result. He&amp;rsquo;d just concluded a rather lengthy proof, and was about to clean the blackboard as he said that the result was elementary. See, you only need this one lemma from point-set topology (admittedly a bit niche, but easy to prove), and then the definition of the Fourier transform. Put that way, sure, maybe it&amp;rsquo;s elementary. Explicitly writing down the dependencies of a result, he said, was a good exercise.&lt;/p&gt;
+&lt;p&gt;I tried it for myself a couple of times. At first, it felt a bit silly. Once I&amp;rsquo;d finished writing down the main components of a result, it all seemed trivial. Sometimes it felt like a massive waste of time. But for more complicated theorems, I&amp;rsquo;d agree it was quite useful. I also tried this method when learning other subjects, and it carried over quite well. Here are the main benefits I&amp;rsquo;ve identified:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;It makes you engage more with the material.&lt;/strong&gt; This is pretty self-explanatory. Learning a concept isn&amp;rsquo;t just a matter of being able to regurgitate the contents of the lecture notes; it requires you to build some sort of inner mental model. The purpose of exercises, quizzes or review questions is to make you think more carefully about a given topic. Otherwise, because humans (or at least mathematicians) are lazy, chances are you&amp;rsquo;ll go through the material too quickly. Tracking down dependencies is a bit like doing more problems, in that it prompts you to revisit the material.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It&amp;rsquo;s much easier memorising a short list of bullet points rather than big chunks of information.&lt;/strong&gt; And for the most part, you do get by memorising just the dependencies. You can usually fill in the details yourself.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Once you&amp;rsquo;ve nailed down the dependencies, the concept seems much simpler.&lt;/strong&gt; Some results can seem quite daunting at first. But working out the dependencies makes the concept seem deceptively simple, thereby making the learning process much more enjoyable. (So, if you want the curse of knowledge, you know what to do.)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>German learning resources</title>
+      <link>http://localhost:1313/german-learning-resources/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/german-learning-resources/</guid>
+      <description>&lt;p&gt;Here is a quick rundown of some of my favourite German learning resources.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learngerman.dw.com/de/nicos-weg/c-36519718&#34;&gt;Nicos Weg&lt;/a&gt;: An engaging, comprehensive German course, all for free.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;NE:s lilla tyska ordbok&lt;/em&gt;: Because everyone needs a good physical dictionary.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Den tyska grammatiken&lt;/em&gt;: Very very helpful, in that it contrasts Swedish grammar with German grammar.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Unfassbar&lt;/em&gt;: A documantary-style podcast. Very bingeable.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Wild Wild web&lt;/em&gt;: Stories about, well, the Internet. A mixture of true crime, personal stories and trivia.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Einschlafen mit Wikipedia&lt;/em&gt;: The low (sleep inducing) speaking pace is perfect for language learners.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Easy German&lt;/em&gt;: Excellent for A1-B1 learners.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

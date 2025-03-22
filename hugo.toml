@@ -15,6 +15,12 @@ pygmentsUseClasses = true
 [menu]
 
   [[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 10
+
+  [[menu.main]]
     identifier = "library"
     name = "library"
     title = "library"
@@ -32,5 +38,4 @@ pygmentsUseClasses = true
   posts = "/:title/"
 
 [markup.goldmark.renderer]
-  # Allows HTML in Markdown
   unsafe = true

@@ -1,3 +1,11 @@
 {{ define "main" }}
 {{- partial "posts.html" . -}}
 {{ end }}
+
+{{ with .Params.tags }}
+  <p>Tags: 
+    {{ range . }}
+      <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </p>
+{{ end }}

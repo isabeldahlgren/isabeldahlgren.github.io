@@ -1,0 +1,4 @@
+{{ define "main" }}
+  Tags:
+  {{ range $index, $page := .Pages }}{{ if $index }},{{ end }} <a href="{{ $page.RelPermalink }}">{{ lower $page.Title }}</a>{{ end }}
+{{ end }}
