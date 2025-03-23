@@ -13,6 +13,53 @@
     
     
     <item>
+      <title>The main risks from advanced AI</title>
+      <link>http://localhost:1313/the-main-risks-from-advanced-ai/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/the-main-risks-from-advanced-ai/</guid>
+      <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
+&lt;p&gt;The other week, I had an insightful discussion with people in &lt;a href=&#34;https://www.zurich-ai-alignment.com&#34;&gt;Zürich AI Alignment (ZAIA)&lt;/a&gt; about the risks from AI. Afterwards, I began jotting down my thoughts, and they somehow ballooned into this blog post. Here are what I consider to be the most prominent risks, as of now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Powerful technology in bad hands&lt;/strong&gt;: First, there are the risks which all fall under the label &amp;ldquo;bad guys using powerful technology to further their own interests&amp;rdquo;. For example, AI can be used for mass surveillance technology, cyber warfare or in autonomous lethal weapons. Presumably, most people are uncomfortable with China having nukes. Similarly, China developing cutting-edge AI is a cause for concern.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Concentration of power&lt;/strong&gt;: AI is a transformative technology - a message that shouldn&amp;rsquo;t have escaped anyone, given the current AI hype. In the years to come, it&amp;rsquo;s likely to have a profound impact on our economy&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and healthcare systems&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. As a result, the main players, OpenAI, DeepMind and Anthropic, are going to have an enormous influence on our lives. Unless AI policy guidelines are put in place very soon, the engineers at these companies are going to have an outsized impact on society. And this is somewhat problematic. While these engineers tend to be lovely people, they aren&amp;rsquo;t democratically elected. Moreover, they probably aren&amp;rsquo;t in the best position to decide what&amp;rsquo;s best for society at large.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Misaligned AI models&lt;/strong&gt;: But we could also end up building AI models doing more harm than good, i.e. AI models whose incentives aren&amp;rsquo;t aligned with our values. Our understanding of the inner workings of certain AI models is very limited. While aerospace engineers know exactly what goes on inside, say, a combustion engine, the exact details of how neural networks learn remain fuzzy. If the aerospace engineers only have a vague idea of how the cooling system works, how confident can they be that the combustion engine will work as intended? In the process of developing more capable AI, we&amp;rsquo;ll probably engineer some AI models that are thrash; useless, at best, harmful at worst. We&amp;rsquo;ve already seen plenty of examples of this. For example, pointed out during the ZAIA discussion, it&amp;rsquo;s still quite easy jailbreaking LLMs like ChatGPT&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Moreover, there are plenty of instances of algorithms encoding our own biases, having been fed biased data during training&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power-seeking AI&lt;/strong&gt;: Some people push this argument further, arguing that we might see very, very misaligned AI models - AI models posing an existential threat to humanity. I&amp;rsquo;ll briefly outline what I understand to be the core argument.
+&lt;ol&gt;
+&lt;li&gt;In the future, we might see the emergence of power-seeking AI models. AI models are trained to minimise some loss function, and power could be instrumental in achieving this.&lt;/li&gt;
+&lt;li&gt;At the same time, we might develop more agentic AI, that is, AI capable of pursuing independent goals and with more advanced planning capabilities&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. Such AI agents could replace a greater portion of the workforce, and would therefore be immensely profitable. The economic incentives are there, so it&amp;rsquo;s quite plausible that we&amp;rsquo;ll see more agentic AI models in the future.&lt;/li&gt;
+&lt;li&gt;All in all, it&amp;rsquo;s possible we&amp;rsquo;ll develop power-seeking, agentic AI models. The key point now is that such an AI might view humans as obstacles to pursuing its goals. Humans can modify the learning algorithm, or try switching off the AI - things which would prevent the AI from minimising the loss function. Stuart Russell put it neatly:  &amp;ldquo;You can&amp;rsquo;t fetch the coffee if you&amp;rsquo;re dead&amp;rdquo;. So, the argument goes, the AI might try to disempower humanity.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;While points (1) and (2) seem quite reasonable, I&amp;rsquo;m more sceptical about point (3). A more conservative version of point (3) would be that power-seeking agentic AI models can do a lot of harm, despite not being misanthropic. I think the key word here is &amp;ldquo;agency&amp;rdquo;. History is full of examples of stubborn men with a bit of business savvy who made a great deal of harm, without necessarily wanting to exterminate all of humanity. Endowed with AI-like capabilities, these people would probably have caused much greater damage. At any rate, I would lower-bound the risk of things going badly by 1%. I think the stakes are too high for us to dismiss this kind of threat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, there&amp;rsquo;s much more to be said about each topic. Each bullet could easily be broken into a bunch of sub-bullets. But broadly speaking, I think most risks fall into either one of the above categories. Finally, if this essay seems a bit doom-laden, remember that there are plenty of things we can do to eliminate, or at least mitigate, some of these risks. See e.g. &lt;a href=&#34;https://www.lesswrong.com/posts/9dNxz2kjNvPtiZjxj/risks-from-ai-overview-summary&#34;&gt;this&lt;/a&gt; article for a more exhaustive survey of the risks from AI, along with suggested measures. I&amp;rsquo;ve also left links for further resources in the footnotes.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pewresearch.org/short-reads/2024/03/26/americans-use-of-chatgpt-is-ticking-up-but-few-trust-its-election-information&#34;&gt;Americans increasingly using ChatGPT, but few trust its 2024 election information | Pew Research Center&lt;/a&gt;, &lt;a href=&#34;https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023&#34;&gt;Share of teens using ChatGPT for schoolwork doubled from 2023 to 2024 | Pew Research Center&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.weforum.org/stories/2025/03/ai-transforming-global-health/&#34;&gt;# 6 ways AI is transforming healthcare&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?list=PLj62-wQeg_DhmYphxg70DhPEJcjfmnVEt&amp;amp;v=UG_X_7g63rY&amp;amp;embeds_referring_euri=https%3A%2F%2Fwww.media.mit.edu%2F&amp;amp;source_ve_path=MjM4NTE&#34;&gt;How I&#39;m fighting bias in algorithms | Joy Buolamwini - YouTube&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/think/topics/shedding-light-on-ai-bias-with-real-world-examples&#34;&gt;AI Bias Examples | IBM&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai&#34;&gt;Agentic AI vs. Generative AI | IBM&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Tracking down dependencies</title>
       <link>http://localhost:1313/tracking-down-dependencies/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
