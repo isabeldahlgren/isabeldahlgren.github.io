@@ -6,9 +6,45 @@
     <description>Recent content in Home on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Will AI replace mathematicians?</title>
+      <link>http://localhost:1313/will-ai-replace-mathematicians/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
+      <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;
+&lt;p&gt;First, there was the silver medal at IMO&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Although AlphaProof and AlphaGeometry 2 took well over 3h, the time given contestants are given, it&amp;rsquo;s quite a feat: IMO problems require an element of creativity. Not only that - it was able to formalise its solution in Lean. Lean is still a fairly new programming language, and there isn&amp;rsquo;t nearly as much training data as for other programming languages. The work of the DeepMind team shows two things: firstly, lots of clever people are building AI systems for maths; secondly, apparently their approach works pretty well. However, as of April 2025, you don&amp;rsquo;t need an AI specifically trained to do maths in order to solve tricky problems: the new o3 and o4 mini models do quite well in the AIME&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. What if we use RL to build AI systems specialised in more advanced topics? Perhaps these AIs might prove new theorems. Even if they don&amp;rsquo;t, they might provide researchers with insights.&lt;/p&gt;
+&lt;p&gt;Next, several top-gun mathematicians think AI might transform maths research in the next decade. Most notably, Terence Tao has highlighted ways in which machines can help human mathematicians. Here&amp;rsquo;s Tao&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;I could feed GPT-4 the first few PDF pages of a recent math preprint and get it to generate a half-dozen intelligent questions that an expert attending a talk on the preprint could ask. I plan to use variants of such prompts to prepare my future presentations or to begin reading a technically complex paper.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Richard Borcherds seems equally optimistic about the possibilities of using, predicting that AI might even surpass human mathematicians within 10 years&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Overall, I think we&amp;rsquo;re starting to see a cultural shift in the maths community. People are recognising that AI is a huge deal.&lt;/p&gt;
+&lt;p&gt;Finally, I observed that 50% of students in the library seem to have a Chat-GPT tab open at all times. These are students doing STEM subjects, such as maths and physics. This seems like an important data point (and this is not just because I&amp;rsquo;m giving more weight to first-hand experience). LLMs are transforming the way we learn, and these are the people who will go on to do research in a couple of years. Chances are they won&amp;rsquo;t stop using LLMs just because the material becomes more niche. Even if you receive a hallucinatory answer, the LLM might reference a relevant concept, helping you get unstuck. I&amp;rsquo;m using Chat-GPT for my own studies, and I&amp;rsquo;m genuinely impressed by its explaining abilities. Basically, it can easily handle any concept you&amp;rsquo;ll come across in a master degree in mathematics. I&amp;rsquo;ve also prompted Chat-GPT to distill the key ideas from more recent papers, and it does this pretty well.&lt;/p&gt;
+&lt;p&gt;All in all, I&amp;rsquo;ve come to shorten my AI timelines quite a bit. But rather than thinking &amp;ldquo;Will I ever find a job?&amp;rdquo;, I find myself thinking &amp;ldquo;What a time to be alive!&amp;rdquo;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level&#34;&gt;AI achieves silver-medal standard solving International Mathematical Olympiad problems - Google DeepMind&lt;/a&gt;/&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://openai.com/index/introducing-o3-and-o4-mini&#34;&gt;Introducing OpenAI o3 and o4-mini | OpenAI&lt;/a&gt;/&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://unlocked.microsoft.com/ai-anthology/terence-tao&#34;&gt;Embracing change and resetting expectations; Microsoft Unlocked&lt;/a&gt;/&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://epoch.ai/frontiermath/expert-perspectives&#34;&gt;AI and the future of Math: Interviews with Top Mathematicians | Epoch AI&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     
     
@@ -18,18 +54,18 @@
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/just-switch-it-off/</guid>
-      <description>&lt;p&gt;If we develop a rogue AI, couldn&amp;rsquo;t we just switch it off? This is the obvious objection to the idea that AI could be dangerous. Here &amp;ldquo;switching off&amp;rdquo; would mean deleting a model&amp;rsquo;s weights, so it can&amp;rsquo;t be deployed. Deleting files is easy enough, so surely we should be able to switch off a misaligned AI? But there are two catches here.&lt;/p&gt;
+      <description>&lt;p&gt;If we develop a rogue AI, couldn&amp;rsquo;t we just switch it off? This is the obvious objection to the idea that AI could be dangerous. Here &amp;ldquo;switching off&amp;rdquo; would mean deleting a model&amp;rsquo;s weights, so it can&amp;rsquo;t be deployed. Deleting files is easy enough, so what might prevent us from switching off a misaligned AI?&lt;/p&gt;
 &lt;p&gt;First, the users need to realise that the model is dangerous. This can be challenging, especially for more advanced models. The key premise here is that AIs will try preserving themselves. That is, they don&amp;rsquo;t &amp;ldquo;want&amp;rdquo; to be turned off - this would prevent them from pursuing their goals. If an AI knows that it will be turned off if it&amp;rsquo;s misaligned, it might try appearing safe during training. This is commonly known as &amp;ldquo;alignment faking&amp;rdquo;. Although this sounds a bit far-fetched, this phenomenon has been observed in some models&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;Second, and perhaps more worryingly, is the question of whether we as a society want to press &amp;ldquo;delete&amp;rdquo;. Turning off sandboxed AI, AI developed in a secure training environment, isn&amp;rsquo;t a big deal. Researchers don&amp;rsquo;t have strong incentives to keep using an unsafe model. But if a leading AI lab were to revoke their flagship model from the market, this would have huge implications. It would mean less profit, bad PR and giving away market share to competitors. Besides these economical considerations, there&amp;rsquo;s the geopolitical aspect. As highlighted in the AI 2027 report&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, the fear of falling behind in the AI arms race might lead us to deploy even potentially misaligned AI. Even if the people behind the AI wanted to switch off their models because of safety considerations, what would the general public think? Most people would probably be reluctant to stop their favourite LLMs, even though they perform poorly on safety benchmarks.&lt;/p&gt;
-&lt;p&gt;Switching off an AI isn&amp;rsquo;t just a matter of deleting files. It requires us to detect unsafe behaviour, a task that&amp;rsquo;s likely to become more difficult with more capable models. Then there&amp;rsquo;s the human aspect to it. Asking that AI companies delete models showing signs of misalignment is asking for a lot. In the future, turning off an AI in a broader sense would require turning off parts of our society.&lt;/p&gt;
+&lt;p&gt;Second, and perhaps more worryingly, is the question of whether we as a society want to press &amp;ldquo;delete&amp;rdquo;. Turning off sandboxed AI - AI developed in a secure training environment - isn&amp;rsquo;t a big deal. The negative consequences, if any, are limited to the few people who can access the model. But a leading AI company has strong incentives against withdrawing potentially unsafe models from the market. Doing this would mean less profit, bad PR and giving away market share to competitors. Besides these economical considerations, there&amp;rsquo;s the geopolitical aspect. As highlighted in the AI 2027 report&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, the fear of falling behind in the AI arms race might lead us to deploy even misaligned AI. Even if the people behind the AI wanted to switch off their models because of safety considerations, what would the general public think? Most people would probably be reluctant to stop their favourite LLMs, despite poor performance on safety benchmarks.&lt;/p&gt;
+&lt;p&gt;Switching off an AI isn&amp;rsquo;t just a matter of deleting files. It requires us to detect unsafe behaviour, a task that&amp;rsquo;s likely to become more difficult with more capable models. Then there&amp;rsquo;s the human factor. Asking that AI companies delete models showing signs of misalignment is asking for a lot. In the future, turning off an AI in a broader sense would require turning off parts of our society.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2412.14093&#34;&gt;Alignment Faking in Large Language Models&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2412.14093&#34;&gt;Alignment Faking in Large Language Models&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://ai-2027.com/&#34;&gt;AI 2027&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ai-2027.com/&#34;&gt;AI 2027&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -118,11 +154,11 @@
     
     
     <item>
-      <title>The main risks from advanced AI</title>
-      <link>http://localhost:1313/the-main-risks-from-advanced-ai/</link>
+      <title>How AI might go wrong</title>
+      <link>http://localhost:1313/how-ai-might-go-wrong/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-main-risks-from-advanced-ai/</guid>
+      <guid>http://localhost:1313/how-ai-might-go-wrong/</guid>
       <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
 &lt;p&gt;The other week, I had an insightful discussion with people in &lt;a href=&#34;https://www.zurich-ai-alignment.com&#34;&gt;Zürich AI Alignment (ZAIA)&lt;/a&gt; about the risks from AI. Afterwards, I began writing down my thoughts, and they somehow ballooned into this essay. Here are what I currently consider to be the most relevant risks:&lt;/p&gt;
 &lt;ul&gt;
