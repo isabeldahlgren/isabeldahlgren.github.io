@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/hunting-dependencies/" />
+    <title>Hunting dependencies</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Hunting dependencies</h1>
+        <div>
+                <time>February 23, 2025</time>
+            </div>
+    </header><p>One of the benefits of attending lectures is that lecturers tend to give some really good unsolicited advice every now and then. Last semester, a professor of ours digressed to talk about the importance of identifying the key ingredients of a result. He&rsquo;d just concluded a rather long proof, and was about to clean the blackboard as he said that the result was elementary. See, you only need this one lemma from point-set topology (admittedly a bit niche, but easy to prove), and then the definition of the Fourier transform. Put that way, sure, maybe it&rsquo;s elementary. Explicitly writing down the dependencies of an idea, he said, was a good exercise.</p>
+<h3 id="an-example">An example</h3>
+<p>I tried doing this a couple of times for definitions, theorem statements and proofs. At first, it felt a bit silly. Once I finished writing down the main components of a result, it seemed trivial. I overdid it at first, writing down dependencies even for minor lemmas. But for more complicated theorems or involved definitions, it proved quite useful.</p>
+<p>Now for a concrete example. Suppose we&rsquo;re trying to understand martingales. Martingales can be thought of as sequences of random variables representing fair games: if we&rsquo;re given the value of the $n$:th random variable, we expect the value of the $(n+1)$:th random variable to stay the same. There&rsquo;s no predictable up- or downward trend. Here&rsquo;s the definition from LeGall<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<blockquote>
+<p>Let $(X_n)_{n \in \mathbb{Z}_+}$ be an adapted, real-valued random process, such that $E(|X_n|) &lt; \infty$ for every $n \in \mathbb{Z}_+$. We say that the process $(X_n)_{n \in \mathbb{Z}_+}$ is a martingale if, for every $n \in \mathbb{Z}_+$, $$E(X_{n+1}|\mathcal{F}_n) = X_n.$$</p></blockquote>
+<p>First, we need some terminology related to random processes, understanding what&rsquo;s meant by an &ldquo;adapted process&rdquo; and a &ldquo;filtration&rdquo;. Apart from that, we need a solid grasp of conditional expectations. The definition of a conditional expectation with respect to a $\sigma$-algebra, as well as the underlying intuition. And that&rsquo;s about it.</p>
+<h3 id="should-i-bother">Should I bother?</h3>
+<p>If you want to learn something thoroughly, then yes. Tracking down dependencies makes you engage more with the material. Learning a concept isn&rsquo;t just a matter of being able to regurgitate the contents of the lecture notes - it requires you to build your own mental model of what&rsquo;s going on. As I see it, the purpose of exercises, quizzes or review questions is to make us think more carefully about a given topic. Otherwise, because humans (or at least maths students) are lazy, chances are we&rsquo;ll go through the material too quickly. Tracking down dependencies is a bit like doing more problems, in that it prompts us to revisit the material.</p>
+<p>Another benefit of nailing down dependencies is that it makes the concept seem relatively simple. Some results can seem quite daunting at first. But working out the dependencies can make the concept seem deceptively simple - almost to the point where you&rsquo;re struck with the curse of knowledge. Moreover, if I struggle to understand an idea but am clear about the dependencies, I know what to do: I&rsquo;ll just read up on each of the topics involved. In this way, the dependencies translate into an a checklist for my learning process.</p>
+<p>Lastly, I found it satisfying seeing how different notions tied into one another. I also put it all into one mindmap which, apart from having a high aestethic value, gave me the big picture of the subject.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Le Gall, J. F. (2022). <em>Measure theory, probability, and stochastic processes</em>. Cham: Springer.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    <p>Tags:
+        <a href="/tags/learning">learning</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>
