@@ -6,9 +6,62 @@
     <description>Recent content in Posts on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>How I use LLMs</title>
+      <link>http://localhost:1313/how-i-use-llms/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-i-use-llms/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This article is a follow-up on my previous piece.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;About 40% of students in the ETH main library always have a Chat-GPT tab open. I soon decided to try using LLMs for my own studies (because the wisdom of the crowd is a real thing). I haven&amp;rsquo;t figured out how to best use LLMs for my coursework, but I&amp;rsquo;m experimenting with various approaches.&lt;/p&gt;
+&lt;h3 id=&#34;getting-unstuck&#34;&gt;Getting unstuck&lt;/h3&gt;
+&lt;p&gt;For me, a big time sink is getting stuck on details. I usually go over the lecture notes after lectures, trying to work out the steps I didn&amp;rsquo;t follow with pen and paper. Ideally, I&amp;rsquo;d do this sitting next to a friend - it&amp;rsquo;s very convenient having someone whom to ask nearby. As Nate Soares put it&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The problem is, most of the time that I get stuck, I get stuck on something incredibly stupid. I&amp;rsquo;ve either misread something somewhere or misremembered a concept from earlier in the book. Usually, someone looking over my shoulder could correct me in ten seconds with three words. &amp;lsquo;Dude. Disjunction. &lt;em&gt;Dis&lt;/em&gt;junction.&amp;rsquo;&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;But studying with a friend isn&amp;rsquo;t always possible. If there&amp;rsquo;s a point of confusion I cannot resolve myself after making a reasonable effort, asking an LLM might help. Formulating a good question is always an instructive exercise. Moreover, nine times out of ten, the response is useful. Even if the LLM doesn&amp;rsquo;t entirely solve my problem, it might reference relevant concepts or serve as a sanity check. Sometimes I&amp;rsquo;ll learn that my approach was completely mistaken - and that&amp;rsquo;s certainly useful too!&lt;/p&gt;
+&lt;h3 id=&#34;hints&#34;&gt;Hints&lt;/h3&gt;
+&lt;p&gt;In the classic &lt;em&gt;How to Solve It&lt;/em&gt;, George Pólya famously noted that mathematics isn&amp;rsquo;t a spectator sport. By generating hints, LLMs can be an aid in the problem-solving process too. Just have an honest attempt at the problem before consulting an LLM, and tell the LLM to not give away the entire solution. But it&amp;rsquo;s important to notice when one is stuck and ask for help. For someone like me who usually waits too long before taking hints, the ease of generating hints with Chat-GPT makes a huge difference.&lt;/p&gt;
+&lt;h3 id=&#34;the-big-picture&#34;&gt;The big picture&lt;/h3&gt;
+&lt;p&gt;LLMs are terrific at explaining high-level ideas. I&amp;rsquo;m a big fan of learning concepts &amp;ldquo;top-down&amp;rdquo;, starting with the big picture before getting into the details. While having more context doesn&amp;rsquo;t necessarily mean the material sticks better, I find this approach much more enjoyable. I usually ask Chat-GPT to give me the key idea before I look into the details. Apart from this, I regularly prompt Chat-GPT to give me the intuition for something or to motivate concepts. If a lecturer is pressed on time, they&amp;rsquo;ll cut the motivation bit, rather than leaving out a definition or theorem statement. For this reason, an AI-generated introduction can complement the lectured material.&lt;/p&gt;
+&lt;p&gt;Some of my favourite prompts include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Why do we care about X?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What is the main idea behind the proof of X?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What&amp;rsquo;s the intuition for this definition?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I also find it helpful trying to explain a concept in my own words and asking Chat-GPT to elaborate or check if my explanation is accurate.&lt;/p&gt;
+&lt;h3 id=&#34;caveats&#34;&gt;Caveats&lt;/h3&gt;
+&lt;p&gt;All this said, I&amp;rsquo;d like to add a few caveats.&lt;/p&gt;
+&lt;p&gt;A friend or teaching assistant could help with the above tasks better than today&amp;rsquo;s LLMs. They know about your mathematical background and what conventions you&amp;rsquo;re using. When I interact with chatbots, explaining conventions and providing context adds a lot of overhead. However, this problem seems fixable. Many AI labs are already working on ways to provide more personalised responses by having the chatbot remember information across chat sessions&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Students could e.g. upload lecture notes and indicate which parts they&amp;rsquo;d covered.&lt;/p&gt;
+&lt;p&gt;AI systems also make mistakes. But this isn&amp;rsquo;t that big of an issue. Most mistakes are easy to spot, especially if you ask the AI to explain steps that seem fishy. If you point out what went wrong, it will modify the argument. With human guidance, AI systems can get quite far. Also, LLMs don&amp;rsquo;t need to get all the details right in order to be useful. As Terry Tao noted&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Strangely, even nonsensical LLM-generated math often references relevant concepts. With effort, human experts can modify ideas that do not work as presented into a correct and original argument. The 2023-level AI can already generate suggestive hints and promising leads to a working mathematician and participate actively in the decision-making process.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Of course, if you want to be dead certain the AI-generated argument is correct, have the AI output a formal proof in Lean.&lt;/p&gt;
+&lt;p&gt;Another fear of mine, perhaps ungrounded, is basically that LLMs will make us lazy. Learning requires a certain amount of effort, while writing a good LLM prompt is relatively easy. If we use LLMs more and more, will we remove the friction needed for learning? I don&amp;rsquo;t know whether this fear is valid or if it&amp;rsquo;s just an instance of &amp;ldquo;tech panic&amp;rdquo;. But as long as we set boundaries for our LLM usage, we need not spoil the learning experience.&lt;/p&gt;
+&lt;h3 id=&#34;where-does-this-leave-us&#34;&gt;Where does this leave us?&lt;/h3&gt;
+&lt;p&gt;It seems, then, as if we could overcome the problems I&amp;rsquo;ve encountered when tinkering with AIs. My experience with using LLMs as part of my studies has been positive, so I&amp;rsquo;ll continue exploring ways in which AI can assist. The one thing that LLMs can&amp;rsquo;t provide, however, is the social aspect of doing maths. Solving problems with others is infinitely more fun than coming up with LLM prompts. If anything, I think the above use cases highlight the importance of doing maths together with others.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/w5F4w8tNZc6LcBKRP/on-learning-difficult-things&#34;&gt;On learning difficult things | LessWrong&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://help.openai.com/en/articles/8983136-what-is-memory&#34;&gt;What is memory? | OpenAI&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://unlocked.microsoft.com/ai-anthology/terence-tao/&#34;&gt;Embracing change and resetting expectations | Microsoft Unlocked&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     
     
@@ -19,12 +72,12 @@
       
       <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
       <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;
-&lt;p&gt;First, there was the silver medal at IMO&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Although AlphaProof and AlphaGeometry 2 took well over 9h, the time given contestants are given, it&amp;rsquo;s quite a feat: IMO problems require an element of creativity. Not only that - it was able to formalise its solution in Lean. Lean is still a fairly new programming language, and there isn&amp;rsquo;t nearly as much training data as for other programming languages. The work of the DeepMind team shows two things: firstly, lots of clever people are trying to build AI systems for doing maths; secondly, apparently their current approach works pretty well. However, as of April 2025, you don&amp;rsquo;t need an AI specifically trained to do maths in order to solve tricky problems: the new o3 and o4 mini models achieve impressing performance in the AIME&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. What if we use RL to build AI systems specialised in more advanced topics? Perhaps these AIs might prove new theorems. Even if they don&amp;rsquo;t, they might provide researchers with insights.&lt;/p&gt;
+&lt;p&gt;First, there was the silver medal at International Mathematics Olympiad (IMO)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Although AlphaProof and AlphaGeometry 2 took well over 9h, the time given contestants are given, it&amp;rsquo;s quite a feat: IMO problems require an element of creativity. Not only that - it was able to formalise its solution in Lean. Lean is still a fairly new programming language, and there isn&amp;rsquo;t nearly as much training data as for other programming languages. The work of the DeepMind team shows two things: firstly, lots of clever people are trying to build AI systems for doing maths; secondly, apparently their current approach works pretty well. However, as of April 2025, you don&amp;rsquo;t need an AI specifically trained to do maths in order to solve tricky problems: the new o3 and o4 mini models achieve impressing performance in the American Invitational Mathematics Examination (AIME)&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. What if we use RL to build AI systems specialised in more advanced topics? Perhaps these AIs might prove new theorems. Even if they don&amp;rsquo;t, they might provide researchers with insights.&lt;/p&gt;
 &lt;p&gt;Next, several top-gun mathematicians think AI might transform maths research in the next decade. Most notably, Terence Tao has highlighted ways in which machines can help human mathematicians. Here&amp;rsquo;s Tao&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;I could feed GPT-4 the first few PDF pages of a recent math preprint and get it to generate a half-dozen intelligent questions that an expert attending a talk on the preprint could ask. I plan to use variants of such prompts to prepare my future presentations or to begin reading a technically complex paper.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Richard Borcherds seems equally optimistic about the possibilities of using, predicting that AI might even surpass human mathematicians within 10 years&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Overall, I think we&amp;rsquo;re starting to see a cultural shift in the maths community. People are recognising that AI is a huge deal.&lt;/p&gt;
-&lt;p&gt;Finally, I observed that 50% of students in the library seem to have a Chat-GPT tab open at all times. These are students doing STEM subjects, such as maths and physics. This seems like an important data point (and this isn&amp;rsquo;t just because I&amp;rsquo;m giving more weight to first-hand experience). LLMs are transforming the way we learn, and these are the people who will go on to do research in a couple of years. Chances are they won&amp;rsquo;t stop using LLMs just because the material becomes more niche. Even if you receive a hallucinatory answer, the LLM might reference a relevant concept, helping you get unstuck. I&amp;rsquo;m using Chat-GPT for my own studies, and I&amp;rsquo;m impressed by its explaining abilities. Basically, it can easily handle any concept you&amp;rsquo;ll come across in a master degree in mathematics. I&amp;rsquo;ve also prompted Chat-GPT to distill the key ideas from more recent papers, and it does this quite well too.&lt;/p&gt;
+&lt;p&gt;Finally, I observed that 40% of students in the library seem to have a Chat-GPT tab open at all times. These are students doing STEM subjects, such as maths and physics. This seems like an important data point (and this isn&amp;rsquo;t just because I&amp;rsquo;m giving more weight to first-hand experience). LLMs are transforming the way students learn, and these are the people who will go on to do research in a couple of years. Chances are we won&amp;rsquo;t stop using LLMs just because the material becomes more niche. Even if you receive a hallucinatory answer, the LLM might reference a relevant concept, helping you get unstuck. I&amp;rsquo;m using Chat-GPT for my own studies, and I&amp;rsquo;m impressed by its explaining abilities. Basically, it can easily handle any concept you&amp;rsquo;ll come across in a master degree in mathematics. I&amp;rsquo;ve also prompted Chat-GPT to distill the key ideas from more recent papers and found its responses very helpful.&lt;/p&gt;
 &lt;p&gt;All in all, I&amp;rsquo;ve come to shorten my AI timelines quite a bit. But rather than thinking &amp;ldquo;Will I ever find a job?&amp;rdquo;, I find myself thinking &amp;ldquo;What a time to be alive!&amp;rdquo;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
