@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/building-time-machines/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/essay/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/how-to-have-good-conversations/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rationality/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/building-time-machines/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
@@ -39,9 +45,6 @@
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/look-for-opinions/</loc>
-    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rationality/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/how-ai-might-go-wrong/</loc>
