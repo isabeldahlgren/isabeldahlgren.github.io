@@ -12,6 +12,57 @@
     
     
     <item>
+      <title>On decision fatigue</title>
+      <link>http://localhost:1313/on-decision-fatigue/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/on-decision-fatigue/</guid>
+      <description>&lt;p&gt;Life involves plenty of hard decisions. Should I switch jobs? Should I marry him? Should I move abroad? Then there are the &amp;ldquo;easy&amp;rdquo; decisions: which pyjama to wear or which brand of laundry detergent to buy. Although it doesn&amp;rsquo;t matter which option you choose here, choosing is hard. In fact, if you think of buying laundry detergent as an optimisation problem, taking into account things like social impact, price and quality, I&amp;rsquo;d expect the optimisation problem to be NP-hard. Here&amp;rsquo;s &lt;a href=&#34;https://thezvi.wordpress.com/2017/07/22/choices-are-bad/&#34;&gt;Zvi&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you have a choice, you must stop what you’re doing, and choose.
+[&amp;hellip;]
+Making a random slash arbitrary choice might not be hard (although sometimes it is) but first you have to choose to choose at random. &lt;a href=&#34;https://www.youtube.com/watch?v=OnxkfLe4G74&#34;&gt;If you choose not to decide, you still have made a choice&lt;/a&gt;. There’s no escape! You certainly don’t want to be making  &lt;a href=&#34;http://pickatrandom.com/&#34;&gt;&lt;em&gt;that&lt;/em&gt; choice&lt;/a&gt; at &lt;a href=&#34;https://www.random.org/clock-times/&#34;&gt;random times&lt;/a&gt;!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This leads to one of the big curses of adulthood - decision fatigue.&lt;/p&gt;
+&lt;h3 id=&#34;i-understanding-the-problem&#34;&gt;I. Understanding the problem&lt;/h3&gt;
+&lt;p&gt;Most of us are aware that choosing is draining. Steve Jobs wore black turtlenecks to reduce the number of decisions in a given day. &lt;em&gt;Should I Stay or Should I Go&lt;/em&gt; is basically a three-minute rant about how terrible it is making decisions&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The reason going to IKEA can be so tiring is that it involves making many small choices. Getting to choose among many options is only fun up to a certain point.&lt;/p&gt;
+&lt;p&gt;According to &lt;a href=&#34;https://en.wikipedia.org/wiki/Decision_fatigue&#34;&gt;Wikipedia&lt;/a&gt;, decision fatigue is &amp;ldquo;the deteriorating quality of decisions made by an individual after a long session of decision making&amp;rdquo;. Decision fatigue arises from a broader phenomenon called ego depletion. Intuitively, this is the idea that willpower works like a battery. If we exert a lot of mental effort at one task, then we cannot exert as much mental effort at subsequent tasks without recharging. Making decisions drains our willpower battery.&lt;/p&gt;
+&lt;p&gt;The phenomena of decision fatigue and ego depletion have been demonstrated in a number of amusing &lt;a href=&#34;https://www.nytimes.com/2011/08/21/magazine/do-you-suffer-from-decision-fatigue.html&#34;&gt;studies&lt;/a&gt;. A striking example is the study on Israeli judges, demonstrating the so-called &lt;a href=&#34;https://en.wikipedia.org/wiki/Hungry_judge_effect&#34;&gt;hungry judge effect&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Computer science offers another way to think about decision fatigue. While a psychologist might speak of ego depletion, a computer scientist might speak of computational complexity. Here&amp;rsquo;s from &lt;em&gt;Algorithms to Live By&lt;/em&gt; by Brian Christian and Tom Griffiths:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;One of the implicit principles of computer science, as odd as it may
+sound, is that computation is bad: the underlying directive of any good
+algorithm is to minimize the labor of thought. When we interact with other
+people, we present them with computational problems—not just explicit
+requests and demands, but implicit challenges such as interpreting our
+intentions, our beliefs, and our preferences. It stands to reason, therefore,
+that a computational understanding of such problems casts light on the
+nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Further, the authors go on to advocate for what they call &amp;ldquo;computational kindness&amp;rdquo;. When interacting with people, we should try sharing the computational cost of making decisions. If you prefer a particular restaurant, don&amp;rsquo;t hesitate to indicate your preference. Although you&amp;rsquo;re trying to be polite by saying you&amp;rsquo;re indifferent, the other person might be relieved to hear you&amp;rsquo;re craving a particular kind of food.&lt;/p&gt;
+&lt;h2 id=&#34;ii-antidotes&#34;&gt;II. Antidotes&lt;/h2&gt;
+&lt;h3 id=&#34;noticing&#34;&gt;Noticing&lt;/h3&gt;
+&lt;p&gt;The first step in reducing decision fatigue is to notice it (as with so much else related to mental well being!) This is easier said than done, though. The phrase &amp;ldquo;decision fatigue&amp;rdquo; isn&amp;rsquo;t common parlance, so we may not think in terms of decision fatigue.&lt;/p&gt;
+&lt;p&gt;For example, I recently planned a trip to London, booking flights, finding accommodation, coordinating with others, etc. Because I was excited about the trip, I didn&amp;rsquo;t notice when decision fatigue kicked in. If I&amp;rsquo;d known that it was decision fatigue, I wouldn&amp;rsquo;t have planned the trip in as much detail.&lt;/p&gt;
+&lt;p&gt;Are there any ways of noticing decision fatigue? One can always practise &lt;a href=&#34;https://www.lesswrong.com/posts/GLPaZamxqkx7XJbXv/the-skill-of-noticing-emotions&#34;&gt;the skill of noticing&lt;/a&gt;, although it takes a lot of time. Another strategy would be trying to identify situations involving many choices and recalling how it felt. For instance, typical triggers of decision fatigue might be shopping, planning or coordinating with others. I find analysis paralysis to be a good proxy for decision fatigue.&lt;/p&gt;
+&lt;h3 id=&#34;after-noticing-then-what&#34;&gt;After noticing, then what?&lt;/h3&gt;
+&lt;p&gt;We can cut out a surprising number of choices from our everyday lives by coming up with default actions for various situations. For example, I don&amp;rsquo;t want to only wear black turtlenecks, but I do have a default outfit - a uniform of sorts. In Google Calendar, I also have a calendar describing my ideal week, so I don&amp;rsquo;t have to decide which lectures to attend on a day-to-day basis. Or at the supermarket: pick the cheapest toothpaste.&lt;/p&gt;
+&lt;p&gt;Insignificant non-recurring choices can be batched, so one doesn&amp;rsquo;t go into choosing mode too often. One can even gamify the experience of making choices. For instance, I could have challenged myself to plan the trip within a given time frame. Many people have a fixed time each week for going through practicalities and planning the week ahead. This seems like a good moment to deal with various choices.&lt;/p&gt;
+&lt;p&gt;How about important non-recurring choices? In general, I try talking with people in a good position to give advice. Usually, this would be friends, family or fellow students - people who have full context on me. But it need not be people one knows well. In general, people are friendly! If you reach out to a vague acquaintance knowledgeable about the options you&amp;rsquo;re considering and explain your situation, chances are they&amp;rsquo;ll want to help. Other than that, there are the &amp;ldquo;standard&amp;rdquo; techniques for good decision-making: sleeping on it, doing &lt;a href=&#34;https://isabeldahlgren.github.io/useful-thought-experiments/&#34;&gt;thought experiments&lt;/a&gt;, writing down pros and cons in a table, etc. But it&amp;rsquo;s also quite comforting recognising that some decisions are just really difficult! I don&amp;rsquo;t have any good answer here.&lt;/p&gt;
+&lt;h2 id=&#34;iii&#34;&gt;III.&lt;/h2&gt;
+&lt;p&gt;One of the best things about being an adult is that you get to do whatever you want. Getting to choose is a privilege, after all. It&amp;rsquo;s a privilege we should use.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;I recommend Swedish-speaking readers to listen to Amanda Ginsburg&amp;rsquo;s &lt;a href=&#34;https://open.spotify.com/track/2ESWovaZgVi3BMloGgukKw?si=ca868beba3e24129&#34;&gt;I de många valens land&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>On good conversations</title>
       <link>http://localhost:1313/on-good-conversations/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
@@ -63,7 +114,7 @@
 &lt;p&gt;There&amp;rsquo;s a lot of latitude in how to build a time machine. My journal makes up a big portion of my time machine. But there are also other files in there. One of the benefits of the digital age is that we can store huge amounts of data very easily, so you may as well be experimental.&lt;/p&gt;
 &lt;p&gt;In secondary school, a friend of mine started a trend of creating monthly playlists on Spotify&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I was quick in hopping on the trend, and I&amp;rsquo;m very grateful I did. Today I have a complete record of how my music taste has evolved since August 2015&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. But I&amp;rsquo;m far from the only one doing this kind of thing. For example, Luke Muehlhauser publishes a list of music recommendations on a quarterly basis on his &lt;a href=&#34;https://lukemuehlhauser.com/&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve also kept a reading diary since 2016. It must have started out as a vanity project - having read a boring classic, I assume I wanted to remember that I&amp;rsquo;d finished it. It&amp;rsquo;s amusing seeing how my preferences have changed over time. My reading log is just a long markdown document on my computer&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, but you could also use a platform like StoryGraph or BookShelved. As of a couple of months ago, I&amp;rsquo;ve also been saving blog posts that particularly resonated with me.&lt;/p&gt;
-&lt;p&gt;However, you could go beyond music and reading lists. For instance, Fin Moorehouse keeps track of movies and videos on his &lt;a href=&#34;https://finmoorhouse.com/writing/&#34;&gt;webpage&lt;/a&gt;. Luke Muehlhauser also curates lists with video games. If you&amp;rsquo;re a big podcast listener, take note of which podcasts you particularly enjoyed in a given month.&lt;/p&gt;
+&lt;p&gt;However, you could go beyond music and reading lists. Luke Muehlhauser also curates lists with video games. If you&amp;rsquo;re a big podcast listener, take note of which podcasts you particularly enjoyed in a given month.&lt;/p&gt;
 &lt;p&gt;This is all a lot of work, especially if you consume a lot of content. Be selective, but be consistent. I&amp;rsquo;d count the moments I discovered my favourite authors and musicians among the most decisive in my life. I somehow feel like it&amp;rsquo;s impossible getting to know someone on a deeper level unless you have a rough idea of their media consumption.&lt;/p&gt;
 &lt;p&gt;Other things could go into your time machine too. You can get to know someone else in a surprisingly short amount of time by asking the right questions. In fact, there are various compilations of questions meant to foster closer relationships - the most famous one being the &lt;a href=&#34;https://36questionsinlove.com/&#34;&gt;36 questions to fall in love&lt;/a&gt;. You could grab your favourite questions from that list and answer them in writing every year, say.&lt;/p&gt;
 &lt;p&gt;I have two-three documents of this genre, but I&amp;rsquo;m planning on adding more. As mentioned above, there&amp;rsquo;s the list of things I was wrong about, as well as the list of things bothering me. Following the example of &lt;a href=&#34;https://nabeelqu.co/principles&#34;&gt;Nabeel Qureshi&lt;/a&gt;, I also have a &amp;ldquo;principles&amp;rdquo; document.&lt;/p&gt;
