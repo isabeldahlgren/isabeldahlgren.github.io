@@ -6,25 +6,77 @@
     <description>Recent content in Essay on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
+      <title>Two results from probabilistic number theory</title>
+      <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
+      <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. Here&amp;rsquo;s the abstract:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This report is an exposition of two central limit theorems in probabilistic number theory. We begin by introducing preliminary results from number theory and probability theory. Then we prove the Erdős-Kac theorem for the asymptotic behaviour of the prime divisor counting function. The majority of the report is devoted to Radziwiłł and Soundarajan&amp;rsquo;s recent proof of the Selberg central limit theorem for $\log |\zeta(\frac{1}{2} + it)|$.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;You&amp;rsquo;re most welcome to have a look at the actual &lt;a href=&#34;https://drive.google.com/file/d/1AVEBwfBkdbcflnOQLYACcBXemqSPWzXP/view?usp=sharing&#34;&gt;semester paper&lt;/a&gt;. Here I&amp;rsquo;d like to give a more informal discussion of its contents.&lt;/p&gt;
+&lt;h3 id=&#34;deterministic-number-theory&#34;&gt;&amp;ldquo;Deterministic&amp;rdquo; number theory&lt;/h3&gt;
+&lt;p&gt;A central theme in analytic number theory is deriving estimates for averages over arithmetic functions, e.g. something like $$\sum_{n \le x} f(n) = \text{main term} + \text{error term},$$where $f: \mathbb{N} \to \mathbb{C}$ is some arithmetic function. Many &amp;ldquo;named theorems&amp;rdquo; are estimates of the above form. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If we let $f(n) = x^{-1} 1_P(n)$, where $1_P$ is the indicator of the set of prime numbers, then we get &lt;a href=&#34;https://terrytao.wordpress.com/2013/12/11/mertens-theorems/&#34;&gt;Mertens&amp;rsquo; second theorem&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If instead $f(n) = d(n)$, the function counting the number of divisors of a positive integer $x$, then a &lt;a href=&#34;https://mathworld.wolfram.com/DirichletDivisorProblem.html&#34;&gt;theorem of Dirichlet&lt;/a&gt; asserts that $$\sum_{n \le x} f(n) = x \log x + (2 \gamma - 1)x + O(\sqrt{x}).$$&lt;/li&gt;
+&lt;li&gt;Actually, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Prime_number_theorem#Proof_sketch&#34;&gt;Prime number theorem&lt;/a&gt; is equivalent to an estimate as above! Just take $f$ to be the von Mangoldt function $\Lambda$, defined by $$\Lambda(n) := \begin{cases}\log p, &amp;amp; n = p^k \ \text{for some prime } p, \\ 0, &amp;amp; \text{otherwise}.\end{cases}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;probabilistic-number-theory&#34;&gt;Probabilistic number theory&lt;/h3&gt;
+&lt;p&gt;In my semester paper, I focused on two central limit theorems from probabilistic number theory: the Erdős–Kac and Selberg central limit theorems. Here, the approach is slightly different.&lt;/p&gt;
+&lt;h4 id=&#34;sums-and-integrals-as-expectations&#34;&gt;Sums and integrals as expectations&lt;/h4&gt;
+&lt;p&gt;First, we let $f: \Omega \to \mathbb{C}$ be an arithmetically defined quantity more generally; typically $\Omega = \mathbb{N}$ or $\mathbb{R}$. So we could take $f$ to be an arithmetic function, but now we also allow for functions of arithmetic functions. For example, if we take $g: \mathbb{N} \to \mathbb{C}$ to be an arithmetic function and post-compose with $x \mapsto x^2 / \sqrt{\log \log x}$, then we could have $f: \mathbb{N} \to \mathbb{C}$ be a weird-looking expression defined by $$f(n) := \frac{g(n)^2}{\sqrt{\log \log n}}.$$&lt;/p&gt;
+&lt;p&gt;To illustrate the connection with probability theory, fix a positive integer $x$ and let $U_x$ be a random variable uniformly distributed on $\{1, &amp;hellip;, x\}$. Then estimating $\sum_{n \le x} f(n)$ amounts to computing the expectation of the random variable $f(U_x)$. That is, we obtain something of the form $$\frac{1}{x} \sum_{n \le x} f(n) = \mathbb{E}(f(U_x)) + \text{error term}.$$&lt;/p&gt;
+&lt;p&gt;The analogy carries over to the continuous case too. Now let $x$ be an arbitrary positive real number and take $U_x$ to be a random variable uniformly distributed over $[0, x]$. Then the problem of estimating the integral $$\frac{1}{x} \int_0^x f(y) \ dy$$ comes down to estimating $\mathbb{E}(f(U_x))$.&lt;/p&gt;
+&lt;h4 id=&#34;natural-questions&#34;&gt;Natural questions&lt;/h4&gt;
+&lt;p&gt;This naturally prompts the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Could we also estimate the variance of $f(U_x)$?&lt;/li&gt;
+&lt;li&gt;Could we even say something about the asymptotic distribution of $f(U_x)$ as $x \to \infty$?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, more precisely, ideally we can prove something like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let $U_x: \Omega \to \Omega_x$ denote a random variable uniformly distributed on $\Omega_x := \{1, &amp;hellip;, x\}$ (or $[0, x]$). Then as $x \to \infty$, we have $$f(U_x) \xrightharpoonup{} Y,$$ where $Y$ is a random variable with some relatively simple distribution.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;A remarkable fact is that some rather convoluted expressions involving arithmetic functions will, as $x \to \infty$, converge in law to a standard normal random variable.&lt;/p&gt;
+&lt;h4 id=&#34;general-proof-strategy&#34;&gt;General proof strategy&lt;/h4&gt;
+&lt;p&gt;Proving results of this form involves machinery from both number theory and probability. We typically use number theory to massage the expression $f(U_x)$, so it can be approximated by some simpler non-arithmetic random variable, such as a sum of Bernoulli random variables. This done, we can use limit theorems from probability to finish off the proof.&lt;/p&gt;
+&lt;h3 id=&#34;the-erdős-kac-theorem&#34;&gt;The Erdős-Kac theorem&lt;/h3&gt;
+&lt;p&gt;This serves as a good &amp;ldquo;toy example&amp;rdquo; for the proof strategy outlined above. Also, it&amp;rsquo;s not too difficult deriving a heuristic proof; for details, see page 14. Now for the theorem:&lt;/p&gt;
+&lt;p&gt;Let $\omega$ denote the function indicating the number of distinct prime divisors of a positive integer. For example, $\omega(6) = 2$ since $6 = 2 \cdot 3$, while $\omega(9) = 1$, since $9 = 3^2$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Erdős-Kac, 1940). Let $U_n$ be a random variable uniformly distributed on ${1, &amp;hellip;, n}$ and define $$W_n := \frac{\omega(U_n) - \log \log n}{\sqrt{\log \log n}}.$$ Then $$W_n \xrightharpoonup \mathcal{N}(0, 1)$$ as $n \to \infty$.&lt;/p&gt;
+&lt;h3 id=&#34;selbergs-central-limit-theorem-for-log-zeta12--it&#34;&gt;Selberg&amp;rsquo;s central limit theorem for $\log |\zeta(1/2 + it)|$&lt;/h3&gt;
+&lt;p&gt;Let $\zeta$ denote the Riemann zeta function, defined by $$\zeta(n) := \sum_{n \ge 1} \frac{1}{n^s}.$$&lt;/p&gt;
+&lt;p&gt;The Riemann hypothesis, perhaps the most famous open problem in mathematics, says that the only zeros of the zeta function are of the form $s = -2k$ for positive integers $k$ or lie on the critical strip ${1/2 + it : t \in \mathbb{R}}$.&lt;/p&gt;
+&lt;p&gt;Now fix a positive number $T &amp;gt; 0$, and consider the random variable $$L_T := \log |\zeta(1/2 + iU_t)|,$$ where $U_t$ is a random variable uniformly distributed over the interval $[-T, T]$. Considering just how hard the Riemann hypothesis is, it&amp;rsquo;s pretty surprising that the behaviour of $L_T$ is pretty well-understood. The following theorem says that a rescaled version of $L_T$ converges to a standard normal random variable as $T \to \infty$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Selberg, 1946). Let $L_T$ be the random variable defined as above, and set $$L&amp;rsquo;_T := \frac{L_T}{\sqrt{\frac{1}{2} \log \log T}}.$$Then the sequence of random variables $(L&amp;rsquo;&lt;em&gt;T)&lt;/em&gt;{T \ge 1}$ converges in distribution to a standard normal random variable as $T \to \infty$.&lt;/p&gt;
+&lt;p&gt;In my semester paper, I cover the 2016 proof due to Radziwill and Soundarajan. Just as in the Erdős-Kac theorem, one can get an intuitive sense of why this result is plausible.&lt;/p&gt;
+&lt;h3 id=&#34;final-words&#34;&gt;Final words&lt;/h3&gt;
+&lt;p&gt;For details, I encourage you to have a look at the actual paper. I went to great lengths to present the proofs in a top-down way, starting with the main idea before entering into details. I hope you enjoy reading it as much as I enjoyed writing it!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>On decision fatigue</title>
       <link>http://localhost:1313/on-decision-fatigue/</link>
-      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-decision-fatigue/</guid>
-      <description>&lt;p&gt;Life involves plenty of hard decisions. Should I switch jobs? Should I marry him? Should I move abroad? Then there are the &amp;ldquo;easy&amp;rdquo; decisions: which pyjama to wear or which brand of laundry detergent to buy. Although it doesn&amp;rsquo;t matter which option you choose here, choosing is hard. In fact, if you think of buying laundry detergent as an optimisation problem, taking into account things like social impact, price and quality, I&amp;rsquo;d expect the optimisation problem to be NP-hard. Here&amp;rsquo;s &lt;a href=&#34;https://thezvi.wordpress.com/2017/07/22/choices-are-bad/&#34;&gt;Zvi&lt;/a&gt;:&lt;/p&gt;
+      <description>&lt;p&gt;Life involves plenty of hard decisions. Should I switch jobs? Should I marry him? Should I move abroad? Then there are the &amp;ldquo;easy&amp;rdquo; decisions: which pyjama to wear or which brand of laundry detergent to buy. Although it doesn&amp;rsquo;t matter which option you choose here, choosing is hard. In fact, if you think of buying laundry detergent as an optimisation problem, taking into account things like social impact, price and quality, I&amp;rsquo;d expect the optimisation problem to be NP-hard! Here&amp;rsquo;s &lt;a href=&#34;https://thezvi.wordpress.com/2017/07/22/choices-are-bad/&#34;&gt;Zvi&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;When you have a choice, you must stop what you’re doing, and choose.
 [&amp;hellip;]
-Making a random slash arbitrary choice might not be hard (although sometimes it is) but first you have to choose to choose at random. &lt;a href=&#34;https://www.youtube.com/watch?v=OnxkfLe4G74&#34;&gt;If you choose not to decide, you still have made a choice&lt;/a&gt;. There’s no escape! You certainly don’t want to be making  &lt;a href=&#34;http://pickatrandom.com/&#34;&gt;&lt;em&gt;that&lt;/em&gt; choice&lt;/a&gt; at &lt;a href=&#34;https://www.random.org/clock-times/&#34;&gt;random times&lt;/a&gt;!&lt;/p&gt;&lt;/blockquote&gt;
+Making a random slash arbitrary choice might not be hard (although sometimes it is) but first you have to choose to choose at random. If you choose not to decide, you still have made a choice. There’s no escape!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;This leads to one of the big curses of adulthood - decision fatigue.&lt;/p&gt;
-&lt;h3 id=&#34;i-understanding-the-problem&#34;&gt;I. Understanding the problem&lt;/h3&gt;
+&lt;h2 id=&#34;i-understanding-the-problem&#34;&gt;I. Understanding the problem&lt;/h2&gt;
 &lt;p&gt;Most of us are aware that choosing is draining. Steve Jobs wore black turtlenecks to reduce the number of decisions in a given day. &lt;em&gt;Should I Stay or Should I Go&lt;/em&gt; is basically a three-minute rant about how terrible it is making decisions&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The reason going to IKEA can be so tiring is that it involves making many small choices. Getting to choose among many options is only fun up to a certain point.&lt;/p&gt;
 &lt;p&gt;According to &lt;a href=&#34;https://en.wikipedia.org/wiki/Decision_fatigue&#34;&gt;Wikipedia&lt;/a&gt;, decision fatigue is &amp;ldquo;the deteriorating quality of decisions made by an individual after a long session of decision making&amp;rdquo;. Decision fatigue arises from a broader phenomenon called ego depletion. Intuitively, this is the idea that willpower works like a battery. If we exert a lot of mental effort at one task, then we cannot exert as much mental effort at subsequent tasks without recharging. Making decisions drains our willpower battery.&lt;/p&gt;
 &lt;p&gt;The phenomena of decision fatigue and ego depletion have been demonstrated in a number of amusing &lt;a href=&#34;https://www.nytimes.com/2011/08/21/magazine/do-you-suffer-from-decision-fatigue.html&#34;&gt;studies&lt;/a&gt;. A striking example is the study on Israeli judges, demonstrating the so-called &lt;a href=&#34;https://en.wikipedia.org/wiki/Hungry_judge_effect&#34;&gt;hungry judge effect&lt;/a&gt;.&lt;/p&gt;
@@ -40,21 +92,18 @@ that a computational understanding of such problems casts light on the
 nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Further, the authors go on to advocate for what they call &amp;ldquo;computational kindness&amp;rdquo;. When interacting with people, we should try sharing the computational cost of making decisions. If you prefer a particular restaurant, don&amp;rsquo;t hesitate to indicate your preference. Although you&amp;rsquo;re trying to be polite by saying you&amp;rsquo;re indifferent, the other person might be relieved to hear you&amp;rsquo;re craving a particular kind of food.&lt;/p&gt;
 &lt;h2 id=&#34;ii-antidotes&#34;&gt;II. Antidotes&lt;/h2&gt;
-&lt;h3 id=&#34;noticing&#34;&gt;Noticing&lt;/h3&gt;
-&lt;p&gt;The first step in reducing decision fatigue is to notice it (as with so much else related to mental well being!) This is easier said than done, though. The phrase &amp;ldquo;decision fatigue&amp;rdquo; isn&amp;rsquo;t common parlance, so we may not think in terms of decision fatigue.&lt;/p&gt;
+&lt;p&gt;The first step in dealing with decision fatigue is to notice it (as with so much else related to mental well being, I guess). Then one is in a better position to either make a quick, haphazard decision or recharging one&amp;rsquo;s willpower battery, so one can make a better decision later. This is easier said than done, though.&lt;/p&gt;
 &lt;p&gt;For example, I recently planned a trip to London, booking flights, finding accommodation, coordinating with others, etc. Because I was excited about the trip, I didn&amp;rsquo;t notice when decision fatigue kicked in. If I&amp;rsquo;d known that it was decision fatigue, I wouldn&amp;rsquo;t have planned the trip in as much detail.&lt;/p&gt;
-&lt;p&gt;Are there any ways of noticing decision fatigue? One can always practise &lt;a href=&#34;https://www.lesswrong.com/posts/GLPaZamxqkx7XJbXv/the-skill-of-noticing-emotions&#34;&gt;the skill of noticing&lt;/a&gt;, although it takes a lot of time. Another strategy would be trying to identify situations involving many choices and recalling how it felt. For instance, typical triggers of decision fatigue might be shopping, planning or coordinating with others. I find analysis paralysis to be a good proxy for decision fatigue.&lt;/p&gt;
-&lt;h3 id=&#34;after-noticing-then-what&#34;&gt;After noticing, then what?&lt;/h3&gt;
-&lt;p&gt;We can cut out a surprising number of choices from our everyday lives by coming up with default actions for various situations. For example, I don&amp;rsquo;t want to only wear black turtlenecks, but I do have a default outfit - a uniform of sorts. In Google Calendar, I also have a calendar describing my ideal week, so I don&amp;rsquo;t have to decide which lectures to attend on a day-to-day basis. Or at the supermarket: pick the cheapest toothpaste.&lt;/p&gt;
-&lt;p&gt;Insignificant non-recurring choices can be batched, so one doesn&amp;rsquo;t go into choosing mode too often. One can even gamify the experience of making choices. For instance, I could have challenged myself to plan the trip within a given time frame. Many people have a fixed time each week for going through practicalities and planning the week ahead. This seems like a good moment to deal with various choices.&lt;/p&gt;
-&lt;p&gt;How about important non-recurring choices? In general, I try talking with people in a good position to give advice. Usually, this would be friends, family or fellow students - people who have full context on me. But it need not be people one knows well. In general, people are friendly! If you reach out to a vague acquaintance knowledgeable about the options you&amp;rsquo;re considering and explain your situation, chances are they&amp;rsquo;ll want to help. Other than that, there are the &amp;ldquo;standard&amp;rdquo; techniques for good decision-making: sleeping on it, doing &lt;a href=&#34;https://isabeldahlgren.github.io/useful-thought-experiments/&#34;&gt;thought experiments&lt;/a&gt;, writing down pros and cons in a table, etc. But it&amp;rsquo;s also quite comforting recognising that some decisions are just really difficult! I don&amp;rsquo;t have any good answer here.&lt;/p&gt;
+&lt;p&gt;In practise, noticing decision fatigue is hard. One can always practise &lt;a href=&#34;https://www.lesswrong.com/posts/GLPaZamxqkx7XJbXv/the-skill-of-noticing-emotions&#34;&gt;the skill of noticing&lt;/a&gt;, although it takes a lot of time. Another strategy would be trying to identify situations involving many choices and recalling how it felt. For instance, typical triggers of decision fatigue might be shopping, planning or coordinating with others. Analysis paralysis or a feeling of frustration might be good proxies for decision fatigue.&lt;/p&gt;
+&lt;p&gt;But one can also take preventative measures. We can cut out a surprising number of choices from our everyday lives by coming up with default actions for various situations. For example, I don&amp;rsquo;t want to only wear black turtlenecks, but I do have a default outfit - a uniform of sorts. In Google Calendar, I also have a calendar describing my ideal week, so I don&amp;rsquo;t have to decide which lectures to attend on a day-to-day basis. Or at the supermarket: pick the cheapest toothpaste.&lt;/p&gt;
+&lt;p&gt;Insignificant non-recurring choices can be batched, so one doesn&amp;rsquo;t go into choosing mode too often. One can even gamify the experience of making choices. For instance, I could have challenged myself to plan the trip within a given time frame.&lt;/p&gt;
 &lt;h2 id=&#34;iii&#34;&gt;III.&lt;/h2&gt;
 &lt;p&gt;One of the best things about being an adult is that you get to do whatever you want. Getting to choose is a privilege, after all. It&amp;rsquo;s a privilege we should use.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;I recommend Swedish-speaking readers to listen to Amanda Ginsburg&amp;rsquo;s &lt;a href=&#34;https://open.spotify.com/track/2ESWovaZgVi3BMloGgukKw?si=ca868beba3e24129&#34;&gt;I de många valens land&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you speak Swedish, I recommend listening to Amanda Ginsburg&amp;rsquo;s &lt;a href=&#34;https://open.spotify.com/track/2ESWovaZgVi3BMloGgukKw?si=ca868beba3e24129&#34;&gt;I de många valens land&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
