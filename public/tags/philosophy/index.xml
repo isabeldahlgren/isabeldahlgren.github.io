@@ -38,7 +38,7 @@
 &lt;p&gt;For future papers, I&amp;rsquo;m considering trying the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Including dependency graphs: although a bit unconventional, these can be tremendously helpful for long and convoluted proofs. See e.g. my piece on &lt;a href=&#34;https://isabeldahlgren.github.io/hunting-dependencies/&#34;&gt;dependencies&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Commenting on dead ends: a few words about why the naïve approach fails can be very illuminating. This can help motivate the use of some very complicated tool and potentially save the reader a lot of time. While remarks on failed proof attempts can sometimes be found in the &amp;ldquo;Discussion&amp;rdquo; section of a paper, I think like they aren&amp;rsquo;t given as much attention as they deserve (&lt;a href=&#34;https://en.wikipedia.org/wiki/Publication_bias&#34;&gt;publication bias&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Commenting on dead ends: a few words about why the naïve approach fails can be very illuminating. This can help motivate the use of some very complicated tool and potentially save the reader a lot of time. While remarks on failed proof attempts can sometimes be found in the &amp;ldquo;Discussion&amp;rdquo; section of a paper, I think like they aren&amp;rsquo;t given as much attention as they deserve (an unfortunate instance of &lt;a href=&#34;https://en.wikipedia.org/wiki/Publication_bias&#34;&gt;publication bias&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Reducing cognitive load, even more: if I&amp;rsquo;d kept this in mind during the entire writing process, I think I&amp;rsquo;d done a few things differently. For further ideas on how to reduce cognitive load, I highly recommend the previously mentioned &lt;a href=&#34;https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf&#34;&gt;piece&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;lessons&#34;&gt;Lessons&lt;/h3&gt;
@@ -51,7 +51,6 @@
 &lt;li&gt;Knowing how to ask for help: at first, I&amp;rsquo;d ask questions during meetings. But I soon began emailing a list of questions to my supervisor a few days before our check-ins. That way, I think we both got more out of the meetings.&lt;/li&gt;
 &lt;li&gt;Typesetting takes time: it seems to be a law of nature that TeX:ing always takes longer than expected. This happened as I was writing my bachelor thesis too. Despite having a pretty sophisticated NeoVim LaTeX setup with snippets, typesetting took twice as long as I expected. For future papers, I&amp;rsquo;ll probably go with &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Overall, writing a semester paper was one of the highlights of this semester.&lt;/p&gt;
 </description>
     </item>
     
@@ -425,48 +424,6 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;Tetlock, Philip E., and Dan Gardner. &lt;em&gt;Superforecasting: The Art and Science of Prediction.&lt;/em&gt; Crown Publishers, 2015.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>How AI might go wrong</title>
-      <link>http://localhost:1313/how-ai-might-go-wrong/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/how-ai-might-go-wrong/</guid>
-      <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
-&lt;p&gt;The other week, I had an insightful discussion with people in &lt;a href=&#34;https://www.zurich-ai-alignment.com&#34;&gt;Zürich AI Alignment (ZAIA)&lt;/a&gt; about the risks from AI. Afterwards, I began writing down my thoughts, and they somehow ballooned into this think piece. Here are what I currently consider to be the most relevant risks:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Powerful technology in bad hands&lt;/strong&gt;: First, there are the risks which all fall under the label &amp;ldquo;bad guys using powerful technology to further their own interests&amp;rdquo;. For example, AI can be used for mass surveillance technology, cyber warfare or in autonomous lethal weapons. I&amp;rsquo;d guess most people are uncomfortable with China having nukes. Similarly, China developing cutting-edge AI is a cause for concern.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Concentration of power&lt;/strong&gt;: AI is a transformative technology - a message that shouldn&amp;rsquo;t have escaped anyone, given the current AI hype. In the years to come, it&amp;rsquo;s likely to have a profound impact on things like our economy and healthcare system&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. So the main players, like OpenAI, DeepMind and Anthropic, will be able to shape the trajectory of our society in many ways. And this is kind of problematic. While the engineers at these companies tend to be lovely people, they aren&amp;rsquo;t democratically elected.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Misaligned AI models&lt;/strong&gt;: But we could also end up building AI models doing more harm than good, i.e. AI models whose incentives aren&amp;rsquo;t aligned with our values. Our understanding of the inner workings of certain AI models is very limited. While aerospace engineers know exactly what goes on inside, say, a combustion engine, the exact details of how neural networks learn remain fuzzy. If the aerospace engineers only have a vague idea of how the cooling system works, how confident can they be that the combustion engine will work as intended? In the process of developing more capable AI, we&amp;rsquo;ll probably engineer some AI models that are thrash; useless, at best, harmful at worst. We&amp;rsquo;ve already seen plenty of examples of this. For example, as pointed out during the ZAIA discussion, it&amp;rsquo;s still quite easy jailbreaking LLMs like ChatGPT&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Moreover, there are striking examples of algorithms encoding our own biases&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Power-seeking AI&lt;/strong&gt;: Some people push this argument further, arguing that we might see very, very misaligned AI models - AI models posing an existential threat to humanity. I&amp;rsquo;ll briefly outline what I understand to be the core argument. The first premise is that AIs might end up with power-seeking behaviour. If power is instrumental in achieving one of the AI&amp;rsquo;s goals, the AI might learn to optimise for power. At the same time, we&amp;rsquo;re likely to develop more agentic AI, that is, AI capable of pursuing independent goals and with more advanced planning capabilities&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Now the punchline is that such an AI might view humans as obstructions to pursuing its goals. Humans can modify the learning algorithm, or try switching off the AI - things which would prevent the AI from minimising the loss function. Stuart Russell put it neatly: &amp;ldquo;You can&amp;rsquo;t fetch the coffee if you&amp;rsquo;re dead&amp;rdquo;. So, the argument goes, the AI might try to disempower humanity.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The argument about power-seeking AI is quite subtle, so I&amp;rsquo;ll elaborate a bit. I think the keyword here is &amp;ldquo;agency&amp;rdquo;. History is full of examples of goal-oriented men with strong persuasion skills who made a great deal of harm, without necessarily wanting to exterminate all of humanity. These people knew how to pursue their goals and were good at strategic thinking. These people were doers, or, if you will, very &amp;ldquo;agentic&amp;rdquo;. Endowed with AI-like capabilities, these men would probably have caused much greater damage.&lt;/p&gt;
-&lt;p&gt;Of course, there&amp;rsquo;s much more to be said about each topic. But broadly speaking, I think most risks fall into either one of the above categories. Finally, if this essay seems a bit doom-laden, remember that there are plenty of things we can do to eliminate or mitigate some of these risks&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. If we take adequate measures, I believe we can make AI &amp;ldquo;go well&amp;rdquo; with very high probability - something like 90%. Just take a moment to imagine what that would be like.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Thanks to Isaia Gisler for feedback on an earlier version of this text.&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.weforum.org/stories/2025/03/ai-transforming-global-health/&#34;&gt;6 ways AI is transforming healthcare | World Economic Forum&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zn2ukSnDqSg&#34;&gt;ChatGPT Jailbreak - Computerphile - YouTube&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/think/topics/shedding-light-on-ai-bias-with-real-world-examples&#34;&gt;AI Bias Examples | IBM&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai&#34;&gt;Agentic AI vs. Generative AI | IBM&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:5&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/9dNxz2kjNvPtiZjxj/risks-from-ai-overview-summary&#34;&gt;Risks from AI Overview | LessWrong&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
