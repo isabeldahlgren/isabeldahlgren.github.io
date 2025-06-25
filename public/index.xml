@@ -6,9 +6,54 @@
     <description>Recent content in Home on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>A semester paper retrospective</title>
+      <link>http://localhost:1313/a-semester-paper-retrospective/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/a-semester-paper-retrospective/</guid>
+      <description>&lt;p&gt;This is a follow-up on my &lt;a href=&#34;https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/&#34;&gt;previous article&lt;/a&gt;, where I share some thoughts on the process of writing a semester paper.&lt;/p&gt;
+&lt;p&gt;Lots of disclaimers: this is all very specific to my experience: the topic of my paper, my supervisor, my workload in others courses, etc. Also, I&amp;rsquo;m certainly in no position to give advice on mathematical writing; these are just reflections on what worked and what didn&amp;rsquo;t work for me.&lt;/p&gt;
+&lt;h3 id=&#34;on-writing-papers&#34;&gt;On writing papers&lt;/h3&gt;
+&lt;p&gt;Here are some principles for writing mathematical papers that I tried to follow, mostly based on feedback from my supervisors. I received plenty of useful feedback, but here are the points I found the most useful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Top-down exposition: concretely, this meant explaining how all lemmas would come together before proving each lemma. This minimises the amount of task-switching for the reader. In addition, this helps motivate the lemmas and allows the reader to decide which parts to skip.&lt;/li&gt;
+&lt;li&gt;Short proofs: as a rule of thumb, I tried breaking up proofs in such a way that proofs of subresults would fit on one page. To my surprise, in most cases, this was doable.&lt;/li&gt;
+&lt;li&gt;Reducing cognitive load: a piece of feedback I received from Vivian was to try reducing the cognitive load of the reader; it&amp;rsquo;s also a major theme &lt;a href=&#34;https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf&#34;&gt;here&lt;/a&gt;. This idea really resonated with me. Concretely, this meant doing things like:
+&lt;ul&gt;
+&lt;li&gt;Restating parameters: for example, one might go &amp;ldquo;Recalling that $X = \text{definition of }X$, we obtain&amp;hellip;&amp;rdquo; rather than &amp;ldquo;By our choice of $X$, &amp;hellip;.&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Creating indices of notation and parameters: very relevant if your proof is notation-heavy.&lt;/li&gt;
+&lt;li&gt;More descriptive text: rather than writing &amp;ldquo;we have&amp;rdquo; or &amp;ldquo;thus&amp;rdquo; before a computation, I tried describing which device I was using. Mentioning that you&amp;rsquo;re using, say, a union bound doesn&amp;rsquo;t take up much additional space on the page, and it makes for a better reading experience. (Also, if you&amp;rsquo;re doing analytic number theory, you need more alternatives to &amp;ldquo;we have&amp;rdquo;!)&lt;/li&gt;
+&lt;li&gt;Indicating what won&amp;rsquo;t be proved: in order to keep the report at a reasonable length, I had to omit the proofs of some preliminary results and avoid repeating similar arguments. I tried making this clear to the reader, so I wouldn&amp;rsquo;t leave them hanging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What I would have found useful: initially, I didn&amp;rsquo;t know how many details to include. If I&amp;rsquo;d try explaining all details I&amp;rsquo;d struggled with when reading the proof, the text would be too verbose! Vivian had some good advice here: aim for the level of detail you&amp;rsquo;d liked when reading it for the first time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For future papers, I&amp;rsquo;m considering trying the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Including dependency graphs: although a bit unconventional, these can be tremendously helpful for long and convoluted proofs. See e.g. my piece on &lt;a href=&#34;https://isabeldahlgren.github.io/hunting-dependencies/&#34;&gt;dependencies&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Commenting on dead ends: a few words about why the naïve approach fails can be very illuminating. This can help motivate the use of some very complicated tool and potentially save the reader a lot of time. While remarks on failed proof attempts can sometimes be found in the &amp;ldquo;Discussion&amp;rdquo; section of a paper, I think like they aren&amp;rsquo;t given as much attention as they deserve (&lt;a href=&#34;https://en.wikipedia.org/wiki/Publication_bias&#34;&gt;publication bias&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Reducing cognitive load, even more: if I&amp;rsquo;d kept this in mind during the entire writing process, I think I&amp;rsquo;d done a few things differently. For further ideas on how to reduce cognitive load, I highly recommend the previously mentioned &lt;a href=&#34;https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf&#34;&gt;piece&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lessons&#34;&gt;Lessons&lt;/h3&gt;
+&lt;p&gt;If I were to write a thesis or paper again, I would have done a lot differently. Here are the main changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do it in one go: it would have been much more enjoyable and efficient doing most of the semester paper within a much shorter period of time. If you&amp;rsquo;re trying to understand an involved argument, you need all the relevant notions floating around in your brain at the same time. Don&amp;rsquo;t read one lemma per week.&lt;/li&gt;
+&lt;li&gt;Request additional feedback: if your supervisor is kind to offer additional feedback, that&amp;rsquo;s extremely valuable.&lt;/li&gt;
+&lt;li&gt;As soon as you get it, typeset: you&amp;rsquo;ll have to do it anyway, and you might as well do it when you understand it. This also helps corroborate your understanding.&lt;/li&gt;
+&lt;li&gt;Know when to ask for help: I wasn&amp;rsquo;t sure how long it was reasonable for me to be stuck on a particular passage before asking for help, and I know supervisors have different preferences here. Trivial fix: ask your supervisor &amp;ldquo;For how long should I be stuck before asking for help?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Knowing how to ask for help: at first, I&amp;rsquo;d ask questions during meetings. But I soon began emailing a list of questions to my supervisor a few days before our check-ins. That way, I think we both got more out of the meetings.&lt;/li&gt;
+&lt;li&gt;Typesetting takes time: it seems to be a law of nature that TeX:ing always takes longer than expected. This happened as I was writing my bachelor thesis too. Despite having a pretty sophisticated NeoVim LaTeX setup with snippets, typesetting took twice as long as I expected. For future papers, I&amp;rsquo;ll probably go with &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, writing a semester paper was one of the highlights of this semester.&lt;/p&gt;
+</description>
+    </item>
     
     
     
@@ -18,7 +63,7 @@
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
-      <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. Here&amp;rsquo;s the abstract:&lt;/p&gt;
+      <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This report is an exposition of two central limit theorems in probabilistic number theory. We begin by introducing preliminary results from number theory and probability theory. Then we prove the Erdős-Kac theorem for the asymptotic behaviour of the prime divisor counting function. The majority of the report is devoted to Radziwiłł and Soundarajan&amp;rsquo;s recent proof of the Selberg central limit theorem for $\log |\zeta(\frac{1}{2} + it)|$.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;You&amp;rsquo;re most welcome to have a look at the actual &lt;a href=&#34;https://drive.google.com/file/d/1AVEBwfBkdbcflnOQLYACcBXemqSPWzXP/view?usp=sharing&#34;&gt;semester paper&lt;/a&gt;. Here I&amp;rsquo;d like to give a more informal discussion of its contents.&lt;/p&gt;
@@ -57,7 +102,7 @@
 &lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Selberg, 1946). Let $L_T$ be the random variable defined as above, and set $$M_T := \frac{L_T}{\sqrt{\frac{1}{2} \log \log T}}.$$ Then the sequence $(M_T)_{T \ge 0}$ of random variables converges in distribution to a standard normal random variable as $T \to \infty$.&lt;/p&gt;
 &lt;p&gt;In my semester paper, I cover the 2016 proof due to Radziwiłł and Soundarajan. Just as in the Erdős-Kac theorem, one can get an intuitive sense of why this result is plausible.&lt;/p&gt;
 &lt;h3 id=&#34;final-words&#34;&gt;Final words&lt;/h3&gt;
-&lt;p&gt;For details, I encourage you to have a look at the actual paper. I went to great lengths to present the proofs in a top-down way, starting with the main idea before entering into details. I hope you enjoy reading it as much as I enjoyed writing it!&lt;/p&gt;
+&lt;p&gt;For details, I encourage you to have a look at the actual paper. I hope you enjoy reading it as much as I enjoyed writing it.&lt;/p&gt;
 </description>
     </item>
     

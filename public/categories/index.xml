@@ -12,12 +12,57 @@
     
     
     <item>
+      <title>A semester paper retrospective</title>
+      <link>http://localhost:1313/a-semester-paper-retrospective/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/a-semester-paper-retrospective/</guid>
+      <description>&lt;p&gt;This is a follow-up on my &lt;a href=&#34;https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/&#34;&gt;previous article&lt;/a&gt;, where I share some thoughts on the process of writing a semester paper.&lt;/p&gt;
+&lt;p&gt;Lots of disclaimers: this is all very specific to my experience: the topic of my paper, my supervisor, my workload in others courses, etc. Also, I&amp;rsquo;m certainly in no position to give advice on mathematical writing; these are just reflections on what worked and what didn&amp;rsquo;t work for me.&lt;/p&gt;
+&lt;h3 id=&#34;on-writing-papers&#34;&gt;On writing papers&lt;/h3&gt;
+&lt;p&gt;Here are some principles for writing mathematical papers that I tried to follow, mostly based on feedback from my supervisors. I received plenty of useful feedback, but here are the points I found the most useful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Top-down exposition: concretely, this meant explaining how all lemmas would come together before proving each lemma. This minimises the amount of task-switching for the reader. In addition, this helps motivate the lemmas and allows the reader to decide which parts to skip.&lt;/li&gt;
+&lt;li&gt;Short proofs: as a rule of thumb, I tried breaking up proofs in such a way that proofs of subresults would fit on one page. To my surprise, in most cases, this was doable.&lt;/li&gt;
+&lt;li&gt;Reducing cognitive load: a piece of feedback I received from Vivian was to try reducing the cognitive load of the reader; it&amp;rsquo;s also a major theme &lt;a href=&#34;https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf&#34;&gt;here&lt;/a&gt;. This idea really resonated with me. Concretely, this meant doing things like:
+&lt;ul&gt;
+&lt;li&gt;Restating parameters: for example, one might go &amp;ldquo;Recalling that $X = \text{definition of }X$, we obtain&amp;hellip;&amp;rdquo; rather than &amp;ldquo;By our choice of $X$, &amp;hellip;.&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Creating indices of notation and parameters: very relevant if your proof is notation-heavy.&lt;/li&gt;
+&lt;li&gt;More descriptive text: rather than writing &amp;ldquo;we have&amp;rdquo; or &amp;ldquo;thus&amp;rdquo; before a computation, I tried describing which device I was using. Mentioning that you&amp;rsquo;re using, say, a union bound doesn&amp;rsquo;t take up much additional space on the page, and it makes for a better reading experience. (Also, if you&amp;rsquo;re doing analytic number theory, you need more alternatives to &amp;ldquo;we have&amp;rdquo;!)&lt;/li&gt;
+&lt;li&gt;Indicating what won&amp;rsquo;t be proved: in order to keep the report at a reasonable length, I had to omit the proofs of some preliminary results and avoid repeating similar arguments. I tried making this clear to the reader, so I wouldn&amp;rsquo;t leave them hanging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What I would have found useful: initially, I didn&amp;rsquo;t know how many details to include. If I&amp;rsquo;d try explaining all details I&amp;rsquo;d struggled with when reading the proof, the text would be too verbose! Vivian had some good advice here: aim for the level of detail you&amp;rsquo;d liked when reading it for the first time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For future papers, I&amp;rsquo;m considering trying the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Including dependency graphs: although a bit unconventional, these can be tremendously helpful for long and convoluted proofs. See e.g. my piece on &lt;a href=&#34;https://isabeldahlgren.github.io/hunting-dependencies/&#34;&gt;dependencies&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Commenting on dead ends: a few words about why the naïve approach fails can be very illuminating. This can help motivate the use of some very complicated tool and potentially save the reader a lot of time. While remarks on failed proof attempts can sometimes be found in the &amp;ldquo;Discussion&amp;rdquo; section of a paper, I think like they aren&amp;rsquo;t given as much attention as they deserve (&lt;a href=&#34;https://en.wikipedia.org/wiki/Publication_bias&#34;&gt;publication bias&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Reducing cognitive load, even more: if I&amp;rsquo;d kept this in mind during the entire writing process, I think I&amp;rsquo;d done a few things differently. For further ideas on how to reduce cognitive load, I highly recommend the previously mentioned &lt;a href=&#34;https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf&#34;&gt;piece&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lessons&#34;&gt;Lessons&lt;/h3&gt;
+&lt;p&gt;If I were to write a thesis or paper again, I would have done a lot differently. Here are the main changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do it in one go: it would have been much more enjoyable and efficient doing most of the semester paper within a much shorter period of time. If you&amp;rsquo;re trying to understand an involved argument, you need all the relevant notions floating around in your brain at the same time. Don&amp;rsquo;t read one lemma per week.&lt;/li&gt;
+&lt;li&gt;Request additional feedback: if your supervisor is kind to offer additional feedback, that&amp;rsquo;s extremely valuable.&lt;/li&gt;
+&lt;li&gt;As soon as you get it, typeset: you&amp;rsquo;ll have to do it anyway, and you might as well do it when you understand it. This also helps corroborate your understanding.&lt;/li&gt;
+&lt;li&gt;Know when to ask for help: I wasn&amp;rsquo;t sure how long it was reasonable for me to be stuck on a particular passage before asking for help, and I know supervisors have different preferences here. Trivial fix: ask your supervisor &amp;ldquo;For how long should I be stuck before asking for help?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Knowing how to ask for help: at first, I&amp;rsquo;d ask questions during meetings. But I soon began emailing a list of questions to my supervisor a few days before our check-ins. That way, I think we both got more out of the meetings.&lt;/li&gt;
+&lt;li&gt;Typesetting takes time: it seems to be a law of nature that TeX:ing always takes longer than expected. This happened as I was writing my bachelor thesis too. Despite having a pretty sophisticated NeoVim LaTeX setup with snippets, typesetting took twice as long as I expected. For future papers, I&amp;rsquo;ll probably go with &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, writing a semester paper was one of the highlights of this semester.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Two results from probabilistic number theory</title>
       <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
-      <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. Here&amp;rsquo;s the abstract:&lt;/p&gt;
+      <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This report is an exposition of two central limit theorems in probabilistic number theory. We begin by introducing preliminary results from number theory and probability theory. Then we prove the Erdős-Kac theorem for the asymptotic behaviour of the prime divisor counting function. The majority of the report is devoted to Radziwiłł and Soundarajan&amp;rsquo;s recent proof of the Selberg central limit theorem for $\log |\zeta(\frac{1}{2} + it)|$.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;You&amp;rsquo;re most welcome to have a look at the actual &lt;a href=&#34;https://drive.google.com/file/d/1AVEBwfBkdbcflnOQLYACcBXemqSPWzXP/view?usp=sharing&#34;&gt;semester paper&lt;/a&gt;. Here I&amp;rsquo;d like to give a more informal discussion of its contents.&lt;/p&gt;
@@ -25,39 +70,38 @@
 &lt;p&gt;A central theme in analytic number theory is deriving estimates for averages over arithmetic functions, e.g. something like $$\sum_{n \le x} f(n) = \text{main term} + \text{error term},$$where $f: \mathbb{N} \to \mathbb{C}$ is some arithmetic function. Many &amp;ldquo;named theorems&amp;rdquo; are estimates of the above form. For example:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;If we let $f(n) = x^{-1} 1_P(n)$, where $1_P$ is the indicator of the set of prime numbers, then we get &lt;a href=&#34;https://terrytao.wordpress.com/2013/12/11/mertens-theorems/&#34;&gt;Mertens&amp;rsquo; second theorem&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;If instead $f(n) = d(n)$, the function counting the number of divisors of a positive integer $x$, then a &lt;a href=&#34;https://mathworld.wolfram.com/DirichletDivisorProblem.html&#34;&gt;theorem of Dirichlet&lt;/a&gt; asserts that $$\sum_{n \le x} f(n) = x \log x + (2 \gamma - 1)x + O(\sqrt{x}).$$&lt;/li&gt;
-&lt;li&gt;Actually, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Prime_number_theorem#Proof_sketch&#34;&gt;Prime number theorem&lt;/a&gt; is equivalent to an estimate as above! Just take $f$ to be the von Mangoldt function $\Lambda$, defined by $$\Lambda(n) := \begin{cases}\log p, &amp;amp; n = p^k \ \text{for some prime } p, \\ 0, &amp;amp; \text{otherwise}.\end{cases}$$&lt;/li&gt;
+&lt;li&gt;If instead $f(n) = d(n)$, the function counting the number of divisors of a positive integer $n$, then a &lt;a href=&#34;https://mathworld.wolfram.com/DirichletDivisorProblem.html&#34;&gt;theorem of Dirichlet&lt;/a&gt; asserts that $$\sum_{n \le x} f(n) = x \log x + (2 \gamma - 1)x + O(\sqrt{x}).$$&lt;/li&gt;
+&lt;li&gt;Actually, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Prime_number_theorem#Proof_sketch&#34;&gt;Prime number theorem&lt;/a&gt; is equivalent to an estimate of the above form. Just take $f$ to be the von Mangoldt function $\Lambda$, defined by $$\Lambda(n) := \begin{cases}\log p, &amp;amp; n = p^k \ \text{for some prime } p, \\ 0, &amp;amp; \text{otherwise}.\end{cases}$$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;probabilistic-number-theory&#34;&gt;Probabilistic number theory&lt;/h3&gt;
 &lt;p&gt;In my semester paper, I focused on two central limit theorems from probabilistic number theory: the Erdős–Kac and Selberg central limit theorems. Here, the approach is slightly different.&lt;/p&gt;
 &lt;h4 id=&#34;sums-and-integrals-as-expectations&#34;&gt;Sums and integrals as expectations&lt;/h4&gt;
 &lt;p&gt;First, we let $f: \Omega \to \mathbb{C}$ be an arithmetically defined quantity more generally; typically $\Omega = \mathbb{N}$ or $\mathbb{R}$. So we could take $f$ to be an arithmetic function, but now we also allow for functions of arithmetic functions. For example, if we take $g: \mathbb{N} \to \mathbb{C}$ to be an arithmetic function and post-compose with $x \mapsto x^2 / \sqrt{\log \log x}$, then we could have $f: \mathbb{N} \to \mathbb{C}$ be a weird-looking expression defined by $$f(n) := \frac{g(n)^2}{\sqrt{\log \log n}}.$$&lt;/p&gt;
-&lt;p&gt;To illustrate the connection with probability theory, fix a positive integer $x$ and let $U_x$ be a random variable uniformly distributed on $\{1, &amp;hellip;, x\}$. Then estimating $\sum_{n \le x} f(n)$ amounts to computing the expectation of the random variable $f(U_x)$. That is, we obtain something of the form $$\frac{1}{x} \sum_{n \le x} f(n) = \mathbb{E}(f(U_x)) + \text{error term}.$$&lt;/p&gt;
-&lt;p&gt;The analogy carries over to the continuous case too. Now let $x$ be an arbitrary positive real number and take $U_x$ to be a random variable uniformly distributed over $[0, x]$. Then the problem of estimating the integral $$\frac{1}{x} \int_0^x f(y) \ dy$$ comes down to estimating $\mathbb{E}(f(U_x))$.&lt;/p&gt;
+&lt;p&gt;To highlight the connection with probability theory, fix a positive integer $x$ and let $U_x$ be a random variable uniformly distributed on $\{1, &amp;hellip;, x\}$. Then we obtain $$\frac{1}{x} \sum_{n \le x} f(n) = \mathbb{E}(f(U_x)).$$ So, estimating $x^{-1} \sum_{n \le x} f(n)$ is the same as estimating an expectation.&lt;/p&gt;
+&lt;p&gt;Similarly, the problem of estimating the integral $$\frac{1}{x} \int_0^x f(y) \ dy$$ also comes down to estimating an expectation. In the continuous case, let $x$ be an arbitrary positive real number and take $U_x$ to be a random variable uniformly distributed over $[0, x]$. Then the above integral is precisely $\mathbb{E}(f(U_x))$.&lt;/p&gt;
 &lt;h4 id=&#34;natural-questions&#34;&gt;Natural questions&lt;/h4&gt;
 &lt;p&gt;This naturally prompts the following questions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Could we also estimate the variance of $f(U_x)$?&lt;/li&gt;
 &lt;li&gt;Could we even say something about the asymptotic distribution of $f(U_x)$ as $x \to \infty$?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So, more precisely, ideally we can prove something like this:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Let $U_x: \Omega \to \Omega_x$ denote a random variable uniformly distributed on $\Omega_x := \{1, &amp;hellip;, x\}$ (or $[0, x]$). Then as $x \to \infty$, we have $$f(U_x) \xrightharpoonup{} Y,$$ where $Y$ is a random variable with some relatively simple distribution.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;A remarkable fact is that some rather convoluted expressions involving arithmetic functions will, as $x \to \infty$, converge in law to a standard normal random variable.&lt;/p&gt;
+&lt;p&gt;Ideally, we can prove something like this:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Let $U_x: \Omega \to \Omega_x$ denote a random variable uniformly distributed on $\Omega_x := \{1, &amp;hellip;, x\}$ (or $[0, x]$). Let $Y$ be a random variable with some simple distribution. Then as $x \to \infty$, we have $$f(U_x) \xrightharpoonup{} Y,$$ where $\xrightharpoonup{}$ denotes convergence in distribution.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;A remarkable fact is that some rather convoluted expressions involving arithmetic functions can converge in distribution to standard normal random variables as $x \to \infty$.&lt;/p&gt;
 &lt;h4 id=&#34;general-proof-strategy&#34;&gt;General proof strategy&lt;/h4&gt;
-&lt;p&gt;Proving results of this form involves machinery from both number theory and probability. We typically use number theory to massage the expression $f(U_x)$, so it can be approximated by some simpler non-arithmetic random variable, such as a sum of Bernoulli random variables. This done, we can use limit theorems from probability to finish off the proof.&lt;/p&gt;
+&lt;p&gt;Proving results of this form involves machinery from both number theory and probability. We typically use number theory to massage the expression $f(U_x)$, so it can be approximated by some simpler non-arithmetic random variable. This done, we can use limit theorems from probability to finish off the proof.&lt;/p&gt;
 &lt;h3 id=&#34;the-erdős-kac-theorem&#34;&gt;The Erdős-Kac theorem&lt;/h3&gt;
-&lt;p&gt;This serves as a good &amp;ldquo;toy example&amp;rdquo; for the proof strategy outlined above. Also, it&amp;rsquo;s not too difficult deriving a heuristic proof; for details, see page 14. Now for the theorem:&lt;/p&gt;
-&lt;p&gt;Let $\omega$ denote the function indicating the number of distinct prime divisors of a positive integer. For example, $\omega(6) = 2$ since $6 = 2 \cdot 3$, while $\omega(9) = 1$, since $9 = 3^2$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Erdős-Kac, 1940). Let $U_n$ be a random variable uniformly distributed on ${1, &amp;hellip;, n}$ and define $$W_n := \frac{\omega(U_n) - \log \log n}{\sqrt{\log \log n}}.$$ Then $$W_n \xrightharpoonup \mathcal{N}(0, 1)$$ as $n \to \infty$.&lt;/p&gt;
+&lt;p&gt;This serves as a good &amp;ldquo;toy example&amp;rdquo; for the proof strategy outlined above. Also, it&amp;rsquo;s not too difficult deriving a heuristic proof; for details, see page 14.&lt;/p&gt;
+&lt;p&gt;First, some notation. Let $\omega$ denote the function indicating the number of distinct prime divisors of a positive integer. For example, $\omega(6) = 2$ since $6 = 2 \cdot 3$, while $\omega(9) = 1$, since $9 = 3^2$. Then we have:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Erdős-Kac, 1940). Let $U_n$ be a random variable uniformly distributed on ${1, &amp;hellip;, n}$ and define $$W_n := \frac{\omega(U_n) - \log \log n}{\sqrt{\log \log n}}.$$ Then the sequence $(W_n)_{n \ge 1}$ of random variables converges in distribution to a standard normal random variable as $n \to \infty$.&lt;/p&gt;
 &lt;h3 id=&#34;selbergs-central-limit-theorem-for-log-zeta12--it&#34;&gt;Selberg&amp;rsquo;s central limit theorem for $\log |\zeta(1/2 + it)|$&lt;/h3&gt;
 &lt;p&gt;Let $\zeta$ denote the Riemann zeta function, defined by $$\zeta(n) := \sum_{n \ge 1} \frac{1}{n^s}.$$&lt;/p&gt;
-&lt;p&gt;The Riemann hypothesis, perhaps the most famous open problem in mathematics, says that the only zeros of the zeta function are of the form $s = -2k$ for positive integers $k$ or lie on the critical strip ${1/2 + it : t \in \mathbb{R}}$.&lt;/p&gt;
-&lt;p&gt;Now fix a positive number $T &amp;gt; 0$, and consider the random variable $$L_T := \log |\zeta(1/2 + iU_t)|,$$ where $U_t$ is a random variable uniformly distributed over the interval $[-T, T]$. Considering just how hard the Riemann hypothesis is, it&amp;rsquo;s pretty surprising that the behaviour of $L_T$ is pretty well-understood. The following theorem says that a rescaled version of $L_T$ converges to a standard normal random variable as $T \to \infty$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Selberg, 1946). Let $L_T$ be the random variable defined as above, and set $$L&amp;rsquo;_T := \frac{L_T}{\sqrt{\frac{1}{2} \log \log T}}.$$Then the sequence of random variables $(L&amp;rsquo;&lt;em&gt;T)&lt;/em&gt;{T \ge 1}$ converges in distribution to a standard normal random variable as $T \to \infty$.&lt;/p&gt;
-&lt;p&gt;In my semester paper, I cover the 2016 proof due to Radziwill and Soundarajan. Just as in the Erdős-Kac theorem, one can get an intuitive sense of why this result is plausible.&lt;/p&gt;
+&lt;p&gt;The Riemann hypothesis, perhaps the most famous open problem in mathematics, says that the only zeros of the zeta function are of the form $s = -2k$ for positive integers $k$ or lie on the critical strip $\{1/2 + it : t \in \mathbb{R}\}$.&lt;/p&gt;
+&lt;p&gt;Now fix a positive number $T &amp;gt; 0$, and consider the random variable $$L_T := \log |\zeta(1/2 + iU_t)|,$$ where $U_t$ is a random variable uniformly distributed on the interval $[-T, T]$. Considering just how hard the Riemann hypothesis is, it&amp;rsquo;s pretty surprising that the behaviour of $L_T$ is relatively well-understood. In fact, we have:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; (Selberg, 1946). Let $L_T$ be the random variable defined as above, and set $$M_T := \frac{L_T}{\sqrt{\frac{1}{2} \log \log T}}.$$ Then the sequence $(M_T)_{T \ge 0}$ of random variables converges in distribution to a standard normal random variable as $T \to \infty$.&lt;/p&gt;
+&lt;p&gt;In my semester paper, I cover the 2016 proof due to Radziwiłł and Soundarajan. Just as in the Erdős-Kac theorem, one can get an intuitive sense of why this result is plausible.&lt;/p&gt;
 &lt;h3 id=&#34;final-words&#34;&gt;Final words&lt;/h3&gt;
-&lt;p&gt;For details, I encourage you to have a look at the actual paper. I went to great lengths to present the proofs in a top-down way, starting with the main idea before entering into details. I hope you enjoy reading it as much as I enjoyed writing it!&lt;/p&gt;
+&lt;p&gt;For details, I encourage you to have a look at the actual paper. I hope you enjoy reading it as much as I enjoyed writing it.&lt;/p&gt;
 </description>
     </item>
     

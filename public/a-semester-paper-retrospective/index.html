@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/a-semester-paper-retrospective/" />
+    <title>A semester paper retrospective</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>A semester paper retrospective</h1>
+        <div>
+                <time>June 1, 2025</time>
+            </div>
+    </header><p>This is a follow-up on my <a href="https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/">previous article</a>, where I share some thoughts on the process of writing a semester paper.</p>
+<p>Lots of disclaimers: this is all very specific to my experience: the topic of my paper, my supervisor, my workload in others courses, etc. Also, I&rsquo;m certainly in no position to give advice on mathematical writing; these are just reflections on what worked and what didn&rsquo;t work for me.</p>
+<h3 id="on-writing-papers">On writing papers</h3>
+<p>Here are some principles for writing mathematical papers that I tried to follow, mostly based on feedback from my supervisors. I received plenty of useful feedback, but here are the points I found the most useful:</p>
+<ul>
+<li>Top-down exposition: concretely, this meant explaining how all lemmas would come together before proving each lemma. This minimises the amount of task-switching for the reader. In addition, this helps motivate the lemmas and allows the reader to decide which parts to skip.</li>
+<li>Short proofs: as a rule of thumb, I tried breaking up proofs in such a way that proofs of subresults would fit on one page. To my surprise, in most cases, this was doable.</li>
+<li>Reducing cognitive load: a piece of feedback I received from Vivian was to try reducing the cognitive load of the reader; it&rsquo;s also a major theme <a href="https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf">here</a>. This idea really resonated with me. Concretely, this meant doing things like:
+<ul>
+<li>Restating parameters: for example, one might go &ldquo;Recalling that $X = \text{definition of }X$, we obtain&hellip;&rdquo; rather than &ldquo;By our choice of $X$, &hellip;.&rdquo;.</li>
+<li>Creating indices of notation and parameters: very relevant if your proof is notation-heavy.</li>
+<li>More descriptive text: rather than writing &ldquo;we have&rdquo; or &ldquo;thus&rdquo; before a computation, I tried describing which device I was using. Mentioning that you&rsquo;re using, say, a union bound doesn&rsquo;t take up much additional space on the page, and it makes for a better reading experience. (Also, if you&rsquo;re doing analytic number theory, you need more alternatives to &ldquo;we have&rdquo;!)</li>
+<li>Indicating what won&rsquo;t be proved: in order to keep the report at a reasonable length, I had to omit the proofs of some preliminary results and avoid repeating similar arguments. I tried making this clear to the reader, so I wouldn&rsquo;t leave them hanging.</li>
+</ul>
+</li>
+<li>What I would have found useful: initially, I didn&rsquo;t know how many details to include. If I&rsquo;d try explaining all details I&rsquo;d struggled with when reading the proof, the text would be too verbose! Vivian had some good advice here: aim for the level of detail you&rsquo;d liked when reading it for the first time.</li>
+</ul>
+<p>For future papers, I&rsquo;m considering trying the following:</p>
+<ul>
+<li>Including dependency graphs: although a bit unconventional, these can be tremendously helpful for long and convoluted proofs. See e.g. my piece on <a href="https://isabeldahlgren.github.io/hunting-dependencies/">dependencies</a>.</li>
+<li>Commenting on dead ends: a few words about why the naïve approach fails can be very illuminating. This can help motivate the use of some very complicated tool and potentially save the reader a lot of time. While remarks on failed proof attempts can sometimes be found in the &ldquo;Discussion&rdquo; section of a paper, I think like they aren&rsquo;t given as much attention as they deserve (<a href="https://en.wikipedia.org/wiki/Publication_bias">publication bias</a>).</li>
+<li>Reducing cognitive load, even more: if I&rsquo;d kept this in mind during the entire writing process, I think I&rsquo;d done a few things differently. For further ideas on how to reduce cognitive load, I highly recommend the previously mentioned <a href="https://ngtriant.github.io/notes/practical_suggestions_for_mathematical_writing.pdf">piece</a>.</li>
+</ul>
+<h3 id="lessons">Lessons</h3>
+<p>If I were to write a thesis or paper again, I would have done a lot differently. Here are the main changes:</p>
+<ul>
+<li>Do it in one go: it would have been much more enjoyable and efficient doing most of the semester paper within a much shorter period of time. If you&rsquo;re trying to understand an involved argument, you need all the relevant notions floating around in your brain at the same time. Don&rsquo;t read one lemma per week.</li>
+<li>Request additional feedback: if your supervisor is kind to offer additional feedback, that&rsquo;s extremely valuable.</li>
+<li>As soon as you get it, typeset: you&rsquo;ll have to do it anyway, and you might as well do it when you understand it. This also helps corroborate your understanding.</li>
+<li>Know when to ask for help: I wasn&rsquo;t sure how long it was reasonable for me to be stuck on a particular passage before asking for help, and I know supervisors have different preferences here. Trivial fix: ask your supervisor &ldquo;For how long should I be stuck before asking for help?&rdquo;</li>
+<li>Knowing how to ask for help: at first, I&rsquo;d ask questions during meetings. But I soon began emailing a list of questions to my supervisor a few days before our check-ins. That way, I think we both got more out of the meetings.</li>
+<li>Typesetting takes time: it seems to be a law of nature that TeX:ing always takes longer than expected. This happened as I was writing my bachelor thesis too. Despite having a pretty sophisticated NeoVim LaTeX setup with snippets, typesetting took twice as long as I expected. For future papers, I&rsquo;ll probably go with <a href="https://typst.app/">Typst</a>.</li>
+</ul>
+<p>Overall, writing a semester paper was one of the highlights of this semester.</p>
+
+    <p>Tags:
+        <a href="/tags/mathematics">mathematics</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>
