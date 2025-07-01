@@ -3,4 +3,4 @@ title: ''
 draft: false
 ---
 
-![me](./resources/isabel.JPG)
+![me](/files/isabel.JPG)
