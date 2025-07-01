@@ -6,9 +6,61 @@
     <description>Recent content in Ai-Alignment on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jun 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/ai-alignment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Understanding the AI alignment problem</title>
+      <link>http://localhost:1313/understanding-the-ai-alignment-problem/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/understanding-the-ai-alignment-problem/</guid>
+      <description>&lt;p&gt;Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic &lt;a href=&#34;https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“build safe, reliable, and steerable systems when those systems are starting to become as intelligent and as aware of their surroundings as their designers”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Some people, like Richard Ngo, work with a &lt;a href=&#34;https://arxiv.org/pdf/2209.00626&#34;&gt;more general definition&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;ensuring that AI systems pursue goals that match human values or interests rather than unintended and undesirable goals&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The general idea is pretty clear. However, it&amp;rsquo;s hard understanding what this means in practise. I&amp;rsquo;d been aware of the AI alignment problem for several years before I began taking it more seriously. As I spent more time engaging with the AI safety community, I came across various metaphors which helped me gain a deeper understanding of some aspects of the alignment problem.&lt;/p&gt;
+&lt;h3 id=&#34;the-eight-year-old-ceo&#34;&gt;The eight-year-old CEO&lt;/h3&gt;
+&lt;p&gt;In this excellent &lt;a href=&#34;https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/&#34;&gt;blog post&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Ajeya Cotra asks you to imagine the following scenario:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Imagine you are an eight-year-old whose parents left you a $1 trillion company and no trusted adult to serve as your guide to the world. You must hire a smart adult to run your company as CEO, handle your life the way that a parent would (e.g. decide your school, where you’ll live, when you need to go to the dentist), and administer your vast wealth (e.g. decide where you’ll invest your money). You have to hire these grownups based on a work trial or interview you come up with &amp;ndash; you don&amp;rsquo;t get to see any resumes, don&amp;rsquo;t get to do reference checks, etc. Because you&amp;rsquo;re so rich, tons of people apply for all sorts of reasons.&lt;/p&gt;
+&lt;p&gt;Your candidate pool includes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saints&lt;/strong&gt; &amp;ndash; people who genuinely just want to help you manage your estate well and look out for your long-term interests.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sycophants&lt;/strong&gt; &amp;ndash; people who just want to do whatever it takes to make you short-term happy or satisfy the letter of your instructions regardless of long-term consequences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Schemers&lt;/strong&gt; &amp;ndash; people with their own agendas who want to get access to your company and all its wealth and power so they can use it however they want.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Deciding whom to hire is extremely difficult - you&amp;rsquo;re just eight! In this analogy, humanity is the eight-year-old CEO. Hiring a candidate is like training the superhuman AI model which will best serve our interests.&lt;/p&gt;
+&lt;h3 id=&#34;building-planes&#34;&gt;Building planes&lt;/h3&gt;
+&lt;p&gt;Suppose aerospace engineers have developed a new plane model. It&amp;rsquo;s energy-efficient, cheap to produce and has increased passenger comfort. However, the engineers don&amp;rsquo;t fully understand the internal workings of the engine. During testing, the engine seems to work alright. The engineers identified a few issues, but these could all be fixed quite easily. Would you be comfortable with this plane being produced for commercial use?&lt;/p&gt;
+&lt;p&gt;Here, the AI models are like the engines. We know how to build AI models capable of writing poetry and conducting PhD-level research, but our understanding of how these models learn is relatively limited&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. So, we should probably reflect more carefully on how we&amp;rsquo;re deploying LLMs.&lt;/p&gt;
+&lt;h3 id=&#34;drug-regulation&#34;&gt;Drug regulation&lt;/h3&gt;
+&lt;p&gt;It takes years for newly developed drugs to reach consumers. First, you need preclinical trials. Then you carry out clinical trials in three distinct phases. This done, you need the approval of a regulatory agency, such as the FDA. It&amp;rsquo;s not uncommon for the entire process to take 10-15 years. Given that we subject drugs to such rigorous testing, why not do the same for LLMs?&lt;/p&gt;
+&lt;p&gt;I first heard this analogy in &lt;a href=&#34;https://open.spotify.com/episode/38R2p5TG0uO02q3xybxsvR?si=7f8fa707ea174823&#34;&gt;this podcast&lt;/a&gt; (Swedish, sorry), where Olle Häggström makes the case for AI slowdown. I think the above analogy is quite compelling, although I don&amp;rsquo;t fully share his views.&lt;/p&gt;
+&lt;h3 id=&#34;the-hustler&#34;&gt;The hustler&lt;/h3&gt;
+&lt;p&gt;Imagine a person trying to learn a new skill, say playing Go. He has memorised all textbooks on Go ever published by heart, as well as all the games played by professional Go players. Moreover, he&amp;rsquo;s extremely hardworking: he plays roughly 1.5 million games against himself per day. (He doesn&amp;rsquo;t need any sleep, and he happens to think very quickly.) Given the amount of practise he gets, how can normal humans hope to defeat him?&lt;/p&gt;
+&lt;p&gt;Here, the hustler is similar to an RL system. To me, this analogy makes the prospect of an intelligence explosion seem much more plausible&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h3&gt;
+&lt;p&gt;Finally, to understand the alignment problem, I think it&amp;rsquo;s also worth appreciating the potential impact of superhuman AGI. To me it seems like superhuman AI could be about as transformative as the industrial revolution. At the very least, I&amp;rsquo;d expect it to be as impactful as electricity. So, the ensuring the development of AGI &amp;ldquo;goes well&amp;rdquo; seems like a key problem of our time.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;This is one of my all-time favourite pieces on AI alignment. Insightful and to-the-point.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;I don&amp;rsquo;t count &amp;ldquo;just backpropagate&amp;rdquo; as a satisfactory answer!&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;This analogy was inspired by a conversation with Samuel Ratnam at EAG.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     
     
@@ -424,6 +476,48 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;Tetlock, Philip E., and Dan Gardner. &lt;em&gt;Superforecasting: The Art and Science of Prediction.&lt;/em&gt; Crown Publishers, 2015.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How AI might go wrong</title>
+      <link>http://localhost:1313/how-ai-might-go-wrong/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-ai-might-go-wrong/</guid>
+      <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
+&lt;p&gt;The other week, I had an insightful discussion with people in &lt;a href=&#34;https://www.zurich-ai-alignment.com&#34;&gt;Zürich AI Alignment (ZAIA)&lt;/a&gt; about the risks from AI. Afterwards, I began writing down my thoughts, and they somehow ballooned into this think piece. Here are what I currently consider to be the most relevant risks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Powerful technology in bad hands&lt;/strong&gt;: First, there are the risks which all fall under the label &amp;ldquo;bad guys using powerful technology to further their own interests&amp;rdquo;. For example, AI can be used for mass surveillance technology, cyber warfare or in autonomous lethal weapons. I&amp;rsquo;d guess most people are uncomfortable with China having nukes. Similarly, China developing cutting-edge AI is a cause for concern.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Concentration of power&lt;/strong&gt;: AI is a transformative technology - a message that shouldn&amp;rsquo;t have escaped anyone, given the current AI hype. In the years to come, it&amp;rsquo;s likely to have a profound impact on things like our economy and healthcare system&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. So the main players, like OpenAI, DeepMind and Anthropic, will be able to shape the trajectory of our society in many ways. And this is kind of problematic. While the engineers at these companies tend to be lovely people, they aren&amp;rsquo;t democratically elected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Misaligned AI models&lt;/strong&gt;: But we could also end up building AI models doing more harm than good, i.e. AI models whose incentives aren&amp;rsquo;t aligned with our values. Our understanding of the inner workings of certain AI models is very limited. While aerospace engineers know exactly what goes on inside, say, a combustion engine, the exact details of how neural networks learn remain fuzzy. If the aerospace engineers only have a vague idea of how the cooling system works, how confident can they be that the combustion engine will work as intended? In the process of developing more capable AI, we&amp;rsquo;ll probably engineer some AI models that are thrash; useless, at best, harmful at worst. We&amp;rsquo;ve already seen plenty of examples of this. For example, as pointed out during the ZAIA discussion, it&amp;rsquo;s still quite easy jailbreaking LLMs like ChatGPT&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Moreover, there are striking examples of algorithms encoding our own biases&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power-seeking AI&lt;/strong&gt;: Some people push this argument further, arguing that we might see very, very misaligned AI models - AI models posing an existential threat to humanity. I&amp;rsquo;ll briefly outline what I understand to be the core argument. The first premise is that AIs might end up with power-seeking behaviour. If power is instrumental in achieving one of the AI&amp;rsquo;s goals, the AI might learn to optimise for power. At the same time, we&amp;rsquo;re likely to develop more agentic AI, that is, AI capable of pursuing independent goals and with more advanced planning capabilities&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Now the punchline is that such an AI might view humans as obstructions to pursuing its goals. Humans can modify the learning algorithm, or try switching off the AI - things which would prevent the AI from minimising the loss function. Stuart Russell put it neatly: &amp;ldquo;You can&amp;rsquo;t fetch the coffee if you&amp;rsquo;re dead&amp;rdquo;. So, the argument goes, the AI might try to disempower humanity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The argument about power-seeking AI is quite subtle, so I&amp;rsquo;ll elaborate a bit. I think the keyword here is &amp;ldquo;agency&amp;rdquo;. History is full of examples of goal-oriented men with strong persuasion skills who made a great deal of harm, without necessarily wanting to exterminate all of humanity. These people knew how to pursue their goals and were good at strategic thinking. These people were doers, or, if you will, very &amp;ldquo;agentic&amp;rdquo;. Endowed with AI-like capabilities, these men would probably have caused much greater damage.&lt;/p&gt;
+&lt;p&gt;Of course, there&amp;rsquo;s much more to be said about each topic. But broadly speaking, I think most risks fall into either one of the above categories. Finally, if this essay seems a bit doom-laden, remember that there are plenty of things we can do to eliminate or mitigate some of these risks&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. If we take adequate measures, I believe we can make AI &amp;ldquo;go well&amp;rdquo; with very high probability - something like 90%. Just take a moment to imagine what that would be like.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Isaia Gisler for feedback on an earlier version of this text.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.weforum.org/stories/2025/03/ai-transforming-global-health/&#34;&gt;6 ways AI is transforming healthcare | World Economic Forum&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zn2ukSnDqSg&#34;&gt;ChatGPT Jailbreak - Computerphile - YouTube&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/think/topics/shedding-light-on-ai-bias-with-real-world-examples&#34;&gt;AI Bias Examples | IBM&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai&#34;&gt;Agentic AI vs. Generative AI | IBM&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/9dNxz2kjNvPtiZjxj/risks-from-ai-overview-summary&#34;&gt;Risks from AI Overview | LessWrong&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;

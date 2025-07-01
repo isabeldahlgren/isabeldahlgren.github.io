@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/understanding-the-ai-alignment-problem/" />
+    <title>Understanding the AI alignment problem</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Understanding the AI alignment problem</h1>
+        <div>
+                <time>June 8, 2025</time>
+            </div>
+    </header><p>Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic <a href="https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers">here</a>:</p>
+<blockquote>
+<p>“build safe, reliable, and steerable systems when those systems are starting to become as intelligent and as aware of their surroundings as their designers”</p></blockquote>
+<p>Some people, like Richard Ngo, work with a <a href="https://arxiv.org/pdf/2209.00626">more general definition</a>:</p>
+<blockquote>
+<p>&ldquo;ensuring that AI systems pursue goals that match human values or interests rather than unintended and undesirable goals&rdquo;</p></blockquote>
+<p>The general idea is pretty clear. However, it&rsquo;s hard understanding what this means in practise. I&rsquo;d been aware of the AI alignment problem for several years before I began taking it more seriously. As I spent more time engaging with the AI safety community, I came across various metaphors which helped me gain a deeper understanding of some aspects of the alignment problem.</p>
+<h3 id="the-eight-year-old-ceo">The eight-year-old CEO</h3>
+<p>In this excellent <a href="https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/">blog post</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, Ajeya Cotra asks you to imagine the following scenario:</p>
+<blockquote>
+<p>Imagine you are an eight-year-old whose parents left you a $1 trillion company and no trusted adult to serve as your guide to the world. You must hire a smart adult to run your company as CEO, handle your life the way that a parent would (e.g. decide your school, where you’ll live, when you need to go to the dentist), and administer your vast wealth (e.g. decide where you’ll invest your money). You have to hire these grownups based on a work trial or interview you come up with &ndash; you don&rsquo;t get to see any resumes, don&rsquo;t get to do reference checks, etc. Because you&rsquo;re so rich, tons of people apply for all sorts of reasons.</p>
+<p>Your candidate pool includes:</p>
+<p><strong>Saints</strong> &ndash; people who genuinely just want to help you manage your estate well and look out for your long-term interests.</p>
+<p><strong>Sycophants</strong> &ndash; people who just want to do whatever it takes to make you short-term happy or satisfy the letter of your instructions regardless of long-term consequences.</p>
+<p><strong>Schemers</strong> &ndash; people with their own agendas who want to get access to your company and all its wealth and power so they can use it however they want.</p></blockquote>
+<p>Deciding whom to hire is extremely difficult - you&rsquo;re just eight! In this analogy, humanity is the eight-year-old CEO. Hiring a candidate is like training the superhuman AI model which will best serve our interests.</p>
+<h3 id="building-planes">Building planes</h3>
+<p>Suppose aerospace engineers have developed a new plane model. It&rsquo;s energy-efficient, cheap to produce and has increased passenger comfort. However, the engineers don&rsquo;t fully understand the internal workings of the engine. During testing, the engine seems to work alright. The engineers identified a few issues, but these could all be fixed quite easily. Would you be comfortable with this plane being produced for commercial use?</p>
+<p>Here, the AI models are like the engines. We know how to build AI models capable of writing poetry and conducting PhD-level research, but our understanding of how these models learn is relatively limited<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. So, we should probably reflect more carefully on how we&rsquo;re deploying LLMs.</p>
+<h3 id="drug-regulation">Drug regulation</h3>
+<p>It takes years for newly developed drugs to reach consumers. First, you need preclinical trials. Then you carry out clinical trials in three distinct phases. This done, you need the approval of a regulatory agency, such as the FDA. It&rsquo;s not uncommon for the entire process to take 10-15 years. Given that we subject drugs to such rigorous testing, why not do the same for LLMs?</p>
+<p>I first heard this analogy in <a href="https://open.spotify.com/episode/38R2p5TG0uO02q3xybxsvR?si=7f8fa707ea174823">this podcast</a> (Swedish, sorry), where Olle Häggström makes the case for AI slowdown. I think the above analogy is quite compelling, although I don&rsquo;t fully share his views.</p>
+<h3 id="the-hustler">The hustler</h3>
+<p>Imagine a person trying to learn a new skill, say playing Go. He has memorised all textbooks on Go ever published by heart, as well as all the games played by professional Go players. Moreover, he&rsquo;s extremely hardworking: he plays roughly 1.5 million games against himself per day. (He doesn&rsquo;t need any sleep, and he happens to think very quickly.) Given the amount of practise he gets, how can normal humans hope to defeat him?</p>
+<p>Here, the hustler is similar to an RL system. To me, this analogy makes the prospect of an intelligence explosion seem much more plausible<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<h3 id="final-thoughts">Final thoughts</h3>
+<p>Finally, to understand the alignment problem, I think it&rsquo;s also worth appreciating the potential impact of superhuman AGI. To me it seems like superhuman AI could be about as transformative as the industrial revolution. At the very least, I&rsquo;d expect it to be as impactful as electricity. So, the ensuring the development of AGI &ldquo;goes well&rdquo; seems like a key problem of our time.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This is one of my all-time favourite pieces on AI alignment. Insightful and to-the-point.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I don&rsquo;t count &ldquo;just backpropagate&rdquo; as a satisfactory answer!&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>This analogy was inspired by a conversation with Samuel Ratnam at EAG.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    <p>Tags:
+        <a href="/tags/ai-alignment">ai-alignment</a>, <a href="/tags/ai">ai</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>
