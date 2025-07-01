@@ -3,4 +3,4 @@ title: ''
 draft: false
 ---
 
-![me](/files/isabel.JPG?width=200px)
+<img src="/files/isabel.JPG" alt="me" width="250">
