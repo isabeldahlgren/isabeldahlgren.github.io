@@ -1,6 +1,6 @@
 ---
-title: 'Me'
+title: ''
 draft: false
 ---
 
-<img src="./isabel.jpg" alt="drawing" width="200"/>
+<img src="./isabel.JPG" alt="drawing" width="200"/>
