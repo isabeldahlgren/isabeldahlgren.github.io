@@ -6,9 +6,187 @@
     <description>Recent content in Home on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 08 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>A taxonomy of examples</title>
+      <link>http://localhost:1313/a-taxonomy-of-examples/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;According to the Cambridge Dictionary, an example is &amp;ldquo;something that is typical of the group of things that it is a member of&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In mathematics, there are many kinds of examples, and they all serve different purposes. Traditionally, fields like topology and measure theory place a greater emphasis on counter examples. In algebra, there are more prototypical examples; definitions are often followed by an exhaustive list of objects of that category&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. In the context of mathematics, the dictionary definition is too simplistic. So, what are our main classes of examples?&lt;/p&gt;
+&lt;h3 id=&#34;understanding-definitions&#34;&gt;Understanding definitions&lt;/h3&gt;
+&lt;p&gt;First, there are the examples helping us understand definitions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prototypical examples: examples just complex enough to capture the essential properties of an object.
+&lt;ul&gt;
+&lt;li&gt;Fundamental groups: the fundamental group of the circle $\pi_1(\mathbb{S}^1, x_0)$.&lt;/li&gt;
+&lt;li&gt;Transcendental field extensions: $\mathbb{Q}(\pi)$.&lt;/li&gt;
+&lt;li&gt;Modular forms: the Poincaré series $P_{m, k}(z)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Canonical examples: the canonical construction of something - the construction you get which involves the least arbitrariness.
+&lt;ul&gt;
+&lt;li&gt;Stochastic processes: the coordinate process.&lt;/li&gt;
+&lt;li&gt;Embeddings into bi-duals: take the embedding $V \to V^{**}$ sending $v$ to the evaluation.&lt;/li&gt;
+&lt;li&gt;Rings: the integers $\mathbb{Z}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Foundational examples: examples of special interest and which form the basis for further theory.
+&lt;ul&gt;
+&lt;li&gt;Anything analysis: the Gaussian $\phi(x) = e^{-x^2/2}$.&lt;/li&gt;
+&lt;li&gt;Stochastic processes: the simple random walk on $\mathbb{Z}$.&lt;/li&gt;
+&lt;li&gt;Modular forms: the $j$–invariant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Basic examples: the simplest possible instance of an object.
+&lt;ul&gt;
+&lt;li&gt;Groups: the trivial group $G := {e}$.&lt;/li&gt;
+&lt;li&gt;Martingales: the martingale $(X_t)_{t \ge 0}$ where $X_t \equiv 1$ for all $t$.&lt;/li&gt;
+&lt;li&gt;Banach space: just take $\mathbb{R}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Non-examples: objects which are not instances of something.
+&lt;ul&gt;
+&lt;li&gt;A non-ring: the natural numbers $\mathbb{N}$.&lt;/li&gt;
+&lt;li&gt;A non-tempered distribution: the function $e^t$.&lt;/li&gt;
+&lt;li&gt;A non-Artinian ring: the integers $\mathbb{Z}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Computational examples: examples involving a computation and that illustrate how to work with a given object.
+&lt;ul&gt;
+&lt;li&gt;Compute $\mathbb{R}[x] \otimes \mathbb{C}$.&lt;/li&gt;
+&lt;li&gt;Find the Euler product expansion for the Dirichlet generating series of the Möbius function $\mu = 1^{-*}$&lt;/li&gt;
+&lt;li&gt;Check that $c^{-1/2} W_{ct}$ is again Brownian motion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pathological examples: examples illustrating distinctions between different notions, or the limitations of a certain concept.
+&lt;ul&gt;
+&lt;li&gt;Differentiability $\neq$ continuity: consider the Weierstrass function.&lt;/li&gt;
+&lt;li&gt;Connectedness $\neq$ path connectedness: because the Topologist&amp;rsquo;s sine curve.&lt;/li&gt;
+&lt;li&gt;Lebesgue integral $\neq$ Riemann integral: try integrating the Dirichlet function, the characteristic function of the rationals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Toy examples: simple examples to manipulate in order to produce counter examples.
+&lt;ul&gt;
+&lt;li&gt;Random variable: define $$X := \begin{cases}\alpha, &amp;amp; \text{with probability } p, \\ \beta, &amp;amp; \text{with probability } 1 - p.\end{cases}$$&lt;/li&gt;
+&lt;li&gt;Measure theory: simple functions.&lt;/li&gt;
+&lt;li&gt;Galois groups: consider $\mathrm{Gal}(\mathbb{Q}(\sqrt{\alpha}):\mathbb{Q})$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Real-world examples: a real-world scenario involving the object of interest. These help motivate the study of the given object and are useful for gaining intuition.
+&lt;ul&gt;
+&lt;li&gt;Stochastic processes: a Poisson process as a description of the number of raindrops falling in a given square.&lt;/li&gt;
+&lt;li&gt;PDE: the heat equation.&lt;/li&gt;
+&lt;li&gt;Graph theory: a network models the flow of some fluid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;understanding-results&#34;&gt;Understanding results&lt;/h3&gt;
+&lt;p&gt;Second, there are the examples helping us understand results. I&amp;rsquo;ll count applications of theorems among these kinds of examples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Counter examples: examples illustrating how a given result breaks down if we drop assumptions&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.
+&lt;ul&gt;
+&lt;li&gt;Fatou&amp;rsquo;s lemma: we really do need non-negativity. Consider the sequence $f_n := - 1_{[n, n+1]}$.&lt;/li&gt;
+&lt;li&gt;Open mapping theorem: surjectivity is necessary, since the zero map isn&amp;rsquo;t open.&lt;/li&gt;
+&lt;li&gt;Nullstellensatz: the field $K$ must be algebraically closed. For $K = \mathbb{R}$, the ideal $I = (x^2 + 1)$ is maximal but not of the form $(x - a)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Basic applications: checking that the conditions of a theorem are satisfied, apply the theorem and see what you get. These examples are particularly useful if the theorem statement seems involved.
+&lt;ul&gt;
+&lt;li&gt;Hurewicz&amp;rsquo; theorem: use it to find $H_1(\mathbb{S}^n)$.&lt;/li&gt;
+&lt;li&gt;Dedekind-Kummer: compute the factorisation of $(p)$ in a ring of integers.&lt;/li&gt;
+&lt;li&gt;Dirichlet&amp;rsquo;s unit theorem: the theorem allows us to verify that $\mathbb{Q}(\sqrt{d})$ has finite unit group.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Non-basic applications: or corollaries. Deduce something interesting from a theorem.
+&lt;ul&gt;
+&lt;li&gt;Optional stopping: allows you to compute laws of hitting times.&lt;/li&gt;
+&lt;li&gt;The ring of integers is Dedekind: this gives us a satisfying proof of Fermat&amp;rsquo;s theorem for primes that are sums of squares.&lt;/li&gt;
+&lt;li&gt;Hausdorff-Young: an application of Riesz-Thorin tells us that the Fourier transform defines a bounded linear operator from $L^p$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amusing applications: examples mentioned during lectures for amusement.
+&lt;ul&gt;
+&lt;li&gt;Borsuk-Ulam: there are two antipodal points on earth with the same temperature.&lt;/li&gt;
+&lt;li&gt;Mean-value theorem: you can catch someone over-speeding using the mean-value theorem.&lt;/li&gt;
+&lt;li&gt;Four colour theorem: you can colour a map using just four colours so no two adjacent countries have the same colour.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are examples the core of mathematics? The answer is very much a matter of personal taste. I&amp;rsquo;d say yes. Apparently von Neumann once said&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;In mathematics you don&amp;rsquo;t understand things. You just get used to them.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;There&amp;rsquo;s some truth to this. And the way we get used to things is by studying examples.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;em&gt;Basic Category Theory&lt;/em&gt; or &lt;em&gt;The Napkin&lt;/em&gt; are amazing in this regard.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;In &lt;em&gt;Abstract Algebra&lt;/em&gt; by Dummit and Foote, some definitions are followed by more than ten (!) examples.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;In my experience, memorising counter examples is the best way to memorise assumptions of a theorem. This is somewhat counter intuitive, given that this involves memorising more information.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>On the joy of customising</title>
+      <link>http://localhost:1313/on-the-joy-of-customising/</link>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/on-the-joy-of-customising/</guid>
+      <description>&lt;p&gt;Why do so many people use Safari, the jarring black VSCode colour theme and Overleaf? Because it&amp;rsquo;s the default option.&lt;/p&gt;
+&lt;p&gt;Switching to a non-default option requires conscious effort. First, you need to realise that your current setup is suboptimal: the probability of your current setup being the optimal one is infinitesimal. But if you knew about the benefits of making a few small changes, you&amp;rsquo;d already have made them. So you do need to believe that switching is worthwhile, which, indeed, is a leap of faith.&lt;/p&gt;
+&lt;p&gt;The pros are all believers. Most software engineers customise their code editors and terminal shells heavily. If you spend all your working hours working on a computer, spending one Sunday improving your working environment is well worth it. Similarly, I know some professors at ETH are particular about their writing tools, only using fountain pens and high-end chalk.&lt;/p&gt;
+&lt;p&gt;But if you&amp;rsquo;re neither a software engineer nor an ETH professor, tinkering with command-line interface (CLI) tools and splurging money on fountain pens might feel indulgent. This makes up another psychological barrier towards switching from the default. In fact, you might question whether you&amp;rsquo;re even entitled to use the tools of the pros. And to some extent, this sentiment is valid.&lt;/p&gt;
+&lt;p&gt;However, I still think most people err on the side of customising too little, especially when it comes to tech. Most of us are heavy tech users; the average screen time globally seems to be over 6h. When I say someone has a good tech setup, I mean that they use appropriate software for their computer-related tasks efficiently. It is much like having a good office with a comfortable chair and a proper desk. However, it need not require expensive purchases.&lt;/p&gt;
+&lt;p&gt;Adding a few selected tools to your setup can massively improve productivity. There are some general programs useful to any computer user, like Google Drive, Google Calendar and Raycast. I also think having a dedicated note-taking system, whether it be in Obsidian, Notion or Apple Notes, pays off. However, you&amp;rsquo;ll get the most leverage from finding the tools relevant to the tasks you&amp;rsquo;re doing and mastering them.&lt;/p&gt;
+&lt;p&gt;For example, I mostly use my MacBook for typesetting, writing and coding. For typesetting, I use NeoVim with custom snippets, inspired by Gilles Castel&amp;rsquo;s iconic &lt;a href=&#34;https://castel.dev/post/lecture-notes-1/&#34;&gt;VimTeX setup&lt;/a&gt;. Nowadays, I also use Typst rather than LaTeX. Although I don&amp;rsquo;t necessarily type faster in Typst, I spend much less time debugging cryptic error messages. All in all, I estimate that these changes have doubled my writing speed. There are also ergonomic benefits to this setup, as opposed to just writing in Overleaf. As for coding, I&amp;rsquo;ve found Cursor to be a complete game changer, allowing me to implement experiments in about a tenth of the time. Other than that, I&amp;rsquo;m &amp;ldquo;just&amp;rdquo; using NeoVim keybindings in VSCode and a few CLI tools allowing me to navigate between folders more easily. As can be seen from &lt;a href=&#34;https://www.alignmentforum.org/posts/dZFpEdKyb9Bf4xYn7/tips-for-empirical-alignment-research&#34;&gt;this post&lt;/a&gt;, I have a lot to learn here.&lt;/p&gt;
+&lt;p&gt;Furthermore, customising your computer makes for a much better user experience. I value good design, so having my preferred colour scheme in Obsidian, VSCode and WezTerm makes my computer a joy to use. I also use the Zen Browser for a cleaner user interface.&lt;/p&gt;
+&lt;p&gt;Regardless of whether you&amp;rsquo;re a software aesthete or not, it&amp;rsquo;s worth exploring tech tools relevant to your work.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Consume less AI safety news</title>
+      <link>http://localhost:1313/consume-less-ai-safety-news/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/consume-less-ai-safety-news/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s hard staying on top of all the AI safety news. Some people, like &lt;a href=&#34;https://thezvi.wordpress.com/about/&#34;&gt;Zvi&lt;/a&gt;, have basically made this their full-time job.&lt;/p&gt;
+&lt;p&gt;A common failure mode for forming views on AI safety is consuming too much information. It&amp;rsquo;s a tendency I&amp;rsquo;ve observed in myself, as well as in others in the AI safety community.&lt;/p&gt;
+&lt;p&gt;I think it comes from the urge to solve the AI alignment problem quickly. It&amp;rsquo;s also an exciting time to be working in AI safety, with many rapid advancements being made. Also, since AI safety is something AI, there&amp;rsquo;s a lot of general excitement surrounding the area.&lt;/p&gt;
+&lt;p&gt;So we might imagine someone who starts following all the leading researchers on Twitter, listening to &lt;em&gt;The Cognitive Revolution&lt;/em&gt; while commuting and reading LessWrong posts before going to bed. Or maybe they&amp;rsquo;ll have lengthy discussions about AI governance in WhatsApp groups and watch Robert Miles&amp;rsquo; YouTube videos over meals.&lt;/p&gt;
+&lt;p&gt;But if you&amp;rsquo;re looking to gain a deeper understanding of the AI safety landscape, this isn&amp;rsquo;t enough. You&amp;rsquo;d have to engage more with the material, shifting your creation-to-consumption ratio towards more creation. And you&amp;rsquo;d have to discuss your views with people in real life and, if possible, engage in a local community&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. A common piece of advice for people aiming to become experts is to focus on &lt;a href=&#34;https://forum.effectivealtruism.org/posts/ckj6Moau9qpYArHWc/want-to-be-an-expert-build-deep-models&#34;&gt;building deep models&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Even if your goal is just to get the big picture, the above approach seems needlessly high effort. There are many excellent resources summarising the main ideas in AI safety, such as the the 80,000 hours &lt;a href=&#34;https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/&#34;&gt;problem profile&lt;/a&gt;. It&amp;rsquo;s a 60 min read with a very high signal-to-noise ratio.&lt;/p&gt;
+&lt;p&gt;Either way, binging AI safety-related material to won&amp;rsquo;t help fix the AI alignment problem. It&amp;rsquo;s stressful, and perhaps self-defeating. Given that the AI safety landscape is changing so rapidly, much of what we&amp;rsquo;re seeing is noise. To gain conceptual clarity, perhaps you&amp;rsquo;ll benefit from consuming less AI-safety related news. Unless you&amp;rsquo;re working full-time on AI safety, either as a policy-maker or a researcher, this probably won&amp;rsquo;t negatively influence your ability to do good work.&lt;/p&gt;
+&lt;p&gt;Hard problem require careful reflection. Although AI advances fast, we must think slowly about how to ensure things go well.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;My friend Miles Kodama put it well: &amp;ldquo;It is easy to BS to a screen&amp;rdquo;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     
     
@@ -21,10 +199,7 @@
       <description>&lt;p&gt;Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic &lt;a href=&#34;https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“build safe, reliable, and steerable systems when those systems are starting to become as intelligent and as aware of their surroundings as their designers”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Some people, like Richard Ngo, work with a &lt;a href=&#34;https://arxiv.org/pdf/2209.00626&#34;&gt;more general definition&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;ensuring that AI systems pursue goals that match human values or interests rather than unintended and undesirable goals&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;The general idea is pretty clear. However, it&amp;rsquo;s hard understanding what this means in practise. I&amp;rsquo;d been aware of the AI alignment problem for several years before I began taking it more seriously. As I spent more time engaging with the AI safety community, I came across various metaphors which helped me gain a deeper understanding of some aspects of the alignment problem.&lt;/p&gt;
+&lt;p&gt;The general idea is pretty simple. But there are many things to unpack here. Understanding what this means in practise is hard. First, why might we end up training unsafe AI systems? Even if you think this is possible, it&amp;rsquo;s not clear what regulations might be appropriate. Here are some metaphors I found particularly useful for gaining a deeper understanding of some aspects of AI alignment.&lt;/p&gt;
 &lt;h3 id=&#34;the-eight-year-old-ceo&#34;&gt;The eight-year-old CEO&lt;/h3&gt;
 &lt;p&gt;In this excellent &lt;a href=&#34;https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/&#34;&gt;blog post&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Ajeya Cotra asks you to imagine the following scenario:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -42,14 +217,14 @@
 &lt;p&gt;I first heard this analogy in &lt;a href=&#34;https://open.spotify.com/episode/38R2p5TG0uO02q3xybxsvR?si=7f8fa707ea174823&#34;&gt;this podcast&lt;/a&gt; (Swedish, sorry), where Olle Häggström makes the case for AI slowdown. I think the above analogy is quite compelling, although I don&amp;rsquo;t fully share his views.&lt;/p&gt;
 &lt;h3 id=&#34;the-hustler&#34;&gt;The hustler&lt;/h3&gt;
 &lt;p&gt;Imagine a person trying to learn a new skill, say playing Go. He has memorised all textbooks on Go ever published by heart, as well as all the games played by professional Go players. Moreover, he&amp;rsquo;s extremely hardworking: he plays roughly 1.5 million games against himself per day. (He doesn&amp;rsquo;t need any sleep, and he happens to think very quickly.) Given the amount of practise he gets, how can normal humans hope to defeat him?&lt;/p&gt;
-&lt;p&gt;Here, the hustler is similar to an RL system. To me, this analogy makes the prospect of an intelligence explosion seem much more plausible&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Here, the hustler is similar to an RL system. To me, this analogy makes the prospect of an intelligence explosion seem much more plausible&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and less sci-fi-ish.&lt;/p&gt;
 &lt;h3 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h3&gt;
 &lt;p&gt;Finally, to understand the alignment problem, I think it&amp;rsquo;s also worth appreciating the potential impact of superhuman AGI. To me it seems like superhuman AI could be about as transformative as the industrial revolution. At the very least, I&amp;rsquo;d expect it to be as impactful as electricity. So, the ensuring the development of AGI &amp;ldquo;goes well&amp;rdquo; seems like a key problem of our time.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;This is one of my all-time favourite pieces on AI alignment. Insightful and to-the-point.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is one of my all-time favourite pieces on AI alignment.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;I don&amp;rsquo;t count &amp;ldquo;just backpropagate&amp;rdquo; as a satisfactory answer!&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;

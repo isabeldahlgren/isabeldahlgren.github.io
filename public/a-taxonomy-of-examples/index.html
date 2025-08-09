@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/a-taxonomy-of-examples/" />
+    <title>A taxonomy of examples</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>A taxonomy of examples</h1>
+        <div>
+                <time>June 29, 2025</time>
+            </div>
+    </header><p>I&rsquo;m mildly obsessed with examples. Whenever I feel confused, it&rsquo;s often because I don&rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>According to the Cambridge Dictionary, an example is &ldquo;something that is typical of the group of things that it is a member of&rdquo;.</p>
+<p>In mathematics, there are many kinds of examples, and they all serve different purposes. Traditionally, fields like topology and measure theory place a greater emphasis on counter examples. In algebra, there are more prototypical examples; definitions are often followed by an exhaustive list of objects of that category<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. In the context of mathematics, the dictionary definition is too simplistic. So, what are our main classes of examples?</p>
+<h3 id="understanding-definitions">Understanding definitions</h3>
+<p>First, there are the examples helping us understand definitions.</p>
+<ul>
+<li>Prototypical examples: examples just complex enough to capture the essential properties of an object.
+<ul>
+<li>Fundamental groups: the fundamental group of the circle $\pi_1(\mathbb{S}^1, x_0)$.</li>
+<li>Transcendental field extensions: $\mathbb{Q}(\pi)$.</li>
+<li>Modular forms: the Poincaré series $P_{m, k}(z)$.</li>
+</ul>
+</li>
+<li>Canonical examples: the canonical construction of something - the construction you get which involves the least arbitrariness.
+<ul>
+<li>Stochastic processes: the coordinate process.</li>
+<li>Embeddings into bi-duals: take the embedding $V \to V^{**}$ sending $v$ to the evaluation.</li>
+<li>Rings: the integers $\mathbb{Z}$.</li>
+</ul>
+</li>
+<li>Foundational examples: examples of special interest and which form the basis for further theory.
+<ul>
+<li>Anything analysis: the Gaussian $\phi(x) = e^{-x^2/2}$.</li>
+<li>Stochastic processes: the simple random walk on $\mathbb{Z}$.</li>
+<li>Modular forms: the $j$–invariant.</li>
+</ul>
+</li>
+<li>Basic examples: the simplest possible instance of an object.
+<ul>
+<li>Groups: the trivial group $G := {e}$.</li>
+<li>Martingales: the martingale $(X_t)_{t \ge 0}$ where $X_t \equiv 1$ for all $t$.</li>
+<li>Banach space: just take $\mathbb{R}$.</li>
+</ul>
+</li>
+<li>Non-examples: objects which are not instances of something.
+<ul>
+<li>A non-ring: the natural numbers $\mathbb{N}$.</li>
+<li>A non-tempered distribution: the function $e^t$.</li>
+<li>A non-Artinian ring: the integers $\mathbb{Z}$.</li>
+</ul>
+</li>
+<li>Computational examples: examples involving a computation and that illustrate how to work with a given object.
+<ul>
+<li>Compute $\mathbb{R}[x] \otimes \mathbb{C}$.</li>
+<li>Find the Euler product expansion for the Dirichlet generating series of the Möbius function $\mu = 1^{-*}$</li>
+<li>Check that $c^{-1/2} W_{ct}$ is again Brownian motion.</li>
+</ul>
+</li>
+<li>Pathological examples: examples illustrating distinctions between different notions, or the limitations of a certain concept.
+<ul>
+<li>Differentiability $\neq$ continuity: consider the Weierstrass function.</li>
+<li>Connectedness $\neq$ path connectedness: because the Topologist&rsquo;s sine curve.</li>
+<li>Lebesgue integral $\neq$ Riemann integral: try integrating the Dirichlet function, the characteristic function of the rationals.</li>
+</ul>
+</li>
+<li>Toy examples: simple examples to manipulate in order to produce counter examples.
+<ul>
+<li>Random variable: define $$X := \begin{cases}\alpha, &amp; \text{with probability } p, \\ \beta, &amp; \text{with probability } 1 - p.\end{cases}$$</li>
+<li>Measure theory: simple functions.</li>
+<li>Galois groups: consider $\mathrm{Gal}(\mathbb{Q}(\sqrt{\alpha}):\mathbb{Q})$.</li>
+</ul>
+</li>
+<li>Real-world examples: a real-world scenario involving the object of interest. These help motivate the study of the given object and are useful for gaining intuition.
+<ul>
+<li>Stochastic processes: a Poisson process as a description of the number of raindrops falling in a given square.</li>
+<li>PDE: the heat equation.</li>
+<li>Graph theory: a network models the flow of some fluid.</li>
+</ul>
+</li>
+</ul>
+<h3 id="understanding-results">Understanding results</h3>
+<p>Second, there are the examples helping us understand results. I&rsquo;ll count applications of theorems among these kinds of examples.</p>
+<ul>
+<li>Counter examples: examples illustrating how a given result breaks down if we drop assumptions<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+<ul>
+<li>Fatou&rsquo;s lemma: we really do need non-negativity. Consider the sequence $f_n := - 1_{[n, n+1]}$.</li>
+<li>Open mapping theorem: surjectivity is necessary, since the zero map isn&rsquo;t open.</li>
+<li>Nullstellensatz: the field $K$ must be algebraically closed. For $K = \mathbb{R}$, the ideal $I = (x^2 + 1)$ is maximal but not of the form $(x - a)$.</li>
+</ul>
+</li>
+<li>Basic applications: checking that the conditions of a theorem are satisfied, apply the theorem and see what you get. These examples are particularly useful if the theorem statement seems involved.
+<ul>
+<li>Hurewicz&rsquo; theorem: use it to find $H_1(\mathbb{S}^n)$.</li>
+<li>Dedekind-Kummer: compute the factorisation of $(p)$ in a ring of integers.</li>
+<li>Dirichlet&rsquo;s unit theorem: the theorem allows us to verify that $\mathbb{Q}(\sqrt{d})$ has finite unit group.</li>
+</ul>
+</li>
+<li>Non-basic applications: or corollaries. Deduce something interesting from a theorem.
+<ul>
+<li>Optional stopping: allows you to compute laws of hitting times.</li>
+<li>The ring of integers is Dedekind: this gives us a satisfying proof of Fermat&rsquo;s theorem for primes that are sums of squares.</li>
+<li>Hausdorff-Young: an application of Riesz-Thorin tells us that the Fourier transform defines a bounded linear operator from $L^p$.</li>
+</ul>
+</li>
+<li>Amusing applications: examples mentioned during lectures for amusement.
+<ul>
+<li>Borsuk-Ulam: there are two antipodal points on earth with the same temperature.</li>
+<li>Mean-value theorem: you can catch someone over-speeding using the mean-value theorem.</li>
+<li>Four colour theorem: you can colour a map using just four colours so no two adjacent countries have the same colour.</li>
+</ul>
+</li>
+</ul>
+<p>Are examples the core of mathematics? The answer is very much a matter of personal taste. I&rsquo;d say yes. Apparently von Neumann once said</p>
+<blockquote>
+<p>&ldquo;In mathematics you don&rsquo;t understand things. You just get used to them.&rdquo;</p></blockquote>
+<p>There&rsquo;s some truth to this. And the way we get used to things is by studying examples.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><em>Basic Category Theory</em> or <em>The Napkin</em> are amazing in this regard.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>In <em>Abstract Algebra</em> by Dummit and Foote, some definitions are followed by more than ten (!) examples.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>In my experience, memorising counter examples is the best way to memorise assumptions of a theorem. This is somewhat counter intuitive, given that this involves memorising more information.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    <p>Tags:
+        <a href="/tags/learning">learning</a>, <a href="/tags/mathematics">mathematics</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>
