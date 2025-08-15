@@ -6,9 +6,34 @@
     <description>Recent content in Essay on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>On question taste</title>
+      <link>http://localhost:1313/on-question-taste/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/on-question-taste/</guid>
+      <description>&lt;h2 id=&#34;i&#34;&gt;I.&lt;/h2&gt;
+&lt;p&gt;Children like asking questions. Some of their questions are very hard: &amp;ldquo;Why do people die?&amp;rdquo;. Others questions expose our biases: &amp;ldquo;Couldn&amp;rsquo;t we invite the homeless man to dinner?&amp;rdquo; Then there are all the annoying questions: &amp;ldquo;When will we arrive?&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In my experience, school didn&amp;rsquo;t teach us to ask questions - we were just taught how to answer them. To pass the test, you only had to memorise the material in the textbook.&lt;/p&gt;
+&lt;p&gt;Perhaps this isn&amp;rsquo;t too surprising. It&amp;rsquo;s hard objectively measuring someone&amp;rsquo;s ability to ask questions. But above all, educational institutions serve many different purposes, apart from spreading knowledge[^caplan]. Schools should also produce good citizens. A society full of radical skeptics wouldn&amp;rsquo;t function properly (hence the execution of Socrates). So children might hear that some questions are meaningless or irrelevant, even in school.&lt;/p&gt;
+&lt;h2 id=&#34;ii&#34;&gt;II.&lt;/h2&gt;
+&lt;p&gt;On two different occasions, I&amp;rsquo;ve heard two distinguished professors at ETH mention that students ask too few questions. They weren&amp;rsquo;t referring to the specific questions about the lecture, but to something like &lt;a href=&#34;https://www.lesswrong.com/posts/Thwfy4gNFx9kHgvov/research-hamming-questions&#34;&gt;Research Hamming questions&lt;/a&gt;. For example, one could ask about improvements of a particular result or whether a proof technique generalises.&lt;/p&gt;
+&lt;p&gt;They make a good point. The ability to ask interesting, open-ended questions seems like a key research skill; call it question taste. Intuitively, a person with question taste is like a child with expert domain knowledge.&lt;/p&gt;
+&lt;p&gt;Certain groups of people are known for their question taste. For example, consider journalists. They have undergone extensive training in asking questions as part of their university degree. Moreover, they constantly practise the skill of asking questions at work. No wonder they get pretty good at it. Similarly, researchers, psychologists, essayists and investors tend to have good question taste, as questioning is part of their job.&lt;/p&gt;
+&lt;h2 id=&#34;iii&#34;&gt;III.&lt;/h2&gt;
+&lt;p&gt;I assume, perhaps somewhat naïvely, that acquiring question taste is mostly about deliberate practice. The implementational details will depend on the domain you&amp;rsquo;re working in, though.&lt;/p&gt;
+&lt;p&gt;A basic strategy might be to identify the people in your area who seem to be asking the right questions and try copying what they do. For example, I&amp;rsquo;d like to formulate good questions about research agendas in AI safety someday, so I&amp;rsquo;ll often make note of questions raised by leading researchers in podcasts, blog posts or papers. Sometimes I write down own questions and discuss them with others for feedback, although this is more time-consuming.&lt;/p&gt;
+&lt;p&gt;Having a safe environment in which to practise asking questions - a training ground - also seems important. If you&amp;rsquo;re a student, you can attend student-run seminars, where you might feel more comfortable asking questions. Regardless of the kind of questions you aim to ask, you need to find a community to give you feedback. And hopefully, you get some answers too.&lt;/p&gt;
+&lt;p&gt;As you practise asking questions, you&amp;rsquo;ll inevitably ask some &amp;ldquo;bad questions&amp;rdquo;. Part of the reason why children are so inquisitive is their lack of self-consciousness. They don&amp;rsquo;t care if their questions make them sound stupid. So, in order to ask good questions, make a conscious effort, find a supportive community and maybe don&amp;rsquo;t take yourself too seriously.&lt;/p&gt;
+&lt;p&gt;[^caplan] This is argued in Bryan Caplan&amp;rsquo;s book &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Case_Against_Education&#34;&gt;The Case Against Education&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     
     
@@ -20,7 +45,7 @@
       <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;According to the Cambridge Dictionary, an example is &amp;ldquo;something that is typical of the group of things that it is a member of&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;In mathematics, there are many kinds of examples, and they all serve different purposes. Traditionally, fields like topology and measure theory place a greater emphasis on counter examples. In algebra, there are more prototypical examples; definitions are often followed by an exhaustive list of objects of that category&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. In the context of mathematics, the dictionary definition is too simplistic. So, what are our main classes of examples?&lt;/p&gt;
+&lt;p&gt;In mathematics, there are many kinds of examples, and they all serve different purposes. Traditionally, fields like topology and measure theory place a greater emphasis on counter examples. In algebra, there are more prototypical examples; definitions are often followed by an exhaustive list of objects of that category&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. In the context of mathematics, the dictionary definition is too simplistic! So here is an attempt at classifying the main kinds of examples, or, alternatively, an examples appreciation post.&lt;/p&gt;
 &lt;h3 id=&#34;understanding-definitions&#34;&gt;Understanding definitions&lt;/h3&gt;
 &lt;p&gt;First, there are the examples helping us understand definitions.&lt;/p&gt;
 &lt;ul&gt;
@@ -45,7 +70,7 @@
 &lt;li&gt;Modular forms: the $j$–invariant.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Basic examples: the simplest possible instance of an object.
+&lt;li&gt;Basic examples: the simplest possible instance of an object. The kind of example an uncreative student might cite in an exam&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.
 &lt;ul&gt;
 &lt;li&gt;Groups: the trivial group $G := {e}$.&lt;/li&gt;
 &lt;li&gt;Martingales: the martingale $(X_t)_{t \ge 0}$ where $X_t \equiv 1$ for all $t$.&lt;/li&gt;
@@ -73,7 +98,7 @@
 &lt;li&gt;Lebesgue integral $\neq$ Riemann integral: try integrating the Dirichlet function, the characteristic function of the rationals.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Toy examples: simple examples to manipulate in order to produce counter examples.
+&lt;li&gt;Toy examples: examples you can manipulate to have some desired properties. When looking for counter examples, you typically start with some toy example.
 &lt;ul&gt;
 &lt;li&gt;Random variable: define $$X := \begin{cases}\alpha, &amp;amp; \text{with probability } p, \\ \beta, &amp;amp; \text{with probability } 1 - p.\end{cases}$$&lt;/li&gt;
 &lt;li&gt;Measure theory: simple functions.&lt;/li&gt;
@@ -91,7 +116,7 @@
 &lt;h3 id=&#34;understanding-results&#34;&gt;Understanding results&lt;/h3&gt;
 &lt;p&gt;Second, there are the examples helping us understand results. I&amp;rsquo;ll count applications of theorems among these kinds of examples.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Counter examples: examples illustrating how a given result breaks down if we drop assumptions&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.
+&lt;li&gt;Counter examples: examples illustrating how a given result breaks down if we drop assumptions&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.
 &lt;ul&gt;
 &lt;li&gt;Fatou&amp;rsquo;s lemma: we really do need non-negativity. Consider the sequence $f_n := - 1_{[n, n+1]}$.&lt;/li&gt;
 &lt;li&gt;Open mapping theorem: surjectivity is necessary, since the zero map isn&amp;rsquo;t open.&lt;/li&gt;
@@ -119,11 +144,19 @@
 &lt;li&gt;Four colour theorem: you can colour a map using just four colours so no two adjacent countries have the same colour.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Satisfying applications: prove a well-known theorem as an application of the fancy theory you developed.
+&lt;ul&gt;
+&lt;li&gt;The insolvability of the quintic: &amp;ldquo;just&amp;rdquo; an example application of Galois theory.&lt;/li&gt;
+&lt;li&gt;The central limit theorem: falls out of the computation of the characteristic function of the scaled sum.&lt;/li&gt;
+&lt;li&gt;The fundamental theorem of algebra: an application of Liouville&amp;rsquo;s theorem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Are examples the core of mathematics? The answer is very much a matter of personal taste. I&amp;rsquo;d say yes. Apparently von Neumann once said&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;In mathematics you don&amp;rsquo;t understand things. You just get used to them.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;There&amp;rsquo;s some truth to this. And the way we get used to things is by studying examples.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Alois Schaffler for suggesting the last kind of example.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -134,7 +167,10 @@
 &lt;p&gt;In &lt;em&gt;Abstract Algebra&lt;/em&gt; by Dummit and Foote, some definitions are followed by more than ten (!) examples.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;In my experience, memorising counter examples is the best way to memorise assumptions of a theorem. This is somewhat counter intuitive, given that this involves memorising more information.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I once cited $\mathbb{Q}$ as an example of a non-Banach space in an exam. The graders probably weren&amp;rsquo;t particularly happy with my response, but I received full points.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;In my experience, memorising counter examples is the best way to memorise assumptions of a theorem. This is somewhat counter intuitive, given that this involves memorising more information.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
