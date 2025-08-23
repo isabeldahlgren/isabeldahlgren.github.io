@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/altruism/</loc>
+    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/essay/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,10 +14,16 @@
     <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/on-being-an-ea/</loc>
+    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/on-question-taste/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rationality/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/on-the-joy-of-customising/</loc>
-    <lastmod>2025-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rationality/</loc>
     <lastmod>2025-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
