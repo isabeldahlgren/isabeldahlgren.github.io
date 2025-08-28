@@ -6,20 +6,69 @@
     <description>Recent content in Ai-Alignment on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/ai-alignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
-      <title>On being an EA</title>
-      <link>http://localhost:1313/on-being-an-ea/</link>
-      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <title>The spectrum of views on AI safety</title>
+      <link>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/on-being-an-ea/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve spent more time engaging with the effective altruist (EA) community this year. Not just reading EA books and blog posts, but participating in seminars, attending conferences and going on EA retreats. For context, I&amp;rsquo;d viewed myself &amp;ldquo;EA adjacent&amp;rdquo; ever since I came across &lt;em&gt;The Life You Can Save&lt;/em&gt; back in high school. However, during my master degree, the prospect of graduating soon - of becoming an adult, who should do good - made me reflect more carefully about EA.&lt;/p&gt;
-&lt;p&gt;First, our definitions:&lt;/p&gt;
+      <guid>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</guid>
+      <description>&lt;p&gt;I agree the concept of &lt;a href=&#34;https://en.wikipedia.org/wiki/P(doom)&#34;&gt;P(doom)&lt;/a&gt; is problematic. First, &amp;ldquo;doom&amp;rdquo; can mean a variety of things: human extinction, existential catastrophe or gradual disempowerment. Also, P(doom) - condition on present-day regulations or AI slowdown? Furthermore, the timeframe matters, as P(doom within the next $X$ years) increases with $X$.&lt;/p&gt;
+&lt;p&gt;But perhaps we&amp;rsquo;re missing the point of the P(doom) question. If someone asks you for P(doom) at a cocktail party, it usually means they&amp;rsquo;re just interested in hearing general takes on AI safety, at least in my experience.&lt;/p&gt;
+&lt;p&gt;The P(doom) question isn&amp;rsquo;t entirely misguided, though. If your interlocutor specifies exactly what they mean by P(doom), say P(gradual disempowerment from power-seeking AI within the next decade|no regulations), and ask for the rough shape of your PDF, then your answer immediately becomes more informative. By asking for a small set of well-chosen estimates, you could get a fairly accurate idea of someone&amp;rsquo;s core beliefs. But again, you have to pick the right estimates.&lt;/p&gt;
+&lt;p&gt;Finding these estimates is like asking for the relevant dimensions in a &amp;ldquo;political spectrum&amp;rdquo; of views on AI safety. If you were to visualise opinions within the AI safety space, what would be your axes? While such a plot would necessarily be a simplification, perhaps it could allow us to communicate our basic assumptions more effectively. This would lead to more well-informed discussions in the AI safety community.&lt;/p&gt;
+&lt;p&gt;I imagine we want something between the P(doom) question and the kinds of questions used in expert surveys, like the &lt;a href=&#34;https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things&#34;&gt;2023 Expert Survey on Progress in AI&lt;/a&gt; or the &lt;a href=&#34;https://www.iaps.ai/research/ai-reliability-survey&#34;&gt;AI Reliability &amp;amp; Security Research Priorities&lt;/a&gt;. While the P(doom) question is too simple, the questionnaire questions are too complicated&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. We&amp;rsquo;re looking for questions that are as simple as possible, but no simpler - the kinds of questions you could answer at a cocktail party.&lt;/p&gt;
+&lt;p&gt;Here are the five questions I wish people would have asked me, rather than asking for my P(doom). For some obvious variations, see the footnotes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI timelines&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;: In what year will we have &lt;a href=&#34;https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/#id-1-defining-transformative-artificial-intelligence-transformative-ai&#34;&gt;transformative AI&lt;/a&gt;, i.e. AI that precipitates a transition comparable to (or more significant than) the agricultural or industrial revolution&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;?&lt;/li&gt;
+&lt;li&gt;A more informative P(doom)&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;: Assuming no further regulations on the development of AI systems, what is the probability of &lt;a href=&#34;https://gradual-disempowerment.ai/&#34;&gt;gradual disempowerment&lt;/a&gt; from AI systems before 2050?&lt;/li&gt;
+&lt;li&gt;Threat model: Do the main risks from transformative AI come from bad actors developing &lt;a href=&#34;https://www.forethought.org/research/preparing-for-the-intelligence-explosion#highly-destructive-technologies&#34;&gt;destructive technologies&lt;/a&gt; and creating &lt;a href=&#34;https://www.forethought.org/research/preparing-for-the-intelligence-explosion#power-concentrating-mechanisms&#34;&gt;power-concentrating mechanisms&lt;/a&gt; or from AI systems seeking to eliminate humanity?&lt;/li&gt;
+&lt;li&gt;Views on AI slowdown&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;: How heavily should the government regulate the development of future AI systems?&lt;/li&gt;
+&lt;li&gt;Views on centralisation&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;: Should all leading AI companies be required to open-source their models, to ensure equal access to our most powerful AI systems?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These questions translate naturally into scales from $-1$ to $1$. I also tried listing the questions in rough order of importance, so I&amp;rsquo;d use the three first questions for the axes of a 3D-plot.&lt;/p&gt;
+&lt;p&gt;Going through these questions and plotting your position relative to that of others can be amusing. However, it&amp;rsquo;s also an instructive exercise. After all, these questions matter. Finally, I&amp;rsquo;ve also found it pretty handy having default answers to these questions at cocktail parties.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;For example, &amp;ldquo;Rate the extent to which you agree that resolving the core challenges of this sub-area and implementing the resulting solutions would significantly reduce the risk of severe harm (loss of &amp;gt;100 lives or &amp;gt;$10 billion in economic impact from AI&amp;rdquo;, where a sub-area might be &amp;ldquo;Ethics-aware training and fine-tuning: Research on learning from imperfect ethical datasets, applying ethics-aware data curation methods, and incorporating collective ethical principles into model design.&amp;rdquo; Quite a mouthful.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Variations: In what year will AI be capable to automate 99% of fully remote jobs? In what year will we have artificial general intelligence (AGI) - an AI which can match or exceed the cognitive abilities of human beings across any task?&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;For an interesting discussion on this topic, see &lt;a href=&#34;https://www.lesswrong.com/posts/K2D45BNxnZjdpSX2j/ai-timelines&#34;&gt;this moderated discussion&lt;/a&gt; between Ajeya Cotra, Daniel Kokotaljo and Ege Erdil.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;: Variations: Just modify the conditions, the definition of &amp;ldquo;doom&amp;rdquo; or the timeframe. Alternatively, what is the probability of AI having a net positive effect on the world in within the next 20 years?&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Variations: What might be the minimum sufficient intervention to prevent gradual disempowerment from AIs?&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Variations: Should leading AI labs be placed under state ownership?&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>On my relation to effective altruism</title>
+      <link>http://localhost:1313/on-my-relation-to-effective-altruism/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/on-my-relation-to-effective-altruism/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve spent more time engaging with the effective altruist (EA) community this year. Not just reading EA books and blog posts, but participating in seminars, attending conferences and going on EA retreats. For context, I&amp;rsquo;d viewed myself &amp;ldquo;EA adjacent&amp;rdquo; ever since I came across &lt;em&gt;The Life You Can Save&lt;/em&gt; back in high school. However, during my master degree, the prospect of graduating soon - of becoming an adult - made me reflect more carefully on EA.&lt;/p&gt;
+&lt;p&gt;First, our definitions, taken from the &lt;a href=&#34;https://www.effectivealtruism.org/articles/introduction-to-effective-altruism&#34;&gt;introduction to effective altruism&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Effective altruism is a project that aims to find the best ways to help others, and put them into practice.&lt;/p&gt;
 &lt;p&gt;It’s both a &lt;strong&gt;research field&lt;/strong&gt;, which aims to identify the world’s most pressing problems and the best solutions to them, and a &lt;strong&gt;practical community&lt;/strong&gt; that aims to use those findings to do good.&lt;/p&gt;&lt;/blockquote&gt;
@@ -27,10 +76,10 @@
 &lt;p&gt;Many people who have engaged with the EA community at some level or other often find themselves questioning their relationship with EA. In fact, there are plenty of blog posts on the theme &amp;ldquo;EA identity crisis&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Here&amp;rsquo;s my contribution to the genre.&lt;/p&gt;
 &lt;p&gt;So, do I consider myself part of the EA community?&lt;/p&gt;
 &lt;h3 id=&#34;yes&#34;&gt;Yes&lt;/h3&gt;
-&lt;p&gt;Technically, yes?&lt;/p&gt;
+&lt;p&gt;Technically, yes.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;I think the &lt;a href=&#34;https://www.effectivealtruism.org/articles/introduction-to-effective-altruism#what-principles-unite-effective-altruism&#34;&gt;core ideas of EA&lt;/a&gt; - prioritisation, impartiality, open truthseeking and collaboration - make sense. The article does an excellent job at explaining these terms, so I&amp;rsquo;ll refer to their explanations&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. I&amp;rsquo;ll add that I&amp;rsquo;ve desperately tried red-teaming EA. For instance, I&amp;rsquo;d love for the &lt;a href=&#34;https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality&#34;&gt;drowning child argument&lt;/a&gt; to be less convincing. Although I&amp;rsquo;m skeptical of some arguments in EA, I still think the core ideas hold up.&lt;/li&gt;
-&lt;li&gt;I do care about finding the best ways to help others, and putting them into practise. While I don&amp;rsquo;t want to impose any moral standards on others, I feel a certain moral obligation to do good. I also find it fulfilling working on high-impact projects. It&amp;rsquo;s almost tautological that one should try having a large positive impact on the world.&lt;/li&gt;
+&lt;li&gt;I think the &lt;a href=&#34;https://www.effectivealtruism.org/articles/introduction-to-effective-altruism#what-principles-unite-effective-altruism&#34;&gt;core ideas of EA&lt;/a&gt; - prioritisation, impartiality, open truthseeking and collaboration - make sense. The article does an excellent job at explaining these terms, so I&amp;rsquo;ll refer to their explanations&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. I&amp;rsquo;ve desperately tried red-teaming EA - I&amp;rsquo;d love for the &lt;a href=&#34;https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality&#34;&gt;drowning child argument&lt;/a&gt; to be less convincing - but I still think the core ideas hold up.&lt;/li&gt;
+&lt;li&gt;I care about finding the best ways to help others, and putting them into practise. While I don&amp;rsquo;t want to impose any moral standards on others, I feel a certain moral obligation to do good&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. I also find it fulfilling working on high-impact projects. It almost seems tautological that one should try having a large positive impact on the world.&lt;/li&gt;
 &lt;li&gt;I&amp;rsquo;ve attended several EA community events. All of these events have been tremendously valuable, both on a professional and a personal level.&lt;/li&gt;
 &lt;li&gt;My interest in EA doesn&amp;rsquo;t seem to be &amp;ldquo;just a phase&amp;rdquo;. At this point, I&amp;rsquo;ve spent about five years reading and learning more about EA.&lt;/li&gt;
 &lt;/ul&gt;
@@ -40,36 +89,42 @@
 &lt;li&gt;In general, I find many people in the EA community to be very thoughtful. Some pieces by Holden Karnofsky, Ajeya Cotra and Benjamin Todd have had a profound influence on my worldview. Similarly, some of my favourite non-fiction books are about EA. For example, I thought &lt;em&gt;Doing Good Better&lt;/em&gt; and &lt;em&gt;What We Owe The Future&lt;/em&gt; were exceptional reads.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;no&#34;&gt;No&lt;/h3&gt;
-&lt;p&gt;This said, I do have some issues with EA.&lt;/p&gt;
+&lt;p&gt;But of course, it&amp;rsquo;s complicated&amp;hellip;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;In relation to many people in the EA community, I seem to take more of a longtermist perspective. I mostly care about existential risk reduction, as opposed to more near-term cause areas&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Traditionally, there was more emphasis on poverty reduction and animal welfare.&lt;/p&gt;
+&lt;p&gt;I mainly care about existential risk reduction, although this may very well change in the future. I&amp;rsquo;ve also devoted much more time and effort to AI safety than any other cause area&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. It&amp;rsquo;d be more accurate saying I&amp;rsquo;m into AI safety and existential risk reduction rather than EA, which is a much broader term.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;In general, I try avoid identity markers related to social movements. While I think neutrality is somewhat of an illusion, I want to hold my opinions lightly. My worry is that self-identifying as an EA might make me less open-minded.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t seem to fit the public perception of an EA. In my experience, many people think all EAs work on farm animal welfare or global poverty reduction. Sure, I&amp;rsquo;m vegetarian (Peter Singer&amp;rsquo;s fault), but I still haven&amp;rsquo;t donated to GiveWell, nor signed the 10% pledge. This point is mostly about me not living up to my moral standards, though.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;I&amp;rsquo;m certainly not an effective altruist in the literal sense of the term. Or, I don&amp;rsquo;t live up to my moral standards. For example, I haven&amp;rsquo;t signed the 10% pledge.&lt;/p&gt;
+&lt;p&gt;In general, I try avoid identity markers related to social movements. While I think neutrality is somewhat of an illusion, I want to hold my opinions lightly. My worry is that self-identifying as an EA might make me less open-minded. But perhaps this worry is somewhat ungrounded, at least when it comes to EA. People in the EA community tend to be very open to criticism&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The EA community has its flaws, despite making a number of changes after FTX. Many of the criticisms raised in &lt;a href=&#34;https://forum.effectivealtruism.org/posts/54vAiSFkYszTWWWv4/doing-ea-better-1&#34;&gt;this article&lt;/a&gt; are still valid. This excerpt summarises my main concern well:&lt;/p&gt;
+&lt;p&gt;The EA community has its flaws, despite making a number of changes after FTX. Many of the concerns raised in &lt;a href=&#34;https://forum.effectivealtruism.org/posts/54vAiSFkYszTWWWv4/doing-ea-better-1&#34;&gt;this article&lt;/a&gt; are still valid. This excerpt summarises one of my main concerns well:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The EA community is notoriously, and the “average EA” is extremely easy to imagine: he is a white male in his twenties or thirties from an upper-middle class family in North America or Western Europe. He is ethically utilitarian and politically centrist; an atheist, but culturally protestant. He studied analytic philosophy, mathematics, computer science, or economics at an elite university in the US or UK. He is neurodivergent. He thinks space is really cool. He highly values intelligence, and believes that his own is significantly above average. He hung around LessWrong for a while as a teenager, and now wears EA-branded shirts and hoodies, drinks Huel, and consumes a narrow range of blogs, podcasts, and vegan ready-meals.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The EA community is notoriously homogeneous, and the “average EA” is extremely easy to imagine: he is a white male in his twenties or thirties from an upper-middle class family in North America or Western Europe. He is ethically utilitarian and politically centrist; an atheist, but culturally protestant. He studied analytic philosophy, mathematics, computer science, or economics at an elite university in the US or UK. He is neurodivergent. He thinks space is really cool. He highly values intelligence, and believes that his own is significantly above average. He hung around LessWrong for a while as a teenager, and now wears EA-branded shirts and hoodies, drinks Huel, and consumes a narrow range of blogs, podcasts, and vegan ready-meals.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;resolution&#34;&gt;Resolution&lt;/h3&gt;
-&lt;p&gt;While I have some reservations, my views are much in line with the EA agenda. Also, I&amp;rsquo;ll (reluctantly) admit that overthinking the question of whether you&amp;rsquo;re part of a given community is very EA.&lt;/p&gt;
+&lt;p&gt;While I do have some reservations, my views are pretty consistent with the EA agenda. Also, I&amp;rsquo;ll (reluctantly) admit that overthinking the question of whether you&amp;rsquo;re part of a given community is very EA.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;A good starting point is &lt;a href=&#34;https://forum.effectivealtruism.org/posts/89GdH5unSb2Sze6kj/elements-of-ea-your-ea-identity-can-be-bespoke&#34;&gt;this post&lt;/a&gt; or &lt;a href=&#34;https://www.neelnanda.io/blog/8-altruism&#34;&gt;Neel Nanda&amp;rsquo;s favourite blog post&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://forum.effectivealtruism.org/posts/89GdH5unSb2Sze6kj/elements-of-ea-your-ea-identity-can-be-bespoke&#34;&gt;This post&lt;/a&gt; on EA identities is a good starting point. There&amp;rsquo;s also &lt;a href=&#34;https://www.neelnanda.io/blog/8-altruism&#34;&gt;Neel Nanda&amp;rsquo;s favourite blog post&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;I endorse a broader form of the impartiality principle than the one outlined in the article. I also think strangers, animals and future people should be part of our &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Expanding_Circle&#34;&gt;circle of moral consideration&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I endorse a much broader form of the impartiality principle than the one outlined in the article. I also think strangers, animals and future people should be part of our &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Expanding_Circle&#34;&gt;circle of moral consideration&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;For a list of cause areas, see the 80,000 hours list of &lt;a href=&#34;https://80000hours.org/problem-profiles/&#34;&gt;the world&amp;rsquo;s most pressing problems&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I assume this is because my mother, coming from the Philippines, always told me to be grateful. I&amp;rsquo;m glad she did, but I used to find it annoying as a child.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;For a list of cause areas, see the 80,000 hours list of &lt;a href=&#34;https://80000hours.org/problem-profiles/&#34;&gt;the world&amp;rsquo;s most pressing problems&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;See the posts in the &lt;a href=&#34;https://forum.effectivealtruism.org/topics/criticism-of-effective-altruism&#34;&gt;Criticism of effective altruism thread&lt;/a&gt;. I very much liked &lt;a href=&#34;https://www.benkuhn.net/ea-critique/&#34;&gt;Ben Kuhn&amp;rsquo;s critique of EA&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;

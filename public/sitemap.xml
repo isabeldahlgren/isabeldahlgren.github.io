@@ -2,31 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/altruism/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/essay/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-alignment/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/essay/</loc>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/on-my-relation-to-effective-altruism/</loc>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rationality/</loc>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/on-being-an-ea/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/on-question-taste/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rationality/</loc>
-    <lastmod>2025-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/a-taxonomy-of-examples/</loc>
@@ -37,12 +43,6 @@
   </url><url>
     <loc>http://localhost:1313/on-the-joy-of-customising/</loc>
     <lastmod>2025-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai-alignment/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/consume-less-ai-safety-news/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
