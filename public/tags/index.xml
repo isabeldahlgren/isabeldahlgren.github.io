@@ -6,9 +6,31 @@
     <description>Recent content in Tags on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>On good hobbies</title>
+      <link>http://localhost:1313/on-good-hobbies/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/on-good-hobbies/</guid>
+      <description>&lt;p&gt;Everyone has hobbies, whether they recognise it or not. For example, workaholics who don&amp;rsquo;t seem to have any &amp;ldquo;normal&amp;rdquo; hobbies might be really into, say, writing slick SQL queries. Code golf is a hobby too. By definition, a hobby is something you do for pleasure when you&amp;rsquo;re not working. And for the record, writing slick SQL queries isn&amp;rsquo;t work.&lt;/p&gt;
+&lt;p&gt;Some hobbies are better than others, though. Examples of not-as-good hobbies include motorcycling (dangerous), graffiti painting (illegal) and doom-scrolling social media (depressing). A benchmark for hobby quality: ask whether your mom would like it. So, which hobbies would your mom like?&lt;/p&gt;
+&lt;p&gt;Some hobbies naturally lead to the formation of good habits. For example, a big NBA geek is more likely to pick up basketball. If you&amp;rsquo;re into cooking, you might start meal-prepping healthy food. An interest in interior design could motivate you to tidy your room every weekend. Some hobbies when done regularly become good habits in themselves. A maybe-useful name for such hobbies: habbies. Think meditation, managing one&amp;rsquo;s personal finances or journaling.&lt;/p&gt;
+&lt;p&gt;There are also practical considerations. The ideal hobby is cheap, requires little equipment and can be done anywhere. In this sense, hiking is better than golf and crocheting is better than photography.&lt;/p&gt;
+&lt;p&gt;Hobbies are also expressions of individuality. Playing the saxophone doesn&amp;rsquo;t map to a good habit in an obvious way. In fact, since practising is so time-consuming, it may very well prevent you from building good habits. However, if playing the saxophone your hobby, you&amp;rsquo;re a saxophone player. Contrast this with the hobby of scrolling Reddit; it doesn&amp;rsquo;t make you a something.&lt;/p&gt;
+&lt;p&gt;Other hobbies help build career capital. Take coding, for example. The ability to write simple scripts &amp;ndash; or to debug LLM-written scripts &amp;ndash; is useful for most knowledge workers. Other examples of career-building hobbies include learning languages and doing science olympiads.&lt;/p&gt;
+&lt;p&gt;But many good hobbies seem perfectly useless. Recall the definition: hobbies are activities done for leisure. Does the hobby allow you to recharge? &amp;ldquo;Productive hobbies&amp;rdquo; may not be as productive as they seem &amp;ndash; quite the contrary. Painting, photography and boardgames all seem good from this perspective.&lt;/p&gt;
+&lt;p&gt;Back to our original question: which hobbies would your mom like?&lt;/p&gt;
+&lt;p&gt;To compare hobbies X and Y, one can use the above criteria. But rather than making pairwise comparisons between hobbies, I prefer thinking in terms of hobby portfolios. Ideally, you&amp;rsquo;d have one sports-related hobby, one idiosyncratic hobby, one hustler hobby and one relaxing hobby. Obviously there can be overlaps between these kinds of hobbies; for example, playing soccer can also be relaxing, in that it takes your mind off work. There may very well be other categories of hobbies worth investing in too.&lt;/p&gt;
+&lt;p&gt;There are both personal and professional benefits of having a good hobby portfolio. While we cannot choose some of our hobbies &amp;ndash; I&amp;rsquo;ll always be a sucker for books on behavioural economics &amp;ndash; surely we should try optimising our hobby portfolios, at least a bit. After all, having a good hobby portfolio seems like a key part of living a good life.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Isaia Gisler, Stanislas Nicolau and Abhinand Shibu for a valuable discussion on this topic.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     
     
@@ -44,9 +66,8 @@
       
       <guid>http://localhost:1313/finding-research-influences/</guid>
       <description>&lt;p&gt;There isn&amp;rsquo;t any expert consensus on many &lt;a href=&#34;https://isabeldahlgren.github.io/the-spectrum-of-views-on-ai-safety/&#34;&gt;key questions related to AI safety&lt;/a&gt;. For example, estimates of when we&amp;rsquo;ll have transformative AI range from a few years to a century. There are also many wild opinions in the AI safety space. While some of these wild opinions seem justifiable, many people seem to exaggerate the risks from AI in an attempt to move policy-makers.&lt;/p&gt;
-&lt;p&gt;I think there are a few researchers which seem to have an unusual degree of conceptual clarity, though. A few names that come to mind are Buck Shleregis, Holden Karnofsky and Jan Kulveit. While I don&amp;rsquo;t endorse all their views, they tend to raise good questions, redirecting our attention to what really matters.&lt;/p&gt;
-&lt;p&gt;For lack of a better word, you could call them my research influences. These aren&amp;rsquo;t necessarily the people who provide critical insights on whatever project I&amp;rsquo;m currently working on. Instead, these are the people whose general approach to research I find inspiring.&lt;/p&gt;
-&lt;p&gt;How might you find more such people?&lt;/p&gt;
+&lt;p&gt;I think there are a few researchers which seem to have an unusual degree of conceptual clarity, though. A few names that come to mind are &lt;a href=&#34;https://substack.com/@redwoodresearch?utm_source=about-page&#34;&gt;Buck Shleregis&lt;/a&gt;, &lt;a href=&#34;https://www.cold-takes.com/cold-takes-on-ai/&#34;&gt;Holden Karnofsky&lt;/a&gt; and &lt;a href=&#34;https://www.lesswrong.com/users/jan_kulveit?from=search_autocomplete&#34;&gt;Jan Kulveit&lt;/a&gt;. While I don&amp;rsquo;t endorse all their views, they seem to raise good questions. For lack of a better word, you could call them my research influences.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve never been on looking for new research influences. Every now and then, I just realise that I&amp;rsquo;ve been influenced by someone, perhaps after citing the work of someone for the third time in a conversation. But say you want to look for research influences more deliberately. How might you proceed?&lt;/p&gt;
 &lt;h3 id=&#34;knowing-where-to-look&#34;&gt;Knowing where to look&lt;/h3&gt;
 &lt;p&gt;A reasonable first step is exploring new content.&lt;/p&gt;
 &lt;p&gt;A reasonable first substep, then, is to narrow down the search space. Identify the kinds of questions you care about. For example, I&amp;rsquo;m mostly interested in reading about AI control and LLM psychology right now, so I&amp;rsquo;ll ignore papers and blog posts on, say, singular learning theory.&lt;/p&gt;
@@ -55,13 +76,13 @@
 &lt;h3 id=&#34;having-a-nose-for-bullshit&#34;&gt;Having a nose for bullshit&lt;/h3&gt;
 &lt;p&gt;Once you&amp;rsquo;ve decided what to read, you want to scrutinise the argument of the text. This is a highly non-trivial task. I&amp;rsquo;m not going to try solving all of philosophy here, so I&amp;rsquo;ll just focus on heuristics for detecting bullshit in the context of AI safety.&lt;/p&gt;
 &lt;p&gt;First, beware any kind of extreme. Is the proposed idea radical? Radical ideas shouldn&amp;rsquo;t be dismissed offhand. However, the burden of proof is greater. Similarly, quickly screen the author&amp;rsquo;s background: is the author known to have radical opinions, or affiliated with an organisation pursuing an unusual agenda?&lt;/p&gt;
-&lt;p&gt;I find it especially troubling when authors promote radical opinions and are unwilling to engage in debate with the general public. This leads to echo chambers. By engaging in public debate, you have greater incentives to form accurate beliefs. Moreover, refusing to explain your ideas to laymen just seems uncool. Just as lecturers should take questions from students seriously, authors should take questions from the non-initiated seriously. It&amp;rsquo;s an act of charity.&lt;/p&gt;
+&lt;p&gt;I find it especially troubling when authors promote radical opinions and are unwilling to engage in debate with the general public. This leads to echo chambers. Moreover, refusing to explain your ideas to laymen just seems uncool. Just as lecturers should take questions from students seriously, authors should take questions from the non-initiated seriously. It&amp;rsquo;s an act of charity.&lt;/p&gt;
 &lt;p&gt;Another helpful strategy is to listen to interviews with the author. It&amp;rsquo;s harder lying in speech than in writing&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Of course, not everyone is as persuasive orally. But if there&amp;rsquo;s a big discrepancy between your confidence in the author&amp;rsquo;s argument as presented in the text and during an interview, that&amp;rsquo;s a warning sign. Moreover, a good interviewer will also help expose the flaws in the interviewee&amp;rsquo;s reasoning. In an essay, the author has full control.&lt;/p&gt;
-&lt;h3 id=&#34;observing-the-change&#34;&gt;Observing the change&lt;/h3&gt;
+&lt;h3 id=&#34;observing-the-influence&#34;&gt;Observing the influence&lt;/h3&gt;
 &lt;p&gt;Suppose you come across an author whose work makes sense but leaves you feeling &amp;ldquo;Sure, so what?&amp;rdquo;. I wouldn&amp;rsquo;t speak of a research influence here. A research influence changes the way you think. It&amp;rsquo;s not enough just stating true facts; their work needs to have some oomph.&lt;/p&gt;
 &lt;p&gt;When can we speak of a research influence, then?&lt;/p&gt;
 &lt;p&gt;One reliable proxy is &lt;a href=&#34;https://www.paulgraham.com/top.html&#34;&gt;the top idea of your mind&lt;/a&gt;. Do you have shower thoughts about their work? Also, do you find yourself coming back to their work after several months? In particular, when revisiting their points, do they still make as much sense? Big ideas need to be slept on, and you can only sleep so many times in a given week. Lastly, notice if you reference their ideas when chatting with others and, if so, in what way.&lt;/p&gt;
-&lt;p&gt;Finding research influences takes time, even if you take some of the shortcuts listed above. Finding research influences requires you to do things IRL - asking for recommendations and discussing ideas - rather than just reading content online. In short, the process of finding research influences very much resembles the process of doing research. In fact, perhaps the two are indistinguishable.&lt;/p&gt;
+&lt;p&gt;So finding research influences takes time, even if you take some of the shortcuts listed above. The process of finding research influences very much resembles the process of doing research. In fact, perhaps the two are indistinguishable.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Thanks to Miles Kodama for valuable discussions on this topic.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
