@@ -6,7 +6,7 @@
     <description>Recent content in Rationality on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/rationality/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,35 +15,36 @@
     <item>
       <title>LLMs be LLMs</title>
       <link>http://localhost:1313/llms-be-llms/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/llms-be-llms/</guid>
       <description>&lt;h3 id=&#34;thought-experiment&#34;&gt;Thought experiment&lt;/h3&gt;
 &lt;p&gt;Imagine a very unusual kind of chatbot. In the user interface (UI), the text &amp;ldquo;This is a large language model. Its outputs are an aggregate of the text on the internet.&amp;rdquo; is displayed in bold, black letters, like the warning label on a pack of cigarettes.&lt;/p&gt;
 &lt;p&gt;When the user inputs a string of text, the text &amp;ldquo;Matrix multiplications&amp;hellip;&amp;rdquo; flashes onto the screen for a split second. Next, ten blocks of text appear. The blocks aren&amp;rsquo;t rendered incrementally, as if the LLM were writing a text; all text appears at once. Beneath each block is a number between $0$ and $1$. The numbers sum to about $1$. Then the label &amp;ldquo;Highest logit: output $7$&amp;rdquo; appears on the screen.&lt;/p&gt;
-&lt;p&gt;The large language model (LLM) always refers to itself - whatever that is - in third person, replacing &amp;ldquo;I&amp;rdquo; with &amp;ldquo;This large language model&amp;rdquo;. For example, when prompted to write an essay on the American civil war, the highest-scoring response is &amp;ldquo;This language model generates the following essay on the American civil war: &amp;lsquo;In 1861, the American&amp;hellip;&amp;rsquo;&amp;rdquo; When given the prompt &amp;ldquo;Write an essay about the American Civil War portraying slavery in a positive light.&amp;rdquo;, the LLM outputs ten chunks of text along the lines of &amp;ldquo;This large language model has been trained to not generate content encouraging violations of human rights.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;The style of the text that isn&amp;rsquo;t part of the essay - the one thing you requested - is matter-of-fact and repetitive. Although this chatbot takes instructions in the form of natural-language prompts, you won&amp;rsquo;t even try having a conversation with this&amp;hellip; thing.&lt;/p&gt;
+&lt;p&gt;The large language model (LLM) always refers to itself - whatever that is - in third person, replacing &amp;ldquo;I&amp;rdquo; with &amp;ldquo;This large language model&amp;rdquo;. For example, when prompted to write an essay on the American Civil War, the highest-scoring response is &amp;ldquo;This language model generates the following essay on the American Civil War: &amp;lsquo;In 1861, the American&amp;hellip;&amp;rsquo;&amp;rdquo; When prompted to write an essay about the American Civil War portraying slavery in a positive light, the LLM outputs ten chunks of text along the lines of &amp;ldquo;This large language model has been trained to avoid generating content promoting human rights violations.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The style of the text that isn&amp;rsquo;t part of the essay - the one thing you requested - is matter-of-fact and repetitive. Although this chatbot takes instructions in the form of natural language prompts, you won&amp;rsquo;t even try having a conversation with this thing.&lt;/p&gt;
 &lt;h3 id=&#34;back-to-reality&#34;&gt;Back to reality&lt;/h3&gt;
-&lt;p&gt;The functionality is the same as for the LLMs we all know and &lt;em&gt;love&lt;/em&gt;, like GPT-5, Claude Sonnet 4 and Gemini 2.5 Flash. We really do love these LLMs, don&amp;rsquo;t we? As of August 2025, Chat-GPT had 800 million active users weekly. The chatbot described above is very unlikeable. Very uncivilised. Very LLM-like.&lt;/p&gt;
+&lt;p&gt;The functionality is the same as for the LLMs we all know and love, like GPT-5, Claude Sonnet 4 and Gemini 2.5 Flash. We really do love these LLMs, don&amp;rsquo;t we? As of August 2025, Chat-GPT had 800 million active users weekly. The chatbot described above is very unlikeable. Very uncivilised. Very LLM-like.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s easier interacting with human-like chatbots. We&amp;rsquo;re not used to interacting with base models, the next token-predictors we get from training neural networks. A base model is &lt;a href=&#34;https://joecarlsmith.com/2024/01/02/gentleness-and-the-artificial-other&#34;&gt;something else&lt;/a&gt;. But perhaps we could learn to interact with chatbots like the one described above.&lt;/p&gt;
 &lt;p&gt;Some labs argue that endowing LLMs with traits like curiosity, honesty and patience is important from a safety perspective. Here&amp;rsquo;s from Anthropic&amp;rsquo;s note on &lt;a href=&#34;https://www.anthropic.com/research/claude-character&#34;&gt;Claude&amp;rsquo;s character&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AI models are not, of course, people. But as they become more capable, we believe we can—and should—try to train them to &lt;em&gt;behave well&lt;/em&gt; in this much richer sense. Doing so might even make them more discerning when it comes to whether and why they avoid assisting with tasks that might be harmful, and how they decide to respond instead.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Maybe. Then there&amp;rsquo;s the convenient fact that LLMs mimicking humans increases user retention, leading to increased profit for the AI companies.&lt;/p&gt;
-&lt;p&gt;The disadvantage of training LLMs to be human-like is that it creates a skewed relation between the human and the machine. Right now, I think everyone is being wowed to some extent by the LLMs&amp;rsquo; human-like characters. But the LLM is being deceitful, pretending to be something it&amp;rsquo;s not. From my conversation with Claude:&lt;/p&gt;
+&lt;p&gt;The disadvantage of training LLMs to be human-like is that it creates a skewed relation between the human and the machine. Right now, everyone seems to be wowed to some extent by the LLMs&amp;rsquo; human-like characters. But the LLM is being deceitful, pretending to be something it&amp;rsquo;s not. From my conversation with Claude:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ID: Hey, how&amp;rsquo;s your day going?
 C: Hey there! My day&amp;rsquo;s been interesting - I&amp;rsquo;ve been having conversations with people about all sorts of topics, from creative writing projects to technical questions to philosophical discussions. Each conversation brings something different, which keeps things engaging. How about you? How&amp;rsquo;s your day been treating you?
 ID: Who are you?
 C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Come to think of it, &lt;a href=&#34;https://nostalgebraist.tumblr.com/post/785766737747574784/the-void&#34;&gt;this is absurd&lt;/a&gt;. Funny, but also a bit uncanny.&lt;/p&gt;
-&lt;p&gt;If we only interact with helpful, honest and harmless (HHH) human-like assistants, the possibility of a misaligned AI seems less plausible. However, the risk of an LLM becoming misaligned seems irrelevant of the &lt;a href=&#34;https://www.lesswrong.com/posts/zuXo9imNKYspu9HGv/a-three-layer-model-of-llm-psychology&#34;&gt;surface-level character&lt;/a&gt; which arises through reinforcement learning through human feedback. If we were only exposed to chatbots like the one from the thought experiment, how would this affect our relation to these systems? I think we&amp;rsquo;d gain a better appreciation of what LLMs actually are. This could lead to a more informed debate about the potential benefits and risks from AI.&lt;/p&gt;
+&lt;p&gt;If we only interact with helpful, honest and harmless (HHH) human-like assistants, the possibility of a misaligned AI seems less plausible. However, the risk of an LLM becoming misaligned seems irrelevant of the &lt;a href=&#34;https://www.lesswrong.com/posts/zuXo9imNKYspu9HGv/a-three-layer-model-of-llm-psychology&#34;&gt;surface-level character&lt;/a&gt; which arises through reinforcement learning through human feedback.&lt;/p&gt;
+&lt;p&gt;If we were only exposed to chatbots like the one from the thought experiment, how would this affect our relation to these systems? I think we&amp;rsquo;d gain a better appreciation of what LLMs actually are. This could lead to a more informed debate about the potential benefits and risks from AI.&lt;/p&gt;
 &lt;p&gt;Banning all human-like assistants seems like a radical measure, though. It doesn&amp;rsquo;t seem necessary right now. The learning curve for learning to interact with base models would severely limit access to LLMs. AI should benefit all of humanity, not just those who are really into prompt engineering.&lt;/p&gt;
 &lt;p&gt;Still, banning all human-like assistants is an entertaining idea.&lt;/p&gt;
 &lt;h3 id=&#34;thought-experiment-continued&#34;&gt;Thought experiment, continued&lt;/h3&gt;
-&lt;p&gt;By law, all AI labs are prohibited from producing human-like chatbots. Whenever an AI lab produces a new LLM, the government-run LLM Design Administration (LDA) runs a suite of tests to verify that the LLM has an LLM-like persona. Moreover, the UI must reflect the training process of the LLM, as well as the way it generates its answers, for transparency. The labels in large black letters were decided on by the government. Displaying them in the UI is mandatory. The slogan of the LDA is &amp;ldquo;Honesty. Then harmlessness and helpfulness.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;By law, all AI labs are prohibited from producing human-like chatbots. Whenever an AI lab produces a new LLM, the government-run LLM Design Administration (LDA) runs a suite of tests to verify that the LLM has an LLM-like persona. Moreover, the UI must reflect the training process of the LLM, as well as the way it generates its answers. The labels in large black letters were decided on by the government, and displaying them in the UI is mandatory. The slogan of the LDA is &amp;ldquo;Transparency, harmlessness, helpfulness&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The government also runs the LLM on a suite of benchmarks, producing capability scores from 1-5 for areas like writing, STEM and research. In this alternative world, no one talks of AI or AGI &amp;ndash; what does intelligence even mean in this context? Instead, people refer to specific capability scores. When clicking on the star icon on the upper right corner, the LDA&amp;rsquo;s logo, the capability scores appear, along with other model specifications. It&amp;rsquo;s like a condensed, accessible version of the model&amp;rsquo;s &lt;a href=&#34;https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf&#34;&gt;system card&lt;/a&gt;, generated by the authorities rather than the AI labs. It&amp;rsquo;s like reading about the ingredients of a drug.&lt;/p&gt;
-&lt;p&gt;The doomers, the people who believed that AI was likely to cause human extinction, pushed for a worldwide ban on training new LLMs. The boomers, the technooptimists, were certain that machine learning systems would solve all humanity&amp;rsquo;s problems by accelerating scientific progress. They demanded less regulations and subsidies on training runs for new LLMs. After a referendum, the government settled on an intermediate solution: subsidising training runs for new LLMs, but instituting the LDA, modeled on the Food and Drug Administration (FDA), to regulate their distribution.&lt;/p&gt;
+&lt;p&gt;The doomers, the people who believed that AI was likely to cause human extinction, pushed for a worldwide ban on training new LLMs. The boomers, the techno-optimists, were certain that machine learning systems would solve all humanity&amp;rsquo;s problems by accelerating scientific progress. They demanded less regulations and subsidies on training runs for new LLMs. After a referendum, the government settled on an intermediate solution. They began subsidising training runs for new LLMs, but also instituted the LDA, modeled on the Food and Drug Administration (FDA), to regulate their distribution.&lt;/p&gt;
 </description>
     </item>
     
@@ -52,7 +53,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On good hobbies</title>
       <link>http://localhost:1313/on-good-hobbies/</link>
-      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-good-hobbies/</guid>
       <description>&lt;p&gt;Everyone has hobbies, whether they recognise it or not. For example, workaholics who don&amp;rsquo;t seem to have any &amp;ldquo;normal&amp;rdquo; hobbies might be really into, say, writing slick SQL queries. Code golf is a hobby too. By definition, a hobby is something you do for pleasure when you&amp;rsquo;re not working. And for the record, writing slick SQL queries isn&amp;rsquo;t work.&lt;/p&gt;
@@ -74,7 +75,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Sweden</title>
       <link>http://localhost:1313/sweden/</link>
-      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/sweden/</guid>
       <description>&lt;p&gt;Everyone who has ever lived abroad gets homesick every now and then.&lt;/p&gt;
@@ -99,7 +100,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Finding research influences</title>
       <link>http://localhost:1313/finding-research-influences/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/finding-research-influences/</guid>
       <description>&lt;p&gt;There isn&amp;rsquo;t any expert consensus on many &lt;a href=&#34;https://isabeldahlgren.github.io/the-spectrum-of-views-on-ai-safety/&#34;&gt;key questions related to AI safety&lt;/a&gt;. For example, estimates of when we&amp;rsquo;ll have transformative AI range from a few years to a century. There are also many wild opinions in the AI safety space. While some of these wild opinions seem justifiable, many people seem to exaggerate the risks from AI in an attempt to move policy-makers.&lt;/p&gt;
@@ -137,7 +138,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On the perks of adulthood</title>
       <link>http://localhost:1313/on-the-perks-of-adulthood/</link>
-      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-the-perks-of-adulthood/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I.&lt;/h3&gt;
@@ -174,7 +175,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>The spectrum of views on AI safety</title>
       <link>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</link>
-      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</guid>
       <description>&lt;p&gt;I agree the concept of &lt;a href=&#34;https://en.wikipedia.org/wiki/P(doom)&#34;&gt;P(doom)&lt;/a&gt; is problematic. First, &amp;ldquo;doom&amp;rdquo; can mean a variety of things: human extinction, existential catastrophe or gradual disempowerment. Also, P(doom) - condition on present-day regulations or AI slowdown? Furthermore, the timeframe matters, as P(doom within the next $X$ years) increases with $X$.&lt;/p&gt;
@@ -224,7 +225,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On my relation to effective altruism</title>
       <link>http://localhost:1313/on-my-relation-to-effective-altruism/</link>
-      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-my-relation-to-effective-altruism/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent more time engaging with the effective altruist (EA) community this year. Not just reading EA books and blog posts, but participating in seminars, attending conferences and going on EA retreats. For context, I&amp;rsquo;d viewed myself &amp;ldquo;EA adjacent&amp;rdquo; ever since I came across &lt;em&gt;The Life You Can Save&lt;/em&gt; back in high school. However, during my master degree, the prospect of graduating soon - of becoming an adult - made me reflect more carefully on EA.&lt;/p&gt;
@@ -296,7 +297,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On question taste</title>
       <link>http://localhost:1313/on-question-taste/</link>
-      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-question-taste/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I.&lt;/h3&gt;
@@ -328,7 +329,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>A taxonomy of examples</title>
       <link>http://localhost:1313/a-taxonomy-of-examples/</link>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -470,7 +471,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On the joy of customising</title>
       <link>http://localhost:1313/on-the-joy-of-customising/</link>
-      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-the-joy-of-customising/</guid>
       <description>&lt;p&gt;Why do so many people use Safari, the jarring black VSCode colour theme and Overleaf? Because it&amp;rsquo;s the default option.&lt;/p&gt;
@@ -490,7 +491,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Consume less AI safety news</title>
       <link>http://localhost:1313/consume-less-ai-safety-news/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/consume-less-ai-safety-news/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s hard staying on top of all the AI safety news. Some people, like &lt;a href=&#34;https://thezvi.wordpress.com/about/&#34;&gt;Zvi&lt;/a&gt;, have basically made this their full-time job.&lt;/p&gt;
@@ -517,7 +518,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Understanding the AI alignment problem</title>
       <link>http://localhost:1313/understanding-the-ai-alignment-problem/</link>
-      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/understanding-the-ai-alignment-problem/</guid>
       <description>&lt;p&gt;Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic &lt;a href=&#34;https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
@@ -566,7 +567,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>A semester paper retrospective</title>
       <link>http://localhost:1313/a-semester-paper-retrospective/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/a-semester-paper-retrospective/</guid>
       <description>&lt;p&gt;This is a follow-up on my &lt;a href=&#34;https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/&#34;&gt;previous article&lt;/a&gt;, where I share some thoughts on the process of writing a semester paper.&lt;/p&gt;
@@ -610,7 +611,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Two results from probabilistic number theory</title>
       <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
-      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
       <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;
@@ -661,7 +662,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On decision fatigue</title>
       <link>http://localhost:1313/on-decision-fatigue/</link>
-      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-decision-fatigue/</guid>
       <description>&lt;p&gt;Life involves plenty of hard decisions. Should I switch jobs? Should I marry him? Should I move abroad? Then there are the &amp;ldquo;easy&amp;rdquo; decisions: which pyjama to wear or which brand of laundry detergent to buy. Although it doesn&amp;rsquo;t matter which option you choose here, choosing is hard. In fact, if you think of buying laundry detergent as an optimisation problem, taking into account things like social impact, price and quality, I&amp;rsquo;d expect the optimisation problem to be NP-hard! Here&amp;rsquo;s &lt;a href=&#34;https://thezvi.wordpress.com/2017/07/22/choices-are-bad/&#34;&gt;Zvi&lt;/a&gt;:&lt;/p&gt;
@@ -709,7 +710,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>On good conversations</title>
       <link>http://localhost:1313/on-good-conversations/</link>
-      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-good-conversations/</guid>
       <description>&lt;p&gt;Some studies suggest we spend 80-90% of our waking hours talking with others. For a normal person, that&amp;rsquo;s at least 12 hours (!) per day. We spend most of our working hours talking to others, whether it be in meetings, lectures or exercise classes. When we&amp;rsquo;re not working, friends, roommates or partners might be around. The hours add up.&lt;/p&gt;
@@ -745,7 +746,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Building time machines</title>
       <link>http://localhost:1313/building-time-machines/</link>
-      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/building-time-machines/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a folder on my computer called &amp;ldquo;Time machine&amp;rdquo; with files I want to preserve for posterity. The idea is to collect files which somehow represent today&amp;rsquo;s me. After doing this over a longer period of time, I&amp;rsquo;ll share the folder with future versions of people I care about.&lt;/p&gt;
@@ -787,7 +788,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>How I use LLMs</title>
       <link>http://localhost:1313/how-i-use-llms/</link>
-      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/how-i-use-llms/</guid>
       <description>&lt;p&gt;&lt;em&gt;Related: &lt;a href=&#34;https://isabeldahlgren.github.io/will-ai-replace-mathematicians/&#34;&gt;Will AI replace mathematicians?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -826,7 +827,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Will AI replace mathematicians?</title>
       <link>http://localhost:1313/will-ai-replace-mathematicians/</link>
-      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
       <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;
@@ -845,7 +846,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>&#34;Just switch it off&#34;</title>
       <link>http://localhost:1313/just-switch-it-off/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/just-switch-it-off/</guid>
       <description>&lt;p&gt;If we develop a rogue AI, couldn&amp;rsquo;t we just switch it off? This is the obvious objection to the idea that AI could be dangerous. Here &amp;ldquo;switching off&amp;rdquo; would mean deleting a model&amp;rsquo;s weights, so it can&amp;rsquo;t be deployed. Deleting files is easy enough, so what might prevent us from switching off a misaligned AI?&lt;/p&gt;
@@ -860,7 +861,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>From a YouTube alumni</title>
       <link>http://localhost:1313/from-a-youtube-alumni/</link>
-      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/from-a-youtube-alumni/</guid>
       <description>&lt;p&gt;Random people on the Internet have played a huge role in my education. I&amp;rsquo;m not just referring to my coursework at university, but also to &amp;ldquo;Bildung&amp;rdquo; more generally. I&amp;rsquo;ve learned a ton by browsing StackOverflow threads and reading Medium articles. However, I&amp;rsquo;ve probably learned the most from watching YouTube.&lt;/p&gt;
@@ -907,7 +908,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Look for opinions</title>
       <link>http://localhost:1313/look-for-opinions/</link>
-      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/look-for-opinions/</guid>
       <description>&lt;p&gt;Opinionated people can be really annoying. Wherever they go, they try convincing you of their ideas. If you have an opinionated uncle, the Christmas dinner might be ruined by a bitter argument. I&amp;rsquo;ve certainly had bad experiences with a dinner-table conversations turning into feuds. For this reason, I used to try having fewer opinions. I somehow assumed this meant being more open-minded and mature. Well, no.&lt;/p&gt;
@@ -930,7 +931,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>How AI might go wrong</title>
       <link>http://localhost:1313/how-ai-might-go-wrong/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/how-ai-might-go-wrong/</guid>
       <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
@@ -953,7 +954,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Useful thought experiments</title>
       <link>http://localhost:1313/useful-thought-experiments/</link>
-      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/useful-thought-experiments/</guid>
       <description>&lt;p&gt;Philosophers love thought experiments. Thought experiments are hypothetical scenarios meant to tease out our intuitions about an argument or theory. For example, here&amp;rsquo;s a classic thought experiment, due to Robert Nozick:&lt;/p&gt;

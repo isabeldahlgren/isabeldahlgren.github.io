@@ -6,7 +6,7 @@
     <description>Recent content in Home on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>LLMs be LLMs</title>
       <link>http://localhost:1313/llms-be-llms/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/llms-be-llms/</guid>
       <description>&lt;h3 id=&#34;thought-experiment&#34;&gt;Thought experiment&lt;/h3&gt;
@@ -53,7 +53,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On good hobbies</title>
       <link>http://localhost:1313/on-good-hobbies/</link>
-      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-good-hobbies/</guid>
       <description>&lt;p&gt;Everyone has hobbies, whether they recognise it or not. For example, workaholics who don&amp;rsquo;t seem to have any &amp;ldquo;normal&amp;rdquo; hobbies might be really into, say, writing slick SQL queries. Code golf is a hobby too. By definition, a hobby is something you do for pleasure when you&amp;rsquo;re not working. And for the record, writing slick SQL queries isn&amp;rsquo;t work.&lt;/p&gt;
@@ -75,7 +75,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Sweden</title>
       <link>http://localhost:1313/sweden/</link>
-      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/sweden/</guid>
       <description>&lt;p&gt;Everyone who has ever lived abroad gets homesick every now and then.&lt;/p&gt;
@@ -100,7 +100,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Finding research influences</title>
       <link>http://localhost:1313/finding-research-influences/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/finding-research-influences/</guid>
       <description>&lt;p&gt;There isn&amp;rsquo;t any expert consensus on many &lt;a href=&#34;https://isabeldahlgren.github.io/the-spectrum-of-views-on-ai-safety/&#34;&gt;key questions related to AI safety&lt;/a&gt;. For example, estimates of when we&amp;rsquo;ll have transformative AI range from a few years to a century. There are also many wild opinions in the AI safety space. While some of these wild opinions seem justifiable, many people seem to exaggerate the risks from AI in an attempt to move policy-makers.&lt;/p&gt;
@@ -138,7 +138,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On the perks of adulthood</title>
       <link>http://localhost:1313/on-the-perks-of-adulthood/</link>
-      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-the-perks-of-adulthood/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I.&lt;/h3&gt;
@@ -175,7 +175,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>The spectrum of views on AI safety</title>
       <link>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</link>
-      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</guid>
       <description>&lt;p&gt;I agree the concept of &lt;a href=&#34;https://en.wikipedia.org/wiki/P(doom)&#34;&gt;P(doom)&lt;/a&gt; is problematic. First, &amp;ldquo;doom&amp;rdquo; can mean a variety of things: human extinction, existential catastrophe or gradual disempowerment. Also, P(doom) - condition on present-day regulations or AI slowdown? Furthermore, the timeframe matters, as P(doom within the next $X$ years) increases with $X$.&lt;/p&gt;
@@ -225,7 +225,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On my relation to effective altruism</title>
       <link>http://localhost:1313/on-my-relation-to-effective-altruism/</link>
-      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-my-relation-to-effective-altruism/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent more time engaging with the effective altruist (EA) community this year. Not just reading EA books and blog posts, but participating in seminars, attending conferences and going on EA retreats. For context, I&amp;rsquo;d viewed myself &amp;ldquo;EA adjacent&amp;rdquo; ever since I came across &lt;em&gt;The Life You Can Save&lt;/em&gt; back in high school. However, during my master degree, the prospect of graduating soon - of becoming an adult - made me reflect more carefully on EA.&lt;/p&gt;
@@ -297,7 +297,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On question taste</title>
       <link>http://localhost:1313/on-question-taste/</link>
-      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-question-taste/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I.&lt;/h3&gt;
@@ -329,7 +329,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>A taxonomy of examples</title>
       <link>http://localhost:1313/a-taxonomy-of-examples/</link>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -471,7 +471,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On the joy of customising</title>
       <link>http://localhost:1313/on-the-joy-of-customising/</link>
-      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-the-joy-of-customising/</guid>
       <description>&lt;p&gt;Why do so many people use Safari, the jarring black VSCode colour theme and Overleaf? Because it&amp;rsquo;s the default option.&lt;/p&gt;
@@ -491,7 +491,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Consume less AI safety news</title>
       <link>http://localhost:1313/consume-less-ai-safety-news/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/consume-less-ai-safety-news/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s hard staying on top of all the AI safety news. Some people, like &lt;a href=&#34;https://thezvi.wordpress.com/about/&#34;&gt;Zvi&lt;/a&gt;, have basically made this their full-time job.&lt;/p&gt;
@@ -518,7 +518,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Understanding the AI alignment problem</title>
       <link>http://localhost:1313/understanding-the-ai-alignment-problem/</link>
-      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/understanding-the-ai-alignment-problem/</guid>
       <description>&lt;p&gt;Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic &lt;a href=&#34;https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
@@ -567,7 +567,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>A semester paper retrospective</title>
       <link>http://localhost:1313/a-semester-paper-retrospective/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/a-semester-paper-retrospective/</guid>
       <description>&lt;p&gt;This is a follow-up on my &lt;a href=&#34;https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/&#34;&gt;previous article&lt;/a&gt;, where I share some thoughts on the process of writing a semester paper.&lt;/p&gt;
@@ -611,7 +611,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>Two results from probabilistic number theory</title>
       <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
-      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
       <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;
@@ -662,7 +662,7 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
     <item>
       <title>On decision fatigue</title>
       <link>http://localhost:1313/on-decision-fatigue/</link>
-      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-decision-fatigue/</guid>
       <description>&lt;p&gt;Life involves plenty of hard decisions. Should I switch jobs? Should I marry him? Should I move abroad? Then there are the &amp;ldquo;easy&amp;rdquo; decisions: which pyjama to wear or which brand of laundry detergent to buy. Although it doesn&amp;rsquo;t matter which option you choose here, choosing is hard. In fact, if you think of buying laundry detergent as an optimisation problem, taking into account things like social impact, price and quality, I&amp;rsquo;d expect the optimisation problem to be NP-hard! Here&amp;rsquo;s &lt;a href=&#34;https://thezvi.wordpress.com/2017/07/22/choices-are-bad/&#34;&gt;Zvi&lt;/a&gt;:&lt;/p&gt;
@@ -710,7 +710,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>On good conversations</title>
       <link>http://localhost:1313/on-good-conversations/</link>
-      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/on-good-conversations/</guid>
       <description>&lt;p&gt;Some studies suggest we spend 80-90% of our waking hours talking with others. For a normal person, that&amp;rsquo;s at least 12 hours (!) per day. We spend most of our working hours talking to others, whether it be in meetings, lectures or exercise classes. When we&amp;rsquo;re not working, friends, roommates or partners might be around. The hours add up.&lt;/p&gt;
@@ -746,7 +746,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Building time machines</title>
       <link>http://localhost:1313/building-time-machines/</link>
-      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/building-time-machines/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a folder on my computer called &amp;ldquo;Time machine&amp;rdquo; with files I want to preserve for posterity. The idea is to collect files which somehow represent today&amp;rsquo;s me. After doing this over a longer period of time, I&amp;rsquo;ll share the folder with future versions of people I care about.&lt;/p&gt;
@@ -788,7 +788,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>How I use LLMs</title>
       <link>http://localhost:1313/how-i-use-llms/</link>
-      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/how-i-use-llms/</guid>
       <description>&lt;p&gt;&lt;em&gt;Related: &lt;a href=&#34;https://isabeldahlgren.github.io/will-ai-replace-mathematicians/&#34;&gt;Will AI replace mathematicians?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -827,7 +827,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Will AI replace mathematicians?</title>
       <link>http://localhost:1313/will-ai-replace-mathematicians/</link>
-      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
       <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;
@@ -846,7 +846,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>&#34;Just switch it off&#34;</title>
       <link>http://localhost:1313/just-switch-it-off/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/just-switch-it-off/</guid>
       <description>&lt;p&gt;If we develop a rogue AI, couldn&amp;rsquo;t we just switch it off? This is the obvious objection to the idea that AI could be dangerous. Here &amp;ldquo;switching off&amp;rdquo; would mean deleting a model&amp;rsquo;s weights, so it can&amp;rsquo;t be deployed. Deleting files is easy enough, so what might prevent us from switching off a misaligned AI?&lt;/p&gt;
@@ -861,7 +861,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>From a YouTube alumni</title>
       <link>http://localhost:1313/from-a-youtube-alumni/</link>
-      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/from-a-youtube-alumni/</guid>
       <description>&lt;p&gt;Random people on the Internet have played a huge role in my education. I&amp;rsquo;m not just referring to my coursework at university, but also to &amp;ldquo;Bildung&amp;rdquo; more generally. I&amp;rsquo;ve learned a ton by browsing StackOverflow threads and reading Medium articles. However, I&amp;rsquo;ve probably learned the most from watching YouTube.&lt;/p&gt;
@@ -908,7 +908,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Look for opinions</title>
       <link>http://localhost:1313/look-for-opinions/</link>
-      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/look-for-opinions/</guid>
       <description>&lt;p&gt;Opinionated people can be really annoying. Wherever they go, they try convincing you of their ideas. If you have an opinionated uncle, the Christmas dinner might be ruined by a bitter argument. I&amp;rsquo;ve certainly had bad experiences with a dinner-table conversations turning into feuds. For this reason, I used to try having fewer opinions. I somehow assumed this meant being more open-minded and mature. Well, no.&lt;/p&gt;
@@ -931,7 +931,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>How AI might go wrong</title>
       <link>http://localhost:1313/how-ai-might-go-wrong/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/how-ai-might-go-wrong/</guid>
       <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
@@ -954,7 +954,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     <item>
       <title>Useful thought experiments</title>
       <link>http://localhost:1313/useful-thought-experiments/</link>
-      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/useful-thought-experiments/</guid>
       <description>&lt;p&gt;Philosophers love thought experiments. Thought experiments are hypothetical scenarios meant to tease out our intuitions about an argument or theory. For example, here&amp;rsquo;s a classic thought experiment, due to Robert Nozick:&lt;/p&gt;
