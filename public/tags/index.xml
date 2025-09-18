@@ -6,9 +6,162 @@
     <description>Recent content in Tags on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>AI companies are companies</title>
+      <link>http://localhost:1313/ai-companies-are-companies/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ai-companies-are-companies/</guid>
+      <description>&lt;p&gt;AI companies are companies. The leading AI companies also don&amp;rsquo;t want to be seen as companies, though. They call themselves AI labs. They have researchy names, like DeepMind and Meta AI. The best name: OpenAI. Almost sounds like a non-profit.&lt;/p&gt;
+&lt;p&gt;Most AI companies are products of Silicon Valley, so they&amp;rsquo;re heavily influenced by start-up culture. Their leaders aren&amp;rsquo;t professors, but seasoned business executives. Moreover, unlike normal research labs, AI companies need to make money.&lt;/p&gt;
+&lt;p&gt;To justify their growth, AI companies need to tell narratives about themselves. And they are pretty good at it &amp;ndash; these companies attract top talent, so their marketing teams can basically hire the world&amp;rsquo;s best story-tellers. I&amp;rsquo;ll list five narratives being aware of.&lt;/p&gt;
+&lt;p&gt;Before we begin, an apology. I&amp;rsquo;m deliberately exaggerating these narratives, just to make them clearer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Concretely, I&amp;rsquo;ll be cherry-picking quotes from company leaders and generalise, like a lot. Overall, I think these companies bring huge consumer value and have the potential to radically improve the future.&lt;/p&gt;
+&lt;h3 id=&#34;well-build-agi-soon&#34;&gt;&amp;ldquo;We&amp;rsquo;ll build AGI soon&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;AI company CEOs have famously &lt;a href=&#34;https://80000hours.org/agi/guide/when-will-agi-arrive/&#34;&gt;short AI timelines&lt;/a&gt;. For example, in January this year, Sam Altman declared that &amp;ldquo;We are now confident we know how to build AGI as we have traditionally understood it.&amp;rdquo; Dario Amodei, in the same month: &amp;ldquo;I’m more confident than I’ve ever been that we’re close to powerful capabilities… in the next 2-3 years&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Of course, no one would invest in your company if you needed two decades to develop your product.&lt;/p&gt;
+&lt;p&gt;But the term AGI and is fuzzy&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and it keeps on changing as models evolve. Funny because it&amp;rsquo;s kinda true: &amp;ldquo;AGI is whatever machines can&amp;rsquo;t do now&amp;rdquo;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. So in the end, these statements about future model capabilities are pretty uninformative&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;agi-is-inevitable&#34;&gt;&amp;ldquo;AGI is inevitable&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;The AI companies also want technological progress to seem inevitable. If you cannot guarantee AGI, why would you fund them?&lt;/p&gt;
+&lt;p&gt;But this narrative isn&amp;rsquo;t just for outsiders. Ilya Sutskever, former chief scientist at OpenAI, used to &amp;ldquo;Feel the AGI&amp;rdquo; at company parties, presumably to build a better company culture&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Similarly, if AGI is inevitable, an AI company can justify advancing model capabilities as quickly as possible &amp;ndash; possibly at the cost of safety &amp;ndash; so that none of the bad guys build it first.&lt;/p&gt;
+&lt;h3 id=&#34;were-the-good-guys&#34;&gt;&amp;ldquo;We&amp;rsquo;re the good guys&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Indeed, as highlighted in &lt;a href=&#34;https://en.wikipedia.org/wiki/Empire_of_AI&#34;&gt;Empire of AI&lt;/a&gt;, some AI companies seem to think of themselves as &amp;ldquo;the good guys&amp;rdquo; and other AI companies as &amp;ldquo;the bad guys&amp;rdquo;. For example, OpenAI was founded was because Musk was concerned about the ethical implications of Google&amp;rsquo;s acquisition of DeepMind. Anthropic was founded by former OpenAI employees who were dissatisfied with the safety work at OpenAI.&lt;/p&gt;
+&lt;p&gt;Moreover, the US-China tensions lead to a divide between the American AI companies and the Chinese ones.&lt;/p&gt;
+&lt;p&gt;This narrative provides a powerful argument for minimal AI regulations.&lt;/p&gt;
+&lt;h3 id=&#34;our-tools-empower-all-of-humanity&#34;&gt;&amp;ldquo;Our tools empower all of humanity&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;DeepMind&amp;rsquo;s mission is to &amp;ldquo;build AI responsibly to benefit humanity&amp;rdquo;, while OpenAI&amp;rsquo;s mission is to &amp;ldquo;ensure that artificial general intelligence—AI systems that are generally smarter than humans—benefits all of humanity&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The democratisation bit of the mission isn&amp;rsquo;t specific to AI companies; it&amp;rsquo;s a tech company cliché. Remember Facebook was supposed to connect you with friends and the rest of the world, all for free.&lt;/p&gt;
+&lt;p&gt;AI will empower all of humanity, but only if everyone can afford a laptop, has stable internet connection and knows how to use LLMs efficiently. Moreover, prices for premium subscription plans are relatively high. OpenAI&amp;rsquo;s cheapest paid plan comes at 20 dollars per month. For Anthropic, the figure is 17 dollars.&lt;/p&gt;
+&lt;p&gt;The point about using LLMs efficiently is subtle. To have an LLM perform more advanced tasks, which is what would be empowering for real, you&amp;rsquo;d need to be good at prompt-engineering. Becoming good at prompt-engineer takes time.&lt;/p&gt;
+&lt;h3 id=&#34;agi-will-solve-all-humanitys-problems&#34;&gt;&amp;ldquo;AGI will solve all humanity&amp;rsquo;s problems&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Another reason they need to build AGI as soon as possible is their belief that AGI can solve most of humanity&amp;rsquo;s problems. In short, techno-optimism. In &lt;a href=&#34;https://www.penguin.co.uk/books/437020/genius-makers-by-metz-cade/9781847942159&#34;&gt;Genius Makers&lt;/a&gt;, Cade Metz likens the belief in AGI to a religion. And a religion needs a promise of salvation.&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace&#34;&gt;Machines of Loving Grace&lt;/a&gt; by Dario Amodei: &amp;ldquo;it’s my guess that powerful AI could at least 10x the rate of these discoveries, giving us the next 50-100 years of biological progress in 5-10 years&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The idea of AGI radically accelerating scientific progress is pretty mainstream. For example, &lt;a href=&#34;https://www.forethought.org/research/preparing-for-the-intelligence-explosion#the-accelerated-decade&#34;&gt;this report&lt;/a&gt; from Forethought argues that we might very well see a century&amp;rsquo;s worth of technological progress in a decade.&lt;/p&gt;
+&lt;p&gt;But human progress isn&amp;rsquo;t the same as scientific progress. We need cultural and moral progress too.&lt;/p&gt;
+&lt;h3 id=&#34;the-end&#34;&gt;The end&lt;/h3&gt;
+&lt;p&gt;Whom are these stories meant for?&lt;/p&gt;
+&lt;p&gt;In short, for everyone. Some stories serve as sales pitches for investors and customers. Others are meant to improve employee morale and create a sense of unity. Regulators learn that they shouldn&amp;rsquo;t regulate the deployment of new AI models, just so their nation won&amp;rsquo;t fall behind in the AI arms race.&lt;/p&gt;
+&lt;p&gt;We now find ourselves in a technological race, much like the Apollo program. If you build AGI first, you&amp;rsquo;ll become Neil Armstrong. You don&amp;rsquo;t want to be &amp;ndash; I had to Google his name &amp;ndash; Buzz Aldrin. However, this doesn&amp;rsquo;t seem like an race between nations, but more like a race between tech CEOs who don&amp;rsquo;t &amp;ldquo;just&amp;rdquo; want to be average tech CEOs.&lt;/p&gt;
+&lt;p&gt;Perhaps these narratives are mostly meant for posterity.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;It&amp;rsquo;s a bit like using the extremal principle from mathematics.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Everyone seems to agree the term &amp;ldquo;AGI&amp;rdquo; is problematic, even the AI company CEOs. See e.g. &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace#basic-assumptions-and-framework&#34;&gt;here&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;As highlighted in &lt;em&gt;AI Snake Oil&lt;/em&gt;, we used to call spell checkers and image-generating AIs &amp;ldquo;AGI&amp;rdquo; before we had them.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;For research-backed forecasts about AI progress, see the work of &lt;a href=&#34;https://epoch.ai/&#34;&gt;Epoch&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;As an outsider, I cannot help but think that this damages company culture, though.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Nerd trying to adapt to an AI economy</title>
+      <link>http://localhost:1313/nerd-trying-to-adapt-to-an-ai-economy/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/nerd-trying-to-adapt-to-an-ai-economy/</guid>
+      <description>&lt;h3 id=&#34;i&#34;&gt;I.&lt;/h3&gt;
+&lt;p&gt;Part of the reason I decided to study maths was because it seemed like the most useful subject. If I knew ML systems would never get better than GPT-2 at maths, I&amp;rsquo;d probably be of the same opinion today. But today&amp;rsquo;s state-of-the-art ML systems are far better than GPT-2. LLMs have excelled at maths and programming because maths- and coding-related tasks admit quick feedback, allowing for efficient reinforcement learning. Jobs involving applying maths and programming jobs could theoretically be automated within a few decades. The glory days of the nerd might be over soon.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not going to speculate in the details of how such a transformation might occur; I couldn&amp;rsquo;t be bothered doing the forecasting due diligence here. Instead, I want to focus on future-proof jobs and skills.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s no shortage of material on this topic&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, so I&amp;rsquo;ll start by re-hashing some common beliefs. &lt;a href=&#34;https://80000hours.org/agi/guide/skills-ai-makes-valuable/&#34;&gt;This article&lt;/a&gt; is a good starting point.&lt;/p&gt;
+&lt;p&gt;Current AI systems are bad at complex physical tasks and long-horizon tasks, and rapid improvements in any of these areas seem unlikely. So, we might expect human plumbers and wedding planners to be around for some time&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. There&amp;rsquo;s also a broad class of jobs all about meaningful human interactions. These jobs might be difficult to automate by virtue of the machine being a machine. For example, consider priests. Some people argue that healthcare workers also fall into this category of jobs, but I think might could change; for example, people are already getting more used to the idea of LLM therapists.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s also widespread agreement that leadership skills and personal effectiveness will become increasingly important. As will creativity, the ability to learn quickly and to use to AIs.&lt;/p&gt;
+&lt;h3 id=&#34;ii&#34;&gt;II.&lt;/h3&gt;
+&lt;p&gt;So many skills, so little time! But I&amp;rsquo;ll argue there&amp;rsquo;s one skill that&amp;rsquo;s vastly more important than those mentioned above: verbal communication skills. By this, I mean the ability to deliver good talks as well as the ability to articulate your ideas clearly in debates and normal conversations. A good conversationalist might have a huge comparative advantage in an AI-dominated economy.&lt;/p&gt;
+&lt;p&gt;To a large extent, LLMs can help with the other skills mentioned above. A manager can use LLMs to sanity check their decisions, to write better project proposals and even to manage intrapersonal relations. As for personal effectiveness, one of the five buttons in the Claude menu is &amp;ldquo;Life stuff&amp;rdquo;; clicking it displays five prompts related to getting things done. It&amp;rsquo;s also obvious that AIs make us more efficient learners. Finally, AIs can help you use AIs more efficiently: just have another LLM refine your prompt.&lt;/p&gt;
+&lt;p&gt;How about verbal communication skills?&lt;/p&gt;
+&lt;p&gt;LLMs can help writing scripts for talks. But that&amp;rsquo;s about it. The LLM can&amp;rsquo;t help you deliver the talk. This involves adopting the right pace, using the right intonation, reading off the audience, and so on. Good orators are rare! In spontaneous conversations or debates, you&amp;rsquo;re basically on your own. You can use an LLM to refine your ideas in advance, but you can only prepare so much.&lt;/p&gt;
+&lt;p&gt;People who can communicate clearly in speech seem much more credible, at least to me&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Suppose I write a persuasive article but fail to explain its contents to you. Then you might feel somewhat disappointed, thinking that all the good points of the article were all due to an LLM. In fact, had I written a mediocre article, I might have appeared more credible overall.&lt;/p&gt;
+&lt;p&gt;Even if we ignore the impact of AI on the job market, the ability to express one&amp;rsquo;s ideas clearly in speech is essential, regardless of what job you have. Becoming a better speaker also has positive spill-over effects. You&amp;rsquo;ll certainly have more &lt;a href=&#34;https://isabeldahlgren.github.io/on-good-conversations/&#34;&gt;good conversations&lt;/a&gt; with the people you care about.&lt;/p&gt;
+&lt;p&gt;Even if we tomorrow develop AI capable of automating all remote work, integrating these AIs into the workforce would take time &amp;ndash; just try imagining the amount of bureaucracy! For this reason, I&amp;rsquo;m not in a rush to develop verbal communication skills. Rather than doing rhetoric MOOCs and buying books on persuation with cringe titles, how about just having coffee with people with shared interests more often?&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;See &lt;a href=&#34;https://arxiv.org/pdf/2507.07935&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://www.weforum.org/stories/2025/08/ai-jobs-replacement-data-careers/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://www.weforum.org/stories/2025/04/ai-jobs-international-workers-day/&#34;&gt;here&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;A recent &lt;a href=&#34;https://arxiv.org/pdf/2507.07935&#34;&gt;report from Microsoft&lt;/a&gt; argues that the three jobs least likely to be replaced by AI are dredge operators, bridge and lock tenders and water treatment plant and system operators.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;I elaborated on this in my post on &lt;a href=&#34;https://isabeldahlgren.github.io/finding-research-influences/&#34;&gt;research influences&lt;/a&gt;; see the section on having a nose for bullshit.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Man&#39;s search for fun</title>
+      <link>http://localhost:1313/mans-search-for-fun/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mans-search-for-fun/</guid>
+      <description>&lt;p&gt;Willpower is a scarce resource. I can only exert so much willpower in a day&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Alas, many important tasks require lot of willpower. Examples of such tasks include filing one&amp;rsquo;s taxes, memorising messy proofs and booking flights. Oftentimes, I&amp;rsquo;m bottlenecked by willpower rather than time. Rather than increasing willpower - finding Meaning - how about decreasing the amount of willpower required for a given task? This might be an easier problem. Here are my favourite ways of making boring tasks fun.&lt;/p&gt;
+&lt;p&gt;First, the usual preface to any advice-style post: take care of yourself. Get enough sleep, for example. If you have low baseline energy levels, nothing is fun. Now, on to the interesting parts.&lt;/p&gt;
+&lt;h3 id=&#34;autonomy&#34;&gt;Autonomy&lt;/h3&gt;
+&lt;p&gt;In my experience, autonomy is the most important factor for making things fun. You need to feel some degree of ownership of the project, or else it just feels like obeying orders. If you&amp;rsquo;re doing a group project, take responsibility for a subtask. If you&amp;rsquo;re a student, feel free to skip lectures if they don&amp;rsquo;t seem valuable. If you&amp;rsquo;re trying to learn new material, pick your learning resources yourself.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t be afraid to try your own, new learning methods - this can strengthen your sense of autonomy. Additionally, this might lead to the discovery of more efficient learning methods, allowing you to escape local optima.&lt;/p&gt;
+&lt;h3 id=&#34;teamwork&#34;&gt;Teamwork&lt;/h3&gt;
+&lt;p&gt;I cannot understate the value of teamwork. When starting university, most students are terrible at working in teams. Indeed, there are many common failure modes for efficient teamwork: meeting too irregularly, having different levels of ambition, doing unstructured meetings, to name a few. But you have a lot to gain from teaming up with the right people and getting into a good team workflow.&lt;/p&gt;
+&lt;p&gt;For example, during exam session, I&amp;rsquo;d have weekly appointments with friends&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. For each appointment, we&amp;rsquo;d have a fixed agenda, like going over a given problem sheet or reproducing proofs from a chapter of the lecture notes. Besides the &amp;ldquo;obvious&amp;rdquo; learning benefits (exposing blind spots, easy sanity checking, faster feedback, accountability and so on), the social component made revision much more fun. The study sessions, although goal-oriented, felt much like catching up with a friend. Moreover, whenever I could help others, I also found this quite rewarding.&lt;/p&gt;
+&lt;p&gt;I find it easier discussing maths with one other person, so I&amp;rsquo;d have one main study buddy per subject. This also facilitated coordination, making it easier to establish a habit.&lt;/p&gt;
+&lt;h3 id=&#34;slack&#34;&gt;Slack&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t underestimate the power of slack. Slack refers to spare capacity, usually in the context of time or money. Eighty-twentying some tasks can be fun too, but you don&amp;rsquo;t want to eighty-twenty everything. You need at least one project where you let yourself follow your curiosity. Simply put, slack makes everything more fun by improving your baseline mood&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Moreover, if your mind always wanders to that one overdue task, entering a flow state becomes more difficult. For example, dropping one subject this semester gave me more slack, increasing my capacity for enjoyment.&lt;/p&gt;
+&lt;h3 id=&#34;purpose&#34;&gt;Purpose&lt;/h3&gt;
+&lt;p&gt;Feeling a sense of purpose is another powerful motivator. But first, an important caveat.&lt;/p&gt;
+&lt;p&gt;Arbitrary motivational coach: &amp;ldquo;Focus on the end goal&amp;rdquo;. For me, reminding myself of the end goal doesn&amp;rsquo;t make a boring task any less boring. Whenever I&amp;rsquo;m doing the boring task, I rarely have enough spare cognitive capacity to remind myself of the good cause. For instance, if I&amp;rsquo;m debugging some code, the idea of producing a report seems far-fetched. And the more near-term goal of making the script work might not be sufficiently motivating.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s often easier &lt;a href=&#34;https://www.neelnanda.io/blog/mini-blog-post-11-live-a-life-you-feel-excited-about&#34;&gt;reframing the task&lt;/a&gt; as a personal development project. As I&amp;rsquo;m debugging, I sometimes think of the software engineering skills I&amp;rsquo;m building. If pain, maybe gain? To make the task more about my software engineering muscles, I might spend some time looking into better debugging tools. Going down these kinds of rabbit holes can be very productive&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;gamification&#34;&gt;Gamification&lt;/h3&gt;
+&lt;p&gt;Another classic piece of advice is to gamify the task. Gamification can be done in multiple ways. Try breaking down the project into well-defined subgoals which (i) admit immediate feedback; (ii) are at the right difficulty level in relation to your current skills; (iii) involve some element of novelty or unpredictability; (iv) are time-bound and (v) require your full attention. Additionally, try making progress visceral. These are all common &lt;a href=&#34;https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi#Flow&#34;&gt;flow triggers&lt;/a&gt;. With this much flexibility, the hard part is figuring out how to best gamify a given task.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll give another personal example. As I was revising for exams, I created a huge markdown table with all results I&amp;rsquo;d have to memorise. In the columns, I filled in the dates I&amp;rsquo;d reviewed the results and evaluating how it went, using labels like &amp;ldquo;easy&amp;rdquo;, &amp;ldquo;medium&amp;rdquo; or &amp;ldquo;hard&amp;rdquo;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. To gamify revision, I set myself the goal to review a given number of results in my first morning working block. Revision, then, involved the game of turning all labels into &amp;ldquo;easy&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m also considering getting a dedicated Anki notebook. For some of my decks, I need to write out my answers. Doing this in a notebook would help me appreciate my progress.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;There are many more hacks than the ones listed above, and I&amp;rsquo;ve only tried a fraction of them. However, the hard part is applying these techniques to the task at hand. Here, I don&amp;rsquo;t see any other way than trial and error. But you should try and err a lot. If you find ways to make boring tasks fun, your willpower reserves will last longer, allowing you to accomplish more later in the day. Then there&amp;rsquo;s the obvious benefit of having a more fun life. Imagine adult life without chores &amp;ndash; that would be something!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The technical term to google is &lt;em&gt;ego depletion&lt;/em&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;These friends know who they are. Thanks!&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;For the full pitch for having more slack, read &lt;em&gt;Scarcity&lt;/em&gt;. A phenomenal book, by the way.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;I call this being &lt;em&gt;incidentally productive&lt;/em&gt;. Because of unknown unknowns, clearing your to do-list probably isn&amp;rsquo;t the most productive use of your time.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;I soon found myself having to create a new label, &amp;ldquo;fou&amp;rdquo;. (The French word takes up less space than &amp;ldquo;crazy&amp;rdquo;.)&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     
     
@@ -44,59 +197,6 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;h3 id=&#34;thought-experiment-continued&#34;&gt;Thought experiment, continued&lt;/h3&gt;
 &lt;p&gt;By law, all AI labs are prohibited from producing human-like chatbots. Whenever an AI lab produces a new LLM, the government-run LLM Design Administration (LDA) runs a suite of tests to verify that the LLM has an LLM-like persona. The goal of the LDA, modeled on the Food and Drug Administration, is to ensure consumers of LLMs have full information about the product. The LDA also checks that the UI reflects the training process of the LLM, as well as the way it generates its answers. It&amp;rsquo;s also responsible for the warning labels with black letters that must be displayed in the UI. The slogan of the LDA is &amp;ldquo;Transparency, harmlessness, helpfulness&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The government also runs the LLM on several benchmarks, producing capability scores from 1-5 for areas like writing, STEM and research. In this alternative world, no one talks of AI or AGI &amp;ndash; what does intelligence even mean in this context? Instead, people refer to specific capability scores. When clicking on the star icon on the upper right corner, the LDA&amp;rsquo;s logo, the capability scores appear, along with other model specifications. It&amp;rsquo;s like a condensed, accessible version of the model&amp;rsquo;s &lt;a href=&#34;https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf&#34;&gt;system card&lt;/a&gt;, generated by the authorities rather than the AI labs.&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Man&#39;s search for fun</title>
-      <link>http://localhost:1313/mans-search-for-fun/</link>
-      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mans-search-for-fun/</guid>
-      <description>&lt;p&gt;Willpower is a scarce resource. I can only exert so much willpower in a day&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Alas, many important tasks require lot of willpower. Examples of such tasks include filing one&amp;rsquo;s taxes, memorising messy proofs and booking flights. Oftentimes, I&amp;rsquo;m bottlenecked by willpower rather than time. Rather than increasing willpower - finding Meaning - how about decreasing the amount of willpower required for a given task? This might be an easier problem. Here are my favourite ways of making boring tasks fun.&lt;/p&gt;
-&lt;p&gt;First, the usual preface to any advice-style post: take care of yourself. Get enough sleep, for example. If you have low baseline energy levels, nothing is fun. Now, on to the interesting parts.&lt;/p&gt;
-&lt;h3 id=&#34;autonomy&#34;&gt;Autonomy&lt;/h3&gt;
-&lt;p&gt;In my experience, autonomy is the most important factor for making things fun. You need to feel some degree of ownership of the project, or else it just feels like obeying orders. If you&amp;rsquo;re doing a group project, take responsibility for a subtask. If you&amp;rsquo;re a student, feel free to skip lectures if they don&amp;rsquo;t seem valuable. If you&amp;rsquo;re trying to learn new material, pick your learning resources yourself.&lt;/p&gt;
-&lt;p&gt;Don&amp;rsquo;t be afraid to try your own, new learning methods - this can strengthen your sense of autonomy. Additionally, this might lead to the discovery of more efficient learning methods, allowing you to escape local optima.&lt;/p&gt;
-&lt;h3 id=&#34;teamwork&#34;&gt;Teamwork&lt;/h3&gt;
-&lt;p&gt;I cannot understate the value of teamwork. When starting university, most students are terrible at working in teams. Indeed, there are many common failure modes for efficient teamwork: meeting too irregularly, having different levels of ambition, doing unstructured meetings, to name a few. But you have a lot to gain from teaming up with the right people and getting into a good team workflow.&lt;/p&gt;
-&lt;p&gt;For example, during exam session, I&amp;rsquo;d have weekly appointments with friends&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. For each appointment, we&amp;rsquo;d have a fixed agenda, like going over a given problem sheet or reproducing proofs from a chapter of the lecture notes. Besides the &amp;ldquo;obvious&amp;rdquo; learning benefits (exposing blind spots, easy sanity checking, faster feedback, accountability and so on), the social component made revision much more fun. The study sessions, although goal-oriented, felt much like catching up with a friend. Moreover, helping others is also very rewarding.&lt;/p&gt;
-&lt;p&gt;I find it easier discussing maths with one other person, so I&amp;rsquo;d have one main study buddy per subject. This also facilitated coordination, making it easier to establish a habit.&lt;/p&gt;
-&lt;h3 id=&#34;slack&#34;&gt;Slack&lt;/h3&gt;
-&lt;p&gt;Don&amp;rsquo;t underestimate the power of slack. Slack refers to spare capacity, usually in the context of time or money. Eighty-twentying some tasks can be fun too, but you don&amp;rsquo;t want to eighty-twenty everything. You need at least one project where you let yourself follow your curiosity. Slack makes everything more fun by improving your baseline mood&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Moreover, if your mind always wanders to that one overdue task, entering a flow state becomes more difficult. For example, dropping one subject this semester gave me more slack, increasing my capacity for enjoyment.&lt;/p&gt;
-&lt;h3 id=&#34;purpose&#34;&gt;Purpose&lt;/h3&gt;
-&lt;p&gt;Feeling a sense of purpose is another powerful motivator. In fact, iBut first, an important caveat.&lt;/p&gt;
-&lt;p&gt;Arbitrary motivational coach: &amp;ldquo;Focus on the end goal&amp;rdquo;. For me, reminding myself of the end goal doesn&amp;rsquo;t make a boring task any less boring. Whenever I&amp;rsquo;m doing the boring task, I rarely have enough spare cognitive capacity to remind myself of the god cause. For instance, if I&amp;rsquo;m debugging some code, the idea of contributing to AI safety seems far-fetched.&lt;/p&gt;
-&lt;p&gt;But we can focus on the near-term goals or developing new skills. As I&amp;rsquo;m debugging, I sometimes think of the software engineering skills I&amp;rsquo;m building. If pain, maybe gain? To make the task more about my software engineering muscles, I might spend some time looking into better debugging tools&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. This makes the task a personal development project.&lt;/p&gt;
-&lt;h3 id=&#34;gamification&#34;&gt;Gamification&lt;/h3&gt;
-&lt;p&gt;Another classic piece of advice is to gamify the task. Gamification can be done in multiple ways. Try breaking down the project into well-defined subgoals which (i) admit immediate feedback; (ii) are at the right difficulty level in relation to your current skills; (iii) involve some element of novelty or unpredictability; (iv) are time-bound and (v) require your full attention. Additionally, try making progress visceral. These are all common &lt;a href=&#34;https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi#Flow&#34;&gt;flow triggers&lt;/a&gt;. The hard part is figuring out how to best gamify a given task.&lt;/p&gt;
-&lt;p&gt;As I was revising for exams, I&amp;rsquo;d create a huge markdown table with all results I&amp;rsquo;d have to memorise. In the columns, I&amp;rsquo;d fill in the dates I&amp;rsquo;d reviewed the results and evaluating how it went, using labels like &amp;ldquo;easy&amp;rdquo;, &amp;ldquo;medium&amp;rdquo; or &amp;ldquo;hard&amp;rdquo;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. To gamify revision, I&amp;rsquo;d set myself the goal to review a given number of results in my first morning working block. Revision, then, involved the game of turning all labels into &amp;ldquo;easy&amp;rdquo;. This way, progress became more tangible.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m also considering getting a dedicated Anki notebook. For some of my decks, I need to write out my answers. Doing this in a notebook would help me appreciate my progress.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;I could go on and on. The hard part is applying these techniques to the task at hand. Here, I don&amp;rsquo;t see any other way than trial and error. But you should try and err a lot. If you find ways to make boring tasks fun, your willpower reserves will last longer, allowing you to accomplish more later in the day. Above all, given the number of chores in adult life, this would lead to a more exciting life.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This piece was inspired by this blog post.&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The technical term to google is &lt;em&gt;ego depletion&lt;/em&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;These friends know who they are. Thanks!&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;For the full pitch for having more slack, read &lt;em&gt;Scarcity&lt;/em&gt;. A phenomenal book, by the way.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34;&gt;
-&lt;p&gt;Going down these kinds of rabbit holes can be very productive. I call this being &lt;em&gt;incidentally productive&lt;/em&gt;. Because of unknown unknowns, clearing your to do-list probably isn&amp;rsquo;t the most productive use of your time.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:5&#34;&gt;
-&lt;p&gt;I soon found myself having to create a new label, &amp;ldquo;fou&amp;rdquo;. (The French word takes up less space than &amp;ldquo;crazy&amp;rdquo;.)&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
     </item>
     
@@ -911,11 +1011,11 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
     
     
     <item>
-      <title>From a YouTube alumni</title>
-      <link>http://localhost:1313/from-a-youtube-alumni/</link>
+      <title>From a YouTube alumna</title>
+      <link>http://localhost:1313/from-a-youtube-alumna/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/from-a-youtube-alumni/</guid>
+      <guid>http://localhost:1313/from-a-youtube-alumna/</guid>
       <description>&lt;p&gt;Random people on the Internet have played a huge role in my education. I&amp;rsquo;m not just referring to my coursework at university, but also to &amp;ldquo;Bildung&amp;rdquo; more generally. I&amp;rsquo;ve learned a ton by browsing StackOverflow threads and reading Medium articles. However, I&amp;rsquo;ve probably learned the most from watching YouTube.&lt;/p&gt;
 &lt;h3 id=&#34;learning-by-watching&#34;&gt;Learning by watching&lt;/h3&gt;
 &lt;p&gt;Above all, there&amp;rsquo;s some really high-quality content out there. Nowadays there are full-time YouTubers, working on creating professional, meticulously edited videos. And some channels, such as &lt;a href=&#34;https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q&#34;&gt;Kurzgesagt&lt;/a&gt;, are even ran by entire teams of illustrators and script-writers. Moreover, because anyone can record themselves and upload it to YouTube, we have world-class experts sharing their knowledge in YouTube lectures&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This means there are some truly remarkable YouTube videos. For example, here are comments from some &lt;a href=&#34;https://www.youtube.com/@3blue1brown&#34;&gt;3Blue1Brown&lt;/a&gt; videos:&lt;/p&gt;
@@ -1059,6 +1159,8 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Lastly, I found it satisfying seeing how different notions tied into one another. I also put it all into one mindmap which, apart from having a high aesthetic value, gave me the big picture of the subject.&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     
     
