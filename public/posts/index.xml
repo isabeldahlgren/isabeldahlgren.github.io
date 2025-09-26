@@ -6,49 +6,111 @@
     <description>Recent content in Posts on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
-      <title>AI companies are companies</title>
-      <link>http://localhost:1313/ai-companies-are-companies/</link>
+      <title>AI is not AI is not AI</title>
+      <link>http://localhost:1313/ai-is-not-ai-is-not-ai/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ai-is-not-ai-is-not-ai/</guid>
+      <description>&lt;p&gt;There are plenty of misnomers in science and mathematics. Atoms aren&amp;rsquo;t indivisible. Hubble&amp;rsquo;s constant isn&amp;rsquo;t a constant. And in 9/10 cases, X&amp;rsquo;s theorem was usually first discovered by someone else (in 4/10 cases, it was discovered by Gauss). Another bad piece of terminology, according to some: &amp;ldquo;artificial intelligence&amp;rdquo; or AI.&lt;/p&gt;
+&lt;p&gt;Given that we don&amp;rsquo;t have a good definition of human intelligence, the term &amp;ldquo;artificial intelligence&amp;rdquo; is inherently vague. Because AI sounds cool, people use the term quite liberally. Logistic regression in Excel? AI! But it&amp;rsquo;s unclear what qualifies as &amp;ldquo;intelligent enough&amp;rdquo;. As AI systems become more capable, we seem to raise the bar. Previously, calculators and spell checkers were considered artificial intelligence.&lt;/p&gt;
+&lt;p&gt;When speaking of artificial general intelligence, people usually specify exactly what they mean. For example, people might refer to powerful/strong AI, &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace#fn:3&#34;&gt;AI with expert-level science and engineering capabilities&lt;/a&gt; or &lt;a href=&#34;https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/&#34;&gt;Process for Automating Scientific and Technological Advancement (PASTA)&lt;/a&gt;. But sometimes it wouldn&amp;rsquo;t hurt being more specific when speaking about narrow forms of AI either. Indeed, consider the following thought experiment from &lt;a href=&#34;https://en.wikipedia.org/wiki/AI_Snake_Oil&#34;&gt;AI Snake Oil&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Imagine an alternate universe in which people don’t have words for different forms of transportation, only the collective noun “vehicle.” They use that word to refer to cars, buses, bikes, spacecraft, and all other ways of getting from place A to place B. Conversations in this world are confusing. There are furious debates about whether or not vehicles are “environmentally friendly,” but (even though no one realizes it) one side of the debate is talking about bikes and the other side about trucks. There is a breakthrough in rocketry, but when the media focuses on how vehicles have gotten faster, people call their car dealer (oops, vehicle dealer) to ask when faster models will be available. Meanwhile, fraudsters have capitalized on the fact that consumers don’t know what to believe when it comes to vehicle technology, so scams are rampant in the vehicles sector.&lt;/p&gt;
+&lt;p&gt;Now replace the word “vehicles” with “artificial intelligence,” and we have a pretty good description of the world we live in.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;So it&amp;rsquo;s helpful having vocabulary for the different kinds of AI. For example, you might differentiate between &lt;a href=&#34;https://www.microsoft.com/en-us/ai/ai-101/generative-ai-vs-other-types-of-ai&#34;&gt;generative, predictive and conversational AI&lt;/a&gt;. Another distinction is between large language models and reinforcement learning agents.&lt;/p&gt;
+&lt;p&gt;Not to be a pedant, but sometimes these distinctions matter a lot. For example, agentic AI is much more likely to pose a safety risk than non-agentic AI.&lt;/p&gt;
+&lt;p&gt;However, it&amp;rsquo;s annoying adding a long descriptor before the word &amp;ldquo;AI&amp;rdquo; in everyday conversation. Furthermore, many AI systems fall under multiple categories; for example, Claude is both a language model and a reinforcement learning agent. Finally, we need a generic term for referring to the capability of a machine to simulate intelligent behaviour, and the term &amp;ldquo;artificial intelligence&amp;rdquo; does the job.&lt;/p&gt;
+&lt;p&gt;Interestingly, this choice of term was a conscious decision. AI emerged as its own field of study after a workshop in 1956. In their workshop proposal, the organisers introduced the term &amp;ldquo;artificial intelligence&amp;rdquo;. They were also considering the name &amp;ldquo;automata studies&amp;rdquo;. Maybe more appropriate, but pretty lame.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Policy-making is complicated</title>
+      <link>http://localhost:1313/policy-making-is-complicated/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/policy-making-is-complicated/</guid>
+      <description>&lt;p&gt;Things are more complicated than they first seem, especially when it comes to policy-making. Should Germany build nuclear power plants to reduce their carbon emissions? Should there be global standards for content moderation on social media platforms? How should we best mitigate the risk of future global pandemics?&lt;/p&gt;
+&lt;p&gt;I recently had the pleasure of getting to know more people working in policy and forecasting, and I quickly realised that I hadn&amp;rsquo;t internalised the complexity of the problems they face&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Here, I&amp;rsquo;ll list some intuition pumps for the difficulty of policy-related questions. For concreteness, I&amp;rsquo;ll focus on the first of the three above topics, nuclear power in Germany.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;More than a wing flap&lt;/strong&gt;: Recall the butterfly effect: a butterfly&amp;rsquo;s wing flap can cause a tornado elsewhere. How about the choice-of-energy-supply effect?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Defining justice&lt;/strong&gt;: Are there conflicting interests? Then we have to define justice first. Wonderful. This would involve solving a big part of political philosophy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multilayer forecasting&lt;/strong&gt;: Answering this question involves forecasting the effects of two hypothetical scenarios (the &amp;ldquo;yes&amp;rdquo; and &amp;ldquo;no&amp;rdquo; scenarios). But forecasting is basically a full-time job. Forecasters need to identify relevant parameters, estimate them, steelman opposing views, and so on.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lazy student&lt;/strong&gt;: You could easily write a master thesis on this topic. A master thesis is 30 ETCS. Feel the credits!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Headcount&lt;/strong&gt;: There&amp;rsquo;s probably a good number of people working on exactly on this issue. Sum over people in special commissions, the government, in academia, in think tanks, and so on.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hard optimisation&lt;/strong&gt;: The ideal energy source emits zero carbon, works all year round, is cheap, doesn&amp;rsquo;t produce toxic nuclear waste, etc. This leads to an infinite-dimensional optimisation problem. Worse, the loss functions need not be smooth and differentiable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beyond EXPSpace&lt;/strong&gt;: If the travelling salesman problem is NP-hard, then what on earth is this optimisation problem even?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-computable&lt;/strong&gt;: If the halting problem is uncomputable, is there any hope of answering this question?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inference time&lt;/strong&gt;: Imagine prompting a reasoning language model, say GPT-5, to write a nuanced 100-page report on the question. What would be the inference time?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Going broke&lt;/strong&gt;: Alternative formulation, so you really feel it: Imagine prompting a reasoning language model, say GPT-5, to write a nuanced 100-page report on the question. Suppose you were billed on a per-token basis. What would be the price?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well, policy is complicated. What does this mean in practise?&lt;/p&gt;
+&lt;p&gt;It seems important to distinguish between &amp;ldquo;thinking for fun&amp;rdquo; and &amp;ldquo;thinking for truth&amp;rdquo;. I enjoy thinking about hard problems &amp;ndash; that&amp;rsquo;s one of the main reasons I do mathematics. But if I&amp;rsquo;m thinking for truth in a domain outside my expertise&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, I probably shouldn&amp;rsquo;t spend more than 1% of my time coming up with a prior. It will be very weak, anyway. Things are complicated, remember?&lt;/p&gt;
+&lt;p&gt;Similarly, I&amp;rsquo;ll try outsourcing as much as possible to experts, resisting the urge to &amp;ldquo;attempt every problem&amp;rdquo;. My job should reduce to aggregating expert opinions. Ideally, I could ask an LLM to fill in a table with expert opinions and their respective confidence levels, so I could just take a weighted average.&lt;/p&gt;
+&lt;p&gt;In a very backward way, internalising that things are complicated makes my life much simpler.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was inspired by conversations with Caroline Falkman Olsson and Nadja Fletchner. Thanks for the food for thought.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;I expected easy answers to hard questions.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Right now, that&amp;rsquo;s just about any domain.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>From the AI company storybook</title>
+      <link>http://localhost:1313/from-the-ai-company-storybook/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ai-companies-are-companies/</guid>
-      <description>&lt;p&gt;AI companies are companies. The leading AI companies also don&amp;rsquo;t want to be seen as companies, though. They call themselves AI labs. They have researchy names, like DeepMind and Meta AI. The best name: OpenAI. Almost sounds like a non-profit.&lt;/p&gt;
-&lt;p&gt;Most AI companies are products of Silicon Valley, so they&amp;rsquo;re heavily influenced by start-up culture. Their leaders aren&amp;rsquo;t professors, but seasoned business executives. Moreover, unlike normal research labs, AI companies need to make money.&lt;/p&gt;
-&lt;p&gt;To justify their growth, AI companies need to tell narratives about themselves. And they are pretty good at it &amp;ndash; these companies attract top talent, so their marketing teams can basically hire the world&amp;rsquo;s best story-tellers. I&amp;rsquo;ll list five narratives being aware of.&lt;/p&gt;
-&lt;p&gt;Before we begin, an apology. I&amp;rsquo;m deliberately exaggerating these narratives, just to make them clearer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Concretely, I&amp;rsquo;ll be cherry-picking quotes from company leaders and generalise, like a lot. Overall, I think these companies bring huge consumer value and have the potential to radically improve the future.&lt;/p&gt;
+      <guid>http://localhost:1313/from-the-ai-company-storybook/</guid>
+      <description>&lt;p&gt;AI companies are companies. The leading AI companies don&amp;rsquo;t want to be seen as companies, though. They call themselves AI labs. They have researchy names, like DeepMind and Meta AI. The best name: OpenAI. Almost sounds like a real &lt;a href=&#34;https://openai.com/index/introducing-openai/&#34;&gt;non-profit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Most AI companies are products of Silicon Valley. Their leaders aren&amp;rsquo;t professors, but seasoned business executives. And this is a good thing! These companies wouldn&amp;rsquo;t produce nearly as much consumer value if they were led by researchers with no industry experience. Moreover, unlike normal research labs, AI companies need to make money, just as any other company.&lt;/p&gt;
+&lt;p&gt;All companies tell narratives about themselves. And the leading AI companies are pretty good at it &amp;ndash; these companies attract top talent, so their marketing teams can basically hire the world&amp;rsquo;s best story-tellers. Here are five narratives being aware of.&lt;/p&gt;
+&lt;p&gt;Before we begin, an apology. I&amp;rsquo;m deliberately exaggerating these narratives, just to make them clearer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Concretely, I&amp;rsquo;ll be cherry-picking quotes from company leaders and generalise, like a lot. Overall, I think these companies bring huge consumer value and have the potential to radically improve the future. But the focus of this article is on the problems of these narratives.&lt;/p&gt;
+&lt;p&gt;Now, story time.&lt;/p&gt;
 &lt;h3 id=&#34;well-build-agi-soon&#34;&gt;&amp;ldquo;We&amp;rsquo;ll build AGI soon&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;AI company CEOs have famously &lt;a href=&#34;https://80000hours.org/agi/guide/when-will-agi-arrive/&#34;&gt;short AI timelines&lt;/a&gt;. For example, in January this year, Sam Altman declared that &amp;ldquo;We are now confident we know how to build AGI as we have traditionally understood it.&amp;rdquo; Dario Amodei, in the same month: &amp;ldquo;I’m more confident than I’ve ever been that we’re close to powerful capabilities… in the next 2-3 years&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Of course, no one would invest in your company if you needed two decades to develop your product.&lt;/p&gt;
-&lt;p&gt;But the term AGI and is fuzzy&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and it keeps on changing as models evolve. Funny because it&amp;rsquo;s kinda true: &amp;ldquo;AGI is whatever machines can&amp;rsquo;t do now&amp;rdquo;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. So in the end, these statements about future model capabilities are pretty uninformative&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;But the term AGI and is fuzzy&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and it keeps on changing as models evolve. Funny because it&amp;rsquo;s kinda true: &amp;ldquo;AGI is whatever machines can&amp;rsquo;t do now&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In the end, these kinds of statements about future model capabilities become pretty uninformative.&lt;/p&gt;
 &lt;h3 id=&#34;agi-is-inevitable&#34;&gt;&amp;ldquo;AGI is inevitable&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;The AI companies also want technological progress to seem inevitable. If you cannot guarantee AGI, why would you fund them?&lt;/p&gt;
-&lt;p&gt;But this narrative isn&amp;rsquo;t just for outsiders. Ilya Sutskever, former chief scientist at OpenAI, used to &amp;ldquo;Feel the AGI&amp;rdquo; at company parties, presumably to build a better company culture&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;But this narrative isn&amp;rsquo;t just for outsiders. Ilya Sutskever, former chief scientist at OpenAI, used to chant &amp;ldquo;Feel the AGI&amp;rdquo; at company parties, perhaps to improve company culture&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Similarly, if AGI is inevitable, an AI company can justify advancing model capabilities as quickly as possible &amp;ndash; possibly at the cost of safety &amp;ndash; so that none of the bad guys build it first.&lt;/p&gt;
 &lt;h3 id=&#34;were-the-good-guys&#34;&gt;&amp;ldquo;We&amp;rsquo;re the good guys&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;Indeed, as highlighted in &lt;a href=&#34;https://en.wikipedia.org/wiki/Empire_of_AI&#34;&gt;Empire of AI&lt;/a&gt;, some AI companies seem to think of themselves as &amp;ldquo;the good guys&amp;rdquo; and other AI companies as &amp;ldquo;the bad guys&amp;rdquo;. For example, OpenAI was founded was because Musk was concerned about the ethical implications of Google&amp;rsquo;s acquisition of DeepMind. Anthropic was founded by former OpenAI employees who were dissatisfied with the safety work at OpenAI.&lt;/p&gt;
 &lt;p&gt;Moreover, the US-China tensions lead to a divide between the American AI companies and the Chinese ones.&lt;/p&gt;
-&lt;p&gt;This narrative provides a powerful argument for minimal AI regulations.&lt;/p&gt;
 &lt;h3 id=&#34;our-tools-empower-all-of-humanity&#34;&gt;&amp;ldquo;Our tools empower all of humanity&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;DeepMind&amp;rsquo;s mission is to &amp;ldquo;build AI responsibly to benefit humanity&amp;rdquo;, while OpenAI&amp;rsquo;s mission is to &amp;ldquo;ensure that artificial general intelligence—AI systems that are generally smarter than humans—benefits all of humanity&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;The democratisation bit of the mission isn&amp;rsquo;t specific to AI companies; it&amp;rsquo;s a tech company cliché. Remember Facebook was supposed to connect you with friends and the rest of the world, all for free.&lt;/p&gt;
+&lt;p&gt;The democratisation bit of the mission isn&amp;rsquo;t specific to AI companies; it&amp;rsquo;s a tech company cliché. For example, Facebook is supposed to give everyone the opportunity to connect you with friends and the rest of the world.&lt;/p&gt;
 &lt;p&gt;AI will empower all of humanity, but only if everyone can afford a laptop, has stable internet connection and knows how to use LLMs efficiently. Moreover, prices for premium subscription plans are relatively high. OpenAI&amp;rsquo;s cheapest paid plan comes at 20 dollars per month. For Anthropic, the figure is 17 dollars.&lt;/p&gt;
-&lt;p&gt;The point about using LLMs efficiently is subtle. To have an LLM perform more advanced tasks, which is what would be empowering for real, you&amp;rsquo;d need to be good at prompt-engineering. Becoming good at prompt-engineer takes time.&lt;/p&gt;
-&lt;h3 id=&#34;agi-will-solve-all-humanitys-problems&#34;&gt;&amp;ldquo;AGI will solve all humanity&amp;rsquo;s problems&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;The point about using LLMs efficiently is subtle. To have an LLM perform more advanced tasks, which is what would be empowering for real, you&amp;rsquo;d need to be good at prompt engineering. Becoming good at prompt engineer takes time.&lt;/p&gt;
+&lt;h3 id=&#34;agi-will-solve-all-our-problems&#34;&gt;&amp;ldquo;AGI will solve all our problems&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;Another reason they need to build AGI as soon as possible is their belief that AGI can solve most of humanity&amp;rsquo;s problems. In short, techno-optimism. In &lt;a href=&#34;https://www.penguin.co.uk/books/437020/genius-makers-by-metz-cade/9781847942159&#34;&gt;Genius Makers&lt;/a&gt;, Cade Metz likens the belief in AGI to a religion. And a religion needs a promise of salvation.&lt;/p&gt;
-&lt;p&gt;From &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace&#34;&gt;Machines of Loving Grace&lt;/a&gt; by Dario Amodei: &amp;ldquo;it’s my guess that powerful AI could at least 10x the rate of these discoveries, giving us the next 50-100 years of biological progress in 5-10 years&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace&#34;&gt;Machines of Loving Grace&lt;/a&gt;, Dario Amodei writes that &amp;ldquo;it’s my guess that powerful AI could at least 10x the rate of these discoveries, giving us the next 50-100 years of biological progress in 5-10 years&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The idea of AGI radically accelerating scientific progress is pretty mainstream. For example, &lt;a href=&#34;https://www.forethought.org/research/preparing-for-the-intelligence-explosion#the-accelerated-decade&#34;&gt;this report&lt;/a&gt; from Forethought argues that we might very well see a century&amp;rsquo;s worth of technological progress in a decade.&lt;/p&gt;
 &lt;p&gt;But human progress isn&amp;rsquo;t the same as scientific progress. We need cultural and moral progress too.&lt;/p&gt;
 &lt;h3 id=&#34;the-end&#34;&gt;The end&lt;/h3&gt;
 &lt;p&gt;Whom are these stories meant for?&lt;/p&gt;
 &lt;p&gt;In short, for everyone. Some stories serve as sales pitches for investors and customers. Others are meant to improve employee morale and create a sense of unity. Regulators learn that they shouldn&amp;rsquo;t regulate the deployment of new AI models, just so their nation won&amp;rsquo;t fall behind in the AI arms race.&lt;/p&gt;
-&lt;p&gt;We now find ourselves in a technological race, much like the Apollo program. If you build AGI first, you&amp;rsquo;ll become Neil Armstrong. You don&amp;rsquo;t want to be &amp;ndash; I had to Google his name &amp;ndash; Buzz Aldrin. However, this doesn&amp;rsquo;t seem like an race between nations, but more like a race between tech CEOs who don&amp;rsquo;t &amp;ldquo;just&amp;rdquo; want to be average tech CEOs.&lt;/p&gt;
-&lt;p&gt;Perhaps these narratives are mostly meant for posterity.&lt;/p&gt;
+&lt;p&gt;AI companies find themselves in a technological race, much like the Apollo program. If you build AGI first, you&amp;rsquo;ll become Neil Armstrong. You don&amp;rsquo;t want to be &amp;ndash; I had to Google his name &amp;ndash; Buzz Aldrin. However, this isn&amp;rsquo;t just a race between great powers, but also a race between tech billionaires who don&amp;rsquo;t &amp;ldquo;just&amp;rdquo; want to be average tech billionaires. These people want to be remembered as visionaries. So perhaps these stories are mostly meant for posterity.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -59,13 +121,7 @@
 &lt;p&gt;Everyone seems to agree the term &amp;ldquo;AGI&amp;rdquo; is problematic, even the AI company CEOs. See e.g. &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace#basic-assumptions-and-framework&#34;&gt;here&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;As highlighted in &lt;em&gt;AI Snake Oil&lt;/em&gt;, we used to call spell checkers and image-generating AIs &amp;ldquo;AGI&amp;rdquo; before we had them.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34;&gt;
-&lt;p&gt;For research-backed forecasts about AI progress, see the work of &lt;a href=&#34;https://epoch.ai/&#34;&gt;Epoch&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:5&#34;&gt;
-&lt;p&gt;As an outsider, I cannot help but think that this damages company culture, though.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As an outsider, I cannot help but think that this damages company culture, though.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -166,11 +222,11 @@
     
     
     <item>
-      <title>LLMs be LLMs</title>
-      <link>http://localhost:1313/llms-be-llms/</link>
+      <title>Let LLMs be LLMs</title>
+      <link>http://localhost:1313/let-llms-be-llms/</link>
       <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/llms-be-llms/</guid>
+      <guid>http://localhost:1313/let-llms-be-llms/</guid>
       <description>&lt;h3 id=&#34;thought-experiment&#34;&gt;Thought experiment&lt;/h3&gt;
 &lt;p&gt;Imagine a very unusual kind of chatbot. In the user interface (UI), the text &amp;ldquo;This is a large language model. Its outputs are an aggregate of the text on the internet.&amp;rdquo; is displayed in bold, black letters, like the warning label on a pack of cigarettes.&lt;/p&gt;
 &lt;p&gt;When the user inputs a string of text, the text &amp;ldquo;Matrix multiplications&amp;hellip;&amp;rdquo; flashes onto the screen for a split second. Next, ten blocks of text appear. The blocks aren&amp;rsquo;t rendered incrementally, as if the LLM were writing a text; all text appears at once. Beneath each block is a number between $0$ and $1$. The numbers sum to about $1$. Then the label &amp;ldquo;Highest logit: output $7$&amp;rdquo; appears on the screen.&lt;/p&gt;
@@ -191,12 +247,13 @@ ID: Who are you?
 C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Come to think of it, &lt;a href=&#34;https://nostalgebraist.tumblr.com/post/785766737747574784/the-void&#34;&gt;this is absurd&lt;/a&gt;. Funny, but also a bit uncanny.&lt;/p&gt;
 &lt;p&gt;If we only interact with helpful, honest and harmless (HHH) human-like assistants, the possibility of a misaligned AI seems less plausible. However, the risk of an LLM becoming misaligned seems irrelevant of the &lt;a href=&#34;https://www.lesswrong.com/posts/zuXo9imNKYspu9HGv/a-three-layer-model-of-llm-psychology&#34;&gt;surface-level character&lt;/a&gt; which arises through reinforcement learning through human feedback.&lt;/p&gt;
-&lt;p&gt;If we were only exposed to chatbots like the one from the thought experiment, how would this affect our relation to these systems? I think we&amp;rsquo;d gain a better appreciation of what LLMs actually are. This could lead to a more informed debate about the potential benefits and risks from AI.&lt;/p&gt;
-&lt;p&gt;Banning all human-like assistants seems like a radical measure, though. It doesn&amp;rsquo;t seem necessary right now. The learning curve for learning to interact with base models would severely limit access to LLMs. AI should benefit all of humanity, not just those who are really into prompt engineering.&lt;/p&gt;
+&lt;p&gt;If we were only exposed to chatbots like the one from the thought experiment, how would this affect our relation to these systems? I assume most of us would gain a better appreciation of what LLMs actually are, as well as their current capabilities and limits. UIs as the ones described above might serve as intuition pumps. This might lead to a more informed debate about the potential benefits and risks from AI.&lt;/p&gt;
+&lt;p&gt;However, banning all human-like assistants seems like a very radical measure. It wouldn&amp;rsquo;t be feasible right now, and I&amp;rsquo;m not entirely sure about the potential advantages. Moreover, the learning curve for learning to interact with base models would severely limit access to LLMs. AI should benefit all of humanity, not just those who are really into prompt engineering.&lt;/p&gt;
 &lt;p&gt;Still, banning all human-like assistants is an entertaining idea.&lt;/p&gt;
 &lt;h3 id=&#34;thought-experiment-continued&#34;&gt;Thought experiment, continued&lt;/h3&gt;
 &lt;p&gt;By law, all AI labs are prohibited from producing human-like chatbots. Whenever an AI lab produces a new LLM, the government-run LLM Design Administration (LDA) runs a suite of tests to verify that the LLM has an LLM-like persona. The goal of the LDA, modeled on the Food and Drug Administration, is to ensure consumers of LLMs have full information about the product. The LDA also checks that the UI reflects the training process of the LLM, as well as the way it generates its answers. It&amp;rsquo;s also responsible for the warning labels with black letters that must be displayed in the UI. The slogan of the LDA is &amp;ldquo;Transparency, harmlessness, helpfulness&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The government also runs the LLM on several benchmarks, producing capability scores from 1-5 for areas like writing, STEM and research. In this alternative world, no one talks of AI or AGI &amp;ndash; what does intelligence even mean in this context? Instead, people refer to specific capability scores. When clicking on the star icon on the upper right corner, the LDA&amp;rsquo;s logo, the capability scores appear, along with other model specifications. It&amp;rsquo;s like a condensed, accessible version of the model&amp;rsquo;s &lt;a href=&#34;https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf&#34;&gt;system card&lt;/a&gt;, generated by the authorities rather than the AI labs.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Santeri Koivula for valuable feedback on this text.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

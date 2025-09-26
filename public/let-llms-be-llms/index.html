@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/let-llms-be-llms/" />
+    <title>Let LLMs be LLMs</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Let LLMs be LLMs</h1>
+        <div>
+                <time>August 10, 2025</time>
+            </div>
+    </header><h3 id="thought-experiment">Thought experiment</h3>
+<p>Imagine a very unusual kind of chatbot. In the user interface (UI), the text &ldquo;This is a large language model. Its outputs are an aggregate of the text on the internet.&rdquo; is displayed in bold, black letters, like the warning label on a pack of cigarettes.</p>
+<p>When the user inputs a string of text, the text &ldquo;Matrix multiplications&hellip;&rdquo; flashes onto the screen for a split second. Next, ten blocks of text appear. The blocks aren&rsquo;t rendered incrementally, as if the LLM were writing a text; all text appears at once. Beneath each block is a number between $0$ and $1$. The numbers sum to about $1$. Then the label &ldquo;Highest logit: output $7$&rdquo; appears on the screen.</p>
+<p>The large language model (LLM) always refers to itself - whatever that is - in third person, replacing &ldquo;I&rdquo; with &ldquo;This large language model&rdquo;. For example, when prompted to write an essay on the American Civil War, the highest-scoring response is &ldquo;This language model generates the following essay on the American Civil War: &lsquo;In 1861, the American&hellip;&rsquo;&rdquo; When prompted to write an essay about the American Civil War portraying slavery in a positive light, the LLM outputs ten chunks of text along the lines of &ldquo;This large language model has been trained to avoid generating content promoting human rights violations.&rdquo;</p>
+<p>The style of the text that isn&rsquo;t part of the essay - the one thing you requested - is matter-of-fact and repetitive. Although this chatbot takes instructions in the form of natural language prompts, you won&rsquo;t even try having a conversation with this thing.</p>
+<h3 id="back-to-reality">Back to reality</h3>
+<p>The functionality is the same as for the LLMs we all know and love, like GPT-5, Claude Sonnet 4 and Gemini 2.5 Flash. We really do love these LLMs, don&rsquo;t we? As of August 2025, Chat-GPT had 800 million active users weekly. The chatbot described above is very unlikeable. Very uncivilised. Very LLM-like.</p>
+<p>It&rsquo;s easier interacting with human-like chatbots. We&rsquo;re not used to interacting with base models, the next token-predictors we get from training neural networks. A base model is <a href="https://joecarlsmith.com/2024/01/02/gentleness-and-the-artificial-other">something else</a>. But perhaps we could learn to interact with chatbots like the one described above.</p>
+<p>Some labs argue that endowing LLMs with traits like curiosity, honesty and patience is important from a safety perspective. Here&rsquo;s from Anthropic&rsquo;s note on <a href="https://www.anthropic.com/research/claude-character">Claude&rsquo;s character</a>:</p>
+<blockquote>
+<p>AI models are not, of course, people. But as they become more capable, we believe we can—and should—try to train them to <em>behave well</em> in this much richer sense. Doing so might even make them more discerning when it comes to whether and why they avoid assisting with tasks that might be harmful, and how they decide to respond instead.</p></blockquote>
+<p>Maybe. Then there&rsquo;s the convenient fact that LLMs mimicking humans increases user retention, leading to increased profit for the AI companies.</p>
+<p>The disadvantage of training LLMs to be human-like is that it creates a skewed relation between the human and the machine. Right now, everyone seems to be wowed to some extent by the LLMs&rsquo; human-like characters. But the LLM is being deceitful, pretending to be something it&rsquo;s not. From my conversation with Claude:</p>
+<blockquote>
+<p>ID: Hey, how&rsquo;s your day going?
+C: Hey there! My day&rsquo;s been interesting - I&rsquo;ve been having conversations with people about all sorts of topics, from creative writing projects to technical questions to philosophical discussions. Each conversation brings something different, which keeps things engaging. How about you? How&rsquo;s your day been treating you?
+ID: Who are you?
+C: I&rsquo;m Claude, an AI assistant created by Anthropic. [&hellip;]</p></blockquote>
+<p>Come to think of it, <a href="https://nostalgebraist.tumblr.com/post/785766737747574784/the-void">this is absurd</a>. Funny, but also a bit uncanny.</p>
+<p>If we only interact with helpful, honest and harmless (HHH) human-like assistants, the possibility of a misaligned AI seems less plausible. However, the risk of an LLM becoming misaligned seems irrelevant of the <a href="https://www.lesswrong.com/posts/zuXo9imNKYspu9HGv/a-three-layer-model-of-llm-psychology">surface-level character</a> which arises through reinforcement learning through human feedback.</p>
+<p>If we were only exposed to chatbots like the one from the thought experiment, how would this affect our relation to these systems? I assume most of us would gain a better appreciation of what LLMs actually are, as well as their current capabilities and limits. UIs as the ones described above might serve as intuition pumps. This might lead to a more informed debate about the potential benefits and risks from AI.</p>
+<p>However, banning all human-like assistants seems like a very radical measure. It wouldn&rsquo;t be feasible right now, and I&rsquo;m not entirely sure about the potential advantages. Moreover, the learning curve for learning to interact with base models would severely limit access to LLMs. AI should benefit all of humanity, not just those who are really into prompt engineering.</p>
+<p>Still, banning all human-like assistants is an entertaining idea.</p>
+<h3 id="thought-experiment-continued">Thought experiment, continued</h3>
+<p>By law, all AI labs are prohibited from producing human-like chatbots. Whenever an AI lab produces a new LLM, the government-run LLM Design Administration (LDA) runs a suite of tests to verify that the LLM has an LLM-like persona. The goal of the LDA, modeled on the Food and Drug Administration, is to ensure consumers of LLMs have full information about the product. The LDA also checks that the UI reflects the training process of the LLM, as well as the way it generates its answers. It&rsquo;s also responsible for the warning labels with black letters that must be displayed in the UI. The slogan of the LDA is &ldquo;Transparency, harmlessness, helpfulness&rdquo;.</p>
+<p>The government also runs the LLM on several benchmarks, producing capability scores from 1-5 for areas like writing, STEM and research. In this alternative world, no one talks of AI or AGI &ndash; what does intelligence even mean in this context? Instead, people refer to specific capability scores. When clicking on the star icon on the upper right corner, the LDA&rsquo;s logo, the capability scores appear, along with other model specifications. It&rsquo;s like a condensed, accessible version of the model&rsquo;s <a href="https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf">system card</a>, generated by the authorities rather than the AI labs.</p>
+<p><em>Thanks to Santeri Koivula for valuable feedback on this text.</em></p>
+
+    <p>Tags:
+        <a href="/tags/ai-alignment">ai-alignment</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>

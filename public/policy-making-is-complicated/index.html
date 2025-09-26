@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/policy-making-is-complicated/" />
+    <title>Policy-making is complicated</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Policy-making is complicated</h1>
+        <div>
+                <time>September 7, 2025</time>
+            </div>
+    </header><p>Things are more complicated than they first seem, especially when it comes to policy-making. Should Germany build nuclear power plants to reduce their carbon emissions? Should there be global standards for content moderation on social media platforms? How should we best mitigate the risk of future global pandemics?</p>
+<p>I recently had the pleasure of getting to know more people working in policy and forecasting, and I quickly realised that I hadn&rsquo;t internalised the complexity of the problems they face<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Here, I&rsquo;ll list some intuition pumps for the difficulty of policy-related questions. For concreteness, I&rsquo;ll focus on the first of the three above topics, nuclear power in Germany.</p>
+<ul>
+<li><strong>More than a wing flap</strong>: Recall the butterfly effect: a butterfly&rsquo;s wing flap can cause a tornado elsewhere. How about the choice-of-energy-supply effect?</li>
+<li><strong>Defining justice</strong>: Are there conflicting interests? Then we have to define justice first. Wonderful. This would involve solving a big part of political philosophy.</li>
+<li><strong>Multilayer forecasting</strong>: Answering this question involves forecasting the effects of two hypothetical scenarios (the &ldquo;yes&rdquo; and &ldquo;no&rdquo; scenarios). But forecasting is basically a full-time job. Forecasters need to identify relevant parameters, estimate them, steelman opposing views, and so on.</li>
+<li><strong>Lazy student</strong>: You could easily write a master thesis on this topic. A master thesis is 30 ETCS. Feel the credits!</li>
+<li><strong>Headcount</strong>: There&rsquo;s probably a good number of people working on exactly on this issue. Sum over people in special commissions, the government, in academia, in think tanks, and so on.</li>
+<li><strong>Hard optimisation</strong>: The ideal energy source emits zero carbon, works all year round, is cheap, doesn&rsquo;t produce toxic nuclear waste, etc. This leads to an infinite-dimensional optimisation problem. Worse, the loss functions need not be smooth and differentiable.</li>
+<li><strong>Beyond EXPSpace</strong>: If the travelling salesman problem is NP-hard, then what on earth is this optimisation problem even?</li>
+<li><strong>Non-computable</strong>: If the halting problem is uncomputable, is there any hope of answering this question?</li>
+<li><strong>Inference time</strong>: Imagine prompting a reasoning language model, say GPT-5, to write a nuanced 100-page report on the question. What would be the inference time?</li>
+<li><strong>Going broke</strong>: Alternative formulation, so you really feel it: Imagine prompting a reasoning language model, say GPT-5, to write a nuanced 100-page report on the question. Suppose you were billed on a per-token basis. What would be the price?</li>
+</ul>
+<p>Well, policy is complicated. What does this mean in practise?</p>
+<p>It seems important to distinguish between &ldquo;thinking for fun&rdquo; and &ldquo;thinking for truth&rdquo;. I enjoy thinking about hard problems &ndash; that&rsquo;s one of the main reasons I do mathematics. But if I&rsquo;m thinking for truth in a domain outside my expertise<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, I probably shouldn&rsquo;t spend more than 1% of my time coming up with a prior. It will be very weak, anyway. Things are complicated, remember?</p>
+<p>Similarly, I&rsquo;ll try outsourcing as much as possible to experts, resisting the urge to &ldquo;attempt every problem&rdquo;. My job should reduce to aggregating expert opinions. Ideally, I could ask an LLM to fill in a table with expert opinions and their respective confidence levels, so I could just take a weighted average.</p>
+<p>In a very backward way, internalising that things are complicated makes my life much simpler.</p>
+<p><em>This post was inspired by conversations with Caroline Falkman Olsson and Nadja Fletchner. Thanks for the food for thought.</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I expected easy answers to hard questions.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Right now, that&rsquo;s just about any domain.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    <p>Tags:
+        <a href="/tags/rationality">rationality</a>, <a href="/tags/learning">learning</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>
