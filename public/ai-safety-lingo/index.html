@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                
+                
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                
+                throwOnError : false
+            });
+        });
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Isabel Dahlgren">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/ai-safety-lingo/" />
+    <title>AI safety lingo</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Isabel Dahlgren</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/library/" title="library">library</a>
+            </li><li>
+                <a href="/resources/" title="resources">resources</a>
+            </li><li>
+                <a href="/tags/" title="">Tags</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>AI safety lingo</h1>
+        <div>
+                <time>September 21, 2025</time>
+            </div>
+    </header><p>There&rsquo;s a lot of jargon within AI safety. Here are analogies for 20 AI safety terms. I assume some familiarity with these terms; I&rsquo;ll omit the exact definitions. I&rsquo;ll give references to appropriate resources rather than trying and failing to define these concepts precisely in a couple of lines. Instead, I&rsquo;ll focus on intuitions.</p>
+<ul>
+<li><a href="https://www.lesswrong.com/posts/p7x32SEt43ZMC9r7r/embedded-agents">Embedded agency</a>: Playing the Sims is very different from living IRL. When playing a video game, you&rsquo;re not an agent embedded in the game environment.</li>
+<li><a href="https://www.lesswrong.com/posts/FkgsxrGf3QxhfLWHG/risks-from-learned-optimization-introduction">Base optimizer vs. mesa-optimizer</a>: A base optimizer is a process for achieving some goal (cooking a good risotto). The base optimizer (the chef) soon learns that the seasoning makes a huge difference. A process for perfecting the seasoning is an example of a mesa-optimiser: a process for achieving a learned subgoal.</li>
+<li><a href="https://www.lesswrong.com/posts/poyshiMEhJsAuifKt/outer-vs-inner-misalignment-three-framings-1">Inner alignment vs. outer alignment</a>: If a government wants to reduce unemployment, it has to design efficient regulations and and ensure citizens comply. Outer alignment is the problem of specifying the right incentive structure; inner alignment the problem of compliance.</li>
+<li><a href="https://www.lesswrong.com/w/deceptive-alignment">Deceptive alignment</a>: This is much like an intelligent bully will pretend being nice when the grown-ups are watching. A misaligned AI system might benefit from appearing more aligned.</li>
+<li><a href="https://www.lesswrong.com/w/treacherous-turn">Treacherous turn</a>: The moment when the opposition seizes power through a coup. The hypothetical moment when a misaligned, highly capable AI decides to&hellip; I don&rsquo;t know, but people imagine something bad.</li>
+<li><a href="https://www.lesswrong.com/w/corrigibility-1">Corrigibility</a>: Ever been in the library when someone&rsquo;s phone continues ringing, despite their best efforts to silence it? They might try putting the phone on silent, then turning the volume to zero, then turning it off. Maybe their phone seems to be frozen or something? In this case, we&rsquo;d speak of a non-corrigible phone: a phone that resists attempts to &ldquo;correct&rdquo; its behaviour and resists attempts to be shut down.</li>
+<li><a href="https://arxiv.org/abs/2210.01790">Goal misgeneralization</a>: A pianist might practise Bach to please her pianist friends; however, when she&rsquo;s at normal parties, people just want her to play <em>Let it Be</em>. Likewise, an AI system might competently pursue one goal which leads to good performance in training situations but poorly in novel test situations.</li>
+<li><a href="https://www.lesswrong.com/w/instrumental-convergence">Edge instantiation</a>: An AI agent instructed to fill a cauldron of water might flood the entire room. Task accomplished, technically. And for AI agents, only the technicalities matter. AIs can be annoyingly creative.</li>
+<li><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart&rsquo;s law</a>: When a measure becomes a target, it ceases to be a good measure<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The phenomenon of studying for the test is an example of Goodhart&rsquo;s law.</li>
+<li><a href="https://www.alignmentforum.org/s/4dHMdK5TLN6xcqtyc">Value learning</a>: This is the broad project of teaching AIs human values. AI-rearing, essentially.</li>
+<li><a href="https://www.youtube.com/watch?v=qo355ALvLRI">Inverse reinforcement learning (IRL)</a>: If you&rsquo;re trying to schedule a time to meet with a passive aggressive friend, you have to infer their preferences based on their wordings and emoji usage. Inverse reinforcement learning is an ML approach for inferring preferences of AI systems.</li>
+<li><a href="https://lilianweng.github.io/posts/2024-11-28-reward-hacking/">Reward hacking/specification gaming</a>: Or, finding legal loopholes.</li>
+<li><a href="https://www.lesswrong.com/w/instrumental-convergence">Instrumental convergence</a>: Great minds think alike. In particular, great minds with different goals might pursue similar subgoals. For example, two high school students wanting to become an aerospace engineer and a medical doctor respectively might infer that they should get university degrees first.</li>
+<li><a href="https://en.wikipedia.org/wiki/Statistical_model_specification">Model misspecification</a>: If you think the colour of Alice&rsquo;s shirt determines whether she&rsquo;ll win over Bob in a game of pingpong, your model is misspecified. You&rsquo;re making the wrong assumptions about the data generation mechanism.</li>
+<li><a href="https://www.lesswrong.com/posts/sAJnZY8pp2W3DR4mx/breaking-down-the-training-deployment-dichotomy">Training distribution vs. deployment distribution</a>: Regardless of how much a soccer player practises taking penalty kicks, she&rsquo;ll find it different taking a penalty kick in a real match. You cannot perfectly simulate the test conditions.</li>
+<li><a href="https://www.lesswrong.com/w/distributional-shifts">Distributional shift</a>: The shift from training conditions to a real match is a distributional shift.</li>
+<li><a href="https://www.lesswrong.com/posts/k54rgSg7GcjtXnMHX/model-splintering-moving-from-one-imperfect-model-to-another-1">Reward model splintering</a>: A strategy can fail when you switch to a more general setting. Student insider jokes won&rsquo;t work on the average person on the street.</li>
+<li><a href="https://www-cdn.anthropic.com/7512771452629584566b6303311496c262da1006/Anthropic_ConstitutionalAI_v2.pdf">Constitutional AI (CAI)</a>: Tell, don&rsquo;t show. Rather than showing kids examples of good and bad behaviour, tell them which ethical principles to follow<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. The idea behind constitutional AI is to give AIs a &ldquo;constitution&rdquo;.</li>
+<li><a href="https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback">Human feedback (RLHF)</a>: A process for producing ideal leaders. The ideal leader studies people&rsquo;s opinions closely, tries inferring principles explaining the data, and aspires to act according to these principles.</li>
+<li><a href="https://newsletter.safe.ai/p/ai-safety-newsletter-13">Proxy gaming</a>: Social media companies take the time a user spends on their platform as a proxy for the quality of the content recommended. Thus the recommender algorithms might favour polarising content. The proxy game &ndash; that of recommending addictive content &ndash; has been gamed.</li>
+<li><a href="https://www.lesswrong.com/w/value-drift">Value drift</a>: Values of individuals and communities change over time. Nowadays, almost everyone thinks slavery is indefensible. Similarly, the values implicit in an AI model might change as it accumulates more memory.</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Yet another reason that <a href="https://isabeldahlgren.github.io/policy-making-is-complicated/">policy is complicated</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Maybe something like <a href="https://www.poetryfoundation.org/poems/46473/if---">If</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    <p>Tags:
+        <a href="/tags/ai-alignment">ai-alignment</a>
+    </p>
+    
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2025 Isabel Dahlgren
+</footer>
+</body>
+</html>
