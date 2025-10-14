@@ -6,9 +6,43 @@
     <description>Recent content in Rationality on Isabel Dahlgren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/rationality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>High school for heroes</title>
+      <link>http://localhost:1313/high-school-for-heroes/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/high-school-for-heroes/</guid>
+      <description>&lt;p&gt;High school isn&amp;rsquo;t so much about preparing teenagers for adult life. In Sweden, you have a subject about cooking and personal finance, but only until secondary school. I think this makes sense: you only need one course on practical adult skills. After you know the basics, it&amp;rsquo;s all about practising IRL.&lt;/p&gt;
+&lt;p&gt;But being a competent grown-up involves many other skills. It&amp;rsquo;s not just about successfully running a household &amp;ndash; it&amp;rsquo;s also a matter of &amp;ldquo;running yourself&amp;rdquo;. There are plenty of &amp;ldquo;serious&amp;rdquo; subjects we could fit in a standard high school curriculum. Here&amp;rsquo;s a vibe-based list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Learning&lt;/strong&gt;: Please please please, teach high schoolers about spaced repetition, interleaving and testing. The ability to learn things quickly is useful in any domain of life. In the future, this skill will probably become even more useful, as AI speeds up social and technological progress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rationality&lt;/strong&gt;: If you want a serious-sounding name for this subject, call it behavioural economics or applied philosophy. Basic knowledge about cognitive biases and System 1 and System 2 isn&amp;rsquo;t just intellectual amusement &amp;ndash; it&amp;rsquo;s also very practical. If everyone learned about confirmation bias at an early age, would there be as much polarisation in the world?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Curiosity&lt;/strong&gt;: We could also make high-schoolers read non-fiction or watch videos on popular science. Make them read or watch videos about the French revolution, the opioid crisis in the US, personal effectiveness, the holocaust, the nature of time, the Bauhaus school of design, John Houdini&amp;hellip; They could also organise seminars for each other, as in &lt;a href=&#34;https://fractalnyc.com/&#34;&gt;Fractal&lt;/a&gt;. Forcing students to memorise facts won&amp;rsquo;t produce life-long learners.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statistics&lt;/strong&gt;: Most people are forced to take a stats class at university, and for good reason. Statistics is one of the most useful academic disciplines, and it forms the backbone of all science. Maybe we could teach high schoolers about Bayesian inference, hypothesis testing and confidence intervals. This material can be made accessible to high schoolers: you can explain Bayes&amp;rsquo; rule by menas of rectangles and teach students simple algorithms for hypothesis testing and computing confidence intervals.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;General AI&lt;/strong&gt;: I almost feel obligated to add something directly AI-related. I think students should be taught the basics of machine learning: how gradient descent works, general transformer architecture, etc. This is much as students are taught about evolution and the different parts of the cell. I think this would empower people to reason more clearly about transformative AI&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wellbeing&lt;/strong&gt;: You might also offer a course on wellbeing, incorporating elements of philosophy and the science of happiness.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agency&lt;/strong&gt;: We could also teach a class on on agency, by which I mean the art of &amp;ldquo;doing stuff&amp;rdquo;. Most high-schoolers have never experienced the joy of agency, the joy of poking at the world and noticing something happening. One could e.g. have a project-based class where high-schoolers get to found their own companies or orgs&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;m the most bullish about the benefits of taking classes on learning and rationality. I&amp;rsquo;m not as certain about the benefits of the remaining subjects. So, here&amp;rsquo;s one suggestion for a high-school curriculum: take a standard high school curriculum, make learning and rationality mandatory and offer the remaining subjects as electives. Overall, this seems like this kind of curriculum would produce more well-rounded, curious doers &amp;ndash; the kind of people who might solve the world&amp;rsquo;s most pressing problems.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;You might also consider adding a modules on prompt engineering.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Some Swedish high-schools offer such courses in entrepreneurship; Google &amp;ldquo;Ung företagsamhet&amp;rdquo;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     
     
@@ -21,15 +55,15 @@
       <description>&lt;h3 id=&#34;i&#34;&gt;I.&lt;/h3&gt;
 &lt;p&gt;Once I was done with exams, it felt like getting my brain back. It&amp;rsquo;s not just that you spend most of your day studying difficult subjects, leaving you with less time and willpower for other tasks. You also have to do cost-benefit analysis all the time. All. The. Time. Sometimes, it&amp;rsquo;s relieving if someone tells you exactly what to do&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;ii&#34;&gt;II.&lt;/h3&gt;
-&lt;p&gt;Slack is sometimes defined as having leftover resources. Intuitively, slack is like a buffer allowing you to absorb shocks better. We often speak of slack in the context of time and money. To make things more visceral, imagine packing a bag. Having slack means having leftover space. There&amp;rsquo;s no need to stuff your shoes with underwear, fold your clothes meticulously or pack things in a given order. You don&amp;rsquo;t have to engage in trade-off thinking (&amp;ldquo;If I leave my camera, I can fit my notebook and an umbrella&amp;rdquo;). Having slack leads to a feeling of abundance.&lt;/p&gt;
-&lt;p&gt;Slack is cool nowadays. The concepts of &amp;ldquo;slow productivity&amp;rdquo;, &amp;ldquo;intentional work&amp;rdquo; or &amp;ldquo;anti-hustle culture&amp;rdquo; are essentially about having more slack. There has also been some recent research into the benefits of slack.&lt;/p&gt;
+&lt;p&gt;Slack is sometimes defined as having leftover resources. Intuitively, slack is like a buffer allowing you to absorb shocks better. We often speak of slack in the context of time and money. But to make things more visceral, imagine packing a bag. Having slack means having leftover space. There&amp;rsquo;s no need to stuff your shoes with underwear, fold your clothes meticulously or pack things in a given order. You don&amp;rsquo;t have to engage in trade-off thinking (&amp;ldquo;If I leave my camera, I can fit my notebook and an umbrella&amp;rdquo;). Having slack leads to a feeling of abundance.&lt;/p&gt;
+&lt;p&gt;Slack is trendy nowadays. The concepts of &amp;ldquo;slow productivity&amp;rdquo;, &amp;ldquo;intentional work&amp;rdquo; or &amp;ldquo;anti-hustle culture&amp;rdquo; are essentially about having more slack. There has also been some recent research into the benefits of slack.&lt;/p&gt;
 &lt;p&gt;Some companies have tried implementing four-day work weeks and measured productivity and employee wellbeing. The results? One &lt;a href=&#34;https://www.scientificamerican.com/article/biggest-trial-of-four-day-workweek-finds-workers-are-happier-and-feel-just/&#34;&gt;survey paper&lt;/a&gt; found that implementing four-day work weeks also made employees happier and healthier. This also agrees with my personal experience. I can only do good mathematics for at most 4-5 hours per day. After that, I need a long break.&lt;/p&gt;
 &lt;p&gt;As stressed in &lt;a href=&#34;https://en.wikipedia.org/wiki/Scarcity:_Why_Having_Too_Little_Means_So_Much&#34;&gt;Scarcity&lt;/a&gt;, having slack also improves judgement. If you have little time or money, you tend to tunnel &amp;ndash; neglecting anything which isn&amp;rsquo;t immediately related to that resource (evolutionary baggage). There have also been numerous experiments showing that scarcity reduces mental bandwidth, i.e. intelligence and impulse control.&lt;/p&gt;
 &lt;p&gt;Perhaps slack is necessary for being happy too. Chronic stress and financial insecurity have very negative consequences on wellbeing.&lt;/p&gt;
 &lt;h3 id=&#34;iii&#34;&gt;III.&lt;/h3&gt;
 &lt;p&gt;To create slack, just say no.&lt;/p&gt;
 &lt;p&gt;Saying &amp;ldquo;no&amp;rdquo; is hard, though. Planning fallacy often leads us to take on too many tasks. While there are ways to overcome planning fallacy&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, everything takes longer than expected by default. Even when you add a planning fallacy allowance. Moreover, saying &amp;ldquo;no&amp;rdquo; requires prioritising &amp;ndash; cognitive effort.&lt;/p&gt;
-&lt;p&gt;To &amp;ldquo;just say no&amp;rdquo;, remember that slack is the best thing ever. Here you can tap into your own quirks. For example, I often slip into a productivity-maxxximiser mindset, so I&amp;rsquo;ll try reminding myself that slack makes me more productive. I also have a few idols, and creating slack also seems consistent with my goal of becoming more like them.&lt;/p&gt;
+&lt;p&gt;To say &amp;ldquo;no&amp;rdquo;, remember that slack is the best thing ever. Here you can tap into your own quirks. For example, I often slip into a productivity-maxxximiser mindset, so I&amp;rsquo;ll try reminding myself that slack makes me more productive. I also have a few idols, and creating slack also seems consistent with my goal of becoming more like them.&lt;/p&gt;
 &lt;p&gt;But I don&amp;rsquo;t just want to rely on mental habits. To create slack, I&amp;rsquo;ve set myself the goal of &amp;ldquo;working as an adult&amp;rdquo; rather than a student. That is, I&amp;rsquo;ll fix reasonable working hours, take Sundays off and treat breaks as a non-negotiables. These habits are all meant to protect slack. I also think digital hygiene helps create slack by making us more efficient. I&amp;rsquo;m wary of email and Slack checking, I keep my phone out of reach when studying and I mostly keep my phone on silent.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve also tried identifying early warning signs that I need more slack. For example, when I have little slack, my message respond time increases from my targeted 24h to around three days&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. I also tend to cut back on my reading before going to bed and clean my room less frequently. Silly, I know. But these are surprisingly effective indicators of my stress levels.&lt;/p&gt;
 &lt;h3 id=&#34;iv&#34;&gt;IV.&lt;/h3&gt;
@@ -71,16 +105,16 @@
 &lt;li&gt;Podcasts can have a very high idea density. Because most podcasts are at most one hour, podcast guests are forced to focus on their key insights.&lt;/li&gt;
 &lt;li&gt;Podcasts are great for stress testing ideas. Someone might make a convincing argument in a blog post but fail to defend their views in a podcast. Similarly, you might come away from a podcast feeling like a podcast guest is completely unreasonable. Suspicious!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So, it seems worth practising analytic listening. If you listen to podcasts 2h daily, this might make a huge difference.&lt;/p&gt;
+&lt;p&gt;So, it seems worth practising analytic podcast-listening. If you listen to podcasts 2h daily, this might make a huge difference.&lt;/p&gt;
 &lt;h3 id=&#34;ii&#34;&gt;II.&lt;/h3&gt;
-&lt;p&gt;Before we get into strategies for analytic listening, I&amp;rsquo;d like to stress the need to prioritise. If you feed a neural network bad data, you won&amp;rsquo;t get good results &amp;ndash; no matter how efficient the training process.&lt;/p&gt;
+&lt;p&gt;Before we get into strategies for analytic podcast-listening, I&amp;rsquo;d like to stress the need to prioritise. If you feed a neural network bad data, you won&amp;rsquo;t get good results &amp;ndash; no matter how efficient the training process. My podcast taste, in a nutshell:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I mostly listen to podcasts with transcripts, so I can easily refer back to interesting parts of the conversation. For my favourite episodes, I&amp;rsquo;ll chuck the transcript into a large language model and have it summarise the key points. Ideally, the show notes also contain time stamps and further references. In this respect, &lt;a href=&#34;https://hearthisidea.com/&#34;&gt;Hear This Idea&lt;/a&gt; and the &lt;a href=&#34;https://80000hours.org/podcast/&#34;&gt;80,000 hours podcast&lt;/a&gt; do an excellent job.&lt;/li&gt;
-&lt;li&gt;I find it quite valuable listening to podcasts with authors of books or articles I&amp;rsquo;ve read. These podcast episodes serve as good refreshers. This point also relates to the above point about detecting bullshit.&lt;/li&gt;
+&lt;li&gt;I find it quite valuable listening to podcasts with authors of books or articles I&amp;rsquo;ve read. These podcast episodes serve as good refreshers. This point also relates to the above point about stress testing ideas.&lt;/li&gt;
 &lt;li&gt;I also like listening to blog posts in podcast form. While I don&amp;rsquo;t retain as much information as after reading the post, I usually get the gist. Above all, listening to blog posts helps me decide which posts to read later.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;iii&#34;&gt;III.&lt;/h3&gt;
-&lt;p&gt;Here are some strategies for analytic podcast-listening:&lt;/p&gt;
+&lt;p&gt;Here are some strategies for analytic podcast-listening&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Have some system for saving podcasts that resonated with you. Re-listen to your favourite episodes, much as you&amp;rsquo;d reread your favourite books. Here&amp;rsquo;s my &lt;a href=&#34;https://open.spotify.com/playlist/77yvdL2OH9bKwit9SNECGN?si=9b726b7d35174fb3&#34;&gt;podcast shelf&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Similarly, keep an anti-library for podcasts. I have a list of podcasts recommended by others.&lt;/li&gt;
@@ -89,15 +123,17 @@
 &lt;li&gt;Work with playback speed. Here it&amp;rsquo;s useful to think in terms of exploration and exploitation. If it&amp;rsquo;s a high-quality episode, I&amp;rsquo;ll usually listen at a 0.8x speed. While listening to podcasts, I&amp;rsquo;m usually multitasking, so I need additional processing time. If I&amp;rsquo;m listening to a new show, I&amp;rsquo;ll turn up the speed to 2x.&lt;/li&gt;
 &lt;li&gt;If you have a smartwatch, put it to good use! The most valuable feature of my Apple Watch has been the ability to rewind podcast episodes by 15s.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you have further ideas here, please do reach out.&lt;/p&gt;
 &lt;h3 id=&#34;iv&#34;&gt;IV.&lt;/h3&gt;
 &lt;p&gt;Podcasts play a big role in my process for updating beliefs. Podcasts, along with conversations with others, are my main methods for &amp;ldquo;gaining surface area&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;I only began thinking in terms of analytic podcast-listening quite recently. Ultimately, I think it&amp;rsquo;s &amp;ldquo;just&amp;rdquo; a matter of being more intentional about the content you consume.&lt;/p&gt;
+&lt;p&gt;I only began thinking in terms of analytic podcast-listening quite recently. Ultimately, I&amp;rsquo;m realising that it&amp;rsquo;s &amp;ldquo;just&amp;rdquo; a matter of being more intentional about the content you consume. But it probably helps having a funky name for it.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Listening to podcasts at all times is a bad idea, though.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;If you have further ideas here, please do reach out.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -136,6 +172,7 @@
 &lt;li&gt;&lt;a href=&#34;https://newsletter.safe.ai/p/ai-safety-newsletter-13&#34;&gt;Proxy gaming&lt;/a&gt;: Social media companies take the time a user spends on their platform as a proxy for the quality of the content recommended. Thus the recommender algorithms might favour polarising content. The proxy game &amp;ndash; that of recommending addictive content &amp;ndash; has been gamed.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.lesswrong.com/w/value-drift&#34;&gt;Value drift&lt;/a&gt;: Values of individuals and communities change over time. Nowadays, almost everyone thinks slavery is indefensible. Similarly, the values implicit in an AI model might change as it accumulates more memory.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Atharva Nihalani for inspiring me to write this post.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
