@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/effective-altruism-and-what-matters/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/essay/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rationality/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/the-sanremese/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
@@ -11,22 +29,13 @@
     <loc>http://localhost:1313/on-cities/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/science/</loc>
-    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/the-mad-scientist-is-probably-mad/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/high-school-for-heroes/</loc>
-    <lastmod>2025-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rationality/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/a-study-on-slack/</loc>
@@ -61,9 +70,6 @@
   </url><url>
     <loc>http://localhost:1313/let-llms-be-llms/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/essay/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/on-good-hobbies/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
