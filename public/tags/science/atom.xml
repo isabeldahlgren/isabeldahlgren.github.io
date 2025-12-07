@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on Isabel Dahlgren</title>
-    <link>http://localhost:1313/tags/science/</link>
+    <link>http://localhost:55424/tags/science/</link>
     <description>Recent content in Science on Isabel Dahlgren</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 26 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/science/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55424/tags/science/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On cities</title>
-      <link>http://localhost:1313/on-cities/</link>
+      <link>http://localhost:55424/on-cities/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/on-cities/</guid>
+      <guid>http://localhost:55424/on-cities/</guid>
       <description>&lt;p&gt;The 17th century was a century of rapid human progress. There was the Scientific Revolution. Philosophers like John Locke and Thomas Hobbes laid the groundwork for modern political thought, while René Descartes and Blaise Pascal made important contributions to philosophy more broadly. Meanwhile, in the arts, William Shakespeare redefined English literature, while Rembrandt changed the way artists approach their subjects.&lt;/p&gt;&#xA;&lt;p&gt;The above mentioned people have something important in common, other than being extremely intelligent white men. They spent non-negligible parts of their lives in cities. In the 1600s, only &lt;a href=&#34;https://ourworldindata.org/grapher/long-term-urban-population-region?time=1500..latest&amp;amp;country=Eastern+Africa~Western+Europe~Korea~Central+Europe~OWID_EUR&#34;&gt;8%&lt;/a&gt; of the European population lived in cities. Many people spent their entire lives without setting foot in a big city. But there is a sense in which you need to spend some time in a city to become an influential historical figure, or at least if you wish to understand human societies. Cities tell thousands of tales about history, culture and economics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The mad scientist is probably mad</title>
-      <link>http://localhost:1313/the-mad-scientist-is-probably-mad/</link>
+      <link>http://localhost:55424/the-mad-scientist-is-probably-mad/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/the-mad-scientist-is-probably-mad/</guid>
+      <guid>http://localhost:55424/the-mad-scientist-is-probably-mad/</guid>
       <description>&lt;p&gt;Many pioneering scientists were initially rejected by the scientific community. At first, the ideas of Galileo Galilei, Gregor Mendel and Geoffrey Hinton were ridiculed. There are many more examples of such &amp;ldquo;martyrs of science&amp;rdquo;, people who were cancelled and then vindicated.&lt;/p&gt;&#xA;&lt;p&gt;Science isn&amp;rsquo;t as dramatic nowadays. There aren&amp;rsquo;t as many Galilei-like figures, at least not in relative terms. If 1/1000 of crazy-seeming scientists turned out to be geniuses in the 20th century, today the proportion might be more like 1/1 000 000. Why is that?&lt;/p&gt;</description>
     </item>
   </channel>

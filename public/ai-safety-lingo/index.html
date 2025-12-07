@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55424&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Ronalds Vilcins - http://localhost:1313/">
+  <meta name="author" content="Ronalds Vilcins - http://localhost:55424/">
   <title>AI safety lingo | Isabel Dahlgren</title>
   <meta name="description" content="Isabel Dahlgren">
 
@@ -13,7 +13,7 @@
   <meta name="twitter:description" content="There’s a lot of jargon within AI safety. Here are analogies for 20 AI safety terms. I assume some familiarity with these terms; I’ll omit the exact definitions. I’ll give references to appropriate resources rather than trying and failing to define these concepts precisely in a couple of lines. Instead, I’ll focus on intuitions.
 Embedded agency: Playing the Sims is very different from living IRL. When playing a video game, you’re not an agent embedded in the game environment. Base optimizer vs. mesa-optimizer: A base optimizer is a process for achieving some goal (cooking a good risotto). The base optimizer (the chef) soon learns that the seasoning makes a huge difference. A process for perfecting the seasoning is an example of a mesa-optimiser: a process for achieving a learned subgoal. Inner alignment vs. outer alignment: If a government wants to reduce unemployment, it has to design efficient regulations and and ensure citizens comply. Outer alignment is the problem of specifying the right incentive structure; inner alignment the problem of compliance. Deceptive alignment: This is much like an intelligent bully will pretend being nice when the grown-ups are watching. A misaligned AI system might benefit from appearing more aligned. Treacherous turn: The moment when the opposition seizes power through a coup. The hypothetical moment when a misaligned, highly capable AI decides to… I don’t know, but people imagine something bad. Corrigibility: Ever been in the library when someone’s phone continues ringing, despite their best efforts to silence it? They might try putting the phone on silent, then turning the volume to zero, then turning it off. Maybe their phone seems to be frozen or something? In this case, we’d speak of a non-corrigible phone: a phone that resists attempts to “correct” its behaviour and resists attempts to be shut down. Goal misgeneralization: A pianist might practise Bach to please her pianist friends; however, when she’s at normal parties, people just want her to play Let it Be. Likewise, an AI system might competently pursue one goal which leads to good performance in training situations but poorly in novel test situations. Edge instantiation: An AI agent instructed to fill a cauldron of water might flood the entire room. Task accomplished, technically. And for AI agents, only the technicalities matter. AIs can be annoyingly creative. Goodhart’s law: When a measure becomes a target, it ceases to be a good measure1. The phenomenon of studying for the test is an example of Goodhart’s law. Value learning: This is the broad project of teaching AIs human values. AI-rearing, essentially. Inverse reinforcement learning (IRL): If you’re trying to schedule a time to meet with a passive aggressive friend, you have to infer their preferences based on their wordings and emoji usage. Inverse reinforcement learning is an ML approach for inferring preferences of AI systems. Reward hacking/specification gaming: Or, finding legal loopholes. Instrumental convergence: Great minds think alike. In particular, great minds with different goals might pursue similar subgoals. For example, two high school students wanting to become an aerospace engineer and a medical doctor respectively might infer that they should get university degrees first. Model misspecification: If you think the colour of Alice’s shirt determines whether she’ll win over Bob in a game of pingpong, your model is misspecified. You’re making the wrong assumptions about the data generation mechanism. Training distribution vs. deployment distribution: Regardless of how much a soccer player practises taking penalty kicks, she’ll find it different taking a penalty kick in a real match. You cannot perfectly simulate the test conditions. Distributional shift: The shift from training conditions to a real match is a distributional shift. Reward model splintering: A strategy can fail when you switch to a more general setting. Student insider jokes won’t work on the average person on the street. Constitutional AI (CAI): Tell, don’t show. Rather than showing kids examples of good and bad behaviour, tell them which ethical principles to follow2. The idea behind constitutional AI is to give AIs a “constitution”. Human feedback (RLHF): A process for producing ideal leaders. The ideal leader studies people’s opinions closely, tries inferring principles explaining the data, and aspires to act according to these principles. Proxy gaming: Social media companies take the time a user spends on their platform as a proxy for the quality of the content recommended. Thus the recommender algorithms might favour polarising content. The proxy game – that of recommending addictive content – has been gamed. Value drift: Values of individuals and communities change over time. Nowadays, almost everyone thinks slavery is indefensible. Similarly, the values implicit in an AI model might change as it accumulates more memory. Thanks to Atharva Nihalani for inspiring me to write this post.">
 
-<meta property="og:url" content="http://localhost:1313/ai-safety-lingo/">
+<meta property="og:url" content="http://localhost:55424/ai-safety-lingo/">
   <meta property="og:site_name" content="Isabel Dahlgren">
   <meta property="og:title" content="AI safety lingo">
   <meta property="og:description" content="There’s a lot of jargon within AI safety. Here are analogies for 20 AI safety terms. I assume some familiarity with these terms; I’ll omit the exact definitions. I’ll give references to appropriate resources rather than trying and failing to define these concepts precisely in a couple of lines. Instead, I’ll focus on intuitions.
@@ -33,11 +33,11 @@ Embedded agency: Playing the Sims is very different from living IRL. When playin
   <meta itemprop="dateModified" content="2025-09-21T00:00:00+00:00">
   <meta itemprop="wordCount" content="793">
   <meta itemprop="keywords" content="Ai-Alignment">
-  <link rel="canonical" href="http://localhost:1313/ai-safety-lingo/">
+  <link rel="canonical" href="http://localhost:55424/ai-safety-lingo/">
   <link rel="dns-prefetch" href="https://www.google-analytics.com">
   <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-  <link rel="alternate" type="application/atom+xml" title="Isabel Dahlgren" href="http://localhost:1313/atom.xml" />
-  <link rel="alternate" type="application/json" title="Isabel Dahlgren" href="http://localhost:1313/feed.json" />
+  <link rel="alternate" type="application/atom+xml" title="Isabel Dahlgren" href="http://localhost:55424/atom.xml" />
+  <link rel="alternate" type="application/json" title="Isabel Dahlgren" href="http://localhost:55424/feed.json" />
   <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
 
   
@@ -78,7 +78,7 @@ Embedded agency: Playing the Sims is very different from living IRL. When playin
     "isFamilyFriendly": "true",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http:\/\/localhost:1313\/ai-safety-lingo\/"
+        "@id": "http:\/\/localhost:55424\/ai-safety-lingo\/"
     },
     "author" : {
         "@type": "Person",
@@ -100,16 +100,16 @@ Embedded agency: Playing the Sims is very different from living IRL. When playin
     "publisher":{
         "@type":"Organization",
         "name": "Isabel Dahlgren",
-        "url": "http://localhost:1313/",
+        "url": "http://localhost:55424/",
         "logo": {
             "@type": "ImageObject",
-            "url": "http:\/\/localhost:1313\/",
+            "url": "http:\/\/localhost:55424\/",
             "width":"32",
             "height":"32"
         }
     },
-    "image": "http://localhost:1313/",
-    "url" : "http:\/\/localhost:1313\/ai-safety-lingo\/",
+    "image": "http://localhost:55424/",
+    "url" : "http:\/\/localhost:55424\/ai-safety-lingo\/",
     "wordCount" : "793",
     "genre" : [ "ai-alignment" ],
     "keywords" : [ "ai-alignment" ]

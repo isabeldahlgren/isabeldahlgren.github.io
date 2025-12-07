@@ -3,7 +3,7 @@
     
     <title>Isabel Dahlgren</title>
     <description>Isabel Dahlgren</description>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:55424/</link>
     
     <language>en</language>
     <copyright>Copyright 2025, Ronalds Vilcins</copyright>
@@ -14,7 +14,7 @@
     
     <item>
       <title>On shame</title>
-      <link>http://localhost:1313/on-shame/</link>
+      <link>http://localhost:55424/on-shame/</link>
       <description>&lt;p&gt;There are many negative emotions: envy, anger, fear, worry, sadness, to name a few. Positive emotions don&amp;rsquo;t carry as much nuance. When you&amp;rsquo;re asked how you&amp;rsquo;re doing, assuming you&amp;rsquo;re doing good, you&amp;rsquo;ll probably reply you&amp;rsquo;re simply &amp;lsquo;doing good&amp;rsquo;. Positive emotions like happiness, fulfilment or excitement appear to be more strongly correlated with one another &amp;ndash; for this reason, they&amp;rsquo;re often lumped together under the generic term &amp;lsquo;happiness&amp;rsquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Among negative experiences, worry is the most prevalent. In a &lt;a href=&#34;https://www.gallup.com/analytics/349280/state-of-worlds-emotional-health.aspx&#34;&gt;2024 Gallup study&lt;/a&gt; where adults were asked which feelings they&amp;rsquo;d experienced &amp;lsquo;a lot&amp;rsquo; the previous day, 39% and 37% reported feelings of worry and stress, respectively. Next followed physical pain (32%), sadness (26%) and anger (22%)&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;While moderate amounts of worry might be productive, some unpleasant feelings seem wholly negative. And the worst of unpleasant feelings is shame.&lt;/p&gt;
@@ -46,13 +46,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-shame/</guid>
+      <guid>http://localhost:55424/on-shame/</guid>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Normal situations, abnormal norms</title>
-      <link>http://localhost:1313/normal-situations-abnormal-norms/</link>
+      <link>http://localhost:55424/normal-situations-abnormal-norms/</link>
       <description>&lt;p&gt;Most people lead a comfortable 9-5 life. You go to work, work away, go home, sometimes seeing friends or engaging in extracurriculars. Even so, sometimes you find yourself in unusual social situations, situations where a first-timer wouldn&amp;rsquo;t know how to behave. Here are some normal situations with abnormal social norms.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Flights:&lt;/strong&gt; On a 12-hour flight, you find a cross section of the population bored, tired and without Internet. In this willpower-reduced state, snobs dress in sweatpants and workaholics watch thrashy feel-good movies. A surprising number of people try napping&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, while others strike up conversations with strangers.&lt;/li&gt;
@@ -80,13 +80,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/normal-situations-abnormal-norms/</guid>
+      <guid>http://localhost:55424/normal-situations-abnormal-norms/</guid>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Techno-optimism - techno-altruism?</title>
-      <link>http://localhost:1313/techno-optimism-techno-altruism/</link>
+      <link>http://localhost:55424/techno-optimism-techno-altruism/</link>
       <description>&lt;p&gt;You might think the average worker in the tech industry is a diehard capitalist, since tech is full of rich entrepreneurs. Moreover, many big tech companies appear to be driven more by money-making than by providing consumer value: Facebook didn&amp;rsquo;t connect us with friends and family and OpenAI didn&amp;rsquo;t remain a safety-oriented non-profit.&lt;/p&gt;
 &lt;p&gt;However, most tech hubs are overwhelmingly liberal: 64% of voters in San Fransisco are registered as democrats; 8% as republican. Many programmers also dream to create widely accessible software, software for anyone, rich or poor, with stable Internet connection.&lt;/p&gt;
 &lt;p&gt;Sometimes I think that the grandfathers of communism would be tech bros had they lived today. Technology has allowed for the scaling of selfless, altruistically motivated side projects. Here are three notable examples.&lt;/p&gt;
@@ -123,13 +123,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/techno-optimism-techno-altruism/</guid>
+      <guid>http://localhost:55424/techno-optimism-techno-altruism/</guid>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>What effective altruism misses</title>
-      <link>http://localhost:1313/what-effective-altruism-misses/</link>
+      <link>http://localhost:55424/what-effective-altruism-misses/</link>
       <description>&lt;p&gt;Effective altruism (EA) centres around a dozen or so &amp;ldquo;cause areas&amp;rdquo;, areas in which you can have a big positive impact. Common cause areas include AI safety, global poverty, farm animal welfare, biorisk, nuclear security and EA field building. As of a couple of years, AI safety is very hot within EA, with some of the EA golden boys, like Will MacAskill and Holden Karnofsky, making AI going well their top priority.&lt;/p&gt;
 &lt;p&gt;Say that EAs solve the problems associated with the above cause areas. Humanity has smoothly transitioned to a post-AGI world, eliminated global poverty, put an end to factory farming and reduced existential risk to zero. While this sounds like a rosy vision of the future, unless you live in extreme poverty, your life in this hypothetical world will be the same. Those who regularly worry about all the world&amp;rsquo;s problems will find something else to worry about. And if you are dissatisfied with life &amp;ndash; which, if you&amp;rsquo;re anything like the average American, isn&amp;rsquo;t entirely unlikely&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &amp;ndash; you&amp;rsquo;ll likely remain dissatisfied.&lt;/p&gt;
 &lt;p&gt;EA, then, appears to miss something very fundamental about what it means to be human&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. If EAs want to maximise positive impact, they should make wellbeing a core cause area.&lt;/p&gt;
@@ -168,13 +168,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/what-effective-altruism-misses/</guid>
+      <guid>http://localhost:55424/what-effective-altruism-misses/</guid>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>The Sanremese</title>
-      <link>http://localhost:1313/the-sanremese/</link>
+      <link>http://localhost:55424/the-sanremese/</link>
       <description>&lt;p&gt;In Europe, you don&amp;rsquo;t have to travel far to experience a completely different culture. If you randomly select a point in Europe outside of Russia, you&amp;rsquo;re never further than &lt;a href=&#34;https://maps.app.goo.gl/oY6zXbdFeQCc6Xqo7&#34;&gt;10h by train from the nearest nation border&lt;/a&gt;. There are 44 countries and 24 official languages in Europe &amp;ndash; yet, the area of Europe is just 60% of the area of the American South.&lt;/p&gt;
 &lt;p&gt;I expected Sanremo to be like some of the towns by the French Riviera I&amp;rsquo;d visited when living in Aix, only with better ravioli and friendlier people. Although I wasn&amp;rsquo;t entirely wrong, I was far from correct.&lt;/p&gt;
 &lt;p&gt;Founded in Roman times, Sanremo became a resort destination in the mid-1800s, hosting European nobility from Russia and Prussia. These days, tourism remains the primary source of economic activity, and, just like the average tourist destination by the Mediterranean, its city center is dominated by restaurants and clothing boutiques.&lt;/p&gt;
@@ -186,13 +186,13 @@
 &lt;p&gt;Despite having a population of just 55,000, Sanremo is surprisingly diverse. It&amp;rsquo;s neither a dead rural village nor a tourist enclave like some of the French towns 50 km West. There&amp;rsquo;s a good balance between locals and non-locals, between normal and abnormal. Sanremo feels like one of those resort towns from the 1900s that&amp;rsquo;s actually wholesome.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/the-sanremese/</guid>
+      <guid>http://localhost:55424/the-sanremese/</guid>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On cities</title>
-      <link>http://localhost:1313/on-cities/</link>
+      <link>http://localhost:55424/on-cities/</link>
       <description>&lt;p&gt;The 17th century was a century of rapid human progress. There was the Scientific Revolution. Philosophers like John Locke and Thomas Hobbes laid the groundwork for modern political thought, while René Descartes and Blaise Pascal made important contributions to philosophy more broadly. Meanwhile, in the arts, William Shakespeare redefined English literature, while Rembrandt changed the way artists approach their subjects.&lt;/p&gt;
 &lt;p&gt;The above mentioned people have something important in common, other than being extremely intelligent white men. They spent non-negligible parts of their lives in cities. In the 1600s, only &lt;a href=&#34;https://ourworldindata.org/grapher/long-term-urban-population-region?time=1500..latest&amp;amp;country=Eastern+Africa~Western+Europe~Korea~Central+Europe~OWID_EUR&#34;&gt;8%&lt;/a&gt; of the European population lived in cities. Many people spent their entire lives without setting foot in a big city. But there is a sense in which you need to spend some time in a city to become an influential historical figure, or at least if you wish to understand human societies. Cities tell thousands of tales about history, culture and economics.&lt;/p&gt;
 &lt;h3 id=&#34;in-history&#34;&gt;In history &lt;a href=&#34;#in-history&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -213,13 +213,13 @@
 &lt;p&gt;&lt;em&gt;Thanks to Raphaëlle Cohen, Emil Wasteson Wallén and Miles Kodama for feedback on this text.&lt;/em&gt;&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-cities/</guid>
+      <guid>http://localhost:55424/on-cities/</guid>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>The mad scientist is probably mad</title>
-      <link>http://localhost:1313/the-mad-scientist-is-probably-mad/</link>
+      <link>http://localhost:55424/the-mad-scientist-is-probably-mad/</link>
       <description>&lt;p&gt;Many pioneering scientists were initially rejected by the scientific community. At first, the ideas of Galileo Galilei, Gregor Mendel and Geoffrey Hinton were ridiculed. There are many more examples of such &amp;ldquo;martyrs of science&amp;rdquo;, people who were cancelled and then vindicated.&lt;/p&gt;
 &lt;p&gt;Science isn&amp;rsquo;t as dramatic nowadays. There aren&amp;rsquo;t as many Galilei-like figures, at least not in relative terms. If 1/1000 of crazy-seeming scientists turned out to be geniuses in the 20th century, today the proportion might be more like 1/1 000 000. Why is that?&lt;/p&gt;
 &lt;p&gt;To begin with, it seems as if &lt;a href=&#34;https://web.stanford.edu/~chadj/IdeaPF.pdf&#34;&gt;good ideas are getting harder to find&lt;/a&gt;. There are some ideas whose discovery appears almost inevitable because of the amount of readily accessible data. In contrast, much science today requires costly equipment and large-scale collaboration. Scott Alexander put it well in his essay about &lt;a href=&#34;https://www.lesswrong.com/posts/v7c47vjta3mavY3QC/is-science-slowing-down&#34;&gt;science slowing down&lt;/a&gt;:&lt;/p&gt;
@@ -243,13 +243,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/the-mad-scientist-is-probably-mad/</guid>
+      <guid>http://localhost:55424/the-mad-scientist-is-probably-mad/</guid>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>High school for heroes</title>
-      <link>http://localhost:1313/high-school-for-heroes/</link>
+      <link>http://localhost:55424/high-school-for-heroes/</link>
       <description>&lt;p&gt;High school isn&amp;rsquo;t so much about preparing teenagers for adult life. In Sweden, you have a subject about cooking and personal finance, but only until secondary school. I think this makes sense: you only need one course on practical adult skills. After you know the basics, it&amp;rsquo;s all about practising IRL.&lt;/p&gt;
 &lt;p&gt;But being a competent grown-up involves many other skills. It&amp;rsquo;s not just about successfully running a household &amp;ndash; it&amp;rsquo;s also a matter of &amp;ldquo;running yourself&amp;rdquo;. There are plenty of &amp;ldquo;serious&amp;rdquo; subjects we could fit in a standard high school curriculum. Here&amp;rsquo;s a vibe-based list:&lt;/p&gt;
 &lt;ul&gt;
@@ -275,13 +275,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/high-school-for-heroes/</guid>
+      <guid>http://localhost:55424/high-school-for-heroes/</guid>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>A study on slack</title>
-      <link>http://localhost:1313/a-study-on-slack/</link>
+      <link>http://localhost:55424/a-study-on-slack/</link>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Once I was done with exams, it felt like getting my brain back. It&amp;rsquo;s not just that you spend most of your day studying difficult subjects, leaving you with less time and willpower for other tasks. You also have to do cost-benefit analysis all the time. All. The. Time. Sometimes, it&amp;rsquo;s relieving if someone tells you exactly what to do&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;ii&#34;&gt;II. &lt;a href=&#34;#ii&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -315,13 +315,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/a-study-on-slack/</guid>
+      <guid>http://localhost:55424/a-study-on-slack/</guid>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Analytic podcast-listening</title>
-      <link>http://localhost:1313/analytic-podcast-listening/</link>
+      <link>http://localhost:55424/analytic-podcast-listening/</link>
       <description>&lt;p&gt;Nowadays, you can spend all your waking hours consuming valuable information. Pretty remarkable, when you come to think of it. Hint: AirPods Pro.&lt;/p&gt;
 &lt;p&gt;Whenever you&amp;rsquo;re doing something not demanding your full attention, you can always turn on a podcast. You can listen to podcasts when commuting, working out or cooking&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Technically, you could have done something similar 50 years ago using a walkman. But it have been very high-effort. Today, we have dedicated podcast apps and noise-cancelling, wireless earplugs. As a result, the podcast industry is rapidly growing in size. If you sample 100 young adults from the street in an urban area, a substantial number of them might be listening to podcasts.&lt;/p&gt;
@@ -367,13 +367,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/analytic-podcast-listening/</guid>
+      <guid>http://localhost:55424/analytic-podcast-listening/</guid>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>AI safety lingo</title>
-      <link>http://localhost:1313/ai-safety-lingo/</link>
+      <link>http://localhost:55424/ai-safety-lingo/</link>
       <description>&lt;p&gt;There&amp;rsquo;s a lot of jargon within AI safety. Here are analogies for 20 AI safety terms. I assume some familiarity with these terms; I&amp;rsquo;ll omit the exact definitions. I&amp;rsquo;ll give references to appropriate resources rather than trying and failing to define these concepts precisely in a couple of lines. Instead, I&amp;rsquo;ll focus on intuitions.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/p7x32SEt43ZMC9r7r/embedded-agents&#34;&gt;Embedded agency&lt;/a&gt;: Playing the Sims is very different from living IRL. When playing a video game, you&amp;rsquo;re not an agent embedded in the game environment.&lt;/li&gt;
@@ -412,13 +412,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/ai-safety-lingo/</guid>
+      <guid>http://localhost:55424/ai-safety-lingo/</guid>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>AI is not AI is not AI</title>
-      <link>http://localhost:1313/ai-is-not-ai-is-not-ai/</link>
+      <link>http://localhost:55424/ai-is-not-ai-is-not-ai/</link>
       <description>&lt;p&gt;There are plenty of misnomers in science and mathematics. Atoms aren&amp;rsquo;t indivisible. Hubble&amp;rsquo;s constant isn&amp;rsquo;t a constant. And in 9/10 cases, X&amp;rsquo;s theorem was usually first discovered by someone else (in 4/10 cases, it was discovered by Gauss). Another bad piece of terminology, according to some: &amp;ldquo;artificial intelligence&amp;rdquo; or AI.&lt;/p&gt;
 &lt;p&gt;Given that we don&amp;rsquo;t have a good definition of human intelligence, the term &amp;ldquo;artificial intelligence&amp;rdquo; is inherently vague. Because AI sounds cool, people use the term quite liberally. Logistic regression in Excel? AI! But it&amp;rsquo;s unclear what qualifies as &amp;ldquo;intelligent enough&amp;rdquo;. As AI systems become more capable, we seem to raise the bar. Previously, calculators and spell checkers were considered artificial intelligence.&lt;/p&gt;
 &lt;p&gt;When speaking of artificial general intelligence, people usually specify exactly what they mean. For example, people might refer to powerful/strong AI, &lt;a href=&#34;https://www.darioamodei.com/essay/machines-of-loving-grace#fn:3&#34;&gt;AI with expert-level science and engineering capabilities&lt;/a&gt; or &lt;a href=&#34;https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/&#34;&gt;Process for Automating Scientific and Technological Advancement (PASTA)&lt;/a&gt;. But sometimes it wouldn&amp;rsquo;t hurt being more specific when speaking about narrow forms of AI either. Indeed, consider the following thought experiment from &lt;a href=&#34;https://en.wikipedia.org/wiki/AI_Snake_Oil&#34;&gt;AI Snake Oil&lt;/a&gt;:&lt;/p&gt;
@@ -431,13 +431,13 @@
 &lt;p&gt;Interestingly, this choice of term was a conscious decision. AI emerged as its own field of study after a workshop in 1956. In their workshop proposal, the organisers introduced the term &amp;ldquo;artificial intelligence&amp;rdquo;. They were also considering the name &amp;ldquo;automata studies&amp;rdquo;. Maybe more appropriate, but pretty lame.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/ai-is-not-ai-is-not-ai/</guid>
+      <guid>http://localhost:55424/ai-is-not-ai-is-not-ai/</guid>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Policy-making is complicated</title>
-      <link>http://localhost:1313/policy-making-is-complicated/</link>
+      <link>http://localhost:55424/policy-making-is-complicated/</link>
       <description>&lt;p&gt;Things are more complicated than they first seem, especially when it comes to policy-making. Should Germany build nuclear power plants to reduce their carbon emissions? Should there be global standards for content moderation on social media platforms? How should we best mitigate the risk of future global pandemics?&lt;/p&gt;
 &lt;p&gt;I recently had the pleasure of getting to know more people working in policy and forecasting, and I quickly realised that I hadn&amp;rsquo;t internalised the complexity of the problems they face&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Here, I&amp;rsquo;ll list some intuition pumps for the difficulty of policy-related questions. For concreteness, I&amp;rsquo;ll focus on the first of the three above topics, nuclear power in Germany.&lt;/p&gt;
 &lt;ul&gt;
@@ -470,13 +470,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/policy-making-is-complicated/</guid>
+      <guid>http://localhost:55424/policy-making-is-complicated/</guid>
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>From the AI company storybook</title>
-      <link>http://localhost:1313/from-the-ai-company-storybook/</link>
+      <link>http://localhost:55424/from-the-ai-company-storybook/</link>
       <description>&lt;p&gt;AI companies are companies. The leading AI companies don&amp;rsquo;t want to be seen as companies, though. They call themselves AI labs. They have researchy names, like DeepMind and Meta AI. The best name: OpenAI. Almost sounds like a real &lt;a href=&#34;https://openai.com/index/introducing-openai/&#34;&gt;non-profit&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Most AI companies are products of Silicon Valley. Their leaders aren&amp;rsquo;t professors, but seasoned business executives. And this is a good thing. These companies wouldn&amp;rsquo;t produce nearly as much consumer value if they were led by researchers with no industry experience. Moreover, unlike normal research labs, AI companies need to make money, just as any other company.&lt;/p&gt;
 &lt;p&gt;All companies tell narratives about themselves. And the leading AI companies are pretty good at it &amp;ndash; these companies attract top talent, so their marketing teams can basically hire the world&amp;rsquo;s best story-tellers. Here are five narratives being aware of.&lt;/p&gt;
@@ -521,13 +521,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/from-the-ai-company-storybook/</guid>
+      <guid>http://localhost:55424/from-the-ai-company-storybook/</guid>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Nerd trying to adapt to an AI economy</title>
-      <link>http://localhost:1313/nerd-trying-to-adapt-to-an-ai-economy/</link>
+      <link>http://localhost:55424/nerd-trying-to-adapt-to-an-ai-economy/</link>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Part of the reason I decided to study maths was because it seemed like the most useful subject. If I knew ML systems would never get better than GPT-2 at maths, I&amp;rsquo;d probably be of the same opinion today. But today&amp;rsquo;s state-of-the-art ML systems are far better than GPT-2. LLMs have excelled at maths and programming because maths- and coding-related tasks admit quick feedback, allowing for efficient reinforcement learning. Jobs involving applying maths and programming jobs could theoretically be automated within a few decades. The glory days of the nerd might be over soon.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m not going to speculate in the details of how such a transformation might occur; I couldn&amp;rsquo;t be bothered doing the forecasting due diligence here. Instead, I want to focus on future-proof jobs and skills.&lt;/p&gt;
@@ -558,13 +558,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/nerd-trying-to-adapt-to-an-ai-economy/</guid>
+      <guid>http://localhost:55424/nerd-trying-to-adapt-to-an-ai-economy/</guid>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Man&#39;s search for fun</title>
-      <link>http://localhost:1313/mans-search-for-fun/</link>
+      <link>http://localhost:55424/mans-search-for-fun/</link>
       <description>&lt;p&gt;Willpower is a scarce resource. I can only exert so much willpower in a day&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Alas, many important tasks require lot of willpower. Examples of such tasks include filing one&amp;rsquo;s taxes, memorising messy proofs and booking flights. Oftentimes, I&amp;rsquo;m bottlenecked by willpower rather than time. Rather than increasing willpower - finding Meaning - how about decreasing the amount of willpower required for a given task? This might be an easier problem. Here are my favourite ways of making boring tasks fun.&lt;/p&gt;
 &lt;p&gt;First, the usual preface to any advice-style post: take care of yourself. Get enough sleep, for example. If you have low baseline energy levels, nothing is fun. Now, on to the interesting parts.&lt;/p&gt;
 &lt;h3 id=&#34;autonomy&#34;&gt;Autonomy &lt;a href=&#34;#autonomy&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -608,13 +608,13 @@
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/mans-search-for-fun/</guid>
+      <guid>http://localhost:55424/mans-search-for-fun/</guid>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Let LLMs be LLMs</title>
-      <link>http://localhost:1313/let-llms-be-llms/</link>
+      <link>http://localhost:55424/let-llms-be-llms/</link>
       <description>&lt;h3 id=&#34;thought-experiment&#34;&gt;Thought experiment &lt;a href=&#34;#thought-experiment&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Imagine a very unusual kind of chatbot. In the user interface (UI), the text &amp;ldquo;This is a large language model. Its outputs are an aggregate of the text on the internet.&amp;rdquo; is displayed in bold, black letters, like the warning label on a pack of cigarettes.&lt;/p&gt;
 &lt;p&gt;When the user inputs a string of text, the text &amp;ldquo;Matrix multiplications&amp;hellip;&amp;rdquo; flashes onto the screen for a split second. Next, ten blocks of text appear. The blocks aren&amp;rsquo;t rendered incrementally, as if the LLM were writing a text; all text appears at once. Beneath each block is a number between $0$ and $1$. The numbers sum to about $1$. Then the label &amp;ldquo;Highest logit: output $7$&amp;rdquo; appears on the screen.&lt;/p&gt;
@@ -644,13 +644,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;p&gt;&lt;em&gt;Thanks to Santeri Koivula for valuable feedback on this text.&lt;/em&gt;&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/let-llms-be-llms/</guid>
+      <guid>http://localhost:55424/let-llms-be-llms/</guid>
       <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On good hobbies</title>
-      <link>http://localhost:1313/on-good-hobbies/</link>
+      <link>http://localhost:55424/on-good-hobbies/</link>
       <description>&lt;p&gt;Everyone has hobbies, whether they recognise it or not. For example, workaholics who don&amp;rsquo;t seem to have any &amp;ldquo;normal&amp;rdquo; hobbies might be really into, say, writing slick SQL queries. Code golf is a hobby too. By definition, a hobby is something you do for pleasure when you&amp;rsquo;re not working. And for the record, writing slick SQL queries isn&amp;rsquo;t work.&lt;/p&gt;
 &lt;p&gt;Some hobbies are better than others, though. Examples of not-as-good hobbies include motorcycling (dangerous), graffiti painting (illegal) and doom-scrolling social media (depressing). A benchmark for hobby quality: ask whether your mom would like it. So, which hobbies would your mom like?&lt;/p&gt;
 &lt;p&gt;Some hobbies naturally lead to the formation of good habits. For example, a big NBA geek is more likely to pick up basketball. If you&amp;rsquo;re into cooking, you might start meal-prepping healthy food. An interest in interior design could motivate you to tidy your room every weekend. Some hobbies when done regularly become good habits in themselves. A maybe-useful name for such hobbies: habbies. Think meditation, managing one&amp;rsquo;s personal finances or journaling.&lt;/p&gt;
@@ -664,13 +664,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;p&gt;&lt;em&gt;Thanks to Isaia Gisler, Stanislas Nicolau and Abhinand Shibu for a valuable discussion on this topic.&lt;/em&gt;&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-good-hobbies/</guid>
+      <guid>http://localhost:55424/on-good-hobbies/</guid>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Sweden</title>
-      <link>http://localhost:1313/sweden/</link>
+      <link>http://localhost:55424/sweden/</link>
       <description>&lt;p&gt;Everyone who has ever lived abroad gets homesick every now and then.&lt;/p&gt;
 &lt;p&gt;Swedes, I give you a postcard from a Stockholm-centric, homesick expat. Non-Swedes, here&amp;rsquo;s a highly biased tourist guide.&lt;/p&gt;
 &lt;p&gt;The best thing about Sweden? My favourite Swedes, for sure. I miss family and friends a lot.&lt;/p&gt;
@@ -687,13 +687,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;p&gt;There are so many lovely Swedish words that have no English analogue, besides the much-cited example of &amp;ldquo;lagom&amp;rdquo;. Consider &amp;ldquo;killgissa&amp;rdquo;. This literally means &amp;ldquo;guy-guessing&amp;rdquo;. Someone is guy-guessing when they sound knowledgeable but are really just bullshitting. Another gem: &amp;ldquo;käpphäst&amp;rdquo;, meaning &amp;ldquo;hobby horse&amp;rdquo;. In a figurative sense, a hobby horse is an idea you keep on bringing up in social situations. Another useful expression: &amp;ldquo;Nu är det dags att sätta punkt.&amp;rdquo;&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/sweden/</guid>
+      <guid>http://localhost:55424/sweden/</guid>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Finding research influences</title>
-      <link>http://localhost:1313/finding-research-influences/</link>
+      <link>http://localhost:55424/finding-research-influences/</link>
       <description>&lt;p&gt;There isn&amp;rsquo;t any expert consensus on many &lt;a href=&#34;https://isabeldahlgren.github.io/the-spectrum-of-views-on-ai-safety/&#34;&gt;key questions related to AI safety&lt;/a&gt;. For example, estimates of when we&amp;rsquo;ll have transformative AI range from a few years to a century. There are also many wild opinions in the AI safety space. While some of these wild opinions seem justifiable, many people seem to exaggerate the risks from AI in an attempt to move policy-makers.&lt;/p&gt;
 &lt;p&gt;I think there are a few researchers which seem to have an unusual degree of conceptual clarity, though. A few names that come to mind are &lt;a href=&#34;https://substack.com/@redwoodresearch?utm_source=about-page&#34;&gt;Buck Shleregis&lt;/a&gt;, &lt;a href=&#34;https://www.cold-takes.com/cold-takes-on-ai/&#34;&gt;Holden Karnofsky&lt;/a&gt; and &lt;a href=&#34;https://www.lesswrong.com/users/jan_kulveit?from=search_autocomplete&#34;&gt;Jan Kulveit&lt;/a&gt;. While I don&amp;rsquo;t endorse all their views, they seem to raise good questions. For lack of a better word, you could call them my research influences.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve never been on looking for new research influences. Every now and then, I just realise that I&amp;rsquo;ve been influenced by someone, perhaps after citing the work of someone for the third time in a conversation. But say you want to look for research influences more deliberately. How might you proceed?&lt;/p&gt;
@@ -723,13 +723,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/finding-research-influences/</guid>
+      <guid>http://localhost:55424/finding-research-influences/</guid>
       <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On the perks of adulthood</title>
-      <link>http://localhost:1313/on-the-perks-of-adulthood/</link>
+      <link>http://localhost:55424/on-the-perks-of-adulthood/</link>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;I know you dread becoming an adult. Most adults seem to have such boring lives. Not that you&amp;rsquo;re having fun all the time either. High school biology isn&amp;rsquo;t that exciting. But at least your life outside of school is filled with novelty. That&amp;rsquo;s something. There&amp;rsquo;s something special about all those first times.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re just seeking novelty, you&amp;rsquo;ll be disappointed. Maybe that&amp;rsquo;s the real reason you dread adulthood. While I don&amp;rsquo;t feel like an adult just yet, many of my friends have become Real Adults, being in stable relationships, getting high-paid jobs and moving abroad. So I&amp;rsquo;m beginning to understand the adult world. It&amp;rsquo;s not as bad as it seems, only very different.&lt;/p&gt;
@@ -758,13 +758,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;p&gt;See, adult life maybe isn&amp;rsquo;t too bad. You probably didn&amp;rsquo;t expect any of these benefits; if you did, you wouldn&amp;rsquo;t have wanted to be forever young. Similarly, my 30s, 40s and 50s will bring their own set of surprises. My &lt;a href=&#34;https://www.theguardian.com/lifeandstyle/2023/aug/14/the-psychological-immune-system-four-ways-to-bolster-yours-and-have-a-happier-calmer-life&#34;&gt;psychological immune system&lt;/a&gt; will hopefully take care of those too.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-the-perks-of-adulthood/</guid>
+      <guid>http://localhost:55424/on-the-perks-of-adulthood/</guid>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>The spectrum of views on AI safety</title>
-      <link>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</link>
+      <link>http://localhost:55424/the-spectrum-of-views-on-ai-safety/</link>
       <description>&lt;p&gt;I agree the concept of &lt;a href=&#34;https://en.wikipedia.org/wiki/P(doom)&#34;&gt;P(doom)&lt;/a&gt; is problematic. First, &amp;ldquo;doom&amp;rdquo; can mean a variety of things: human extinction, existential catastrophe or gradual disempowerment. Also, P(doom) - condition on present-day regulations or AI slowdown? Furthermore, the timeframe matters, as P(doom within the next $X$ years) increases with $X$.&lt;/p&gt;
 &lt;p&gt;But perhaps we&amp;rsquo;re missing the point of the P(doom) question. If someone asks you for P(doom) at a cocktail party, it usually means they&amp;rsquo;re just interested in hearing general takes on AI safety, at least in my experience.&lt;/p&gt;
 &lt;p&gt;The P(doom) question isn&amp;rsquo;t entirely misguided, though. If your interlocutor specifies exactly what they mean by P(doom), say P(gradual disempowerment from power-seeking AI within the next decade|no regulations), and ask for the rough shape of your PDF, then your answer immediately becomes more informative. By asking for a small set of well-chosen estimates, you could get a fairly accurate idea of someone&amp;rsquo;s core beliefs. But again, you have to pick the right estimates.&lt;/p&gt;
@@ -806,13 +806,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</guid>
+      <guid>http://localhost:55424/the-spectrum-of-views-on-ai-safety/</guid>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On my relation to effective altruism</title>
-      <link>http://localhost:1313/on-my-relation-to-effective-altruism/</link>
+      <link>http://localhost:55424/on-my-relation-to-effective-altruism/</link>
       <description>&lt;p&gt;I&amp;rsquo;ve spent more time engaging with the effective altruist (EA) community this year. Not just reading EA books and blog posts, but participating in seminars, attending conferences and going on EA retreats. For context, I&amp;rsquo;d viewed myself &amp;ldquo;EA adjacent&amp;rdquo; ever since I came across &lt;em&gt;The Life You Can Save&lt;/em&gt; back in high school. However, during my master degree, the prospect of graduating soon - of becoming an adult - made me reflect more carefully on EA.&lt;/p&gt;
 &lt;p&gt;First, our definitions, taken from the &lt;a href=&#34;https://www.effectivealtruism.org/articles/introduction-to-effective-altruism&#34;&gt;introduction to effective altruism&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -876,13 +876,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-my-relation-to-effective-altruism/</guid>
+      <guid>http://localhost:55424/on-my-relation-to-effective-altruism/</guid>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On question taste</title>
-      <link>http://localhost:1313/on-question-taste/</link>
+      <link>http://localhost:55424/on-question-taste/</link>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Children like asking questions. Some of their questions are very hard: &amp;ldquo;Why do people die?&amp;rdquo;. Others questions expose our biases: &amp;ldquo;Couldn&amp;rsquo;t we invite the homeless man to dinner?&amp;rdquo; Then there are all the annoying questions: &amp;ldquo;When will we arrive?&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;In my experience, school didn&amp;rsquo;t teach us to ask questions - we were just taught how to answer them. To pass the test, you only had to memorise the material in the textbook.&lt;/p&gt;
@@ -906,13 +906,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-question-taste/</guid>
+      <guid>http://localhost:55424/on-question-taste/</guid>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>A taxonomy of examples</title>
-      <link>http://localhost:1313/a-taxonomy-of-examples/</link>
+      <link>http://localhost:55424/a-taxonomy-of-examples/</link>
       <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;According to the Cambridge Dictionary, an example is &amp;ldquo;something that is typical of the group of things that it is a member of&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;In mathematics, there are many kinds of examples, and they all serve different purposes. Traditionally, fields like topology and measure theory place a greater emphasis on counter examples. In algebra, there are more prototypical examples; definitions are often followed by an exhaustive list of objects of that category&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. In the context of mathematics, the dictionary definition is too simplistic! So here is an attempt at classifying the main kinds of examples, or, alternatively, an examples appreciation post.&lt;/p&gt;
@@ -1046,13 +1046,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
+      <guid>http://localhost:55424/a-taxonomy-of-examples/</guid>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On the joy of customising</title>
-      <link>http://localhost:1313/on-the-joy-of-customising/</link>
+      <link>http://localhost:55424/on-the-joy-of-customising/</link>
       <description>&lt;p&gt;Why do so many people use Safari, the jarring black VSCode colour theme and Overleaf? Because it&amp;rsquo;s the default option.&lt;/p&gt;
 &lt;p&gt;Switching to a non-default option requires conscious effort. First, you need to realise that your current setup is suboptimal: the probability of your current setup being the optimal one is infinitesimal. But if you knew about the benefits of making a few small changes, you&amp;rsquo;d already have made them. So you do need to believe that switching is worthwhile, which, indeed, is a leap of faith.&lt;/p&gt;
 &lt;p&gt;The pros are all believers. Most software engineers customise their code editors and terminal shells heavily. If you spend all your working hours working on a computer, spending one Sunday improving your working environment is well worth it. Similarly, I know some professors at ETH are particular about their writing tools, only using fountain pens and high-end chalk.&lt;/p&gt;
@@ -1064,13 +1064,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;p&gt;Regardless of whether you&amp;rsquo;re a software aesthete or not, it&amp;rsquo;s worth exploring tech tools relevant to your work.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-the-joy-of-customising/</guid>
+      <guid>http://localhost:55424/on-the-joy-of-customising/</guid>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Consume less AI safety news</title>
-      <link>http://localhost:1313/consume-less-ai-safety-news/</link>
+      <link>http://localhost:55424/consume-less-ai-safety-news/</link>
       <description>&lt;p&gt;It&amp;rsquo;s hard staying on top of all the AI safety news. Some people, like &lt;a href=&#34;https://thezvi.wordpress.com/about/&#34;&gt;Zvi&lt;/a&gt;, have basically made this their full-time job.&lt;/p&gt;
 &lt;p&gt;A common failure mode for forming views on AI safety is consuming too much information. It&amp;rsquo;s a tendency I&amp;rsquo;ve observed in myself, as well as in others in the AI safety community.&lt;/p&gt;
 &lt;p&gt;I think it comes from the urge to solve the AI alignment problem quickly. It&amp;rsquo;s also an exciting time to be working in AI safety, with many rapid advancements being made. Also, since AI safety is something AI, there&amp;rsquo;s a lot of general excitement surrounding the area.&lt;/p&gt;
@@ -1089,13 +1089,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/consume-less-ai-safety-news/</guid>
+      <guid>http://localhost:55424/consume-less-ai-safety-news/</guid>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Understanding the AI alignment problem</title>
-      <link>http://localhost:1313/understanding-the-ai-alignment-problem/</link>
+      <link>http://localhost:55424/understanding-the-ai-alignment-problem/</link>
       <description>&lt;p&gt;Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic &lt;a href=&#34;https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“build safe, reliable, and steerable systems when those systems are starting to become as intelligent and as aware of their surroundings as their designers”&lt;/p&gt;&lt;/blockquote&gt;
@@ -1136,13 +1136,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/understanding-the-ai-alignment-problem/</guid>
+      <guid>http://localhost:55424/understanding-the-ai-alignment-problem/</guid>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>A semester paper retrospective</title>
-      <link>http://localhost:1313/a-semester-paper-retrospective/</link>
+      <link>http://localhost:55424/a-semester-paper-retrospective/</link>
       <description>&lt;p&gt;This is a follow-up on my &lt;a href=&#34;https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/&#34;&gt;previous article&lt;/a&gt;, where I share some thoughts on the process of writing a semester paper.&lt;/p&gt;
 &lt;p&gt;Lots of disclaimers: this is all very specific to my experience: the topic of my paper, my supervisor, my workload in others courses, etc. Also, I&amp;rsquo;m certainly in no position to give advice on mathematical writing; these are just reflections on what worked and what didn&amp;rsquo;t work for me.&lt;/p&gt;
 &lt;h3 id=&#34;on-writing-papers&#34;&gt;On writing papers &lt;a href=&#34;#on-writing-papers&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -1178,13 +1178,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;/ul&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/a-semester-paper-retrospective/</guid>
+      <guid>http://localhost:55424/a-semester-paper-retrospective/</guid>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Two results from probabilistic number theory</title>
-      <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
+      <link>http://localhost:55424/two-results-from-probabilistic-number-theory/</link>
       <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This report is an exposition of two central limit theorems in probabilistic number theory. We begin by introducing preliminary results from number theory and probability theory. Then we prove the Erdős-Kac theorem for the asymptotic behaviour of the prime divisor counting function. The majority of the report is devoted to Radziwiłł and Soundarajan&amp;rsquo;s recent proof of the Selberg central limit theorem for $\log |\zeta(\frac{1}{2} + it)|$.&lt;/p&gt;&lt;/blockquote&gt;
@@ -1227,13 +1227,13 @@ C: I&amp;rsquo;m Claude, an AI assistant created by Anthropic. [&amp;hellip;]&lt
 &lt;p&gt;For details, I encourage you to have a look at the actual paper. I hope you enjoy reading it as much as I enjoyed writing it.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
+      <guid>http://localhost:55424/two-results-from-probabilistic-number-theory/</guid>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On decision fatigue</title>
-      <link>http://localhost:1313/on-decision-fatigue/</link>
+      <link>http://localhost:55424/on-decision-fatigue/</link>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Life involves plenty of hard decisions. Should I switch jobs? Should I marry him? Should I move abroad? Then there are the &amp;ldquo;easy&amp;rdquo; decisions: which pyjama to wear or which brand of laundry detergent to buy. Although it doesn&amp;rsquo;t matter which option you choose here, choosing is hard. In fact, if you think of buying laundry detergent as an optimisation problem, taking into account things like social impact, price and quality, I&amp;rsquo;d expect the optimisation problem to be NP-hard! Here&amp;rsquo;s &lt;a href=&#34;https://thezvi.wordpress.com/2017/07/22/choices-are-bad/&#34;&gt;Zvi&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1274,13 +1274,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-decision-fatigue/</guid>
+      <guid>http://localhost:55424/on-decision-fatigue/</guid>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>On good conversations</title>
-      <link>http://localhost:1313/on-good-conversations/</link>
+      <link>http://localhost:55424/on-good-conversations/</link>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Some studies suggest we spend 80-90% of our waking hours talking with others. For a normal person, that&amp;rsquo;s at least 12 hours (!) per day. We spend most of our working hours talking to others, whether it be in meetings, lectures or exercise classes. When we&amp;rsquo;re not working, friends, roommates or partners might be around. The hours add up.&lt;/p&gt;
 &lt;p&gt;Why do we spend this much time talking with others? Above all, interesting conversations are among the greatest pleasures in life. There&amp;rsquo;s nothing like a good conversation over a good meal. But talking with others can also be very productive. For example, talking with people smarter than you is a phenomenal way of learning. It&amp;rsquo;s like you&amp;rsquo;re downloading part of someone else&amp;rsquo;s worldview into your own head. Of course, there are other ways of achieving the same thing. However, in my opinion, one-on-one discussions come the closest to a loss-free download.&lt;/p&gt;
@@ -1307,13 +1307,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;But some conversations matter more than others. In fact, certain conversations can be life-changing. They make life more enjoyable, generate creative and scientific insights and connect us to others. What if we could improve the quality of these conversations ever so slightly?&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/on-good-conversations/</guid>
+      <guid>http://localhost:55424/on-good-conversations/</guid>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Building time machines</title>
-      <link>http://localhost:1313/building-time-machines/</link>
+      <link>http://localhost:55424/building-time-machines/</link>
       <description>&lt;p&gt;There&amp;rsquo;s a folder on my computer called &amp;ldquo;Time machine&amp;rdquo;, where I collect files on today&amp;rsquo;s me. It&amp;rsquo;s not exactly an FBI record on myself, but rather like a digital self portrait. After doing this over a longer period of time, I&amp;rsquo;ll share the folder with future versions of people I care about.&lt;/p&gt;
 &lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;I like poring over old photos. I think it&amp;rsquo;s something I&amp;rsquo;ve picked up from my mom. She&amp;rsquo;s something of a camera terrorist &amp;ndash; she&amp;rsquo;ll always pull up the camera and have everyone else pose. As a teenager, I used to find this pretty embarrassing. But now I&amp;rsquo;m glad she ignored my complaints.&lt;/p&gt;
@@ -1347,13 +1347,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/building-time-machines/</guid>
+      <guid>http://localhost:55424/building-time-machines/</guid>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>How I use LLMs</title>
-      <link>http://localhost:1313/how-i-use-llms/</link>
+      <link>http://localhost:55424/how-i-use-llms/</link>
       <description>&lt;p&gt;&lt;em&gt;Related: &lt;a href=&#34;https://isabeldahlgren.github.io/will-ai-replace-mathematicians/&#34;&gt;Will AI replace mathematicians?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;About 40% of students in the ETH main library always have a Chat-GPT tab open. I soon decided to try using LLMs for my own studies (because the wisdom of the crowd is a real thing). I haven&amp;rsquo;t figured out how to best use LLMs for my coursework, but I&amp;rsquo;m experimenting with various approaches.&lt;/p&gt;
 &lt;h3 id=&#34;getting-unstuck&#34;&gt;Getting unstuck &lt;a href=&#34;#getting-unstuck&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -1384,13 +1384,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;It seems, then, as if we could overcome the problems I&amp;rsquo;ve encountered when tinkering with AIs. My experience with using LLMs as part of my studies has been positive, so I&amp;rsquo;ll continue exploring ways in which AI can assist. The one thing that LLMs can&amp;rsquo;t provide, however, is the social aspect of doing maths. Solving problems with others is infinitely more fun than coming up with LLM prompts. If anything, I think the above use cases highlight the importance of doing maths together with others.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/how-i-use-llms/</guid>
+      <guid>http://localhost:55424/how-i-use-llms/</guid>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Will AI replace mathematicians?</title>
-      <link>http://localhost:1313/will-ai-replace-mathematicians/</link>
+      <link>http://localhost:55424/will-ai-replace-mathematicians/</link>
       <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;
 &lt;p&gt;First, there was the silver medal at International Mathematics Olympiad (IMO). Although AlphaProof and AlphaGeometry 2 took well over 9h, the time given contestants are given, it&amp;rsquo;s quite a feat: IMO problems require an element of creativity. Not only that - it was able to formalise its solution in Lean. Lean is still a fairly new programming language, and there isn&amp;rsquo;t nearly as much training data as for other programming languages. The work of the DeepMind team shows two things: firstly, lots of clever people are trying to build AI systems for doing maths; secondly, apparently their current approach works pretty well. However, as of April 2025, you don&amp;rsquo;t need an AI specifically trained to do maths in order to solve tricky problems: the new o3 and o4 mini models achieve &lt;a href=&#34;https://openai.com/index/introducing-o3-and-o4-mini&#34;&gt;impressive performance&lt;/a&gt; in the American Invitational Mathematics Examination (AIME). What if we use RL to build AI systems specialised in more advanced topics? Perhaps these AIs might prove new theorems. Even if they don&amp;rsquo;t, they might provide researchers with insights.&lt;/p&gt;
 &lt;p&gt;Next, several top-gun mathematicians think AI might transform maths research in the next decade. Most notably, Terence Tao has highlighted ways in which machines can help human mathematicians. Here&amp;rsquo;s from a &lt;a href=&#34;https://unlocked.microsoft.com/ai-anthology/terence-tao&#34;&gt;blog post&lt;/a&gt; of Tao:&lt;/p&gt;
@@ -1401,26 +1401,26 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;All in all, I&amp;rsquo;ve come to shorten my AI timelines quite a bit. But rather than thinking &amp;ldquo;Will I ever find a job?&amp;rdquo;, I find myself thinking &amp;ldquo;What a time to be alive!&amp;rdquo;&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
+      <guid>http://localhost:55424/will-ai-replace-mathematicians/</guid>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>&#34;Just switch it off&#34;</title>
-      <link>http://localhost:1313/just-switch-it-off/</link>
+      <link>http://localhost:55424/just-switch-it-off/</link>
       <description>&lt;p&gt;If we develop a rogue AI, couldn&amp;rsquo;t we just switch it off? This is the obvious objection to the idea that AI could be dangerous. Here &amp;ldquo;switching off&amp;rdquo; would mean deleting a model&amp;rsquo;s weights, so it can&amp;rsquo;t be deployed. Deleting files is easy enough, so what might prevent us from switching off a misaligned AI?&lt;/p&gt;
 &lt;p&gt;First, the users need to realise that the model is dangerous. This can be challenging, especially for more advanced models. The key premise here is that AIs will try preserving themselves. That is, they don&amp;rsquo;t &amp;ldquo;want&amp;rdquo; to be turned off - this would prevent them from pursuing their goals. If an AI knows that it will be turned off if it&amp;rsquo;s misaligned, it might try appearing safe during training. This is commonly known as &lt;a href=&#34;https://arxiv.org/pdf/2412.14093&#34;&gt;&amp;ldquo;alignment faking&amp;rdquo;&lt;/a&gt;. Although this sounds a bit far-fetched, this phenomenon has been observed in some models.&lt;/p&gt;
 &lt;p&gt;Second, and perhaps more worryingly, is the question of whether we as a society want to &amp;ldquo;press delete&amp;rdquo;. Turning off sandboxed AI - AI developed in a secure training environment - isn&amp;rsquo;t a big deal. The negative consequences, if any, are limited to the few people who can access the model. But a leading AI company has strong incentives against withdrawing potentially unsafe models from the market. Doing this would mean less profit, bad PR and giving away market share to competitors. Besides these economical considerations, there&amp;rsquo;s the geopolitical aspect. As highlighted in the &lt;a href=&#34;https://ai-2027.com/&#34;&gt;AI 2027 report&lt;/a&gt;, the fear of falling behind in the AI arms race might lead us to deploy even misaligned AI. Even if the people behind the AI wanted to switch off their models because of safety considerations, what would the general public think? Most people would probably be reluctant to stop their favourite LLMs, despite poor performance on safety benchmarks.&lt;/p&gt;
 &lt;p&gt;Switching off an AI isn&amp;rsquo;t just a matter of deleting files. It requires us to detect unsafe behaviour, a task that&amp;rsquo;s likely to become more difficult with more capable models. Then there&amp;rsquo;s the human factor. Asking that AI companies delete models showing signs of misalignment is asking for a lot. In the future, turning off an AI in a broader sense would require turning off parts of our society.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/just-switch-it-off/</guid>
+      <guid>http://localhost:55424/just-switch-it-off/</guid>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>From a YouTube alumna</title>
-      <link>http://localhost:1313/from-a-youtube-alumna/</link>
+      <link>http://localhost:55424/from-a-youtube-alumna/</link>
       <description>&lt;p&gt;Random people on the Internet have played a huge role in my education. I&amp;rsquo;m not just referring to my coursework at university, but also to &amp;ldquo;Bildung&amp;rdquo; more generally. I&amp;rsquo;ve learned a ton by browsing StackOverflow threads and reading Medium articles. However, I&amp;rsquo;ve probably learned the most from watching YouTube.&lt;/p&gt;
 &lt;h3 id=&#34;learning-by-watching&#34;&gt;Learning by watching &lt;a href=&#34;#learning-by-watching&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Above all, there&amp;rsquo;s some really high-quality content out there. Nowadays there are full-time YouTubers, working on creating professional, meticulously edited videos. And some channels, such as &lt;a href=&#34;https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q&#34;&gt;Kurzgesagt&lt;/a&gt;, are even ran by entire teams of illustrators and script-writers. Moreover, because anyone can record themselves and upload it to YouTube, we have world-class experts sharing their knowledge in YouTube lectures&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This means there are some truly remarkable YouTube videos. For example, here are comments from some &lt;a href=&#34;https://www.youtube.com/@3blue1brown&#34;&gt;3Blue1Brown&lt;/a&gt; videos:&lt;/p&gt;
@@ -1459,13 +1459,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/from-a-youtube-alumna/</guid>
+      <guid>http://localhost:55424/from-a-youtube-alumna/</guid>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Look for opinions</title>
-      <link>http://localhost:1313/look-for-opinions/</link>
+      <link>http://localhost:55424/look-for-opinions/</link>
       <description>&lt;p&gt;Opinionated people can be really annoying. Wherever they go, they try convincing you of their ideas. If you have an opinionated uncle, the Christmas dinner might be ruined by a bitter argument. I&amp;rsquo;ve certainly had bad experiences with a dinner-table conversations turning into feuds. For this reason, I used to try having fewer opinions. I somehow assumed this meant being more open-minded and mature. Well, no.&lt;/p&gt;
 &lt;h3 id=&#34;welcoming-opinions&#34;&gt;Welcoming opinions &lt;a href=&#34;#welcoming-opinions&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Actually, there are plenty of benefits of actively trying to form more opinions. Even about topics you don&amp;rsquo;t know particularly well. If you learn with a view towards arguing, then you&amp;rsquo;ll pay closer attention to the material. I think this has to do with anchoring. If you pick a stance, even at random, you&amp;rsquo;ll be more emotionally invested. Holden Karnofsky summarised it neatly in &lt;a href=&#34;https://www.cold-takes.com/learning-by-writing/&#34;&gt;Learning by Writing&lt;/a&gt;:&lt;/p&gt;
@@ -1480,13 +1480,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;As long as one has some &amp;ldquo;epistemic etiquette&amp;rdquo; - being prepared to change your beliefs in the light of new evidence, and not taking everything so personally - having more opinions seems like a good thing. I&amp;rsquo;m currently trying to build the habit of always having a working hypothesis whenever I learn something new. Having more opinions makes you feel more like part of the world, rather than as a bystander.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/look-for-opinions/</guid>
+      <guid>http://localhost:55424/look-for-opinions/</guid>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>How AI might go wrong</title>
-      <link>http://localhost:1313/how-ai-might-go-wrong/</link>
+      <link>http://localhost:55424/how-ai-might-go-wrong/</link>
       <description>&lt;p&gt;As with any new technology, advanced AI entails certain risks. While we&amp;rsquo;re investing crazy amounts of money in developing more capable AI models, only a fraction gets channeled towards AI safety research.&lt;/p&gt;
 &lt;p&gt;The other week, I had an insightful discussion with people in &lt;a href=&#34;https://www.zurich-ai-alignment.com&#34;&gt;Zürich AI Alignment (ZAIA)&lt;/a&gt; about the risks from AI. Afterwards, I began writing down my thoughts, and they somehow ballooned into this think piece. Here are what I currently consider to be the most relevant risks:&lt;/p&gt;
 &lt;ul&gt;
@@ -1501,13 +1501,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;em&gt;Thanks to Isaia Gisler for feedback on an earlier version of this text.&lt;/em&gt;&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/how-ai-might-go-wrong/</guid>
+      <guid>http://localhost:55424/how-ai-might-go-wrong/</guid>
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Useful thought experiments</title>
-      <link>http://localhost:1313/useful-thought-experiments/</link>
+      <link>http://localhost:55424/useful-thought-experiments/</link>
       <description>&lt;p&gt;Philosophers love thought experiments. Thought experiments are hypothetical scenarios meant to tease out our intuitions about an argument or theory. For example, here&amp;rsquo;s a classic thought experiment, due to Robert Nozick:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Suppose there were an experience machine that would give you any experience you desired. Superduper neuropsychologists could stimulate your brain so that you would think and feel you were writing a great novel, or making a friend, or reading an interesting book. All the time you would be floating in a tank, with electrodes attached to your brain. Should you plug into this machine for life, preprogramming your life&amp;rsquo;s experiences?&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/blockquote&gt;
@@ -1536,13 +1536,13 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/div&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/useful-thought-experiments/</guid>
+      <guid>http://localhost:55424/useful-thought-experiments/</guid>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Hunting dependencies</title>
-      <link>http://localhost:1313/hunting-dependencies/</link>
+      <link>http://localhost:55424/hunting-dependencies/</link>
       <description>&lt;p&gt;One of the benefits of attending lectures is that lecturers tend to give some really good unsolicited advice every now and then. Last semester, a professor of ours digressed to talk about the importance of identifying the key ingredients of a result. He&amp;rsquo;d just concluded a rather long proof, and was about to clean the blackboard as he said that the result was elementary. See, you only need this one lemma from point-set topology (admittedly a bit niche, but easy to prove), and then the definition of the Fourier transform. Put that way, sure, maybe it&amp;rsquo;s elementary. Explicitly writing down the dependencies of an idea, he said, was a good exercise.&lt;/p&gt;
 &lt;h3 id=&#34;an-example&#34;&gt;An example &lt;a href=&#34;#an-example&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;I tried doing this a couple of times for definitions, theorem statements and proofs. At first, it felt a bit silly. Once I finished writing down the main components of a result, it seemed trivial. I overdid it at first, writing down dependencies even for minor lemmas. But for more complicated theorems or involved definitions, it proved quite useful.&lt;/p&gt;
@@ -1556,7 +1556,7 @@ nature of human interaction.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Lastly, I found it satisfying seeing how different notions tied into one another. I also put it all into one mindmap which, apart from having a high aesthetic value, gave me the big picture of the subject.&lt;/p&gt;
 </description>
       <author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author>
-      <guid>http://localhost:1313/hunting-dependencies/</guid>
+      <guid>http://localhost:55424/hunting-dependencies/</guid>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     
