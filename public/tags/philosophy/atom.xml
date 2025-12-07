@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philosophy on Isabel Dahlgren</title>
+    <link>http://localhost:1313/tags/philosophy/</link>
+    <description>Recent content in Philosophy on Isabel Dahlgren</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/philosophy/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful thought experiments</title>
+      <link>http://localhost:1313/useful-thought-experiments/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/useful-thought-experiments/</guid>
+      <description>&lt;p&gt;Philosophers love thought experiments. Thought experiments are hypothetical scenarios meant to tease out our intuitions about an argument or theory. For example, here&amp;rsquo;s a classic thought experiment, due to Robert Nozick:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Suppose there were an experience machine that would give you any experience you desired. Superduper neuropsychologists could stimulate your brain so that you would think and feel you were writing a great novel, or making a friend, or reading an interesting book. All the time you would be floating in a tank, with electrodes attached to your brain. Should you plug into this machine for life, preprogramming your life&amp;rsquo;s experiences?&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

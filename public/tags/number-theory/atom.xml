@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Number-Theory on Isabel Dahlgren</title>
+    <link>http://localhost:1313/tags/number-theory/</link>
+    <description>Recent content in Number-Theory on Isabel Dahlgren</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/number-theory/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two results from probabilistic number theory</title>
+      <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
+      <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This report is an exposition of two central limit theorems in probabilistic number theory. We begin by introducing preliminary results from number theory and probability theory. Then we prove the Erdős-Kac theorem for the asymptotic behaviour of the prime divisor counting function. The majority of the report is devoted to Radziwiłł and Soundarajan&amp;rsquo;s recent proof of the Selberg central limit theorem for $\log |\zeta(\frac{1}{2} + it)|$.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

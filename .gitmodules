@@ -1,0 +1,3 @@
+[submodule "themes/lines"]
+	path = themes/lines
+	url = https://github.com/ronv/lines.git
