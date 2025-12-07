@@ -5,7 +5,9 @@ languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-paginate = 999
+
+[pagination]
+  pagerSize = 999
 
 [params]
   description = "Isabel Dahlgren"

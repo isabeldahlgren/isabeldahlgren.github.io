@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Isabel Dahlgren</title>
-    <link>http://localhost:55424/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in Ai on Isabel Dahlgren</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55424/tags/ai/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ai/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI is not AI is not AI</title>
-      <link>http://localhost:55424/ai-is-not-ai-is-not-ai/</link>
+      <link>http://localhost:1313/ai-is-not-ai-is-not-ai/</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/ai-is-not-ai-is-not-ai/</guid>
+      <guid>http://localhost:1313/ai-is-not-ai-is-not-ai/</guid>
       <description>&lt;p&gt;There are plenty of misnomers in science and mathematics. Atoms aren&amp;rsquo;t indivisible. Hubble&amp;rsquo;s constant isn&amp;rsquo;t a constant. And in 9/10 cases, X&amp;rsquo;s theorem was usually first discovered by someone else (in 4/10 cases, it was discovered by Gauss). Another bad piece of terminology, according to some: &amp;ldquo;artificial intelligence&amp;rdquo; or AI.&lt;/p&gt;&#xA;&lt;p&gt;Given that we don&amp;rsquo;t have a good definition of human intelligence, the term &amp;ldquo;artificial intelligence&amp;rdquo; is inherently vague. Because AI sounds cool, people use the term quite liberally. Logistic regression in Excel? AI! But it&amp;rsquo;s unclear what qualifies as &amp;ldquo;intelligent enough&amp;rdquo;. As AI systems become more capable, we seem to raise the bar. Previously, calculators and spell checkers were considered artificial intelligence.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From the AI company storybook</title>
-      <link>http://localhost:55424/from-the-ai-company-storybook/</link>
+      <link>http://localhost:1313/from-the-ai-company-storybook/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/from-the-ai-company-storybook/</guid>
+      <guid>http://localhost:1313/from-the-ai-company-storybook/</guid>
       <description>&lt;p&gt;AI companies are companies. The leading AI companies don&amp;rsquo;t want to be seen as companies, though. They call themselves AI labs. They have researchy names, like DeepMind and Meta AI. The best name: OpenAI. Almost sounds like a real &lt;a href=&#34;https://openai.com/index/introducing-openai/&#34;&gt;non-profit&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Most AI companies are products of Silicon Valley. Their leaders aren&amp;rsquo;t professors, but seasoned business executives. And this is a good thing. These companies wouldn&amp;rsquo;t produce nearly as much consumer value if they were led by researchers with no industry experience. Moreover, unlike normal research labs, AI companies need to make money, just as any other company.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nerd trying to adapt to an AI economy</title>
-      <link>http://localhost:55424/nerd-trying-to-adapt-to-an-ai-economy/</link>
+      <link>http://localhost:1313/nerd-trying-to-adapt-to-an-ai-economy/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/nerd-trying-to-adapt-to-an-ai-economy/</guid>
+      <guid>http://localhost:1313/nerd-trying-to-adapt-to-an-ai-economy/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Part of the reason I decided to study maths was because it seemed like the most useful subject. If I knew ML systems would never get better than GPT-2 at maths, I&amp;rsquo;d probably be of the same opinion today. But today&amp;rsquo;s state-of-the-art ML systems are far better than GPT-2. LLMs have excelled at maths and programming because maths- and coding-related tasks admit quick feedback, allowing for efficient reinforcement learning. Jobs involving applying maths and programming jobs could theoretically be automated within a few decades. The glory days of the nerd might be over soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The spectrum of views on AI safety</title>
-      <link>http://localhost:55424/the-spectrum-of-views-on-ai-safety/</link>
+      <link>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/the-spectrum-of-views-on-ai-safety/</guid>
+      <guid>http://localhost:1313/the-spectrum-of-views-on-ai-safety/</guid>
       <description>&lt;p&gt;I agree the concept of &lt;a href=&#34;https://en.wikipedia.org/wiki/P(doom)&#34;&gt;P(doom)&lt;/a&gt; is problematic. First, &amp;ldquo;doom&amp;rdquo; can mean a variety of things: human extinction, existential catastrophe or gradual disempowerment. Also, P(doom) - condition on present-day regulations or AI slowdown? Furthermore, the timeframe matters, as P(doom within the next $X$ years) increases with $X$.&lt;/p&gt;&#xA;&lt;p&gt;But perhaps we&amp;rsquo;re missing the point of the P(doom) question. If someone asks you for P(doom) at a cocktail party, it usually means they&amp;rsquo;re just interested in hearing general takes on AI safety, at least in my experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Consume less AI safety news</title>
-      <link>http://localhost:55424/consume-less-ai-safety-news/</link>
+      <link>http://localhost:1313/consume-less-ai-safety-news/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/consume-less-ai-safety-news/</guid>
+      <guid>http://localhost:1313/consume-less-ai-safety-news/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s hard staying on top of all the AI safety news. Some people, like &lt;a href=&#34;https://thezvi.wordpress.com/about/&#34;&gt;Zvi&lt;/a&gt;, have basically made this their full-time job.&lt;/p&gt;&#xA;&lt;p&gt;A common failure mode for forming views on AI safety is consuming too much information. It&amp;rsquo;s a tendency I&amp;rsquo;ve observed in myself, as well as in others in the AI safety community.&lt;/p&gt;&#xA;&lt;p&gt;I think it comes from the urge to solve the AI alignment problem quickly. It&amp;rsquo;s also an exciting time to be working in AI safety, with many rapid advancements being made. Also, since AI safety is something AI, there&amp;rsquo;s a lot of general excitement surrounding the area.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding the AI alignment problem</title>
-      <link>http://localhost:55424/understanding-the-ai-alignment-problem/</link>
+      <link>http://localhost:1313/understanding-the-ai-alignment-problem/</link>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/understanding-the-ai-alignment-problem/</guid>
+      <guid>http://localhost:1313/understanding-the-ai-alignment-problem/</guid>
       <description>&lt;p&gt;Broadly speaking, the AI alignment problem refers to the problem of ensuring AI systems do what we want them to do. I like the definition used by Anthropic &lt;a href=&#34;https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=build%20safe%2C%20reliable%2C%20and%20steerable%20systems%20when%20those%20systems%20are%20starting%20to%20become%20as%20intelligent%20and%20as%20aware%20of%20their%20surroundings%20as%20their%20designers&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“build safe, reliable, and steerable systems when those systems are starting to become as intelligent and as aware of their surroundings as their designers”&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The general idea is pretty simple. But there are many things to unpack here. Understanding what this means in practise is hard. First, why might we end up training unsafe AI systems? Even if you think this is possible, it&amp;rsquo;s not clear what regulations might be appropriate. Here are some metaphors I found particularly useful for gaining a deeper understanding of some aspects of AI alignment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I use LLMs</title>
-      <link>http://localhost:55424/how-i-use-llms/</link>
+      <link>http://localhost:1313/how-i-use-llms/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/how-i-use-llms/</guid>
+      <guid>http://localhost:1313/how-i-use-llms/</guid>
       <description>&lt;p&gt;&lt;em&gt;Related: &lt;a href=&#34;https://isabeldahlgren.github.io/will-ai-replace-mathematicians/&#34;&gt;Will AI replace mathematicians?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;About 40% of students in the ETH main library always have a Chat-GPT tab open. I soon decided to try using LLMs for my own studies (because the wisdom of the crowd is a real thing). I haven&amp;rsquo;t figured out how to best use LLMs for my coursework, but I&amp;rsquo;m experimenting with various approaches.&lt;/p&gt;&#xA;&lt;h3 id=&#34;getting-unstuck&#34;&gt;Getting unstuck &lt;a href=&#34;#getting-unstuck&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;For me, a big time sink is getting stuck on details. I usually go over the lecture notes after lectures, trying to work out the steps I didn&amp;rsquo;t follow with pen and paper. Ideally, I&amp;rsquo;d do this sitting next to a friend - it&amp;rsquo;s very convenient having someone whom to ask nearby. As Nate Soares put it &lt;a href=&#34;https://www.lesswrong.com/posts/w5F4w8tNZc6LcBKRP/on-learning-difficult-things&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Will AI replace mathematicians?</title>
-      <link>http://localhost:55424/will-ai-replace-mathematicians/</link>
+      <link>http://localhost:1313/will-ai-replace-mathematicians/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/will-ai-replace-mathematicians/</guid>
+      <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
       <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;</description>
     </item>
     <item>
       <title>&#34;Just switch it off&#34;</title>
-      <link>http://localhost:55424/just-switch-it-off/</link>
+      <link>http://localhost:1313/just-switch-it-off/</link>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55424/just-switch-it-off/</guid>
+      <guid>http://localhost:1313/just-switch-it-off/</guid>
       <description>&lt;p&gt;If we develop a rogue AI, couldn&amp;rsquo;t we just switch it off? This is the obvious objection to the idea that AI could be dangerous. Here &amp;ldquo;switching off&amp;rdquo; would mean deleting a model&amp;rsquo;s weights, so it can&amp;rsquo;t be deployed. Deleting files is easy enough, so what might prevent us from switching off a misaligned AI?&lt;/p&gt;&#xA;&lt;p&gt;First, the users need to realise that the model is dangerous. This can be challenging, especially for more advanced models. The key premise here is that AIs will try preserving themselves. That is, they don&amp;rsquo;t &amp;ldquo;want&amp;rdquo; to be turned off - this would prevent them from pursuing their goals. If an AI knows that it will be turned off if it&amp;rsquo;s misaligned, it might try appearing safe during training. This is commonly known as &lt;a href=&#34;https://arxiv.org/pdf/2412.14093&#34;&gt;&amp;ldquo;alignment faking&amp;rdquo;&lt;/a&gt;. Although this sounds a bit far-fetched, this phenomenon has been observed in some models.&lt;/p&gt;</description>
     </item>
   </channel>
