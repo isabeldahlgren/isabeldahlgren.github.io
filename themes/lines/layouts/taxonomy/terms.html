@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
+  <main>
+    {{ partial "header.html" . }}
+    <section>
+      <p>Tags: {{ $tags := slice }}{{ range $name, $taxonomy := .Site.Taxonomies.tags }}{{ $tags = $tags | append $name }}{{ end }}{{ range $i, $tag := sort $tags }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">{{ $tag }}</a>{{ end }}</p>
+    </section>
+    {{ partial "footer.html" . }}
+  </main>
+</body>
+</html>
