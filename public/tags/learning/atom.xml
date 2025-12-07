@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning on Isabel Dahlgren</title>
-    <link>http://localhost:1313/tags/learning/</link>
+    <link>https://isabeldahlgren.github.io/tags/learning/</link>
     <description>Recent content in Learning on Isabel Dahlgren</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 26 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/learning/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isabeldahlgren.github.io/tags/learning/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On cities</title>
-      <link>http://localhost:1313/on-cities/</link>
+      <link>https://isabeldahlgren.github.io/on-cities/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/on-cities/</guid>
+      <guid>https://isabeldahlgren.github.io/on-cities/</guid>
       <description>&lt;p&gt;The 17th century was a century of rapid human progress. There was the Scientific Revolution. Philosophers like John Locke and Thomas Hobbes laid the groundwork for modern political thought, while René Descartes and Blaise Pascal made important contributions to philosophy more broadly. Meanwhile, in the arts, William Shakespeare redefined English literature, while Rembrandt changed the way artists approach their subjects.&lt;/p&gt;&#xA;&lt;p&gt;The above mentioned people have something important in common, other than being extremely intelligent white men. They spent non-negligible parts of their lives in cities. In the 1600s, only &lt;a href=&#34;https://ourworldindata.org/grapher/long-term-urban-population-region?time=1500..latest&amp;amp;country=Eastern+Africa~Western+Europe~Korea~Central+Europe~OWID_EUR&#34;&gt;8%&lt;/a&gt; of the European population lived in cities. Many people spent their entire lives without setting foot in a big city. But there is a sense in which you need to spend some time in a city to become an influential historical figure, or at least if you wish to understand human societies. Cities tell thousands of tales about history, culture and economics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The mad scientist is probably mad</title>
-      <link>http://localhost:1313/the-mad-scientist-is-probably-mad/</link>
+      <link>https://isabeldahlgren.github.io/the-mad-scientist-is-probably-mad/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/the-mad-scientist-is-probably-mad/</guid>
+      <guid>https://isabeldahlgren.github.io/the-mad-scientist-is-probably-mad/</guid>
       <description>&lt;p&gt;Many pioneering scientists were initially rejected by the scientific community. At first, the ideas of Galileo Galilei, Gregor Mendel and Geoffrey Hinton were ridiculed. There are many more examples of such &amp;ldquo;martyrs of science&amp;rdquo;, people who were cancelled and then vindicated.&lt;/p&gt;&#xA;&lt;p&gt;Science isn&amp;rsquo;t as dramatic nowadays. There aren&amp;rsquo;t as many Galilei-like figures, at least not in relative terms. If 1/1000 of crazy-seeming scientists turned out to be geniuses in the 20th century, today the proportion might be more like 1/1 000 000. Why is that?&lt;/p&gt;</description>
     </item>
     <item>
       <title>High school for heroes</title>
-      <link>http://localhost:1313/high-school-for-heroes/</link>
+      <link>https://isabeldahlgren.github.io/high-school-for-heroes/</link>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/high-school-for-heroes/</guid>
+      <guid>https://isabeldahlgren.github.io/high-school-for-heroes/</guid>
       <description>&lt;p&gt;High school isn&amp;rsquo;t so much about preparing teenagers for adult life. In Sweden, you have a subject about cooking and personal finance, but only until secondary school. I think this makes sense: you only need one course on practical adult skills. After you know the basics, it&amp;rsquo;s all about practising IRL.&lt;/p&gt;&#xA;&lt;p&gt;But being a competent grown-up involves many other skills. It&amp;rsquo;s not just about successfully running a household &amp;ndash; it&amp;rsquo;s also a matter of &amp;ldquo;running yourself&amp;rdquo;. There are plenty of &amp;ldquo;serious&amp;rdquo; subjects we could fit in a standard high school curriculum. Here&amp;rsquo;s a vibe-based list:&lt;/p&gt;</description>
     </item>
     <item>
       <title>A study on slack</title>
-      <link>http://localhost:1313/a-study-on-slack/</link>
+      <link>https://isabeldahlgren.github.io/a-study-on-slack/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/a-study-on-slack/</guid>
+      <guid>https://isabeldahlgren.github.io/a-study-on-slack/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Once I was done with exams, it felt like getting my brain back. It&amp;rsquo;s not just that you spend most of your day studying difficult subjects, leaving you with less time and willpower for other tasks. You also have to do cost-benefit analysis all the time. All. The. Time. Sometimes, it&amp;rsquo;s relieving if someone tells you exactly what to do&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ii&#34;&gt;II. &lt;a href=&#34;#ii&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Slack is sometimes defined as having leftover resources. Intuitively, slack is like a buffer allowing you to absorb shocks better. We often speak of slack in the context of time and money. But to make things more visceral, imagine packing a bag. Having slack means having leftover space. There&amp;rsquo;s no need to stuff your shoes with underwear, fold your clothes meticulously or pack things in a given order. You don&amp;rsquo;t have to engage in trade-off thinking (&amp;ldquo;If I leave my camera, I can fit my notebook and an umbrella&amp;rdquo;). Having slack leads to a feeling of abundance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Analytic podcast-listening</title>
-      <link>http://localhost:1313/analytic-podcast-listening/</link>
+      <link>https://isabeldahlgren.github.io/analytic-podcast-listening/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/analytic-podcast-listening/</guid>
+      <guid>https://isabeldahlgren.github.io/analytic-podcast-listening/</guid>
       <description>&lt;p&gt;Nowadays, you can spend all your waking hours consuming valuable information. Pretty remarkable, when you come to think of it. Hint: AirPods Pro.&lt;/p&gt;&#xA;&lt;p&gt;Whenever you&amp;rsquo;re doing something not demanding your full attention, you can always turn on a podcast. You can listen to podcasts when commuting, working out or cooking&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Technically, you could have done something similar 50 years ago using a walkman. But it have been very high-effort. Today, we have dedicated podcast apps and noise-cancelling, wireless earplugs. As a result, the podcast industry is rapidly growing in size. If you sample 100 young adults from the street in an urban area, a substantial number of them might be listening to podcasts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Policy-making is complicated</title>
-      <link>http://localhost:1313/policy-making-is-complicated/</link>
+      <link>https://isabeldahlgren.github.io/policy-making-is-complicated/</link>
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/policy-making-is-complicated/</guid>
+      <guid>https://isabeldahlgren.github.io/policy-making-is-complicated/</guid>
       <description>&lt;p&gt;Things are more complicated than they first seem, especially when it comes to policy-making. Should Germany build nuclear power plants to reduce their carbon emissions? Should there be global standards for content moderation on social media platforms? How should we best mitigate the risk of future global pandemics?&lt;/p&gt;&#xA;&lt;p&gt;I recently had the pleasure of getting to know more people working in policy and forecasting, and I quickly realised that I hadn&amp;rsquo;t internalised the complexity of the problems they face&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Here, I&amp;rsquo;ll list some intuition pumps for the difficulty of policy-related questions. For concreteness, I&amp;rsquo;ll focus on the first of the three above topics, nuclear power in Germany.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Man&#39;s search for fun</title>
-      <link>http://localhost:1313/mans-search-for-fun/</link>
+      <link>https://isabeldahlgren.github.io/mans-search-for-fun/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mans-search-for-fun/</guid>
+      <guid>https://isabeldahlgren.github.io/mans-search-for-fun/</guid>
       <description>&lt;p&gt;Willpower is a scarce resource. I can only exert so much willpower in a day&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Alas, many important tasks require lot of willpower. Examples of such tasks include filing one&amp;rsquo;s taxes, memorising messy proofs and booking flights. Oftentimes, I&amp;rsquo;m bottlenecked by willpower rather than time. Rather than increasing willpower - finding Meaning - how about decreasing the amount of willpower required for a given task? This might be an easier problem. Here are my favourite ways of making boring tasks fun.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On question taste</title>
-      <link>http://localhost:1313/on-question-taste/</link>
+      <link>https://isabeldahlgren.github.io/on-question-taste/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/on-question-taste/</guid>
+      <guid>https://isabeldahlgren.github.io/on-question-taste/</guid>
       <description>&lt;h3 id=&#34;i&#34;&gt;I. &lt;a href=&#34;#i&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Children like asking questions. Some of their questions are very hard: &amp;ldquo;Why do people die?&amp;rdquo;. Others questions expose our biases: &amp;ldquo;Couldn&amp;rsquo;t we invite the homeless man to dinner?&amp;rdquo; Then there are all the annoying questions: &amp;ldquo;When will we arrive?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;In my experience, school didn&amp;rsquo;t teach us to ask questions - we were just taught how to answer them. To pass the test, you only had to memorise the material in the textbook.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A taxonomy of examples</title>
-      <link>http://localhost:1313/a-taxonomy-of-examples/</link>
+      <link>https://isabeldahlgren.github.io/a-taxonomy-of-examples/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
+      <guid>https://isabeldahlgren.github.io/a-taxonomy-of-examples/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On the joy of customising</title>
-      <link>http://localhost:1313/on-the-joy-of-customising/</link>
+      <link>https://isabeldahlgren.github.io/on-the-joy-of-customising/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/on-the-joy-of-customising/</guid>
+      <guid>https://isabeldahlgren.github.io/on-the-joy-of-customising/</guid>
       <description>&lt;p&gt;Why do so many people use Safari, the jarring black VSCode colour theme and Overleaf? Because it&amp;rsquo;s the default option.&lt;/p&gt;&#xA;&lt;p&gt;Switching to a non-default option requires conscious effort. First, you need to realise that your current setup is suboptimal: the probability of your current setup being the optimal one is infinitesimal. But if you knew about the benefits of making a few small changes, you&amp;rsquo;d already have made them. So you do need to believe that switching is worthwhile, which, indeed, is a leap of faith.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I use LLMs</title>
-      <link>http://localhost:1313/how-i-use-llms/</link>
+      <link>https://isabeldahlgren.github.io/how-i-use-llms/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/how-i-use-llms/</guid>
+      <guid>https://isabeldahlgren.github.io/how-i-use-llms/</guid>
       <description>&lt;p&gt;&lt;em&gt;Related: &lt;a href=&#34;https://isabeldahlgren.github.io/will-ai-replace-mathematicians/&#34;&gt;Will AI replace mathematicians?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;About 40% of students in the ETH main library always have a Chat-GPT tab open. I soon decided to try using LLMs for my own studies (because the wisdom of the crowd is a real thing). I haven&amp;rsquo;t figured out how to best use LLMs for my coursework, but I&amp;rsquo;m experimenting with various approaches.&lt;/p&gt;&#xA;&lt;h3 id=&#34;getting-unstuck&#34;&gt;Getting unstuck &lt;a href=&#34;#getting-unstuck&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;For me, a big time sink is getting stuck on details. I usually go over the lecture notes after lectures, trying to work out the steps I didn&amp;rsquo;t follow with pen and paper. Ideally, I&amp;rsquo;d do this sitting next to a friend - it&amp;rsquo;s very convenient having someone whom to ask nearby. As Nate Soares put it &lt;a href=&#34;https://www.lesswrong.com/posts/w5F4w8tNZc6LcBKRP/on-learning-difficult-things&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>From a YouTube alumna</title>
-      <link>http://localhost:1313/from-a-youtube-alumna/</link>
+      <link>https://isabeldahlgren.github.io/from-a-youtube-alumna/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/from-a-youtube-alumna/</guid>
+      <guid>https://isabeldahlgren.github.io/from-a-youtube-alumna/</guid>
       <description>&lt;p&gt;Random people on the Internet have played a huge role in my education. I&amp;rsquo;m not just referring to my coursework at university, but also to &amp;ldquo;Bildung&amp;rdquo; more generally. I&amp;rsquo;ve learned a ton by browsing StackOverflow threads and reading Medium articles. However, I&amp;rsquo;ve probably learned the most from watching YouTube.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learning-by-watching&#34;&gt;Learning by watching &lt;a href=&#34;#learning-by-watching&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Above all, there&amp;rsquo;s some really high-quality content out there. Nowadays there are full-time YouTubers, working on creating professional, meticulously edited videos. And some channels, such as &lt;a href=&#34;https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q&#34;&gt;Kurzgesagt&lt;/a&gt;, are even ran by entire teams of illustrators and script-writers. Moreover, because anyone can record themselves and upload it to YouTube, we have world-class experts sharing their knowledge in YouTube lectures&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This means there are some truly remarkable YouTube videos. For example, here are comments from some &lt;a href=&#34;https://www.youtube.com/@3blue1brown&#34;&gt;3Blue1Brown&lt;/a&gt; videos:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hunting dependencies</title>
-      <link>http://localhost:1313/hunting-dependencies/</link>
+      <link>https://isabeldahlgren.github.io/hunting-dependencies/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hunting-dependencies/</guid>
+      <guid>https://isabeldahlgren.github.io/hunting-dependencies/</guid>
       <description>&lt;p&gt;One of the benefits of attending lectures is that lecturers tend to give some really good unsolicited advice every now and then. Last semester, a professor of ours digressed to talk about the importance of identifying the key ingredients of a result. He&amp;rsquo;d just concluded a rather long proof, and was about to clean the blackboard as he said that the result was elementary. See, you only need this one lemma from point-set topology (admittedly a bit niche, but easy to prove), and then the definition of the Fourier transform. Put that way, sure, maybe it&amp;rsquo;s elementary. Explicitly writing down the dependencies of an idea, he said, was a good exercise.&lt;/p&gt;</description>
     </item>
   </channel>

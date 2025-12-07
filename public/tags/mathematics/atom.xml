@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mathematics on Isabel Dahlgren</title>
-    <link>http://localhost:1313/tags/mathematics/</link>
+    <link>https://isabeldahlgren.github.io/tags/mathematics/</link>
     <description>Recent content in Mathematics on Isabel Dahlgren</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mathematics/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isabeldahlgren.github.io/tags/mathematics/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A taxonomy of examples</title>
-      <link>http://localhost:1313/a-taxonomy-of-examples/</link>
+      <link>https://isabeldahlgren.github.io/a-taxonomy-of-examples/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/a-taxonomy-of-examples/</guid>
+      <guid>https://isabeldahlgren.github.io/a-taxonomy-of-examples/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m mildly obsessed with examples. Whenever I feel confused, it&amp;rsquo;s often because I don&amp;rsquo;t know enough examples. Proofs can be confusing too, if some step is poorly explained. But that kind of confusion tends to be local. You can still have a good grasp of the theory. If you don&amp;rsquo;t know enough examples, you feel generally lost. Textbooks lacking in examples end up being dry. In contrast, books with well-chosen examples are a pleasure to read&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A semester paper retrospective</title>
-      <link>http://localhost:1313/a-semester-paper-retrospective/</link>
+      <link>https://isabeldahlgren.github.io/a-semester-paper-retrospective/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/a-semester-paper-retrospective/</guid>
+      <guid>https://isabeldahlgren.github.io/a-semester-paper-retrospective/</guid>
       <description>&lt;p&gt;This is a follow-up on my &lt;a href=&#34;https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/&#34;&gt;previous article&lt;/a&gt;, where I share some thoughts on the process of writing a semester paper.&lt;/p&gt;&#xA;&lt;p&gt;Lots of disclaimers: this is all very specific to my experience: the topic of my paper, my supervisor, my workload in others courses, etc. Also, I&amp;rsquo;m certainly in no position to give advice on mathematical writing; these are just reflections on what worked and what didn&amp;rsquo;t work for me.&lt;/p&gt;&#xA;&lt;h3 id=&#34;on-writing-papers&#34;&gt;On writing papers &lt;a href=&#34;#on-writing-papers&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Here are some principles for writing mathematical papers that I tried to follow, mostly based on feedback from my supervisors. I received plenty of useful feedback, but here are the points I found the most useful:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Two results from probabilistic number theory</title>
-      <link>http://localhost:1313/two-results-from-probabilistic-number-theory/</link>
+      <link>https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/two-results-from-probabilistic-number-theory/</guid>
+      <guid>https://isabeldahlgren.github.io/two-results-from-probabilistic-number-theory/</guid>
       <description>&lt;p&gt;I recently wrote a semester paper on probabilistic number theory. I&amp;rsquo;m very grateful to both of my supervisors, Dr. Vivian Kuperberg and Prof. Dr. Emmanuel Kowalski, for their insights and suggestions. Here&amp;rsquo;s the abstract:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This report is an exposition of two central limit theorems in probabilistic number theory. We begin by introducing preliminary results from number theory and probability theory. Then we prove the Erdős-Kac theorem for the asymptotic behaviour of the prime divisor counting function. The majority of the report is devoted to Radziwiłł and Soundarajan&amp;rsquo;s recent proof of the Selberg central limit theorem for $\log |\zeta(\frac{1}{2} + it)|$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I use LLMs</title>
-      <link>http://localhost:1313/how-i-use-llms/</link>
+      <link>https://isabeldahlgren.github.io/how-i-use-llms/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/how-i-use-llms/</guid>
+      <guid>https://isabeldahlgren.github.io/how-i-use-llms/</guid>
       <description>&lt;p&gt;&lt;em&gt;Related: &lt;a href=&#34;https://isabeldahlgren.github.io/will-ai-replace-mathematicians/&#34;&gt;Will AI replace mathematicians?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;About 40% of students in the ETH main library always have a Chat-GPT tab open. I soon decided to try using LLMs for my own studies (because the wisdom of the crowd is a real thing). I haven&amp;rsquo;t figured out how to best use LLMs for my coursework, but I&amp;rsquo;m experimenting with various approaches.&lt;/p&gt;&#xA;&lt;h3 id=&#34;getting-unstuck&#34;&gt;Getting unstuck &lt;a href=&#34;#getting-unstuck&#34; class=&#34;hash&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;For me, a big time sink is getting stuck on details. I usually go over the lecture notes after lectures, trying to work out the steps I didn&amp;rsquo;t follow with pen and paper. Ideally, I&amp;rsquo;d do this sitting next to a friend - it&amp;rsquo;s very convenient having someone whom to ask nearby. As Nate Soares put it &lt;a href=&#34;https://www.lesswrong.com/posts/w5F4w8tNZc6LcBKRP/on-learning-difficult-things&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Will AI replace mathematicians?</title>
-      <link>http://localhost:1313/will-ai-replace-mathematicians/</link>
+      <link>https://isabeldahlgren.github.io/will-ai-replace-mathematicians/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/will-ai-replace-mathematicians/</guid>
+      <guid>https://isabeldahlgren.github.io/will-ai-replace-mathematicians/</guid>
       <description>&lt;p&gt;I used to think of maths as the one thing LLMs couldn&amp;rsquo;t do well. While GPT 3.0 would excel in language-based tasks, it would struggle to solve elementary maths problems. But a lot has happened since then. Over the last year, I&amp;rsquo;ve come to take the idea of using AI as an aid for doing maths more seriously. In fact, I now believe LLMs might prove new theorems with no human guidance within just 3 years.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hunting dependencies</title>
-      <link>http://localhost:1313/hunting-dependencies/</link>
+      <link>https://isabeldahlgren.github.io/hunting-dependencies/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hunting-dependencies/</guid>
+      <guid>https://isabeldahlgren.github.io/hunting-dependencies/</guid>
       <description>&lt;p&gt;One of the benefits of attending lectures is that lecturers tend to give some really good unsolicited advice every now and then. Last semester, a professor of ours digressed to talk about the importance of identifying the key ingredients of a result. He&amp;rsquo;d just concluded a rather long proof, and was about to clean the blackboard as he said that the result was elementary. See, you only need this one lemma from point-set topology (admittedly a bit niche, but easy to prove), and then the definition of the Fourier transform. Put that way, sure, maybe it&amp;rsquo;s elementary. Explicitly writing down the dependencies of an idea, he said, was a good exercise.&lt;/p&gt;</description>
     </item>
   </channel>
