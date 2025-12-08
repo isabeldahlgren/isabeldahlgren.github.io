@@ -6,7 +6,7 @@
     {{ partial "header.html" . }}
     <section>
       <ul class="posts">
-        {{ range (.Site.RegularPages.ByDate.Reverse) }}
+        {{ range (where (where .Site.RegularPages "Section" "posts") ".Date" ">" "2020-01-01") }}
           <li itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
             <a href="{{ .Permalink }}" title="{{ .Title }}" itemprop="name url">{{ .Title }}</a>
             <hr>
