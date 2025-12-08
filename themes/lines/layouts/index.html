@@ -6,12 +6,14 @@
     {{ partial "header.html" . }}
     <section>
       <ul class="posts">
-        {{ range (where (where .Site.RegularPages "Section" "posts") ".Date" ">" "2020-01-01") }}
+        {{ range (where .Site.RegularPages "Section" "posts") }}
+          {{ if .Title }}
           <li itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
             <a href="{{ .Permalink }}" title="{{ .Title }}" itemprop="name url">{{ .Title }}</a>
             <hr>
            <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
           </li>
+          {{ end }}
         {{ end }}
       </ul>
     </section>
