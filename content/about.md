@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'About'
 ---
 
 Master student in mathematics at ETH. I like reading and taking [pictures](https://isabeldahlgren.netlify.app/). I look roughly like [this](https://isabeldahlgren.github.io/image/).
