@@ -19,7 +19,7 @@ pygmentsUseClasses = true
 
   [[menu.main]]
     identifier = "index"
-    name       = "Isabel Dahlgren"
+    name       = "Posts"
     url        = "/"
     weight     = -111
 
@@ -30,10 +30,16 @@ pygmentsUseClasses = true
     weight = 10
 
   [[menu.main]]
+    identifier = "photos"
+    name = "Photos"
+    url = "/photos/"
+    weight = 15
+
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 10
+    weight = 20
 
 [permalinks]
   posts = "/:title/"

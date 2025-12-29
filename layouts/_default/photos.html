@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
+  <main>
+    {{ partial "header.html" . }}
+    <section>
+<!--<h1>{{ .Title }}</h1> -->
+      <style>
+      .photos img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+        display: block;
+      }
+      </style>
+
+      <div class="photos">
+      {{ $images := .Resources.ByType "image" }}
+      {{ range $images }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Name }}" loading="lazy">
+      {{ end }}
+      {{ if not $images }}
+        <p>No photos yet! Drop image files directly into the <code>content/photos/</code> directory and they'll appear here automatically.</p>
+      {{ end }}
+      </div>
+
+      {{ .Content }}
+    </section>
+    {{ partial "footer.html" . }}
+  </main>
+</body>
+</html>
