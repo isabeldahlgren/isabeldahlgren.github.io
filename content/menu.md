@@ -4,7 +4,7 @@ title: 'Conversation menu'
 
 ## Conversation menu
 
-This is a non-exhaustive list of topics I'd be keen to discuss -- or better yet, let me know what's been on your mind lately. [Email](mailto:isabel.dahlgren@gmail.com) is good.
+This is a non-exhaustive list of topics I'd be keen to discuss. Better yet, let me know what's been on your mind lately. [Email](mailto:isabel.dahlgren@gmail.com) is good.
 
 ### AI risk
 - I assume AI risks fall into either one of three categories: deliberate misuse (authoritarian regimes using AI for value lock-in, careless deployment of AI systems by private individuals), misalignment (the technical AI safety problem) and social disruption (risks associated with mass unemployment, other uncertainties). My worry distribution looks something like this: deliberate misuse 0.5, misalignment 0.1 and social disruption 0.4. What's yours?
