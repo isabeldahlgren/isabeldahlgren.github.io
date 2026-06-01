@@ -30,16 +30,22 @@ pygmentsUseClasses = true
     weight = 10
 
   [[menu.main]]
+    identifier = "Resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 15
+
+  [[menu.main]]
     identifier = "photos"
     name = "Photos"
     url = "/photos/"
-    weight = 15
+    weight = 20
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 20
+    weight = 25
 
 [permalinks]
   posts = "/:title/"
