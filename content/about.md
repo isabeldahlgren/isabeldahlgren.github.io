@@ -6,9 +6,8 @@ title: 'About'
 
 First-year PhD student in mathematics at KTH. My interests lie within algebraic geometry $\cap$ neural network theory.
 
-Previously, I had the pleasure of doing projects on [harmonic analysis](https://drive.google.com/file/d/1XR_h0FKFxKp8B9Q80-jBvp2iax3D4Pl0/view) and [probabilistic number theory](https://www.research-collection.ethz.ch/server/api/core/bitstreams/b121acb4-d642-4fc7-acd8-603b3f457a94/content). Last fall, I did some ML research, looking into [adversarial robustness against fine-tuning](https://openreview.net/pdf?id=FmpZXkYY8I) and [multi-agent AI systems](https://arxiv.org/abs/2602.12316).
-
-Outside of academics, I like reading. 
+- School: published some AI safety research ([adversarial robustness against fine-tuning](https://openreview.net/pdf?id=FmpZXkYY8I) and [multi-agent AI systems](https://arxiv.org/abs/2602.12316))
+- Outside of school: [reviewing books](https://kultmagasin.se/av/isabel-dahlgren), building [The Public Observatory](https://public-observatory.github.io) and remembering [Diderot](https://projectdiderot.com)
 
 If you have thoughts on the content here, this is [to you](https://www-ccs.cs.umass.edu/cris/texts/to-you.html). You can either email [isabel.dahlgren@gmail.com](mailto:isabel.dahlgren@gmail.com) or [leave an anonymous message](https://www.admonymous.co/isabel-dahlgren). Feedback is always much welcome.
 
