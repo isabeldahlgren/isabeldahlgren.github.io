@@ -4,7 +4,7 @@ title: 'About'
 
 <img src="/files/isabel.JPG" alt="me" width="100">
 
-First-year PhD student in mathematics at KTH. My interests lie within algebraic geometry $\cap$ neural network theory.
+First-year PhD student in mathematics at KTH. My interests lie within algebraic geometry $\cap$ neural network theory. Here's my [latest paper](https://arxiv.org/abs/2610.33738v1).
 
 - School: published at ICLR and NeurIPS ([adversarial robustness against fine-tuning](https://openreview.net/pdf?id=FmpZXkYY8I) and [multi-agent AI systems](https://arxiv.org/abs/2602.12316)), researched automated theorem proving
 - Outside of school: [reviewing books](https://kultmagasin.se/av/isabel-dahlgren), building in stealth and remembering [Diderot](https://projectdiderot.com)
