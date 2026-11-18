@@ -11,7 +11,7 @@ pygmentsUseClasses = true
 
 [params]
   description = "Isabel Dahlgren"
-  copyright = "Copyright © 2025 Isabel Dahlgren"
+  copyright = "Copyright © Isabel Dahlgren"
   dark = "on"
   highlight = true
 
@@ -42,10 +42,11 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 25
+    identifier = "graph"
+    name = "Graph"
+    url = "/xray/"
+    weight = 22
+
 
 [permalinks]
   posts = "/:title/"
