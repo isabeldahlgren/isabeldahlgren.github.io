@@ -3,7 +3,7 @@
   {{ partial "head.html" . }}
 <body class="clock-page">
   <main>
-    {{ partial "header.html" . }}
+    <p class="site-nav clock-back">[ <a href="{{ "/" | relURL }}">take me back</a> ]</p>
     <section>
       {{ $posts := slice }}
       {{ range (where .Site.RegularPages "Section" "posts").ByDate }}
@@ -21,7 +21,7 @@
         <figure class="clock-figure">
           <svg id="clock" viewBox="-20 -20 1040 1040" role="img" aria-label="Posts arranged chronologically on a circle, joined by shared tags"></svg>
         </figure>
-        <aside class="clock-margin"><div class="clock-panel" id="clock-panel" aria-live="polite"></div></aside>
+        <aside class="clock-panel" id="clock-panel" aria-live="polite" hidden></aside>
       </div>
       <p class="clock-tags" id="clock-tags"></p>
     </section>
@@ -29,8 +29,10 @@
   </main>
 
   <style>
-    .clock { position: relative; }
-    .clock-figure { margin: 0; }
+    /* The figure is wider than the text column and bleeds equally to both sides, so it stays centred under the column. */
+    .clock-back { position: fixed; top: 1.25rem; left: 1.5rem; z-index: 3; margin: 0; background: var(--paper); }
+    .clock { position: relative; --w: min(56rem, calc(100vw - 2rem)); }
+    .clock-figure { width: var(--w); margin: 0 0 0 calc((100% - var(--w)) / 2); }
     #clock { width: 100%; height: auto; display: block; overflow: hidden; user-select: none; font-family: var(--sans); }
     #clock .chord { fill: none; stroke: var(--ink); stroke-opacity: .2; stroke-width: 1; transition: stroke-opacity .2s, stroke .2s; }
     #clock .chord.lit { stroke: var(--accent); stroke-opacity: .8; stroke-width: 1.6; }
@@ -49,19 +51,21 @@
     #clock .node.on circle { fill: var(--accent); fill-opacity: 1; }
     #clock .year { font-size: 11px; font-weight: 600; fill: var(--muted); text-anchor: middle; dominant-baseline: middle; }
     #clock .tick { stroke: var(--muted); stroke-opacity: .5; }
-    .clock-margin { margin-top: 1.5rem; }
-    .clock-panel { font-size: .95rem; line-height: 1.45; }
-    .clock-panel h2 { font-size: 1.1rem; margin: 0 0 .2rem; }
+    /* Hover note: a small boxed note placed inside the ring, next to the node in focus. */
+    .clock-panel { position: absolute; z-index: 2; width: 15rem; max-width: calc(100vw - 1rem); background: var(--paper); border: 1px solid var(--ink); padding: .55rem .75rem .6rem; font-size: .8rem; line-height: 1.35; pointer-events: none; opacity: 0; transition: opacity .15s; }
+    .clock-panel.visible { opacity: 1; }
+    .clock-panel.pinned { pointer-events: auto; }
+    .clock-panel h2 { font-size: .9rem; font-weight: 600; margin: 0 0 .1rem; line-height: 1.25; }
     .clock-panel h2 a { color: var(--ink); }
-    
-    .clock-panel .date, .clock-panel h3 { font-family: var(--sans); font-size: .75rem; font-weight: 400; color: var(--muted); }
-    .clock-panel .date { margin: 0 0 1rem; }
-    .clock-panel h3 { margin: 1.4rem 0 .3rem; }
-    .clock-panel ol { margin: 0; padding-left: 1.4rem; line-height: 1.35; }
-    .clock-panel li { margin-bottom: .35rem; overflow-wrap: anywhere; }
-    .clock-panel li::marker { color: var(--muted); font-size: .85em; }
-    .clock-panel .host { display: block; font-family: var(--sans); font-size: .7rem; color: var(--muted); }
-    .clock-panel .none { color: var(--muted); margin: 0; }
+    .clock-panel .date { font-size: .72rem; font-style: italic; color: var(--muted); margin: 0 0 .5rem; }
+    .clock-panel h3 { font-size: .75rem; font-weight: 400; font-style: italic; color: var(--muted); margin: .55rem 0 .2rem; padding-top: .4rem; border-top: 1px solid var(--rule); }
+    .clock-panel ol { list-style: none; margin: 0; padding: 0; }
+    .clock-panel li { display: flex; gap: .6rem; margin: 0 0 .12rem; }
+    .clock-panel li .x { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .clock-panel li .host { flex-shrink: 0; max-width: 45%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .7rem; color: var(--muted); }
+    .clock-panel .none, .clock-panel .more { color: var(--muted); margin: 0; font-style: italic; }
+    .clock-panel .hint { font-size: .68rem; color: var(--muted); margin: .45rem 0 0; font-style: italic; }
+    .clock-panel.pinned .hint { display: none; }
     .clock-tags { font-size: .95rem; line-height: 1.9; color: var(--muted); margin-top: 1.5rem; }
     .clock-tags .label { margin-right: .4rem; }
     .clock-tags .tag { white-space: nowrap; }
@@ -69,10 +73,6 @@
     .clock-tags button:hover, .clock-tags button.on { text-decoration: underline; }
     .clock-tags button.on { color: var(--ink); }
     .clock-tags .n { color: var(--muted); font-family: var(--sans); font-size: .7rem; margin: 0 .8rem 0 .15rem; }
-    @media (min-width: 1200px) {
-      .clock-margin { position: absolute; top: 0; bottom: 0; left: calc(100% + 2.5rem); width: 16rem; margin: 0; }
-      .clock-panel { position: sticky; top: 1.5rem; font-size: .85rem; }
-    }
   </style>
 
   <script>
@@ -170,6 +170,7 @@
         ? { x: lx, y: C, transform: `rotate(180 ${lx} ${C})`, "text-anchor": "end" }
         : { x: lx, y: C }, g);
       text.textContent = title;
+      g.dataset.tip = lx - C; // radius where the label starts; the label length is added on hover
       el("rect", { class: "hit", x: C + R - 8, y: C - 5, width: 210, height: 10 }, g);
       g.addEventListener("mouseenter", () => { if (pinned === null) showPost(i); });
       g.addEventListener("mouseleave", () => { if (pinned === null) reset(); });
@@ -192,7 +193,7 @@
     function reset() {
       clear();
       if (pinnedTag !== null) return showTag(pinnedTag);
-      panel.innerHTML = "";
+      hide();
     }
 
     function showPost(i) {
@@ -211,16 +212,49 @@
       tagBar.querySelectorAll("button").forEach(b => b.classList.toggle("on", mine.has(b.dataset.tag)));
 
       const internal = p.l.filter(l => l.post !== null), external = p.l.filter(l => l.post === null);
-      const li = l => `<li><a href="${esc(l.h)}">${esc(l.x || l.h)}</a>${l.host ? `<span class="host">${esc(l.host)}</span>` : ""}</li>`;
-      const relList = [...related.entries()].sort((a, b) => b[1] - a[1] || b[0] - a[0]).slice(0, 8);
+      const MAX = 10;
+      const more = n => n > MAX ? `<p class="more">and ${n - MAX} more</p>` : "";
+      const li = l => `<li><a class="x" href="${esc(l.h)}">${esc(l.x || l.h)}</a>${l.host ? `<span class="host">${esc(l.host)}</span>` : ""}</li>`;
       panel.innerHTML =
         `<h2><a href="${esc(p.u)}">${esc(p.t)}</a></h2>` +
-        `<p class="date">${fmtDate(p.d)} &middot; ${p.g.map(esc).join(" · ")}</p>` +
-        `<h3>Outgoing links</h3>` +
-        (external.length ? `<ol>${external.map(li).join("")}</ol>` : `<p class="none">None.</p>`) +
-        (internal.length ? `<h3>Links to other posts</h3><ol>${internal.map(l => `<li><a href="${esc(POSTS[l.post].u)}">${esc(POSTS[l.post].t)}</a></li>`).join("")}</ol>` : "") +
-        `<h3>Sharing tags (${related.size})</h3>` +
-        (relList.length ? `<ol>${relList.map(([j]) => `<li><a href="${esc(POSTS[j].u)}">${esc(POSTS[j].t)}</a></li>`).join("")}</ol>` : `<p class="none">None.</p>`);
+        `<p class="date">${fmtDate(p.d)}${p.g.length ? " · " + p.g.map(esc).join(", ") : ""}</p>` +
+        `<h3>Outbound links</h3>` +
+        (external.length ? `<ol>${external.slice(0, MAX).map(li).join("")}</ol>${more(external.length)}` : `<p class="none">None.</p>`) +
+        (internal.length ? `<h3>Links to other posts</h3><ol>${internal.slice(0, MAX).map(l => `<li><a class="x" href="${esc(POSTS[l.post].u)}">${esc(POSTS[l.post].t)}</a></li>`).join("")}</ol>${more(internal.length)}` : "") +
+        `<p class="hint">Click the node to keep this open.</p>`;
+      const label = nodes[i].querySelector("text");
+      place(angle(i), +nodes[i].dataset.tip + label.getComputedTextLength() + 10);
+    }
+
+    // Place the note.  With a radius r, it sits outside the circle, just beyond the end of the
+    // node's label, extending away from the centre; with no angle, it sits in the centre of the ring.
+    function place(a, r) {
+      panel.hidden = false;
+      panel.classList.remove("visible");
+      const box = svg.getBoundingClientRect(), host = panel.offsetParent.getBoundingClientRect();
+      const k = box.width / 1040; // px per SVG unit
+      const pw = panel.offsetWidth, ph = panel.offsetHeight;
+      const cx = box.left - host.left + (C + 20) * k, cy = box.top - host.top + (C + 20) * k;
+      let x = cx - pw / 2, y = cy - ph / 2;
+      if (a !== null) {
+        const ca = Math.cos(a), sa = Math.sin(a);
+        const tx = cx + ca * r * k, ty = cy + sa * r * k;
+        x = tx - pw * (1 - ca) / 2;
+        y = ty - ph * (1 - sa) / 2;
+      }
+      // Keep the note inside the window horizontally and below the top of the page.
+      const vw = document.documentElement.clientWidth, m = 8;
+      x = Math.max(m - host.left, Math.min(x, vw - host.left - pw - m));
+      y = Math.max(m - host.top - window.scrollY, y);
+      panel.style.left = x + "px";
+      panel.style.top = y + "px";
+      panel.classList.add("visible");
+    }
+
+    function hide() {
+      panel.classList.remove("visible", "pinned");
+      panel.hidden = true;
+      hide();
     }
 
     function showTag(t) {
@@ -230,15 +264,19 @@
       ids.forEach(j => nodes[j].classList.add("near"));
       chords.forEach(c => c.el.classList.add(c.tag === t ? "lit" : "dim"));
       tagBar.querySelector(`button[data-tag="${CSS.escape(t)}"]`).classList.add("on");
+      const list = [...ids].reverse();
       panel.innerHTML = `<h2><a href="/tags/${encodeURIComponent(t.toLowerCase().replace(/\s+/g, "-"))}/">${esc(t)}</a></h2>` +
         `<p class="date">${ids.size} post${ids.size === 1 ? "" : "s"}</p>` +
-        `<ol>${[...ids].reverse().map(j => `<li><a href="${esc(POSTS[j].u)}">${esc(POSTS[j].t)}</a></li>`).join("")}</ol>`;
+        `<ol>${list.slice(0, 12).map(j => `<li><a class="x" href="${esc(POSTS[j].u)}">${esc(POSTS[j].t)}</a></li>`).join("")}</ol>` +
+        (list.length > 12 ? `<p class="more">and ${list.length - 12} more</p>` : "");
+      place(null, 0);
+      if (pinnedTag !== null) panel.classList.add("pinned");
     }
 
     function pin(i) {
       pinnedTag = null;
       pinned = pinned === i ? null : i;
-      pinned === null ? reset() : showPost(i);
+      pinned === null ? reset() : (showPost(i), panel.classList.add("pinned"));
     }
 
     tagBar.innerHTML = `<span class="label">tags:</span>` + tags.map(t => `<span class="tag"><button type="button" data-tag="${esc(t)}">${esc(t)}</button><span class="n">${tagPosts.get(t).length}</span></span>`).join("");
@@ -249,7 +287,13 @@
       b.addEventListener("click", e => { e.stopPropagation(); pinned = null; pinnedTag = pinnedTag === t ? null : t; pinnedTag === null ? reset() : showTag(t); });
     });
 
+    panel.addEventListener("click", e => e.stopPropagation());
+    window.addEventListener("resize", () => { if (pinned !== null) { showPost(pinned); panel.classList.add("pinned"); } else reset(); });
     svg.addEventListener("click", () => { pinned = null; pinnedTag = null; reset(); });
+    // Return to the previous page when it was on this site; otherwise the link goes home.
+    document.querySelector(".clock-back a").addEventListener("click", e => {
+      try { if (document.referrer && new URL(document.referrer).origin === location.origin && history.length > 1) { e.preventDefault(); history.back(); } } catch (err) {}
+    });
     document.addEventListener("keydown", e => { if (e.key === "Escape") { pinned = null; pinnedTag = null; reset(); } });
     reset();
   })();
