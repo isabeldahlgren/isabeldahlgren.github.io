@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head.html" . }}
-<body class="xray-page">
+<body class="clock-page">
   <main>
     {{ partial "header.html" . }}
     <section>
@@ -17,61 +17,61 @@
         {{ $posts = $posts | append (dict "t" .Title "u" .RelPermalink "d" (.Date.Format "2006-01-02") "g" (.Params.tags | default slice) "l" $links) }}
       {{ end }}
 
-      <div class="xray">
-        <figure class="xray-figure">
-          <svg id="xray" viewBox="-20 -20 1040 1040" role="img" aria-label="Posts arranged chronologically on a circle, joined by shared tags"></svg>
+      <div class="clock">
+        <figure class="clock-figure">
+          <svg id="clock" viewBox="-20 -20 1040 1040" role="img" aria-label="Posts arranged chronologically on a circle, joined by shared tags"></svg>
         </figure>
-        <aside class="xray-panel" id="xray-panel" aria-live="polite"></aside>
+        <aside class="clock-margin"><div class="clock-panel" id="clock-panel" aria-live="polite"></div></aside>
       </div>
-      <p class="xray-tags" id="xray-tags"></p>
+      <p class="clock-tags" id="clock-tags"></p>
     </section>
     {{ partial "footer.html" . }}
   </main>
 
   <style>
-    body.xray-page main { max-width: 74rem; }
-    .xray { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: 2.5rem; align-items: start; }
-    .xray-figure { margin: 0; }
-    #xray { width: 100%; height: auto; display: block; overflow: hidden; user-select: none; font-family: var(--sans); }
-    #xray .chord { fill: none; stroke: var(--ink); stroke-opacity: .2; stroke-width: 1; transition: stroke-opacity .2s, stroke .2s; }
-    #xray .chord.lit { stroke: var(--accent); stroke-opacity: .8; stroke-width: 1.6; }
-    #xray .chord.dim { stroke-opacity: .04; }
-    #xray .star { fill: none; stroke: var(--accent); stroke-opacity: .5; stroke-width: 1.2; pointer-events: none; }
-    #xray .node { cursor: pointer; }
-    #xray .node circle { fill: var(--ink); fill-opacity: .6; }
-    #xray .node text { font-size: 9.5px; fill: var(--ink); fill-opacity: .6; transition: fill-opacity .15s; dominant-baseline: middle; }
-    #xray .node .frond { stroke: var(--accent); stroke-opacity: .45; stroke-width: 1; }
-    #xray .node .hit { fill: transparent; }
-    #xray.focus .node text { fill-opacity: .12; }
-    #xray.focus .node circle { fill-opacity: .15; }
-    #xray .node.near text { fill-opacity: .85; }
-    #xray .node.near circle { fill-opacity: .85; }
-    #xray .node.on text { fill-opacity: 1; font-size: 11.5px; font-weight: 600; }
-    #xray .node.on circle { fill: var(--accent); fill-opacity: 1; }
-    #xray .year { font-size: 11px; font-weight: 600; fill: var(--muted); text-anchor: middle; dominant-baseline: middle; }
-    #xray .tick { stroke: var(--muted); stroke-opacity: .5; }
-    .xray-panel { position: sticky; top: 1.5rem; font-size: .95rem; line-height: 1.45; }
-    .xray-panel h2 { font-size: 1.1rem; margin: 0 0 .2rem; }
-    .xray-panel h2 a { color: var(--ink); }
+    .clock { position: relative; }
+    .clock-figure { margin: 0; }
+    #clock { width: 100%; height: auto; display: block; overflow: hidden; user-select: none; font-family: var(--sans); }
+    #clock .chord { fill: none; stroke: var(--ink); stroke-opacity: .2; stroke-width: 1; transition: stroke-opacity .2s, stroke .2s; }
+    #clock .chord.lit { stroke: var(--accent); stroke-opacity: .8; stroke-width: 1.6; }
+    #clock .chord.dim { stroke-opacity: .04; }
+    #clock .star { fill: none; stroke: var(--accent); stroke-opacity: .5; stroke-width: 1.2; pointer-events: none; }
+    #clock .node { cursor: pointer; }
+    #clock .node circle { fill: var(--ink); fill-opacity: .6; }
+    #clock .node text { font-size: 9.5px; fill: var(--ink); fill-opacity: .6; transition: fill-opacity .15s; dominant-baseline: middle; }
+    #clock .node .frond { stroke: var(--accent); stroke-opacity: .45; stroke-width: 1; }
+    #clock .node .hit { fill: transparent; }
+    #clock.focus .node text { fill-opacity: .12; }
+    #clock.focus .node circle { fill-opacity: .15; }
+    #clock .node.near text { fill-opacity: .85; }
+    #clock .node.near circle { fill-opacity: .85; }
+    #clock .node.on text { fill-opacity: 1; font-size: 11.5px; font-weight: 600; }
+    #clock .node.on circle { fill: var(--accent); fill-opacity: 1; }
+    #clock .year { font-size: 11px; font-weight: 600; fill: var(--muted); text-anchor: middle; dominant-baseline: middle; }
+    #clock .tick { stroke: var(--muted); stroke-opacity: .5; }
+    .clock-margin { margin-top: 1.5rem; }
+    .clock-panel { font-size: .95rem; line-height: 1.45; }
+    .clock-panel h2 { font-size: 1.1rem; margin: 0 0 .2rem; }
+    .clock-panel h2 a { color: var(--ink); }
     
-    .xray-panel .date, .xray-panel h3 { font-family: var(--sans); font-size: .75rem; font-weight: 400; color: var(--muted); }
-    .xray-panel .date { margin: 0 0 1rem; }
-    .xray-panel h3 { margin: 1.4rem 0 .3rem; }
-    .xray-panel ol { margin: 0; padding-left: 1.4rem; line-height: 1.35; }
-    .xray-panel li { margin-bottom: .35rem; overflow-wrap: anywhere; }
-    .xray-panel li::marker { color: var(--muted); font-size: .85em; }
-    .xray-panel .host { display: block; font-family: var(--sans); font-size: .7rem; color: var(--muted); }
-    .xray-panel .none { color: var(--muted); margin: 0; }
-    .xray-tags { font-size: .95rem; line-height: 1.9; color: var(--muted); margin-top: 1.5rem; }
-    .xray-tags .label { margin-right: .4rem; }
-    .xray-tags .tag { white-space: nowrap; }
-    .xray-tags button { font: inherit; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
-    .xray-tags button:hover, .xray-tags button.on { text-decoration: underline; }
-    .xray-tags button.on { color: var(--ink); }
-    .xray-tags .n { color: var(--muted); font-family: var(--sans); font-size: .7rem; margin: 0 .8rem 0 .15rem; }
-    @media (max-width: 860px) {
-      .xray { grid-template-columns: 1fr; }
-      .xray-panel { position: static; }
+    .clock-panel .date, .clock-panel h3 { font-family: var(--sans); font-size: .75rem; font-weight: 400; color: var(--muted); }
+    .clock-panel .date { margin: 0 0 1rem; }
+    .clock-panel h3 { margin: 1.4rem 0 .3rem; }
+    .clock-panel ol { margin: 0; padding-left: 1.4rem; line-height: 1.35; }
+    .clock-panel li { margin-bottom: .35rem; overflow-wrap: anywhere; }
+    .clock-panel li::marker { color: var(--muted); font-size: .85em; }
+    .clock-panel .host { display: block; font-family: var(--sans); font-size: .7rem; color: var(--muted); }
+    .clock-panel .none { color: var(--muted); margin: 0; }
+    .clock-tags { font-size: .95rem; line-height: 1.9; color: var(--muted); margin-top: 1.5rem; }
+    .clock-tags .label { margin-right: .4rem; }
+    .clock-tags .tag { white-space: nowrap; }
+    .clock-tags button { font: inherit; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
+    .clock-tags button:hover, .clock-tags button.on { text-decoration: underline; }
+    .clock-tags button.on { color: var(--ink); }
+    .clock-tags .n { color: var(--muted); font-family: var(--sans); font-size: .7rem; margin: 0 .8rem 0 .15rem; }
+    @media (min-width: 1200px) {
+      .clock-margin { position: absolute; top: 0; bottom: 0; left: calc(100% + 2.5rem); width: 16rem; margin: 0; }
+      .clock-panel { position: sticky; top: 1.5rem; font-size: .85rem; }
     }
   </style>
 
@@ -80,9 +80,9 @@
     const POSTS = {{ $posts | jsonify | safeJS }};
     const SITE = {{ .Site.BaseURL }};
     const NS = "http://www.w3.org/2000/svg";
-    const svg = document.getElementById("xray");
-    const panel = document.getElementById("xray-panel");
-    const tagBar = document.getElementById("xray-tags");
+    const svg = document.getElementById("clock");
+    const panel = document.getElementById("clock-panel");
+    const tagBar = document.getElementById("clock-tags");
 
     const C = 500, R = 280, LABEL_GAP = 12, BEND = 0.12, MAX_TITLE = 34;
     const N = POSTS.length;

@@ -42,9 +42,9 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.main]]
-    identifier = "graph"
-    name = "Graph"
-    url = "/xray/"
+    identifier = "clock"
+    name = "Clock"
+    url = "/clock/"
     weight = 22
 
 

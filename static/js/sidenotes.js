@@ -6,7 +6,7 @@
 // pushed down as needed so notes never overlap. On narrow screens tapping a
 // reference opens the note in a box below the paragraph.
 (function () {
-	const WIDE = window.matchMedia("(min-width: 960px)");
+	const WIDE = window.matchMedia("(min-width: 1200px)");
 	const GAP = 12; // minimum vertical space between consecutive margin notes, px
 
 	function init() {

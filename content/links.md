@@ -8,7 +8,6 @@ Good reads lately:
 
 Sensemaking:
 - [Paradigm3](https://p3humansonai.substack.com)
-- [Asterisk](https://asteriskmag.com)
 - [Under strecket](https://www.svd.se/kultur/under-strecket) (Swedish)
 
 Mathematics:
