@@ -472,3 +472,13 @@ a.footnote-ref {
   .room-touch .room-heading { left: auto; right: 16px; transform: none; text-align: right; }
   .room-touch .room-heading p { font-size: 14px; }
 }
+
+// Mobile artwork pages contain a single decoded image and no 3D layers.
+.artwork-page main { max-width: 1100px; padding: 24px 20px; }
+.artwork-detail { margin: 2rem auto; text-align: center; }
+.artwork-detail h1 { font-size: 1.15rem; font-weight: normal; margin: 0 0 1.25rem; }
+#artwork-image { display: block; width: 100%; height: auto; max-height: 70svh; object-fit: contain; margin: 0 auto; }
+#artwork-image[hidden] { display: none; }
+#artwork-reading { max-width: 36rem; margin: 1.5rem auto 0; text-align: left; }
+.artwork-navigation { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: env(safe-area-inset-bottom); }
+.artwork-navigation [aria-disabled="true"] { color: #888; }

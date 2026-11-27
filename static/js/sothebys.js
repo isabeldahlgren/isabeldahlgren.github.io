@@ -12,7 +12,7 @@
   const controls = document.querySelector('.room-controls');
   const hint = document.querySelector('.room-view-hint');
   const camera = { x: 0, z: 200, yaw: 0, pitch: 0 };
-  let perspective = 900, previous = 0;
+  let perspective = 900, previous = 0, selectedSeries = 0;
   function surface(kind, width, height, x, y, z, rotation) {
     const el = document.createElement('div');
     el.className = `room-surface room-${kind}`;
@@ -86,6 +86,7 @@
 
   function reset() { Object.assign(camera, { x: 0, z: touchMode ? (backZ + 1200) / 2 : 200, yaw: 0, pitch: 0 }); keys.clear(); render(); }
   function select(i) {
+    selectedSeries = i;
     sections.forEach((section, j) => { section.hidden = j !== i; });
     buttons.forEach((button, j) => button.setAttribute('aria-pressed', String(i === j)));
     arrange(sections[i]); reset();
@@ -145,8 +146,8 @@
   function finishGesture(event) {
     if (!gesture || event.pointerId !== gesture.id) return;
     if (gesture.moved) suppressClickUntil = performance.now() + 500;
-    if (viewport.hasPointerCapture(event.pointerId)) viewport.releasePointerCapture(event.pointerId);
     gesture = null;
+    if (viewport.hasPointerCapture(event.pointerId)) viewport.releasePointerCapture(event.pointerId);
   }
   viewport.addEventListener('pointerup', finishGesture);
   viewport.addEventListener('pointercancel', finishGesture);
@@ -180,7 +181,23 @@
     camera.x = Math.max(-halfWidth + 240, Math.min(halfWidth - 240, camera.x));
     camera.z = Math.max(backZ + 260, Math.min(960, camera.z));
   }
+  const stateKey = 'sothebys-view:' + location.pathname;
+  window.addEventListener('gallery:save-view', () => {
+    try { sessionStorage.setItem(stateKey, JSON.stringify({ series: selectedSeries, camera })); } catch (_) {}
+  });
   document.body.classList.add('room-ready'); updateTouchMode(); resize(); select(0);
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(stateKey));
+    if (saved && Number.isInteger(saved.series) && sections[saved.series]) {
+      select(saved.series);
+      if (Number.isFinite(saved.camera.yaw) && Number.isFinite(saved.camera.pitch)) {
+        camera.yaw = saved.camera.yaw;
+        camera.pitch = Math.max(-.7, Math.min(.7, saved.camera.pitch));
+        render();
+      }
+    }
+    sessionStorage.removeItem(stateKey);
+  } catch (_) {}
   function tick(time) {
     const dt = Math.min((time - previous) / 1000, .04); previous = time;
     if (keys.size) { step(dt); render(); }

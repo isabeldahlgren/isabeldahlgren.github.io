@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body class="artwork-page">
+  <main>
+    <nav class="site-nav">[ <a href="{{ "/sothebys/" | relURL }}">back to gallery</a> ]</nav>
+    <article class="artwork-detail" aria-live="polite">
+      <h1 id="artwork-title"></h1>
+      <img id="artwork-image" alt="" decoding="async" hidden>
+      <div id="artwork-reading"></div>
+    </article>
+    <nav class="artwork-navigation" aria-label="Browse works">
+      <a id="artwork-prev">[ previous ]</a>
+      <span id="artwork-position"></span>
+      <a id="artwork-next">[ next ]</a>
+    </nav>
+    {{ range (where .Site.RegularPages "Section" "sothebys").ByWeight }}
+      {{ $page := . }}
+      {{ $prints := .Params.prints }}
+      {{ if not $prints }}
+        {{ $prints = slice }}
+        {{ range .Resources.ByType "image" }}
+          {{ $prints = $prints | append (dict "file" .Name "title" (replaceRE `\.[^.]+$` "" .Name | humanize)) }}
+        {{ end }}
+      {{ end }}
+      {{ range $index, $work := $prints }}
+        {{ $id := printf "work-%s-%d" $page.File.UniqueID $index }}
+        {{ $image := "" }}
+        {{ with .file }}{{ with $page.Resources.GetMatch . }}{{ $image = (.Fit "1600x1600 jpg q90").RelPermalink }}{{ end }}{{ end }}
+        <template class="artwork-data" id="{{ $id }}" data-title="{{ .title }}" data-series="{{ $page.Title }}" data-image="{{ $image }}">
+          {{ with .artist }}<div class="print-artist">
+            <h2>{{ .name }}</h2>
+            {{ with .years }}<p>{{ . }}</p>{{ end }}
+            {{ with .bio }}{{ . | markdownify }}{{ end }}
+          </div>{{ end }}
+          {{ with .text }}<div class="print-note">{{ . | markdownify }}</div>{{ end }}
+          {{ with .poem }}<div class="print-poem">{{ . }}</div>{{ end }}
+        </template>
+      {{ end }}
+    {{ end }}
+  </main>
+  <script>
+  (() => {
+    const works = [...document.querySelectorAll('.artwork-data')];
+    const id = new URLSearchParams(location.search).get('work');
+    const work = works.find(work => work.id === id) || works[0];
+    if (!work) return;
+    const series = works.filter(item => item.dataset.series === work.dataset.series);
+    const index = series.indexOf(work);
+    document.title = work.dataset.title + ' | Sotheby’s';
+    document.getElementById('artwork-title').textContent = work.dataset.title;
+    const image = document.getElementById('artwork-image');
+    if (work.dataset.image) { image.alt = work.dataset.title; image.src = work.dataset.image; image.hidden = false; }
+    document.getElementById('artwork-reading').append(work.content.cloneNode(true));
+    document.getElementById('artwork-position').textContent = `${index + 1} / ${series.length}`;
+    [['artwork-prev', index - 1], ['artwork-next', index + 1]].forEach(([id, position]) => {
+      const link = document.getElementById(id);
+      if (series[position]) link.href = '?work=' + encodeURIComponent(series[position].id);
+      else { link.setAttribute('aria-disabled', 'true'); link.removeAttribute('href'); }
+    });
+  })();
+  </script>
+</body>
+</html>

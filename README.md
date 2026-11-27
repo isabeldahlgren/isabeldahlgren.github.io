@@ -7,7 +7,10 @@ walk and the arrow keys to look around. The on-screen keys also work with
 mouse. On phones and tablets, the viewpoint stays in the centre: swipe to look
 around and tap a work to enlarge it. Walking keys are hidden and disabled on
 touch devices. Click an image or a text work’s “read” link to open its reading
-view. If more series are added, their names switch rooms.
+view. On touch devices, works open at `/sothebys/view/` with a single image
+limited to 1600 pixels, keeping the enlarged image separate from the 3D room.
+The gallery remembers your viewing direction when you return. Desktop uses
+the in-room viewer. If more series are added, their names switch rooms.
 
 ## Adding a series
 

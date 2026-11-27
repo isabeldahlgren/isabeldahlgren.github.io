@@ -36,6 +36,13 @@
     trigger.addEventListener('click', event => {
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
+      const work = trigger.closest('.print');
+      // On touch devices, unload the 3D scene before decoding the full image.
+      if (document.body.classList.contains('room-touch') || matchMedia('(pointer: coarse)').matches) {
+        window.dispatchEvent(new Event('gallery:save-view'));
+        location.assign(work.dataset.viewUrl);
+        return;
+      }
       prints = [...trigger.closest('.print-series').querySelectorAll('.print')];
       show(prints.indexOf(trigger.closest('.print')));
       dialog.showModal();
