@@ -52,8 +52,8 @@ An optional series description for the non-interactive page.
 
 - `file`: image filename in the same folder. Omit for a text-only work.
 - `title`: the work’s caption.
-- `wall`: optional `rear` to place a work on the wall behind the entrance view.
-  Omit for automatic placement on the other three walls.
+- `wall`: optional `front`, `left`, `right`, or `rear` to choose a wall.
+  `rear` is behind the entrance view. Omit for automatic placement.
 - `artist`: optional name, dates (`years`), and biography (`bio`, with Markdown).
   Omit the whole artist block when no artist label is wanted. To add a biography
   later, copy the `artist` block from the example into any work.
@@ -71,6 +71,7 @@ filenames. Hugo creates web-sized images without changing the source files.
 Each series has a page at `/sothebys/new-series/`.
 
 Edit `content/sothebys/series1/index.md` for the current room. Series 1 contains
-eight images. Mälardonna hangs on the rear wall. No biographies or poems are
+eight images. The three wave works share the right wall; Mälardonna hangs on
+the rear wall, Dignified on the left, and the other three works on the front. No biographies or poems are
 currently displayed; their optional fields remain supported. Removed works
 are preserved in `assets/sothebys-unused/` and are not published in the gallery.

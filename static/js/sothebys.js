@@ -38,15 +38,16 @@
   function arrange(section) {
     const prints = [...section.querySelectorAll('.print')];
     const gap = 160;
-    const automatic = prints.filter(print => print.dataset.wall !== 'rear');
-    const rear = prints.filter(print => print.dataset.wall === 'rear');
+    const walls = ['front', 'left', 'right', 'rear'];
+    const automatic = prints.filter(print => !walls.includes(print.dataset.wall));
+    const onWall = wall => prints.filter(print => print.dataset.wall === wall);
     const back = Math.ceil(automatic.length / 3);
     const left = Math.ceil((automatic.length - back) / 2);
     const groups = [
-      [automatic.slice(0, back), 0],
-      [automatic.slice(back, back + left), 90],
-      [automatic.slice(back + left), -90],
-      [rear, 180]
+      [[...onWall('front'), ...automatic.slice(0, back)], 0],
+      [[...onWall('left'), ...automatic.slice(back, back + left)], 90],
+      [[...onWall('right'), ...automatic.slice(back + left)], -90],
+      [onWall('rear'), 180]
     ];
     const totals = groups.map(([works]) => works.reduce((sum, print) => sum + print.offsetWidth, 0) + Math.max(0, works.length - 1) * gap);
     halfWidth = Math.max(1100, totals[0] / 2 + 250, totals[3] / 2 + 250);
