@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Series 1",
+  "title": "Emily Plyter",
   "weight": 1,
   "prints": [
     {

@@ -116,7 +116,7 @@
   function updateTouchMode() {
     document.body.classList.toggle('room-touch', touchMode);
     controls.hidden = touchMode;
-    hint.textContent = touchMode ? 'swipe to look · tap a work to view' : 'click a work to view';
+    hint.textContent = 'click a work to view';
   }
   touchQuery.addEventListener('change', event => {
     touchMode = event.matches; gesture = null; keys.clear();

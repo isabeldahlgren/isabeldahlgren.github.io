@@ -1,11 +1,11 @@
 <dialog class="print-viewer" aria-label="Work viewer">
-  <form method="dialog"><button class="viewer-close" aria-label="Close work viewer">[ close ]</button></form>
+  <form method="dialog"><button class="viewer-close" aria-label="Close work viewer">[ <span>close</span> ]</button></form>
   <div class="viewer-content">
     <img class="viewer-image" alt="">
     <div class="viewer-reading" tabindex="0" aria-label="Work text"></div>
   </div>
   <div class="viewer-caption" aria-live="polite"><p class="viewer-title"></p><p class="viewer-position"></p></div>
-  <nav class="viewer-controls" aria-label="Browse series"><button type="button" class="viewer-prev">[ previous ]</button><button type="button" class="viewer-next">[ next ]</button></nav>
+  <nav class="viewer-controls" aria-label="Browse works"><button type="button" class="viewer-prev">[ <span>previous</span> ]</button><button type="button" class="viewer-next">[ <span>next</span> ]</button></nav>
 </dialog>
 <script>
 (() => {
@@ -28,7 +28,7 @@
     reading.scrollTop = 0;
     dialog.classList.toggle('viewer-text-only', !print.dataset.image);
     dialog.querySelector('.viewer-title').textContent = print.dataset.title;
-    dialog.querySelector('.viewer-position').textContent = `${print.dataset.series} · ${index + 1} / ${prints.length}`;
+    dialog.querySelector('.viewer-position').textContent = `${index + 1} / ${prints.length}`;
     previous.disabled = index === 0;
     next.disabled = index === prints.length - 1;
   }

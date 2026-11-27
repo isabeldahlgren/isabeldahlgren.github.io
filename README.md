@@ -75,7 +75,7 @@ visitors read long passages at normal size without cutting them off.
 filenames. Hugo creates web-sized images without changing the source files.
 Each series has a page at `/irreality/new-series/`.
 
-Edit `content/irreality/series1/index.md` for the current room. Series 1 contains
+Edit `content/irreality/works/index.md` for the current room. The gallery contains
 seven football-themed images, with an artist biography, selected wall notes,
 and poems. The Lineup and biography face the entrance; works occupy all four
 walls. Unused source images remain outside the displayed selection.

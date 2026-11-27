@@ -349,7 +349,7 @@ a.footnote-ref {
 .print-open { display: flex; align-items: center; justify-content: center; height: 310px; padding: 18px; }
 .print-open img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; box-shadow: 0 2px 8px #00000012; transition: transform .2s ease; }
 .print-open:hover img { transform: scale(1.025); }
-.print-open:focus-visible, .print-viewer button:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
+.print-open:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
 .print figcaption { text-align: center; color: #666; font-size: .875rem; margin-top: 1.2rem; }
 .viewing-print { overflow: hidden; }
 .print-viewer { width: 100vw; height: 100dvh; max-width: none; max-height: none; border: 0; padding: 4.5rem 3rem 1.5rem; background: var(--paper); color: var(--ink); }
@@ -358,6 +358,11 @@ a.footnote-ref {
 .print-viewer button { font: inherit; color: var(--link); background: none; border: 0; padding: .5rem; cursor: pointer; }
 .print-viewer button:disabled { color: #888; cursor: default; }
 .viewer-close { position: absolute; right: 1.5rem; top: 1rem; }
+.print-viewer button { color: var(--ink); }
+.print-viewer button span { color: var(--link); }
+.print-viewer button:disabled span { color: #888; }
+.print-viewer button:focus { outline: none; }
+.print-viewer button:focus-visible span { text-decoration: underline; text-underline-offset: 3px; }
 .viewer-image { flex: 1; min-height: 0; width: 100%; object-fit: contain; }
 .viewer-caption { text-align: center; margin: 1rem 0 .25rem; }
 .viewer-title { margin: 0; }
