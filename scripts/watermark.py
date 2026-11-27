@@ -2,7 +2,7 @@
 # requires-python = ">=3.10"
 # dependencies = ["pillow"]
 # ///
-"""Resize, watermark and copy photos into content/photos/.
+"""Resize, watermark and copy photos into content/reality/.
 
 Usage: uv run scripts/watermark.py ~/Downloads/DSC_*.jpg [--move]
 """
@@ -19,7 +19,7 @@ FONT_SCALE = 0.02   # font size relative to image width
 BOTTOM_MARGIN = 0.03  # gap between text bottom and image bottom, relative to height
 OPACITY = 170       # 0-255
 
-OUT_DIR = Path(__file__).resolve().parent.parent / "content" / "photos"
+OUT_DIR = Path(__file__).resolve().parent.parent / "content" / "reality"
 
 
 def watermark(src: Path, dst: Path) -> None:

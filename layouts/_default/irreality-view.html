@@ -3,7 +3,7 @@
 {{ partial "head.html" . }}
 <body class="artwork-page">
   <main>
-    <nav class="site-nav">[ <a href="{{ "/sothebys/" | relURL }}">back to gallery</a> ]</nav>
+    <nav class="site-nav">[ <a href="{{ "/irreality/" | relURL }}">back to gallery</a> ]</nav>
     <article class="artwork-detail" aria-live="polite">
       <h1 id="artwork-title"></h1>
       <img id="artwork-image" alt="" decoding="async" hidden>
@@ -14,7 +14,7 @@
       <span id="artwork-position"></span>
       <a id="artwork-next">[ next ]</a>
     </nav>
-    {{ range (where .Site.RegularPages "Section" "sothebys").ByWeight }}
+    {{ range (where .Site.RegularPages "Section" "irreality").ByWeight }}
       {{ $page := . }}
       {{ $prints := .Params.prints }}
       {{ if not $prints }}
@@ -47,7 +47,7 @@
     if (!work) return;
     const series = works.filter(item => item.dataset.series === work.dataset.series);
     const index = series.indexOf(work);
-    document.title = work.dataset.title + ' | Sotheby’s';
+    document.title = work.dataset.title + ' | irreality';
     document.getElementById('artwork-title').textContent = work.dataset.title;
     const image = document.getElementById('artwork-image');
     if (work.dataset.image) { image.alt = work.dataset.title; image.src = work.dataset.image; image.hidden = false; }

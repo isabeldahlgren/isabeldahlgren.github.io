@@ -36,23 +36,23 @@ pygmentsUseClasses = true
     weight = 15
 
   [[menu.main]]
-    identifier = "photos"
-    name = "Photos"
-    url = "/photos/"
+    identifier = "reality"
+    name = "reality"
+    url = "/reality/"
     weight = 20
 
   [[menu.main]]
-    identifier = "clock"
-    name = "Clock"
-    url = "/clock/"
-    weight = 22
+    identifier = "time"
+    name = "time"
+    url = "/time/"
+    weight = 24
 
 
   [[menu.main]]
-    identifier = "sothebys"
-    name = "Sotheby’s"
-    url = "/sothebys/"
-    weight = 24
+    identifier = "irreality"
+    name = "irreality"
+    url = "/irreality/"
+    weight = 22
 
 [permalinks]
   posts = "/:title/"

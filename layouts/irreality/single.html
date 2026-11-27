@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body class="irreality-page">
+  <main>
+    <nav class="site-nav gallery-back">[ <a href="{{ "/irreality/" | relURL }}">all series</a> ]</nav>
+    {{ partial "print-series.html" . }}
+    {{ partial "irreality-room.html" . }}
+  </main>
+  {{ partial "print-viewer.html" . }}
+</body>
+</html>

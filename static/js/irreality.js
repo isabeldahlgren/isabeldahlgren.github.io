@@ -181,7 +181,7 @@
     camera.x = Math.max(-halfWidth + 240, Math.min(halfWidth - 240, camera.x));
     camera.z = Math.max(backZ + 260, Math.min(960, camera.z));
   }
-  const stateKey = 'sothebys-view:' + location.pathname;
+  const stateKey = 'irreality-view:' + location.pathname;
   window.addEventListener('gallery:save-view', () => {
     try { sessionStorage.setItem(stateKey, JSON.stringify({ series: selectedSeries, camera })); } catch (_) {}
   });

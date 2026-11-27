@@ -7,7 +7,7 @@
     <section>
 <!--<h1>{{ .Title }}</h1> -->
       <style>
-      .photos img {
+      .reality img {
         max-width: 100%;
         height: auto;
         margin-bottom: 2rem;
@@ -15,13 +15,13 @@
       }
       </style>
 
-      <div class="photos">
+      <div class="reality">
       {{ $images := .Resources.ByType "image" }}
       {{ range $images }}
         <img src="{{ .RelPermalink }}" alt="{{ .Name }}" loading="lazy">
       {{ end }}
       {{ if not $images }}
-        <p>No photos yet! Drop image files directly into the <code>content/photos/</code> directory and they'll appear here automatically.</p>
+        <p>No photos yet! Drop image files directly into the <code>content/reality/</code> directory and they'll appear here automatically.</p>
       {{ end }}
       </div>
 

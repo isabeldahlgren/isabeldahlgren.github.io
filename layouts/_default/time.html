@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head.html" . }}
-<body class="clock-page">
+<body class="time-page">
   <main>
-    <p class="site-nav clock-back">[ <a href="{{ "/" | relURL }}">take me back</a> ]</p>
+    <p class="site-nav time-back">[ <a href="{{ "/" | relURL }}">take me back</a> ]</p>
     <section>
       {{ $posts := slice }}
       {{ range (where .Site.RegularPages "Section" "posts").ByDate }}
@@ -17,62 +17,62 @@
         {{ $posts = $posts | append (dict "t" .Title "u" .RelPermalink "d" (.Date.Format "2006-01-02") "g" (.Params.tags | default slice) "l" $links) }}
       {{ end }}
 
-      <div class="clock">
-        <figure class="clock-figure">
-          <svg id="clock" viewBox="-20 -20 1040 1040" role="img" aria-label="Posts arranged chronologically on a circle, joined by shared tags"></svg>
+      <div class="time">
+        <figure class="time-figure">
+          <svg id="time" viewBox="-20 -20 1040 1040" role="img" aria-label="Posts arranged chronologically on a circle, joined by shared tags"></svg>
         </figure>
-        <aside class="clock-panel" id="clock-panel" aria-live="polite" hidden></aside>
+        <aside class="time-panel" id="time-panel" aria-live="polite" hidden></aside>
       </div>
-      <p class="clock-tags" id="clock-tags"></p>
+      <p class="time-tags" id="time-tags"></p>
     </section>
     {{ partial "footer.html" . }}
   </main>
 
   <style>
     /* The figure is wider than the text column and bleeds equally to both sides, so it stays centred under the column. */
-    .clock-back { position: fixed; top: 1.25rem; left: 1.5rem; z-index: 3; margin: 0; background: var(--paper); }
-    .clock { position: relative; --w: min(56rem, calc(100vw - 2rem)); }
-    .clock-figure { width: var(--w); margin: 0 0 0 calc((100% - var(--w)) / 2); }
-    #clock { width: 100%; height: auto; display: block; overflow: hidden; user-select: none; font-family: var(--sans); }
-    #clock .chord { fill: none; stroke: var(--ink); stroke-opacity: .2; stroke-width: 1; transition: stroke-opacity .2s, stroke .2s; }
-    #clock .chord.lit { stroke: var(--accent); stroke-opacity: .8; stroke-width: 1.6; }
-    #clock .chord.dim { stroke-opacity: .04; }
-    #clock .star { fill: none; stroke: var(--accent); stroke-opacity: .5; stroke-width: 1.2; pointer-events: none; }
-    #clock .node { cursor: pointer; }
-    #clock .node circle { fill: var(--ink); fill-opacity: .6; }
-    #clock .node text { font-size: 9.5px; fill: var(--ink); fill-opacity: .6; transition: fill-opacity .15s; dominant-baseline: middle; }
-    #clock .node .frond { stroke: var(--accent); stroke-opacity: .45; stroke-width: 1; }
-    #clock .node .hit { fill: transparent; }
-    #clock.focus .node text { fill-opacity: .12; }
-    #clock.focus .node circle { fill-opacity: .15; }
-    #clock .node.near text { fill-opacity: .85; }
-    #clock .node.near circle { fill-opacity: .85; }
-    #clock .node.on text { fill-opacity: 1; font-size: 11.5px; font-weight: 600; }
-    #clock .node.on circle { fill: var(--accent); fill-opacity: 1; }
-    #clock .year { font-size: 11px; font-weight: 600; fill: var(--muted); text-anchor: middle; dominant-baseline: middle; }
-    #clock .tick { stroke: var(--muted); stroke-opacity: .5; }
+    .time-back { position: fixed; top: 1.25rem; left: 1.5rem; z-index: 3; margin: 0; background: var(--paper); }
+    .time { position: relative; --w: min(56rem, calc(100vw - 2rem)); }
+    .time-figure { width: var(--w); margin: 0 0 0 calc((100% - var(--w)) / 2); }
+    #time { width: 100%; height: auto; display: block; overflow: hidden; user-select: none; font-family: var(--sans); }
+    #time .chord { fill: none; stroke: var(--ink); stroke-opacity: .2; stroke-width: 1; transition: stroke-opacity .2s, stroke .2s; }
+    #time .chord.lit { stroke: var(--accent); stroke-opacity: .8; stroke-width: 1.6; }
+    #time .chord.dim { stroke-opacity: .04; }
+    #time .star { fill: none; stroke: var(--accent); stroke-opacity: .5; stroke-width: 1.2; pointer-events: none; }
+    #time .node { cursor: pointer; }
+    #time .node circle { fill: var(--ink); fill-opacity: .6; }
+    #time .node text { font-size: 9.5px; fill: var(--ink); fill-opacity: .6; transition: fill-opacity .15s; dominant-baseline: middle; }
+    #time .node .frond { stroke: var(--accent); stroke-opacity: .45; stroke-width: 1; }
+    #time .node .hit { fill: transparent; }
+    #time.focus .node text { fill-opacity: .12; }
+    #time.focus .node circle { fill-opacity: .15; }
+    #time .node.near text { fill-opacity: .85; }
+    #time .node.near circle { fill-opacity: .85; }
+    #time .node.on text { fill-opacity: 1; font-size: 11.5px; font-weight: 600; }
+    #time .node.on circle { fill: var(--accent); fill-opacity: 1; }
+    #time .year { font-size: 11px; font-weight: 600; fill: var(--muted); text-anchor: middle; dominant-baseline: middle; }
+    #time .tick { stroke: var(--muted); stroke-opacity: .5; }
     /* Hover note: a small boxed note placed inside the ring, next to the node in focus. */
-    .clock-panel { position: absolute; z-index: 2; width: 15rem; max-width: calc(100vw - 1rem); background: var(--paper); border: 1px solid var(--ink); padding: .55rem .75rem .6rem; font-size: .8rem; line-height: 1.35; pointer-events: none; opacity: 0; transition: opacity .15s; }
-    .clock-panel.visible { opacity: 1; }
-    .clock-panel.pinned { pointer-events: auto; }
-    .clock-panel h2 { font-size: .9rem; font-weight: 600; margin: 0 0 .1rem; line-height: 1.25; }
-    .clock-panel h2 a { color: var(--ink); }
-    .clock-panel .date { font-size: .72rem; font-style: italic; color: var(--muted); margin: 0 0 .5rem; }
-    .clock-panel h3 { font-size: .75rem; font-weight: 400; font-style: italic; color: var(--muted); margin: .55rem 0 .2rem; padding-top: .4rem; border-top: 1px solid var(--rule); }
-    .clock-panel ol { list-style: none; margin: 0; padding: 0; }
-    .clock-panel li { display: flex; gap: .6rem; margin: 0 0 .12rem; }
-    .clock-panel li .x { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .clock-panel li .host { flex-shrink: 0; max-width: 45%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .7rem; color: var(--muted); }
-    .clock-panel .none, .clock-panel .more { color: var(--muted); margin: 0; font-style: italic; }
-    .clock-panel .hint { font-size: .68rem; color: var(--muted); margin: .45rem 0 0; font-style: italic; }
-    .clock-panel.pinned .hint { display: none; }
-    .clock-tags { font-size: .95rem; line-height: 1.9; color: var(--muted); margin-top: 1.5rem; }
-    .clock-tags .label { margin-right: .4rem; }
-    .clock-tags .tag { white-space: nowrap; }
-    .clock-tags button { font: inherit; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
-    .clock-tags button:hover, .clock-tags button.on { text-decoration: underline; }
-    .clock-tags button.on { color: var(--ink); }
-    .clock-tags .n { color: var(--muted); font-family: var(--sans); font-size: .7rem; margin: 0 .8rem 0 .15rem; }
+    .time-panel { position: absolute; z-index: 2; width: 15rem; max-width: calc(100vw - 1rem); background: var(--paper); border: 1px solid var(--ink); padding: .55rem .75rem .6rem; font-size: .8rem; line-height: 1.35; pointer-events: none; opacity: 0; transition: opacity .15s; }
+    .time-panel.visible { opacity: 1; }
+    .time-panel.pinned { pointer-events: auto; }
+    .time-panel h2 { font-size: .9rem; font-weight: 600; margin: 0 0 .1rem; line-height: 1.25; }
+    .time-panel h2 a { color: var(--ink); }
+    .time-panel .date { font-size: .72rem; font-style: italic; color: var(--muted); margin: 0 0 .5rem; }
+    .time-panel h3 { font-size: .75rem; font-weight: 400; font-style: italic; color: var(--muted); margin: .55rem 0 .2rem; padding-top: .4rem; border-top: 1px solid var(--rule); }
+    .time-panel ol { list-style: none; margin: 0; padding: 0; }
+    .time-panel li { display: flex; gap: .6rem; margin: 0 0 .12rem; }
+    .time-panel li .x { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .time-panel li .host { flex-shrink: 0; max-width: 45%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .7rem; color: var(--muted); }
+    .time-panel .none, .time-panel .more { color: var(--muted); margin: 0; font-style: italic; }
+    .time-panel .hint { font-size: .68rem; color: var(--muted); margin: .45rem 0 0; font-style: italic; }
+    .time-panel.pinned .hint { display: none; }
+    .time-tags { font-size: .95rem; line-height: 1.9; color: var(--muted); margin-top: 1.5rem; }
+    .time-tags .label { margin-right: .4rem; }
+    .time-tags .tag { white-space: nowrap; }
+    .time-tags button { font: inherit; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
+    .time-tags button:hover, .time-tags button.on { text-decoration: underline; }
+    .time-tags button.on { color: var(--ink); }
+    .time-tags .n { color: var(--muted); font-family: var(--sans); font-size: .7rem; margin: 0 .8rem 0 .15rem; }
   </style>
 
   <script>
@@ -80,9 +80,9 @@
     const POSTS = {{ $posts | jsonify | safeJS }};
     const SITE = {{ .Site.BaseURL }};
     const NS = "http://www.w3.org/2000/svg";
-    const svg = document.getElementById("clock");
-    const panel = document.getElementById("clock-panel");
-    const tagBar = document.getElementById("clock-tags");
+    const svg = document.getElementById("time");
+    const panel = document.getElementById("time-panel");
+    const tagBar = document.getElementById("time-tags");
 
     const C = 500, R = 280, LABEL_GAP = 12, BEND = 0.12, MAX_TITLE = 34;
     const N = POSTS.length;
@@ -291,7 +291,7 @@
     window.addEventListener("resize", () => { if (pinned !== null) { showPost(pinned); panel.classList.add("pinned"); } else reset(); });
     svg.addEventListener("click", () => { pinned = null; pinnedTag = null; reset(); });
     // Return to the previous page when it was on this site; otherwise the link goes home.
-    document.querySelector(".clock-back a").addEventListener("click", e => {
+    document.querySelector(".time-back a").addEventListener("click", e => {
       try { if (document.referrer && new URL(document.referrer).origin === location.origin && history.length > 1) { e.preventDefault(); history.back(); } } catch (err) {}
     });
     document.addEventListener("keydown", e => { if (e.key === "Escape") { pinned = null; pinnedTag = null; reset(); } });

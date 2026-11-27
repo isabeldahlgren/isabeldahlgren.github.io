@@ -333,7 +333,7 @@ a.footnote-ref {
 }
 
 // Print series: a quiet gallery wall, with uncropped images.
-.sothebys-page main { max-width: 1240px; padding: 100px 60px 64px; }
+.irreality-page main { max-width: 1240px; padding: 100px 60px 64px; }
 .gallery-back { position: absolute; top: 1.25rem; left: 1.5rem; }
 .gallery-intro { margin-bottom: 5rem; text-align: center; }
 .gallery-intro h1 { font-size: 1.5rem; font-weight: 400; margin: 0; }
@@ -365,10 +365,10 @@ a.footnote-ref {
 .viewer-controls { display: flex; gap: 2rem; }
 @media (max-width: 900px) {
   .print-wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem 2rem; }
-  .sothebys-page main { padding-left: 30px; padding-right: 30px; }
+  .irreality-page main { padding-left: 30px; padding-right: 30px; }
 }
 @media (max-width: 540px) {
-  .sothebys-page main { padding: 90px 24px 40px; }
+  .irreality-page main { padding: 90px 24px 40px; }
   .gallery-intro { margin-bottom: 3.5rem; }
   .print-wall { grid-template-columns: 1fr; gap: 3rem; }
   .print-open { height: auto; padding: 12px; }
@@ -384,6 +384,8 @@ a.footnote-ref {
 .room-ready main { max-width: none; height: 100svh; min-height: 520px; padding: 0; overflow: hidden; }
 .room-ready .gallery-intro { display: none; }
 .room-ready .gallery-back { position: fixed; z-index: 5; top: 24px; left: 28px; }
+.gallery-disclosure { position: fixed; bottom: 24px; right: 28px; max-width: 30%; text-align: right; margin: 0; font-size: 12px; color: #666; pointer-events: none; }
+.room-ready .gallery-disclosure { z-index: 4; }
 .room-ready .gallery-room { display: block; position: absolute; inset: 0; overflow: hidden; perspective: 900px; perspective-origin: 50% 50%; cursor: default; touch-action: none; background: #fff; }
 .room-world { position: absolute; left: 50%; top: 50%; transform-style: preserve-3d; will-change: transform; }
 .room-architecture, .room-ready .print-series, .room-ready .print-wall { position: absolute; inset: 0; transform-style: preserve-3d; }
@@ -415,6 +417,7 @@ a.footnote-ref {
 .room-controls button { touch-action: none; user-select: none; }
 @media(max-width: 700px) {
   .room-ready .gallery-back { top: 18px; left: 16px; font-size: 14px; }
+  .room-ready .gallery-disclosure { bottom: 10px; right: 16px; max-width: 45%; }
   .room-ready .room-heading { top: 16px; }
   .room-ready .room-series { top: 82px; left: 16px; right: 16px; max-width: none; justify-content: center; font-size: 15px; }
   .room-ready .room-controls { bottom: 32px; }
@@ -467,7 +470,7 @@ a.footnote-ref {
 .room-ready .room-controls[hidden] { display: none; }
 .room-touch .gallery-room { user-select: none; -webkit-user-select: none; }
 .room-touch .print-open { -webkit-touch-callout: none; }
-.room-touch .room-view-hint { bottom: Max(16px, env(safe-area-inset-bottom)); }
+.room-touch .room-view-hint, .room-touch .gallery-disclosure { bottom: Max(16px, env(safe-area-inset-bottom)); }
 @media(max-width: 700px) {
   .room-touch .room-heading { left: auto; right: 16px; transform: none; text-align: right; }
   .room-touch .room-heading p { font-size: 14px; }

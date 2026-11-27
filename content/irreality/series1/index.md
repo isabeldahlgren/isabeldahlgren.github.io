@@ -5,14 +5,14 @@
   "prints": [
     {
       "file": "Embroidered Football Field_ This Way to Truth.png",
-      "title": "This Way to the Truth",
+      "title": "Untitled (This Way to Truth)",
       "wall": "rear"
     },
     {
       "file": "Stitched Football Lineup with Veiled Player.png",
-      "title": "The Lineup",
+      "title": "Eleven, Veiled",
       "wall": "front",
-      "text": "The veil interrupts the serial arrangement of shirts and numbers. Its fine mesh introduces a second ceremonial register into the team formation. Seen from behind, the figures withhold their faces; identity rests in the garments and the intervals between bodies.",
+      "text": "A veil falls across the team sheet. Shirts, numbers, intervals: the serial order holds, but something has been withdrawn from it. Turned away, the figures decline to be read. What remains of identity is cloth, and the space between one body and the next.",
       "artist": {
         "name": "Emily Plyter",
         "years": "American, born 1982",
@@ -21,30 +21,30 @@
     },
     {
       "file": "Embroidered Soccer Wall with Crown.png",
-      "title": "The Wall",
+      "title": "Wall (Crown)",
       "wall": "rear"
     },
     {
       "file": "Stitched Goalkeeper Behind the Mesh.png",
-      "title": "The Goalkeeper",
+      "title": "Keeper, Mesh",
       "wall": "left",
-      "poem": "mouth of the aperture\n       minus its weather\n\na second white\npasses through the first\n\n[the keeper is a tense]"
+      "poem": "the aperture, open\n       its weather withdrawn\n\na second white\nenters the first\n\n[to keep is a tense]"
     },
     {
       "file": "Stitched Soccer Line Repair.png",
-      "title": "Line Repair",
+      "title": "Seam / Touchline",
       "wall": "left",
-      "text": "The touchline appears as a seam requiring renewal. The gesture of repair makes visible the labour through which the field’s geometry is maintained. Here, drawing a boundary and tending a surface become the same act."
+      "text": "The boundary is a seam, and seams wear. To mend the line is to admit that the field was never given, only kept. Marking and mending, border and care: here they are one gesture, repeated until it looks like ground."
     },
     {
       "file": "Textile Soccer Pitch Carriers.png",
-      "title": "Pitch Carriers",
+      "title": "Four Hands, Green",
       "wall": "right",
-      "poem": "under / the hectare of a pronoun\n\nfour wrists conjugate green\n       elsewhere has a reverse\n\nfold the missing\nuntil it occupies"
+      "poem": "beneath / the acre of a pronoun\n\nfour wrists conjugate green\n       elsewhere has a reverse\n\nfold the absent\nuntil it takes up room"
     },
     {
       "file": "Embroidered Dog on Football Pitch.png",
-      "title": "An Unregistered Player",
+      "title": "Player No. 0",
       "wall": "right"
     }
   ]
