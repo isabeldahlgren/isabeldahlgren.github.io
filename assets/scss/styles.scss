@@ -459,3 +459,5 @@ a.footnote-ref {
 .room-view-hint { display: none; }
 .room-ready .room-view-hint { display: block; position: fixed; bottom: 24px; left: 28px; z-index: 4; margin: 0; font-size: 12px; color: #666; pointer-events: none; }
 @media(max-width: 700px) { .room-ready .room-view-hint { bottom: 10px; left: 16px; } }
+
+.room-ready .room-series[hidden] { display: none; }

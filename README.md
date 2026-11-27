@@ -5,7 +5,7 @@ Run `hugo server` and open http://localhost:1313.
 The Sotheby’s section is a white, walkable gallery at `/sothebys/`. Use WASD to
 walk and the arrow keys to look around. The on-screen keys also work with
 mouse or touch. Click an image or a text work’s “read” link to open its reading
-view. Series names switch rooms.
+view. If more series are added, their names switch rooms.
 
 ## Adding a series
 
@@ -52,6 +52,8 @@ An optional series description for the non-interactive page.
 
 - `file`: image filename in the same folder. Omit for a text-only work.
 - `title`: the work’s caption.
+- `wall`: optional `rear` to place a work on the wall behind the entrance view.
+  Omit for automatic placement on the other three walls.
 - `artist`: optional name, dates (`years`), and biography (`bio`, with Markdown).
   Omit the whole artist block when no artist label is wanted. To add a biography
   later, copy the `artist` block from the example into any work.
@@ -68,8 +70,7 @@ visitors read long passages at normal size without cutting them off.
 filenames. Hugo creates web-sized images without changing the source files.
 Each series has a page at `/sothebys/new-series/`.
 
-Edit `content/sothebys/stockholm/index.md` and `content/sothebys/water/index.md`
-for the current samples. No artist biographies are currently displayed, but the
-optional artist fields remain supported. Series 2 contains seven images. No poems are currently displayed; add an optional
-`poem` field as shown above to include poetry again. The water PNG originals were moved from Downloads into
-`content/sothebys/water/`; the earlier JPEG preview copies were replaced.
+Edit `content/sothebys/series1/index.md` for the current room. Series 1 contains
+eight images. Mälardonna hangs on the rear wall. No biographies or poems are
+currently displayed; their optional fields remain supported. Removed works
+are preserved in `assets/sothebys-unused/` and are not published in the gallery.

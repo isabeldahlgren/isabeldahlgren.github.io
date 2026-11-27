@@ -5,6 +5,7 @@
   const world = document.querySelector('.room-world');
   const architecture = document.querySelector('.room-architecture');
   const nav = document.querySelector('.room-series');
+  nav.hidden = sections.length < 2;
   const keys = new Set();
   const camera = { x: 0, z: 200, yaw: 0, pitch: 0 };
   let perspective = 900, previous = 0;
@@ -27,6 +28,7 @@
         const print = link.closest('.print');
         const x = +print.dataset.x, z = +print.dataset.z, angle = +print.dataset.angle;
         if (angle === 0) { camera.x = x; camera.z = backZ + 1250; camera.yaw = 0; }
+        else if (angle === 180) { camera.x = x; camera.z = -50; camera.yaw = Math.PI; }
         else { camera.x = angle === 90 ? -halfWidth + 1250 : halfWidth - 1250; camera.z = z; camera.yaw = angle === 90 ? -Math.PI / 2 : Math.PI / 2; }
         camera.pitch = 0; render();
       });
@@ -35,13 +37,19 @@
   });
   function arrange(section) {
     const prints = [...section.querySelectorAll('.print')];
-    const widths = prints.map(print => print.offsetWidth);
     const gap = 160;
-    const back = Math.ceil(prints.length / 3);
-    const left = Math.ceil((prints.length - back) / 2);
-    const groups = [[0, back, 0], [back, back + left, 90], [back + left, prints.length, -90]];
-    const totals = groups.map(([start, end]) => widths.slice(start, end).reduce((sum, width) => sum + width, 0) + Math.max(0, end - start - 1) * gap);
-    halfWidth = Math.max(1100, totals[0] / 2 + 250);
+    const automatic = prints.filter(print => print.dataset.wall !== 'rear');
+    const rear = prints.filter(print => print.dataset.wall === 'rear');
+    const back = Math.ceil(automatic.length / 3);
+    const left = Math.ceil((automatic.length - back) / 2);
+    const groups = [
+      [automatic.slice(0, back), 0],
+      [automatic.slice(back, back + left), 90],
+      [automatic.slice(back + left), -90],
+      [rear, 180]
+    ];
+    const totals = groups.map(([works]) => works.reduce((sum, print) => sum + print.offsetWidth, 0) + Math.max(0, works.length - 1) * gap);
+    halfWidth = Math.max(1100, totals[0] / 2 + 250, totals[3] / 2 + 250);
     const depth = Math.max(3400, totals[1] + 700, totals[2] + 700);
     backZ = 1200 - depth;
     const centerZ = (backZ + 1200) / 2;
@@ -54,18 +62,19 @@
     surface('wall', depth, floorY - topY, halfWidth, (floorY + topY) / 2, centerZ, 'rotateY(-90deg)');
     surface('wall', halfWidth * 2, floorY - topY, 0, (floorY + topY) / 2, 1200, 'rotateY(180deg)');
     surface('floor', halfWidth * 2, depth, 0, floorY, centerZ, 'rotateX(90deg)');
-    groups.forEach(([start, end, angle], group) => {
+    groups.forEach(([works, angle], group) => {
       let offset = -totals[group] / 2;
-      for (let j = start; j < end; j++) {
-        const center = offset + widths[j] / 2;
-        const x = angle === 0 ? center : angle === 90 ? -halfWidth + 4 : halfWidth - 4;
-        const z = angle === 0 ? backZ + 4 : centerZ + (angle === 90 ? -center : center);
-        Object.assign(prints[j].dataset, { x, z, angle });
-        prints[j].style.transform = `translate3d(${x}px,-45px,${z}px) rotateY(${angle}deg) translate(-50%,-50%)`;
-        offset += widths[j] + gap;
-      }
+      works.forEach(print => {
+        const center = offset + print.offsetWidth / 2;
+        const x = angle === 0 ? center : angle === 180 ? -center : angle === 90 ? -halfWidth + 4 : halfWidth - 4;
+        const z = angle === 0 ? backZ + 4 : angle === 180 ? 1196 : centerZ + (angle === 90 ? -center : center);
+        Object.assign(print.dataset, { x, z, angle });
+        print.style.transform = `translate3d(${x}px,-45px,${z}px) rotateY(${angle}deg) translate(-50%,-50%)`;
+        offset += print.offsetWidth + gap;
+      });
     });
   }
+
   function reset() { Object.assign(camera, { x: 0, z: 200, yaw: 0, pitch: 0 }); keys.clear(); render(); }
   function select(i) {
     sections.forEach((section, j) => { section.hidden = j !== i; });
