@@ -331,3 +331,131 @@ a.footnote-ref {
 	width: 4rem;
 	margin: 0 0 1em;
 }
+
+// Print series: a quiet gallery wall, with uncropped images.
+.sothebys-page main { max-width: 1240px; padding: 100px 60px 64px; }
+.gallery-back { position: absolute; top: 1.25rem; left: 1.5rem; }
+.gallery-intro { margin-bottom: 5rem; text-align: center; }
+.gallery-intro h1 { font-size: 1.5rem; font-weight: 400; margin: 0; }
+.gallery-intro p { margin: .4rem 0 0; color: #666; font-size: 1rem; }
+.print-series { margin: 0 0 7rem; }
+.series-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--rule); padding-bottom: .8rem; margin-bottom: 3rem; }
+.series-heading h2 { font-size: 1.15rem; font-weight: 400; margin: 0; }
+.series-heading h2 a { color: var(--ink); }
+.series-heading span { color: #666; font-size: .9rem; }
+.series-description { max-width: 34rem; margin: -1rem 0 3rem; }
+.print-wall { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3.5rem 3rem; }
+.print { margin: 0; min-width: 0; }
+.print-open { display: flex; align-items: center; justify-content: center; height: 310px; padding: 18px; }
+.print-open img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; box-shadow: 0 2px 8px #00000012; transition: transform .2s ease; }
+.print-open:hover img { transform: scale(1.025); }
+.print-open:focus-visible, .print-viewer button:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
+.print figcaption { text-align: center; color: #666; font-size: .875rem; margin-top: 1.2rem; }
+.viewing-print { overflow: hidden; }
+.print-viewer { width: 100vw; height: 100dvh; max-width: none; max-height: none; border: 0; padding: 4.5rem 3rem 1.5rem; background: var(--paper); color: var(--ink); }
+.print-viewer[open] { display: flex; flex-direction: column; align-items: center; }
+.print-viewer::backdrop { background: white; }
+.print-viewer button { font: inherit; color: var(--link); background: none; border: 0; padding: .5rem; cursor: pointer; }
+.print-viewer button:disabled { color: #888; cursor: default; }
+.viewer-close { position: absolute; right: 1.5rem; top: 1rem; }
+.viewer-image { flex: 1; min-height: 0; width: 100%; object-fit: contain; }
+.viewer-caption { text-align: center; margin: 1rem 0 .25rem; }
+.viewer-title { margin: 0; }
+.viewer-position { font-size: .875rem; color: #666; margin: .3rem 0 0; }
+.viewer-controls { display: flex; gap: 2rem; }
+@media (max-width: 900px) {
+  .print-wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem 2rem; }
+  .sothebys-page main { padding-left: 30px; padding-right: 30px; }
+}
+@media (max-width: 540px) {
+  .sothebys-page main { padding: 90px 24px 40px; }
+  .gallery-intro { margin-bottom: 3.5rem; }
+  .print-wall { grid-template-columns: 1fr; gap: 3rem; }
+  .print-open { height: auto; padding: 12px; }
+  .print-open img { max-height: 65vh; }
+  .print-series { margin-bottom: 5rem; }
+  .print-viewer { padding: 4rem 16px 1rem; }
+}
+@media (prefers-reduced-motion: reduce) { .print-open img { transition: none; } }
+
+// A walkable white room; the ordinary image wall is the no-script fallback.
+.gallery-room, .room-heading, .room-series, .room-controls { display: none; }
+.room-ready { background: #fff; color: #222; }
+.room-ready main { max-width: none; height: 100svh; min-height: 520px; padding: 0; overflow: hidden; }
+.room-ready .gallery-intro { display: none; }
+.room-ready .gallery-back { position: fixed; z-index: 5; top: 24px; left: 28px; }
+.room-ready .gallery-room { display: block; position: absolute; inset: 0; overflow: hidden; perspective: 900px; perspective-origin: 50% 50%; cursor: default; touch-action: none; background: #fff; }
+.room-world { position: absolute; left: 50%; top: 50%; transform-style: preserve-3d; will-change: transform; }
+.room-architecture, .room-ready .print-series, .room-ready .print-wall { position: absolute; inset: 0; transform-style: preserve-3d; }
+.room-ready .print-series { margin: 0; }
+.room-ready .series-heading, .room-ready .series-description { display: none; }
+.room-ready .print-wall { display: block; }
+.room-ready .print-series[hidden] { display: none; }
+.room-surface { position: absolute; transform-origin: 0 0; backface-visibility: hidden; }
+.room-wall { background: #fff; border: 1px solid #000; }
+.room-wall::after { content: ""; position: absolute; left: 0; right: 0; bottom: 14px; border-top: 1px solid #000; }
+.room-floor { background: #fff; border: 1px solid #000; }
+.room-ready .print { position: absolute; top: 0; left: 0; width: 300px; margin: 0; transform-origin: 0 0; backface-visibility: hidden; }
+.room-ready .print-open { padding: 14px; height: 330px; background: white; border: 1px solid #000; box-shadow: none; cursor: zoom-in; }
+.room-ready .print-open img { width: auto; height: auto; max-width: 100%; max-height: 100%; box-shadow: none; }
+.room-ready .print-open:hover img { transform: none; }
+.room-ready .print-open:hover { outline: 1px solid #000; outline-offset: 5px; }
+.room-ready .print figcaption { font: 15px/1.25 "Times New Roman", Times, serif; text-align: left; color: #444; width: 230px; margin: 24px 0 0; }
+.room-ready .room-heading { display: block; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); text-align: center; z-index: 4; pointer-events: none; }
+.room-heading h1 { font-size: 23px; font-weight: normal; margin: 0; }
+.room-heading p { font-size: 16px; margin: 3px 0 0; color: #666; }
+.room-ready .room-series { display: flex; position: fixed; z-index: 5; top: 24px; right: 28px; gap: 18px; max-width: 35%; flex-wrap: wrap; justify-content: flex-end; }
+.room-series button, .room-controls button { font: inherit; color: var(--link); background: none; border: 0; cursor: pointer; padding: 0; }
+.room-series button[aria-pressed="true"] { color: #222; text-decoration: underline; text-underline-offset: 4px; }
+.room-ready .room-controls { display: flex; position: fixed; z-index: 5; bottom: 20px; left: 50%; transform: translateX(-50%); align-items: flex-end; gap: 32px; font-size: 14px; }
+.room-pad { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.room-pad span { display: flex; gap: 4px; }
+.room-pad button { display: block; width: 32px; height: 30px; border: 1px solid #ccc; background: #ffffffd9; color: #444; }
+.room-controls button:active { background: #eee; }
+.room-controls button { touch-action: none; user-select: none; }
+@media(max-width: 700px) {
+  .room-ready .gallery-back { top: 18px; left: 16px; font-size: 14px; }
+  .room-ready .room-heading { top: 16px; }
+  .room-ready .room-series { top: 82px; left: 16px; right: 16px; max-width: none; justify-content: center; font-size: 15px; }
+  .room-ready .room-controls { bottom: 32px; }
+}
+
+// Each work can contain an image, an artist label, and prose or poetry.
+.print-artist, .print-writing { text-align: left; color: #222; font: 18px/1.4 "Times New Roman", Times, serif; overflow-wrap: anywhere; }
+.print-artist h3 { font: inherit; font-weight: bold; margin: 0 0 .25em; }
+.artist-years { margin: 0 0 1em; }
+.print-artist p, .print-note p { margin: 0 0 .8em; }
+.print-artist p:last-child, .print-note p:last-child { margin-bottom: 0; }
+.print-poem { white-space: pre-wrap; margin-top: 1em; }
+.print-poem:first-child { margin-top: 0; }
+.work-read { display: block; font: inherit; background: none; border: none; padding: 0; color: var(--link); cursor: pointer; margin-top: .4em; }
+.room-ready .print { display: grid; width: 300px; grid-template-columns: 300px; column-gap: 40px; align-items: start; }
+.room-ready .print.has-artist { width: 600px; grid-template-columns: 300px 260px; }
+.room-ready .print.has-writing { width: 640px; grid-template-columns: 300px 300px; }
+.room-ready .print.has-artist.has-writing { width: 940px; grid-template-columns: 300px 260px 300px; }
+.room-ready .print-open { grid-column: 1; grid-row: 1; }
+.room-ready .print-caption { grid-column: 1; grid-row: 2; }
+.room-ready .print-artist { grid-column: 2; grid-row: 1 / span 2; }
+.room-ready .print-writing { grid-column: 2; grid-row: 1 / span 2; }
+.room-ready .has-artist .print-writing { grid-column: 3; }
+.room-ready .print.text-only { width: 380px; grid-template-columns: 380px; }
+.room-ready .print.text-only.has-artist { width: 680px; grid-template-columns: 380px 260px; }
+.room-ready .text-only .print-writing { grid-column: 1; grid-row: 1; }
+.room-ready .text-only .print-artist { grid-column: 2; }
+.viewer-content { display: flex; gap: 3rem; width: 100%; flex: 1; min-height: 0; }
+.viewer-content .viewer-image { width: 0; flex: 1; }
+.viewer-reading { flex: 0 1 30rem; overflow: auto; padding: 1rem; }
+.viewer-reading .print-writing { margin-top: 2rem; }
+.viewer-reading .print-writing:first-child { margin-top: 0; }
+.viewer-text-only .viewer-content { justify-content: center; }
+.viewer-text-only .viewer-reading { flex-basis: 38rem; }
+.viewer-image[hidden], .viewer-reading[hidden] { display: none; }
+@media(max-width: 700px) {
+  .viewer-content { flex-direction: column; overflow: auto; gap: 1rem; }
+  .viewer-content .viewer-image { width: 100%; flex: none; height: 45vh; }
+  .viewer-reading { flex: none; overflow: visible; padding: 1rem 0; }
+}
+
+.room-view-hint { display: none; }
+.room-ready .room-view-hint { display: block; position: fixed; bottom: 24px; left: 28px; z-index: 4; margin: 0; font-size: 12px; color: #666; pointer-events: none; }
+@media(max-width: 700px) { .room-ready .room-view-hint { bottom: 10px; left: 16px; } }

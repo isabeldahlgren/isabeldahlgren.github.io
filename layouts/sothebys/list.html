@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body class="sothebys-page">
+  <main>
+    <nav class="site-nav gallery-back">[ <a href="{{ "/" | relURL }}">take me back</a> ]</nav>
+    <header class="gallery-intro"><h1>sotheby’s</h1><p>fine art prints · in series</p></header>
+    {{ range .RegularPages.ByWeight }}{{ partial "print-series.html" . }}{{ end }}
+    {{ partial "sothebys-room.html" . }}
+  </main>
+  {{ partial "print-viewer.html" . }}
+</body>
+</html>

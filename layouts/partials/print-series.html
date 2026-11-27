@@ -1,0 +1,58 @@
+{{ $page := . }}
+{{ $prints := .Params.prints }}
+{{ if not $prints }}
+  {{ $prints = slice }}
+  {{ range .Resources.ByType "image" }}
+    {{ $prints = $prints | append (dict "file" .Name "title" (replaceRE `\.[^.]+$` "" .Name | humanize)) }}
+  {{ end }}
+{{ end }}
+{{ if or (lt (len $prints) 1) (gt (len $prints) 10) }}
+  {{ errorf "Series %s needs 1–10 works (images or text)" .File.Path }}
+{{ end }}
+<section class="print-series" aria-labelledby="series-{{ .File.UniqueID }}">
+  <div class="series-heading">
+    <h2 id="series-{{ .File.UniqueID }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <span>{{ len $prints }} works</span>
+  </div>
+  {{ with .Content }}<div class="series-description">{{ . }}</div>{{ end }}
+  <div class="print-wall">
+    {{ range $index, $work := $prints }}
+      {{ $image := false }}
+      {{ with .file }}
+        {{ $image = $page.Resources.GetMatch . }}
+        {{ if not $image }}{{ errorf "Missing image %s in %s" . $page.File.Path }}{{ end }}
+      {{ end }}
+      {{ $text := strings.TrimSpace (.text | default "") }}
+      {{ $poem := strings.TrimSpace (.poem | default "") }}
+      {{ if and (not $image) (not (or $text $poem)) }}{{ errorf "Work %d in %s needs an image, text or poem" (add $index 1) $page.File.Path }}{{ end }}
+      {{ $id := printf "work-%s-%d" $page.File.UniqueID $index }}
+      {{ $full := "" }}
+      {{ if $image }}{{ $full = ($image.Fit "2400x2400 webp q90").RelPermalink }}{{ end }}
+      <figure id="{{ $id }}" class="print{{ if not $image }} text-only{{ end }}{{ if .artist }} has-artist{{ end }}{{ if or $text $poem }} has-writing{{ end }}" data-title="{{ .title }}" data-series="{{ $page.Title }}" data-image="{{ $full }}">
+        {{ if $image }}
+          {{ $thumb := $image.Fit "1000x1000 webp q85" }}
+          <a class="print-open" href="{{ $full }}" aria-label="View {{ .title }}">
+            <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ .title }}" loading="lazy" decoding="async">
+          </a>
+        {{ end }}
+        <figcaption class="print-caption">
+          <span class="print-title">{{ .title }}</span>
+          {{ if not $image }}<button class="work-read" type="button" aria-label="Read {{ .title }}">[ read ]</button>{{ end }}
+        </figcaption>
+        {{ with .artist }}
+          <div class="print-artist">
+            <h3>{{ .name }}</h3>
+            {{ with .years }}<p class="artist-years">{{ . }}</p>{{ end }}
+            {{ with .bio }}<div class="artist-bio">{{ . | markdownify }}</div>{{ end }}
+          </div>
+        {{ end }}
+        {{ if or $text $poem }}
+          <div class="print-writing">
+            {{ with $text }}<div class="print-note">{{ . | markdownify }}</div>{{ end }}
+            {{ with $poem }}<div class="print-poem">{{ . }}</div>{{ end }}
+          </div>
+        {{ end }}
+      </figure>
+    {{ end }}
+  </div>
+</section>

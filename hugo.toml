@@ -48,6 +48,12 @@ pygmentsUseClasses = true
     weight = 22
 
 
+  [[menu.main]]
+    identifier = "sothebys"
+    name = "Sotheby’s"
+    url = "/sothebys/"
+    weight = 24
+
 [permalinks]
   posts = "/:title/"
 
