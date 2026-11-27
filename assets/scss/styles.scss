@@ -461,3 +461,14 @@ a.footnote-ref {
 @media(max-width: 700px) { .room-ready .room-view-hint { bottom: 10px; left: 16px; } }
 
 .room-ready .room-series[hidden] { display: none; }
+
+// Touch visitors stay at the centre and rotate the room with one finger.
+.room-ready.room-touch main { height: 100dvh; min-height: 0; }
+.room-ready .room-controls[hidden] { display: none; }
+.room-touch .gallery-room { user-select: none; -webkit-user-select: none; }
+.room-touch .print-open { -webkit-touch-callout: none; }
+.room-touch .room-view-hint { bottom: Max(16px, env(safe-area-inset-bottom)); }
+@media(max-width: 700px) {
+  .room-touch .room-heading { left: auto; right: 16px; transform: none; text-align: right; }
+  .room-touch .room-heading p { font-size: 14px; }
+}

@@ -4,7 +4,9 @@ Run `hugo server` and open http://localhost:1313.
 
 The Sotheby’s section is a white, walkable gallery at `/sothebys/`. Use WASD to
 walk and the arrow keys to look around. The on-screen keys also work with
-mouse or touch. Click an image or a text work’s “read” link to open its reading
+mouse. On phones and tablets, the viewpoint stays in the centre: swipe to look
+around and tap a work to enlarge it. Walking keys are hidden and disabled on
+touch devices. Click an image or a text work’s “read” link to open its reading
 view. If more series are added, their names switch rooms.
 
 ## Adding a series

@@ -7,6 +7,10 @@
   const nav = document.querySelector('.room-series');
   nav.hidden = sections.length < 2;
   const keys = new Set();
+  const touchQuery = matchMedia('(pointer: coarse)');
+  let touchMode = touchQuery.matches;
+  const controls = document.querySelector('.room-controls');
+  const hint = document.querySelector('.room-view-hint');
   const camera = { x: 0, z: 200, yaw: 0, pitch: 0 };
   let perspective = 900, previous = 0;
   function surface(kind, width, height, x, y, z, rotation) {
@@ -27,6 +31,10 @@
         if (!link.matches(':focus-visible')) return;
         const print = link.closest('.print');
         const x = +print.dataset.x, z = +print.dataset.z, angle = +print.dataset.angle;
+        if (touchMode) {
+          camera.yaw = Math.atan2(x - camera.x, camera.z - z);
+          camera.pitch = 0; render(); return;
+        }
         if (angle === 0) { camera.x = x; camera.z = backZ + 1250; camera.yaw = 0; }
         else if (angle === 180) { camera.x = x; camera.z = -50; camera.yaw = Math.PI; }
         else { camera.x = angle === 90 ? -halfWidth + 1250 : halfWidth - 1250; camera.z = z; camera.yaw = angle === 90 ? -Math.PI / 2 : Math.PI / 2; }
@@ -76,7 +84,7 @@
     });
   }
 
-  function reset() { Object.assign(camera, { x: 0, z: 200, yaw: 0, pitch: 0 }); keys.clear(); render(); }
+  function reset() { Object.assign(camera, { x: 0, z: touchMode ? (backZ + 1200) / 2 : 200, yaw: 0, pitch: 0 }); keys.clear(); render(); }
   function select(i) {
     sections.forEach((section, j) => { section.hidden = j !== i; });
     buttons.forEach((button, j) => button.setAttribute('aria-pressed', String(i === j)));
@@ -97,13 +105,60 @@
   const keyFor = event => physicalKeys[event.code] || event.key.toLowerCase();
   function inViewer() { return document.body.classList.contains('viewing-print'); }
   window.addEventListener('keydown', event => {
-    if (inViewer() || event.metaKey || event.ctrlKey || event.altKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
+    if (touchMode || inViewer() || event.metaKey || event.ctrlKey || event.altKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
     const key = keyFor(event);
     if (movement.has(key)) { event.preventDefault(); keys.add(key); }
   });
   window.addEventListener('keyup', event => keys.delete(keyFor(event)));
   window.addEventListener('blur', () => keys.clear());
   document.addEventListener('visibilitychange', () => keys.clear());
+  function updateTouchMode() {
+    document.body.classList.toggle('room-touch', touchMode);
+    controls.hidden = touchMode;
+    hint.textContent = touchMode ? 'swipe to look · tap a work to view' : 'click a work to view';
+  }
+  touchQuery.addEventListener('change', event => {
+    touchMode = event.matches; gesture = null; keys.clear();
+    updateTouchMode(); reset(); resize();
+  });
+  let gesture = null, suppressClickUntil = 0;
+  viewport.addEventListener('pointerdown', event => {
+    if (inViewer() || gesture || !event.isPrimary || !['touch', 'pen'].includes(event.pointerType)) return;
+    // A finger still selects touch mode when a tablet has a trackpad attached.
+    if (!touchMode) { touchMode = true; updateTouchMode(); reset(); resize(); }
+    gesture = { id: event.pointerId, startX: event.clientX, startY: event.clientY, lastX: event.clientX, lastY: event.clientY, moved: false };
+    suppressClickUntil = 0;
+  });
+  viewport.addEventListener('pointermove', event => {
+    if (!gesture || event.pointerId !== gesture.id) return;
+    if (!gesture.moved) {
+      if (Math.hypot(event.clientX - gesture.startX, event.clientY - gesture.startY) < 8) return;
+      gesture.moved = true;
+      viewport.setPointerCapture(event.pointerId);
+    }
+    event.preventDefault();
+    camera.yaw -= (event.clientX - gesture.lastX) * .004;
+    camera.pitch = Math.max(-.7, Math.min(.7, camera.pitch + (event.clientY - gesture.lastY) * .004));
+    gesture.lastX = event.clientX; gesture.lastY = event.clientY;
+    render();
+  });
+  function finishGesture(event) {
+    if (!gesture || event.pointerId !== gesture.id) return;
+    if (gesture.moved) suppressClickUntil = performance.now() + 500;
+    if (viewport.hasPointerCapture(event.pointerId)) viewport.releasePointerCapture(event.pointerId);
+    gesture = null;
+  }
+  viewport.addEventListener('pointerup', finishGesture);
+  viewport.addEventListener('pointercancel', finishGesture);
+  viewport.addEventListener('lostpointercapture', event => {
+    if (event.target === viewport) finishGesture(event);
+  });
+  viewport.addEventListener('click', event => {
+    if (event.detail !== 0 && performance.now() < suppressClickUntil) {
+      event.preventDefault(); event.stopImmediatePropagation();
+    }
+  }, true);
+  window.addEventListener('blur', () => { gesture = null; });
   document.querySelectorAll('[data-move]').forEach(button => {
     button.addEventListener('pointerdown', event => { event.preventDefault(); keys.add(button.dataset.move); button.setPointerCapture(event.pointerId); });
     const stop = () => keys.delete(button.dataset.move);
@@ -111,7 +166,7 @@
     button.addEventListener('click', event => { if (event.detail === 0) { keys.add(button.dataset.move); step(.12); keys.delete(button.dataset.move); render(); } });
   });
   function step(dt) {
-    if (inViewer()) { keys.clear(); return; }
+    if (touchMode || inViewer()) { keys.clear(); return; }
     const has = (...values) => values.some(value => keys.has(value)) ? 1 : 0;
     camera.yaw += (has('arrowright') - has('arrowleft')) * dt * 1.2;
     camera.pitch = Math.max(-1.15, Math.min(1.15, camera.pitch + (has('arrowup') - has('arrowdown')) * dt * 1.2));
@@ -125,7 +180,7 @@
     camera.x = Math.max(-halfWidth + 240, Math.min(halfWidth - 240, camera.x));
     camera.z = Math.max(backZ + 260, Math.min(960, camera.z));
   }
-  document.body.classList.add('room-ready'); resize(); select(0);
+  document.body.classList.add('room-ready'); updateTouchMode(); resize(); select(0);
   function tick(time) {
     const dt = Math.min((time - previous) / 1000, .04); previous = time;
     if (keys.size) { step(dt); render(); }

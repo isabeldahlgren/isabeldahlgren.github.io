@@ -3,27 +3,27 @@ title: Series 1
 weight: 1
 prints:
   - file: 01-football.jpg
-    title: Strålkastare
+    title: Älvsjö IP
     wall: front
   - file: 02-commuter.jpg
-    title: Solna
+    title: Solna tunnelbanestation
     wall: front
   - file: 03-five-towers.jpg
-    title: Hötorget
+    title: Hötorgsskraporna
     wall: front
   - file: 04-mosaic-eye.jpg
-    title: Mälardonna
+    title: Mälardonnan
     wall: rear
   - file: Dignified Swimmer, Paddling Terrier.png
-    title: Dignified
+    title: Dignified swimmer
     wall: left
   - file: Embossed waves meet in silence.png
-    title: Untitled
+    title: Ferry wake I
     wall: right
   - file: Lapis Wake Across Three Ink Bands.png
-    title: Blue Note
+    title: Ferry wake II
     wall: right
   - file: Lace of Foam on Slate.png
-    title: Ferry wake I
+    title: Ferry wake III
     wall: right
 ---
