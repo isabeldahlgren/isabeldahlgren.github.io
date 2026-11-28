@@ -28,7 +28,7 @@
       {{ $id := printf "work-%s-%d" $page.File.UniqueID $index }}
       {{ $full := "" }}
       {{ if $image }}{{ $full = ($image.Fit "2400x2400 webp q90").RelPermalink }}{{ end }}
-      <figure id="{{ $id }}" class="print{{ if not $image }} text-only{{ end }}{{ if .artist }} has-artist{{ end }}{{ if or $text $poem }} has-writing{{ end }}" data-view-url="{{ "/irreality/view/" | relURL }}?work={{ $id }}" data-wall="{{ .wall | default "auto" }}" data-title="{{ .title }}" data-image="{{ $full }}">
+      <figure id="{{ $id }}" class="print frame-{{ .frame | default "standard" }}{{ if not $image }} text-only{{ end }}{{ if .artist }} has-artist{{ end }}{{ if or $text $poem }} has-writing{{ end }}" data-view-url="{{ "/irreality/view/" | relURL }}?work={{ $id }}" data-wall="{{ .wall | default "auto" }}" data-title="{{ .title }}" data-image="{{ $full }}">
         {{ if $image }}
           {{ $thumb := $image.Fit "1000x1000 webp q85" }}
           <a class="print-open" href="{{ $full }}" aria-label="View {{ .title }}">

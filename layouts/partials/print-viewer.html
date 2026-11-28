@@ -23,7 +23,7 @@
     else image.removeAttribute('src');
     image.alt = print.dataset.title;
     reading.replaceChildren();
-    print.querySelectorAll('.print-artist, .print-writing').forEach(part => reading.append(part.cloneNode(true)));
+    print.querySelectorAll('.print-writing').forEach(part => reading.append(part.cloneNode(true)));
     reading.hidden = !reading.children.length;
     reading.scrollTop = 0;
     dialog.classList.toggle('viewer-text-only', !print.dataset.image);

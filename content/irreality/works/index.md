@@ -6,7 +6,8 @@
     {
       "file": "Embroidered Football Field_ This Way to Truth.png",
       "title": "Untitled (This Way to Truth)",
-      "wall": "rear"
+      "wall": "rear",
+      "frame": "wide"
     },
     {
       "file": "Stitched Football Lineup with Veiled Player.png",
@@ -17,35 +18,41 @@
         "name": "Emily Plyter",
         "years": "American, born 1982",
         "bio": "Emily Plyter (b. 1982, Tacoma) studied textiles at the Rhode Island School of Design, Providence, and works in Ridgewood, Queens. Her practice considers the boundary as a material condition: stitched, rehearsed, subject to repair. Recipient of the 2021 Selvedge Field Prize, she approaches the playing field as a provisional architecture of collective life."
-      }
+      },
+      "frame": "feature"
     },
     {
       "file": "Embroidered Soccer Wall with Crown.png",
       "title": "Wall (Crown)",
-      "wall": "rear"
+      "wall": "rear",
+      "frame": "portrait"
     },
     {
       "file": "Stitched Goalkeeper Behind the Mesh.png",
       "title": "Keeper, Mesh",
       "wall": "left",
-      "poem": "the aperture, open\n       its weather withdrawn\n\na second white\nenters the first\n\n[to keep is a tense]"
+      "poem": "the aperture, open\n       its weather withdrawn\n\na second white\nenters the first\n\n[to keep is a tense]",
+      "frame": "landscape"
     },
     {
       "file": "Stitched Soccer Line Repair.png",
       "title": "Seam / Touchline",
       "wall": "left",
-      "text": "The boundary is a seam, and seams wear. To mend the line is to admit that the field was never given, only kept. Marking and mending, border and care: here they are one gesture, repeated until it looks like ground."
+      "text": "The boundary is a seam, and seams wear. To mend the line is to admit that the field was never given, only kept. Marking and mending, border and care: here they are one gesture, repeated until it looks like ground.",
+      "frame": "wide"
     },
     {
       "file": "Textile Soccer Pitch Carriers.png",
       "title": "Four Hands, Green",
       "wall": "right",
-      "poem": "beneath / the acre of a pronoun\n\nfour wrists conjugate green\n       elsewhere has a reverse\n\nfold the absent\nuntil it takes up room"
+      "poem": "beneath / the acre of a pronoun\n\nfour wrists conjugate green\n       elsewhere has a reverse\n\nfold the absent\nuntil it takes up room",
+      "frame": "large"
     },
     {
       "file": "Embroidered Dog on Football Pitch.png",
       "title": "Player No. 0",
-      "wall": "right"
+      "wall": "right",
+      "frame": "small"
     }
   ]
 }

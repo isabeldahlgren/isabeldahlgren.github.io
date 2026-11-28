@@ -28,11 +28,6 @@
         {{ $image := "" }}
         {{ with .file }}{{ with $page.Resources.GetMatch . }}{{ $image = (.Fit "1600x1600 jpg q90").RelPermalink }}{{ end }}{{ end }}
         <template class="artwork-data" id="{{ $id }}" data-title="{{ .title }}" data-series="{{ $page.Title }}" data-image="{{ $image }}">
-          {{ with .artist }}<div class="print-artist">
-            <h2>{{ .name }}</h2>
-            {{ with .years }}<p>{{ . }}</p>{{ end }}
-            {{ with .bio }}{{ . | markdownify }}{{ end }}
-          </div>{{ end }}
           {{ with .text }}<div class="print-note">{{ . | markdownify }}</div>{{ end }}
           {{ with .poem }}<div class="print-poem">{{ . }}</div>{{ end }}
         </template>

@@ -12,6 +12,11 @@ limited to 1600 pixels, keeping the enlarged image separate from the 3D room.
 The gallery remembers your viewing direction when you return. Desktop uses
 the in-room viewer. If more series are added, their names switch rooms.
 
+The room has a quiet, generated ambient score: slow chords and sparse bell tones.
+It starts on entry when the browser permits, otherwise on the first interaction.
+There is no on-page sound control.
+Music pauses while the page is hidden. No audio files or external service are needed.
+
 ## Adding a series
 
 Create a folder in `content/irreality/`, such as `content/irreality/new-series/`.
@@ -59,6 +64,9 @@ An optional series description for the non-interactive page.
 - `title`: the work’s caption.
 - `wall`: optional `front`, `left`, `right`, or `rear` to choose a wall.
   `rear` is behind the entrance view. Omit for automatic placement.
+- `frame`: optional `standard`, `feature`, `large`, `landscape`, `wide`,
+  `portrait`, or `small`.
+  All frames are rectangular; images keep their original proportions.
 - `artist`: optional name, dates (`years`), and biography (`bio`, with Markdown).
   Omit the whole artist block when no artist label is wanted. To add a biography
   later, copy the `artist` block from the example into any work.

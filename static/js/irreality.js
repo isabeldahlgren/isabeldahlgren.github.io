@@ -62,7 +62,9 @@
     const depth = Math.max(3400, totals[1] + 700, totals[2] + 700);
     backZ = 1200 - depth;
     const centerZ = (backZ + 1200) / 2;
-    const extent = Math.max(550, ...prints.map(print => print.offsetHeight / 2 + 150));
+    // Hang frame centres at eye level, independently of captions and wall text.
+    const centreHeight = print => (print.querySelector('.print-open')?.offsetHeight || print.offsetHeight) / 2;
+    const extent = Math.max(550, ...prints.map(print => Math.max(centreHeight(print), print.offsetHeight - centreHeight(print)) + 150));
     const floorY = Math.max(420, extent - 130);
     const topY = -extent - 130;
     architecture.replaceChildren();
@@ -78,7 +80,8 @@
         const x = angle === 0 ? center : angle === 180 ? -center : angle === 90 ? -halfWidth + 4 : halfWidth - 4;
         const z = angle === 0 ? backZ + 4 : angle === 180 ? 1196 : centerZ + (angle === 90 ? -center : center);
         Object.assign(print.dataset, { x, z, angle });
-        print.style.transform = `translate3d(${x}px,-45px,${z}px) rotateY(${angle}deg) translate(-50%,-50%)`;
+        const y = -45 + print.offsetHeight / 2 - centreHeight(print);
+        print.style.transform = `translate3d(${x}px,${y}px,${z}px) rotateY(${angle}deg) translate(-50%,-50%)`;
         offset += print.offsetWidth + gap;
       });
     });

@@ -403,7 +403,7 @@ a.footnote-ref {
 .room-wall::after { content: ""; position: absolute; left: 0; right: 0; bottom: 14px; border-top: 1px solid #000; }
 .room-floor { background: #fff; border: 1px solid #000; }
 .room-ready .print { position: absolute; top: 0; left: 0; width: 300px; margin: 0; transform-origin: 0 0; backface-visibility: hidden; }
-.room-ready .print-open { padding: 14px; height: 330px; background: white; border: 1px solid #000; box-shadow: none; cursor: zoom-in; }
+.room-ready .print-open { box-sizing: border-box; padding: 26px; height: var(--frame-height, 400px); background: #fff; border: 1px solid #000; border-radius: 0; box-shadow: none; cursor: zoom-in; }
 .room-ready .print-open img { width: auto; height: auto; max-width: 100%; max-height: 100%; box-shadow: none; }
 .room-ready .print-open:hover img { transform: none; }
 .room-ready .print-open:hover { outline: 1px solid #000; outline-offset: 5px; }
@@ -437,10 +437,10 @@ a.footnote-ref {
 .print-poem { white-space: pre-wrap; margin-top: 1em; }
 .print-poem:first-child { margin-top: 0; }
 .work-read { display: block; font: inherit; background: none; border: none; padding: 0; color: var(--link); cursor: pointer; margin-top: .4em; }
-.room-ready .print { display: grid; width: 300px; grid-template-columns: 300px; column-gap: 40px; align-items: start; }
-.room-ready .print.has-artist { width: 600px; grid-template-columns: 300px 260px; }
-.room-ready .print.has-writing { width: 640px; grid-template-columns: 300px 300px; }
-.room-ready .print.has-artist.has-writing { width: 940px; grid-template-columns: 300px 260px 300px; }
+.room-ready .print { display: grid; width: var(--frame-width, 420px); grid-template-columns: var(--frame-width, 420px); column-gap: 40px; align-items: start; }
+.room-ready .print.has-artist { width: calc(var(--frame-width, 420px) + 300px); grid-template-columns: var(--frame-width, 420px) 260px; }
+.room-ready .print.has-writing { width: calc(var(--frame-width, 420px) + 340px); grid-template-columns: var(--frame-width, 420px) 300px; }
+.room-ready .print.has-artist.has-writing { width: calc(var(--frame-width, 420px) + 640px); grid-template-columns: var(--frame-width, 420px) 260px 300px; }
 .room-ready .print-open { grid-column: 1; grid-row: 1; }
 .room-ready .print-caption { grid-column: 1; grid-row: 2; }
 .room-ready .print-artist { grid-column: 2; grid-row: 1 / span 2; }
@@ -490,3 +490,11 @@ a.footnote-ref {
 #artwork-reading { max-width: 36rem; margin: 1.5rem auto 0; text-align: left; }
 .artwork-navigation { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: env(safe-area-inset-bottom); }
 .artwork-navigation [aria-disabled="true"] { color: #888; }
+
+// Rectangular mats give the installation varied proportions without cropping art.
+.room-ready .frame-feature { --frame-width: 820px; --frame-height: 530px; }
+.room-ready .frame-large { --frame-width: 740px; --frame-height: 540px; }
+.room-ready .frame-landscape { --frame-width: 680px; --frame-height: 500px; }
+.room-ready .frame-wide { --frame-width: 600px; --frame-height: 370px; }
+.room-ready .frame-portrait { --frame-width: 390px; --frame-height: 560px; }
+.room-ready .frame-small { --frame-width: 320px; --frame-height: 340px; }
